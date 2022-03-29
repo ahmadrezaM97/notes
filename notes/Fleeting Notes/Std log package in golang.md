@@ -61,3 +61,7 @@ errorLogger.Println("this is a error log")
 
 #### Links
 [[Logging]]
+
+### Tags
+#golang
+#loging

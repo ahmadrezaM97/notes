@@ -3,5 +3,9 @@
   "livePreview": true,
   "promptDelete": false,
   "spellcheck": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Statics",
+  "trashOption": "system",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Fleeting Notes"
 }

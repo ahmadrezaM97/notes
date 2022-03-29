@@ -3,7 +3,7 @@
 
 [video link](https://www.youtube.com/watchv=F528FnxTo8E&t)
 
-  
+
 - Logging 101
 	- Log is __simple text__ message printed by application
 	- May have different levels
@@ -47,4 +47,4 @@
 - [ ] How we trace /search and ask
 
 ##### Links
-  [[std log package in golang]]
+  [[Std log package in golang]]

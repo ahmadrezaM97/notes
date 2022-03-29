@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7387f70542e60e33",
+        "id": "f1a582941ce31a8d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fleeting Notes/std log package in golang.md",
+            "file": "Fleeting Notes/HTTP 1.0.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#should_complete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,23 +69,26 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/std log package in golang.md",
+                "file": "Fleeting Notes/HTTP 1.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "b8c37d1ea1d1ef41",
+            "id": "31700b7e7e958e98",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           }
         ]
@@ -95,17 +98,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "7387f70542e60e33",
+  "active": "f1a582941ce31a8d",
   "lastOpenFiles": [
-    "Fleeting Notes/std log package in golang.md",
-    "Fleeting Notes/log-infra.png",
-    "Zettelkasten Note-Taking.md",
-    "Fleeting Notes/tech/std log package in golang.md",
-    "Fleeting Notes/tech/Time in python.md",
-    "Templates/Note Template.md",
+    "Fleeting Notes/HTTP 1.0.md",
+    "Fleeting Notes/HTTP Anatomy.md",
+    "Permanent Notes/HTTP protocol.md",
+    "Fleeting Notes/HTTP E-tags.md",
+    "Fleeting Notes/HTTP Method Type.md",
+    "Fleeting Notes/StatusCode.md",
+    "Statics/http-response-anatomy.png",
     "Templates/Map of Content.md",
-    "Fleeting Notes/tech/Logging.md",
-    "Fleeting Notes/tech/log-infra.png",
-    "log-infra.png.md"
+    "Templates/Note Template.md",
+    "Fleeting Notes/Web Servers.md"
   ]
 }

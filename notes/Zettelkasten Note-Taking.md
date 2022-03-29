@@ -17,5 +17,12 @@ Created: 2022-03-29 20:22
 	- It's got to be easy to understand in isolation
 	- Small notes make discovery and linking easier
 
+
+#### Organizing your notes
+
+1. Don't use folder structures as this is rigid and limits the reuse of notes
+2. Use links ti other notes where it aids the thinking
+3. Get into the habit of moving your fleeting notes into your permanent notes.
+
 ## Refrences
-1.
+1. 

@@ -1,7 +1,6 @@
 [
-  "obsidian-kanban",
-  "calendar",
-  "dataview",
+  "readwise-official",
   "cm-editor-syntax-highlight-obsidian",
-  "todoist-sync-plugin"
+  "obsidian-git",
+  "obsidian-admonition"
 ]
