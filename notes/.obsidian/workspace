@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettelkasten Note-Taking.md",
+            "file": "Fleeting Notes/std log package in golang.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten Note-Taking.md",
+                "file": "Fleeting Notes/std log package in golang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,14 +97,15 @@
   },
   "active": "7387f70542e60e33",
   "lastOpenFiles": [
+    "Fleeting Notes/std log package in golang.md",
+    "Fleeting Notes/log-infra.png",
     "Zettelkasten Note-Taking.md",
-    "Fleeting Notes/golang/std log package in golang.md",
-    "Fleeting Notes/python/Time in python.md",
+    "Fleeting Notes/tech/std log package in golang.md",
+    "Fleeting Notes/tech/Time in python.md",
     "Templates/Note Template.md",
     "Templates/Map of Content.md",
-    "Fleeting Notes/SE/Logging.md",
-    "Fleeting Notes/SE/log-infra.png",
-    "log-infra.png.md",
-    "[.md"
+    "Fleeting Notes/tech/Logging.md",
+    "Fleeting Notes/tech/log-infra.png",
+    "log-infra.png.md"
   ]
 }
