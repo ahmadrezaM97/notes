@@ -4,7 +4,8 @@ Tags: #Etag #http #caching #todo #Bandwidth #load_balancer
 ____
 
 
-#### Summery
+#### Summary
+
 The ETag (or entity tag ) HTTP response header is an identifier for a specific version of a resource.
 
 It's lets change be more efficient and save __bandwidth__, as a web server does not need to resend full response if the content was not changed.

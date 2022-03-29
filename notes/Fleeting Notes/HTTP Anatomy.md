@@ -19,7 +19,7 @@ ____
 URL
 [[HTTP Method Type]]
 [[HTTP Headers]]
-Body
+[[HTTP Body]]
 
 #### HTTP Response
 

@@ -18,9 +18,10 @@ ____
 	- TERMINATED IMMEDIATELY AFTER THE RESPONSE
 - Each request open TCP connection, send request , get response and then close the connection.
 
+```ad-example
+title: connection example
+collapse: true
 
-### Example
-```
 (Connection 1 Establishment - TCP Three-Way Handshake)
 Connected to xxx.xxx.xxx.xxx
 
@@ -44,7 +45,9 @@ A page with an image
 </HTML>
 
 (Connection 1 Closed - TCP Teardown)
+
 ```
+
 
 ![[tcp-handshake.png]]
 
