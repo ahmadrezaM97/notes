@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fb30640a1a993364",
+        "id": "fc59a2d39dcb662d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fleeting Notes/HTTP E-tags.md",
+            "file": "Fleeting Notes/HTTPS.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "go",
+                "query": "cpu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 590
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/HTTP E-tags.md",
+                "file": "Fleeting Notes/HTTPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,17 +98,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "fb30640a1a993364",
+  "active": "fc59a2d39dcb662d",
   "lastOpenFiles": [
-    "Fleeting Notes/HTTP E-tags.md",
-    "Fleeting Notes/HTTP Method Type.md",
-    "Fleeting Notes/HTTP Body.md",
-    "Fleeting Notes/HTTP Anatomy.md",
-    "Permanent Notes/HTTP protocol.md",
-    "Fleeting Notes/Logging.md",
-    "Fleeting Notes/HTTP Cookies.md",
-    "Fleeting Notes/HTTP 1.1.md",
+    "Fleeting Notes/HTTPS.md",
+    "Templates/Note Template.md",
+    "Fleeting Notes/Docker Network.md",
+    "Fleeting Notes/Docker.md",
+    "Fleeting Notes/Docker Go Guides.md",
+    "Fleeting Notes/Docker-Volume.md",
+    "Fleeting Notes/Caching.md",
     "Fleeting Notes/DefaultServeMux.md",
-    "Fleeting Notes/The cost of Hash-Tables.md"
+    "Fleeting Notes/Docker bind-mount.md",
+    "Fleeting Notes/Docker tmpfs mounts.md"
   ]
 }

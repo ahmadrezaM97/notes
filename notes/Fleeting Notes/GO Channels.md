@@ -1,9 +1,9 @@
-# Channels - GO
+GO Channels
 Created: 2022-03-31 05:54
 Tags: 
 ____
 
-#### [[Channels - GO]]
+#### [[GO Channels]]
 
 
 
@@ -23,10 +23,29 @@ Don't communicate by shareing memory; instead, share memoery by communicating.
 ```
 
 
-
-
 >restrict a type of channel with <- or ->
 
+
+#### Signaling Semantics
+
+- Orchestration
+	- waitgroup
+- Synchronization
+
+___Signaling___ behavior of channels
+
+a goroutine send signal to an other goroutine
+
+send/reveice
+
+Guarantee OF Delivery
+- if we want that guarantee -> unbuffered channel s
+- if we don't want -> buffered channels
+
+
+channel state
+![[channel-go-state.png]]
+>yo do not have to close a channel, closing a channel is state change not a memory cleanup situation
 
 
 
