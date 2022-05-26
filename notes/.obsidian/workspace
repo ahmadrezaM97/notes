@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fc59a2d39dcb662d",
+        "id": "612dfdba449c2608",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fleeting Notes/HTTPS.md",
+            "file": "Fleeting Notes/Sharding.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cpu",
+                "query": "communicating",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 590
+    "width": 240
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/HTTPS.md",
+                "file": "Fleeting Notes/Sharding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,17 +98,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "fc59a2d39dcb662d",
+  "active": "612dfdba449c2608",
   "lastOpenFiles": [
-    "Fleeting Notes/HTTPS.md",
-    "Templates/Note Template.md",
-    "Fleeting Notes/Docker Network.md",
-    "Fleeting Notes/Docker.md",
-    "Fleeting Notes/Docker Go Guides.md",
-    "Fleeting Notes/Docker-Volume.md",
-    "Fleeting Notes/Caching.md",
-    "Fleeting Notes/DefaultServeMux.md",
-    "Fleeting Notes/Docker bind-mount.md",
-    "Fleeting Notes/Docker tmpfs mounts.md"
+    "Fleeting Notes/Sharding.md",
+    "Fleeting Notes/Go Net-HTTP.md",
+    "Fleeting Notes/GO web-server.md",
+    "Fleeting Notes/GO Memory.md",
+    "Fleeting Notes/GO ListenAndServe func.md",
+    "Fleeting Notes/GO IO.md",
+    "Fleeting Notes/Cache.md",
+    "Fleeting Notes/HFS.md",
+    "Fleeting Notes/High-level-trade-offs.md",
+    "Fleeting Notes/The cost of Hash-Tables.md"
   ]
 }

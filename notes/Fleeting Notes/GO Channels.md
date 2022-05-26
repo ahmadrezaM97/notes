@@ -3,12 +3,11 @@ Created: 2022-03-31 05:54
 Tags: 
 ____
 
-#### [[GO Channels]]
+#### GO Channels
+https://www.youtube.com/watch?v=PAAkCSZUG1c&t=1045s
 
 
-
-
-#### channel
+#### Channel
 A channel is like a one-way socket or a Unix pipe
 
 It is a method of synchronization as well as communication
@@ -46,6 +45,11 @@ Guarantee OF Delivery
 channel state
 ![[channel-go-state.png]]
 >yo do not have to close a channel, closing a channel is state change not a memory cleanup situation
+
+
+
+[YOU SHOULD WATCH IT](https://www.google.com/search?q=how+golang+channels+work+internally&sxsrf=APq-WBs97OvQoeRJwvPtFoo3aDkI09mYGw:1649998230394&source=lnms&tbm=vid&sa=X&ved=2ahUKEwi2-puzopX3AhWS4IUKHWB-Bh8Q_AUoAXoECAEQAw&biw=1164&bih=1207&dpr=1.1)
+
 
 
 

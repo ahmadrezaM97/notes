@@ -12,7 +12,6 @@ ____
 	- [[Keep-Alive]]
 	- [[HTTP Upgrade Header]]
 
-```
 
 #### Summery
 - This is the HTTP version currently in common use.

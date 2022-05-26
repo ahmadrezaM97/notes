@@ -16,7 +16,7 @@ Docker has two options for containers to store files on the host machine
 
 
 tmpfs
-	are store in the system's memeory only
+	are store in the system's memory only
 
 [[Docker-Volume]]
 [[Docker bind-mount]]
