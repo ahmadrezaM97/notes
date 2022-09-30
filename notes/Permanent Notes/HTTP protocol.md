@@ -8,12 +8,10 @@ ____
 [[HTTP 0.9]]
 [[HTTP 1.0]] 
 [[HTTP 1.1]] 
-[[HTTP PULL vs HTTP PUSH]]
 [[HTTP/2.0]]
 [[ HTTP/2 over QUIC (HTTP/3) ]]
-[[HTTP Polling]]
 [[HTTP E-tags]]
-
 [[HTTP Cookies]]
 
+[[HTTP-polling-websocket-sse]]
 

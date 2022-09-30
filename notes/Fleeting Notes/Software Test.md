@@ -62,7 +62,7 @@ avoid magic nubmer
 - __Test only one code at a time.__
 - __Follow clear and consistent naming conventions for your unit test
 - __Before next stage you must pass all unit test
-- 
+
 
 ### Advantage
 - due to the modular nature of unit test, we can do partial testing
