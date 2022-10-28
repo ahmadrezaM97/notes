@@ -220,7 +220,7 @@ __Finally, Private interfaces don't have to deal with these considerations a the
 * interfaces can be duplicated across packages, such as the timeout interface in [os](https://github.com/golang/go/blob/c170b14c2c1cfb2fd853a37add92a82fd6eb4318/src/os/error.go#L35-L37) and [net](https://github.com/golang/go/blob/c170b14c2c1cfb2fd853a37add92a82fd6eb4318/src/net/net.go#L494-L496)
 
 
-### [[Pointer and interface]]
+### [[Interface]]
 
 
 ### Why pointer to a channel

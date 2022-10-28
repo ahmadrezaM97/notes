@@ -5,11 +5,6 @@ ____
 
 ## Communication
 
-<p align="center">
-  <img src="images/5KeocQs.jpg">
-  <br/>
-  <i><a href=http://www.escotal.com/osilayer.html>Source: OSI 7 layer model</a></i>
-</p>
 
 ### Hypertext transfer protocol (HTTP)
 
@@ -37,11 +32,6 @@ HTTP is an application layer protocol relying on lower-level protocols such as *
 
 ### Transmission control protocol (TCP)
 
-<p align="center">
-  <img src="images/JdAsdvG.jpg">
-  <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
-</p>
 
 TCP is a connection-oriented protocol over an [IP network](https://en.wikipedia.org/wiki/Internet_Protocol).  Connection is established and terminated using a [handshake](https://en.wikipedia.org/wiki/Handshaking).  All packets sent are guaranteed to reach the destination in the original order and without corruption through:
 
@@ -60,12 +50,6 @@ Use TCP over UDP when:
 * You want to automatically make a best estimate use of the network throughput
 
 ### User datagram protocol (UDP)
-
-<p align="center">
-  <img src="images/yzDrJtA.jpg">
-  <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
-</p>
 
 UDP is connectionless.  Datagrams (analogous to packets) are guaranteed only at the datagram level.  Datagrams might reach their destination out of order or not at all.  UDP does not support congestion control.  Without the guarantees that TCP support, UDP is generally more efficient.
 
