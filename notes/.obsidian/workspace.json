@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Context - GO.md",
+                "file": "Fleeting Notes/GO Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,17 +135,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "aa38e60da9e7ae61",
+  "active": "18984a611442d04b",
   "lastOpenFiles": [
+    "Fleeting Notes/GO Memory.md",
+    "Fleeting Notes/Context - GO.md",
     "Fleeting Notes/car-knowledge-sharing-0.md",
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/Asyncs.md",
     "Fleeting Notes/GO String.md",
     "Fleeting Notes/GO Concurrency.md",
-    "Fleeting Notes/GO Memory.md",
     "Fleeting Notes/Nil.md",
     "Fleeting Notes/Unicode.md",
-    "Fleeting Notes/Strings.md",
-    "Fleeting Notes/Reflection.md"
+    "Fleeting Notes/Strings.md"
   ]
 }
