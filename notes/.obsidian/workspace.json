@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa38e60da9e7ae61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Context - GO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "94f13f79eb5f7c00",
             "type": "leaf",
             "state": {
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "18984a611442d04b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/GO Concurrency.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO Concurrency.md",
+                "file": "Fleeting Notes/GO Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,18 +107,15 @@
     "width": 434,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "18984a611442d04b",
+  "active": "94f13f79eb5f7c00",
   "lastOpenFiles": [
     "Fleeting Notes/GO Memory.md",
-    "Fleeting Notes/Context - GO.md",
-    "Fleeting Notes/car-knowledge-sharing-0.md",
     "Fleeting Notes/Availability Patterns.md",
+    "Fleeting Notes/Context - GO.md",
+    "Fleeting Notes/GO Concurrency.md",
+    "Fleeting Notes/car-knowledge-sharing-0.md",
     "Fleeting Notes/Asyncs.md",
     "Fleeting Notes/GO String.md",
-    "Fleeting Notes/GO Concurrency.md",
     "Fleeting Notes/Nil.md",
     "Fleeting Notes/Unicode.md",
     "Fleeting Notes/Strings.md"
