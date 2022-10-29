@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ab7afc2264ee2336",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Basic Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO padding and Alignment.md",
+                "file": "Fleeting Notes/Basic Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,17 +144,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "473c2d64cb2c8403",
+  "active": "ab7afc2264ee2336",
   "lastOpenFiles": [
+    "Fleeting Notes/Untitled 9.md",
+    "Fleeting Notes/Basic Data Types.md",
+    "Fleeting Notes/GO padding and Alignment.md",
     "Fleeting Notes/good sql.md",
     "Fleeting Notes/GO Memory.md",
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/Context - GO.md",
     "Fleeting Notes/GO Concurrency.md",
     "Fleeting Notes/car-knowledge-sharing-0.md",
-    "Fleeting Notes/Asyncs.md",
-    "Fleeting Notes/GO String.md",
-    "Fleeting Notes/Nil.md",
-    "Fleeting Notes/Unicode.md"
+    "Fleeting Notes/Asyncs.md"
   ]
 }
