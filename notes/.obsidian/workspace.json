@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "749754301ebe7fc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/good sql.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO Memory.md",
+                "file": "Fleeting Notes/good sql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,7 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "94f13f79eb5f7c00",
+  "active": "749754301ebe7fc6",
   "lastOpenFiles": [
     "Fleeting Notes/GO Memory.md",
     "Fleeting Notes/Availability Patterns.md",
