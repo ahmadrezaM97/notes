@@ -112,7 +112,7 @@ type Example struct {
 	name string
 }
 
-const e Example = Example{1, 2, 3}
+const e Example = Example{1, 2, 3} // complie error
 
 
 ```
