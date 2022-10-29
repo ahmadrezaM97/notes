@@ -73,6 +73,49 @@ fmt.Printf("%8.3f\n", f)
 
 ```
 
+#### const
+```go
+type flag int
+
+const (
+	a flag = 1 << iota
+	b
+	c
+	d
+)
+
+func  main(){
+	fmt.PrintLn(a,b,c,d) // 1, 2, 4, 8
+}
+```
+
+
+```go
+type Weekend int
+
+const (
+	_ Weekend = iota
+	a
+	b
+	c
+	d
+)
+
+func main() {
+	fmt.Println(a, b, c, d) // 1,2,3,4
+}
+```
+
+you can use user struct type as type of const in golang
+```go
+type Example struct {
+	name string
+}
+
+const e Example = Example{1, 2, 3}
+
+
+```
 
 _____
 ##### References
