@@ -29,7 +29,12 @@ type Rune `int32`
 type byte `uint8`
 
 `uintptr` is sufficient to hold all the bits f a pointer value.
+```go
+  
+a := 0666
+fmt.Println(a) // 438
 
+```
 ### overflow
 
 ```go
@@ -58,12 +63,16 @@ func AddInt(a, b int) int {
 
 ```go
 fmt.Printf("%08b\n", 10) // "00001010"
+
 ```
 
 #### Floating-point
 
 ``` go
+fmt.Printf("%8.3f\n", f)
+
 ```
+
 
 _____
 ##### References
