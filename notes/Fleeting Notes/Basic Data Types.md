@@ -60,6 +60,10 @@ func AddInt(a, b int) int {
 fmt.Printf("%08b\n", 10) // "00001010"
 ```
 
+#### Floating-point
+
+``` go
+```
 
 _____
 ##### References
