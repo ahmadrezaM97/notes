@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Go Map.md",
+                "file": "Fleeting Notes/Basic Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,8 +156,9 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "e6541d9935bbece5",
+  "active": "ab7afc2264ee2336",
   "lastOpenFiles": [
+    "Fleeting Notes/Go Map.md",
     "Fleeting Notes/Basic Data Types.md",
     "Fleeting Notes/Untitled 9.md",
     "Fleeting Notes/GO padding and Alignment.md",
@@ -166,7 +167,6 @@
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/Context - GO.md",
     "Fleeting Notes/GO Concurrency.md",
-    "Fleeting Notes/car-knowledge-sharing-0.md",
-    "Fleeting Notes/Asyncs.md"
+    "Fleeting Notes/car-knowledge-sharing-0.md"
   ]
 }
