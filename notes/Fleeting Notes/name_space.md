@@ -34,4 +34,5 @@ sudo ip addr add 192.168.15.5/24 dev v-net-0
 
 sudo up netns exec C1 ip route add default via 192.168.15.5
 
-
+sudo iptables -t nat -A postROUTING -s 192.168.15.0/24 -j MASQUERADE
+sudo uptables -t nat -L
