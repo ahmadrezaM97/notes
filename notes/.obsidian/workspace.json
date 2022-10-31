@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO Memory.md",
+                "file": "Fleeting Notes/GO/GO Concurrency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c50cc5198854751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/ratelimit.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,52 +35,12 @@
             "id": "749754301ebe7fc6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/good sql.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "473c2d64cb2c8403",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/GO padding and Alignment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab7afc2264ee2336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Basic Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6541d9935bbece5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Go Map.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -127,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Basic Data Types.md",
+                "file": "Fleeting Notes/GO/ratelimit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,17 +127,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "ab7afc2264ee2336",
+  "active": "0c50cc5198854751",
   "lastOpenFiles": [
-    "Fleeting Notes/Go Map.md",
-    "Fleeting Notes/Basic Data Types.md",
-    "Fleeting Notes/Untitled 9.md",
-    "Fleeting Notes/GO padding and Alignment.md",
-    "Fleeting Notes/good sql.md",
-    "Fleeting Notes/GO Memory.md",
-    "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/Context - GO.md",
-    "Fleeting Notes/GO Concurrency.md",
-    "Fleeting Notes/car-knowledge-sharing-0.md"
+    "Fleeting Notes/GO/GO Concurrency.md",
+    "Fleeting Notes/GO/GO HTTP LISTEN AND SERVE.md",
+    "Fleeting Notes/GO/GO IO.md",
+    "Fleeting Notes/GO/GO JSON.md",
+    "Fleeting Notes/GO/GO web-server.md",
+    "Fleeting Notes/GO/Go Server Handler.md",
+    "Fleeting Notes/GO/GO String.md",
+    "Fleeting Notes/GO/Golang Question.md",
+    "Fleeting Notes/GO/good sql.md",
+    "Fleeting Notes/GO/Gotroutines.md"
   ]
 }

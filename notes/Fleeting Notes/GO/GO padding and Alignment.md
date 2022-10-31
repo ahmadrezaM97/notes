@@ -3,7 +3,7 @@ Created: 2022-10-29 13:02
 Tags: 
 ____
 
-* How mich memory is allocated for a value of type example?
+* How much memory is allocated for a value of type example?
 ``` go
 
 type example struct {
