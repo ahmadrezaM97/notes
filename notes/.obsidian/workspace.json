@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "30f42ed18c3f6fe6",
+        "id": "2127af26132c8c3d",
         "type": "tabs",
         "children": [
           {
-            "id": "94f13f79eb5f7c00",
+            "id": "f4bea7ebf7c16a15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO Concurrency.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "0c50cc5198854751",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/GO/ratelimit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "749754301ebe7fc6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/ratelimit.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,17 +106,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "0c50cc5198854751",
+  "active": "f4bea7ebf7c16a15",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/GO Concurrency.md",
-    "Fleeting Notes/GO/GO HTTP LISTEN AND SERVE.md",
-    "Fleeting Notes/GO/GO IO.md",
+    "Fleeting Notes/GO JSON marshall vs encode.md",
     "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/GO web-server.md",
-    "Fleeting Notes/GO/Go Server Handler.md",
-    "Fleeting Notes/GO/GO String.md",
-    "Fleeting Notes/GO/Golang Question.md",
-    "Fleeting Notes/GO/good sql.md",
-    "Fleeting Notes/GO/Gotroutines.md"
+    "Fleeting Notes/GO/GO JSON marshall vs encode.md",
+    "Fleeting Notes/GO/Go Map.md",
+    "Fleeting Notes/GO/GO Memory.md",
+    "Fleeting Notes/GO/Go Runtime Scheduler.md",
+    "Fleeting Notes/GO/Std log package in golang.md",
+    "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
+    "Fleeting Notes/GO/ratelimit.md",
+    "Fleeting Notes/GO/Nil.md"
   ]
 }
