@@ -77,6 +77,21 @@ https://medium.com/rungo/working-with-json-in-go-7e3a37c5a07b
 func Marshal(v any) ([]byte, error) 
 ```
 
+example 
+
+```go
+type MyData struct {
+	name string
+	age  int
+}
+d := MyData{name: "ahmadreza", age: 10}
+
+b, err := json.Marshal(d)
+if err != nil {
+	log.Fatalln(b)
+}
+fmt.Println(d)
+```
 * Marshal returns the `JSON` encoding of v
 
 
@@ -107,14 +122,12 @@ func (m MyData) MarshalJSON() ([]byte, error) {
 }
 
 func example(){
-d := MyData{name: "ahmadreza", age: 10}
-
+	d := MyData{name: "ahmadreza", age: 10}
 	b, err := json.Marshal(d)
 	if err != nil {
 		log.Fatalln(b)
 	}
 }
-
 ```
 
 ### encoding and `marashling`
