@@ -130,6 +130,10 @@ func example(){
 }
 ```
 
+
+### A Danger
+
+[[GO method set]]
 ### encoding and `marashling`
 
 #### Difference of json Encoding vs Marshing
