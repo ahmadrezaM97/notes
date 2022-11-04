@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO JSON.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb8fbb4e60205f64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/kafka vs rabbit.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO method set.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO method set.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,17 +130,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "2ab8f728080fc4c6",
+  "active": "f4bea7ebf7c16a15",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO JSON marshall vs encode.md",
-    "Fleeting Notes/GO/GO JSON marshall vs encode.md",
-    "Fleeting Notes/GO/Go Map.md",
-    "Fleeting Notes/GO/GO Memory.md",
-    "Fleeting Notes/GO/Go Runtime Scheduler.md",
-    "Fleeting Notes/GO/Std log package in golang.md",
-    "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
-    "Fleeting Notes/GO/ratelimit.md",
-    "Fleeting Notes/GO/Nil.md"
+    "Fleeting Notes/kafka vs rabbit.md",
+    "Fleeting Notes/GO/GO HTTP HEADER.md",
+    "Fleeting Notes/GO/GO Channels.md",
+    "Fleeting Notes/GO/Go Class.md",
+    "Fleeting Notes/Go sync package.md",
+    "Fleeting Notes/GO/GO method set.md",
+    "Fleeting Notes/GO/GO HTTP URL.md",
+    "Fleeting Notes/GO/GO HTTP HANDLER.md",
+    "Fleeting Notes/GO/Context - GO.md",
+    "Fleeting Notes/HTTP E-tags.md"
   ]
 }

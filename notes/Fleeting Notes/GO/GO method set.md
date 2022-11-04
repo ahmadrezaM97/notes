@@ -79,7 +79,6 @@ func Run(){
 ```
 
 
-
 #### lets talk about method sets
 
 * __A method set of a type `T` consists of all methods with receiver type `T`.
@@ -210,15 +209,14 @@ title: what did we learn?
 1. If the receiver type is a __`map`, `func` or `chan`__, do __NOT__ user a __pointer__ to the. if the receiver is `slice` and the method__ doesn't reslice or reallocate the slice__, do __NOT__ use a __pointer__ to it
 2. If the method needs to __mutate__ the receiver, the receiver __MUST__ be __POINTER__.
 3. if the receiver is a struct that contains a `sync.Mutex` (or any similar) the receiver __MUST__ be a __pointer__. 
-	1. for more details check the [Go sync package]
+	1. for more details check the [[Go sync package]]
 4. if the receiver is a large `struct` or `arrar`, a pointer receiver is more efficient
 	1. How large is large? Assume it's equivalent to passing all its elements as argument to the method. if the feels too large. it's also too large for the receiver
-5. if change must must be visible in the original receiver -> user pointer
-6. if the receiver is a struct, array or slice and any of it's elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to reader
-7. if the receiver is a small array or struct that is naturally a value type( like time.Time) with no mutable fields and no pointer, or us just a simple basic type such as `int`  or `string`, a value receiver is makes sense.
+5. if the receiver is a struct, array or slice and any of it's elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to reader
+6. if the receiver is a small array or struct that is naturally a value type( like time.Time) with no mutable fields and no pointer, or us just a simple basic type such as `int`  or `string`, a value receiver is makes sense.
 	1. Do not choose a value receiver type for this reason without profiling first.
-8. DO not mix receiver types, choose either pointer or struct types for all available methods
-9. when is doubt -> pointer
+7. DO not mix receiver types, choose either pointer or struct types for all available methods
+8. when is doubt -> pointer
 _____
 ##### References
 1. [go FAQ](https://go.dev/doc/faq#different_method_sets)
