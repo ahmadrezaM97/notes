@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "bb8fbb4e60205f64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Asyncs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c535de646145ba00",
             "type": "leaf",
             "state": {
@@ -66,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8472062853fb66c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "En/vocabulary/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Asyncs.md",
+                "file": "En/vocabulary/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,8 +154,10 @@
     "direction": "horizontal",
     "width": 434
   },
-  "active": "bb8fbb4e60205f64",
+  "active": "8472062853fb66c8",
   "lastOpenFiles": [
+    "Fleeting Notes/2022-11-04.md",
+    "Fleeting Notes/Asyncs.md",
     "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
     "Fleeting Notes/asd.md",
     "Fleeting Notes/Cache.md",
@@ -163,8 +165,6 @@
     "Fleeting Notes/Start VPS.md",
     "Fleeting Notes/temp.md",
     "Fleeting Notes/Test coverage.md",
-    "Fleeting Notes/The cost of Hash-Tables.md",
-    "Fleeting Notes/HTTP Anatomy.md",
-    "Permanent Notes/HTTP protocol.md"
+    "Fleeting Notes/The cost of Hash-Tables.md"
   ]
 }
