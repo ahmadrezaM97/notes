@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Docker Storage.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Vocab.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,10 +164,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434
+    "width": 434,
+    "collapsed": true
   },
-  "active": "017d85de9ad66979",
+  "active": "d345742a932728c6",
   "lastOpenFiles": [
+    "Fleeting Notes/Docker Storage.md",
+    "Fleeting Notes/Vocab.md",
     "En/vocabulary/Untitled.md",
     "Fleeting Notes/2022-11-04.md",
     "Fleeting Notes/Asyncs.md",
@@ -175,8 +178,6 @@
     "Fleeting Notes/asd.md",
     "Fleeting Notes/Cache.md",
     "Fleeting Notes/DNS.md",
-    "Fleeting Notes/Start VPS.md",
-    "Fleeting Notes/temp.md",
-    "Fleeting Notes/Test coverage.md"
+    "Fleeting Notes/Start VPS.md"
   ]
 }

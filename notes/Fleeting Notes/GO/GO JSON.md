@@ -72,6 +72,9 @@ jsonData, err := json.MarshalIndent(data, "***", "\t")
 https://medium.com/rungo/working-with-json-in-go-7e3a37c5a07b
 
 
+
+#### JSON Tag
+
 #### The Marshaler (custom marshaling)
 
 ```go
@@ -120,6 +123,42 @@ title: Consider Method Set
 3. for understanting method set check 
 [[GO method set]]
 
+```
+
+
+
+#### Unmarshal
+
+```go
+func Unmarshal(data []byte, v any) error
+```
+
+* Unmarshal parses the JSON-encoded data and stores the result in the value pointer to by v
+* If v is nil or not a pointer, `Unmarshal` returns an `InvalidUnimarshalError`
+
+example:
+
+```go
+var d = `{ 
+	"name": "ahmadreza", 
+	"age": 18
+}`
+
+type Data struct {
+	Name   string `json:"name"`
+	Age    int    `json:"age"`
+	Number string `json:"number,omitempty"`
+}
+
+func Run() {
+
+	var v Data
+	if err := json.Unmarshal([]byte(d), &v); err != nil {
+		log.Fatalln(err)
+	}
+	
+	fmt.Printf("%+v\n", v)
+}
 ```
 
 
