@@ -12,22 +12,39 @@ ____
 method set of `T` is subset of `*T`
 ```
 
-what does it mean?
+__what it does NOOOOT  mean?__
 ```go
-type Data struct {}
+type Data struct {
+	cnt int
+}
 
-func (d *Data)DoPointer(){}
-func (d Data)DoValue(){}
+func (d *Data)DoPointer(){ // value receiver
+	d.cnt++
+}
+func (d Data)DoValue(){ // pointer receiver
+	d.cnt++
+}
 
 d := Data{}
 // `T` has just DoValue, and `*T` has both Dovalue and DoPointer
 d.DoPointer() // ok
-d.DoValue()// not ok
+d.DoValue()// also ok
 
 (&d).DoPointer() // ok
 (&d).DoValue() // ok
 
 ```
+
+```ad-important
+title: how it is possible
+
+in some cases the compiler can take the address of a value
+
+A method call x.m() is valid if the method set of ( the type of )x contains m and the argument list can be assigned to the parameter list of m.
+
+if x addressable and &x's method set contains m, x.m() is shorthand for (&x).m()
+```
+
 
 
 ```ad-important
