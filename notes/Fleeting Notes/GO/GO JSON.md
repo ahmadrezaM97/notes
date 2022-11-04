@@ -4,15 +4,13 @@ Tags:
 ____
 https://blog.logrocket.com/using-json-go-guide/#:~:text=We%20can%20use%20the%20Marshal,comes%20with%20the%20following%20syntax.&text=It%20accepts%20an%20empty%20interface,%2C%20struct%2C%20map%2C%20etc.
 
-
-
 ### Introduction
 
 * `JSON` is a text-based data exchange format primarily between browsers and servers.
 * `JSON`( JavaScript Object Notation)
 
 ```ad-note
-While sending JSPON data to a server, we do not need to necessarily convert JSON text-data to a string.
+While sending JSON data to a server, we do not need to necessarily convert JSON text-data to a string.
 
 We can transport JSON data as binary data with `application/json` as `Content-Type` request header value.
 
@@ -27,7 +25,8 @@ A Server may handle this data appropriately by loooking at this header value
 	* array
 	* object
 
-#### Encoding
+#### Marshal
+
 ```go
 func Marshal(v interface{}) ([]byte, error)
 ```
@@ -48,7 +47,7 @@ func Marshal(v interface{}) ([]byte, error)
 			}{Name: "ahmadreza", Age: 100},
 		}
 
-	jsonData, err := json.Marshal(data, "\t" "\t")
+	jsonData, err := json.Marshal(data)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -72,30 +71,9 @@ jsonData, err := json.MarshalIndent(data, "***", "\t")
 
 https://medium.com/rungo/working-with-json-in-go-7e3a37c5a07b
 
-#### Marshaling
-```go
-func Marshal(v any) ([]byte, error) 
-```
 
-example 
+#### The Marshaler (custom marshaling)
 
-```go
-type MyData struct {
-	name string
-	age  int
-}
-d := MyData{name: "ahmadreza", age: 10}
-
-b, err := json.Marshal(d)
-if err != nil {
-	log.Fatalln(b)
-}
-fmt.Println(d)
-```
-* Marshal returns the `JSON` encoding of v
-
-
-* marshal traverse the value recursively. if an encountered value implement the marshaler interface and is not a nil pointer marshal calls its `MarshalSJON` methods to produce `JSON`
 ```go
 // Marshaler is the interface implemented by types that
 // can marshal themselves into valid JSON.
@@ -106,6 +84,7 @@ type Marshaler interface {
 ```
 
 Example:
+
 ```go
 type MyData struct {
 	name string
@@ -131,9 +110,19 @@ func example(){
 ```
 
 
-### A Danger
+```ad-warning
+title: Consider Method Set 
 
+1. if you define `MarshalJSON` method as a pointer receiver, you it would blong to *Mydata then Mydata itself does not satisfy the `Marshaler` interface. 
+
+2. Since you don't want to mutate receiver in the `MarshalJSON`, its better to define it as a value receiver so it blongs to both MyData and *Mydata
+
+3. for understanting method set check 
 [[GO method set]]
+
+```
+
+
 ### encoding and `marashling`
 
 #### Difference of json Encoding vs Marshing

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,15 +132,15 @@
   },
   "active": "f4bea7ebf7c16a15",
   "lastOpenFiles": [
-    "Fleeting Notes/kafka vs rabbit.md",
-    "Fleeting Notes/GO/GO HTTP HEADER.md",
-    "Fleeting Notes/GO/GO Channels.md",
-    "Fleeting Notes/GO/Go Class.md",
-    "Fleeting Notes/Go sync package.md",
-    "Fleeting Notes/GO/GO method set.md",
-    "Fleeting Notes/GO/GO HTTP URL.md",
-    "Fleeting Notes/GO/GO HTTP HANDLER.md",
+    "Fleeting Notes/GO/GO JSON marshall vs encode.md",
+    "Fleeting Notes/GO/GO JSON.md",
+    "Fleeting Notes/GO/Golang logging useing logrus.md",
+    "Fleeting Notes/GO/GO String.md",
+    "Fleeting Notes/GO/Go Server Handler.md",
+    "Fleeting Notes/GO/Go Map.md",
+    "Fleeting Notes/GO/Docker Go Guides.md",
     "Fleeting Notes/GO/Context - GO.md",
-    "Fleeting Notes/HTTP E-tags.md"
+    "Fleeting Notes/GO/Go Class.md",
+    "Fleeting Notes/GO/GO Concurrency.md"
   ]
 }
