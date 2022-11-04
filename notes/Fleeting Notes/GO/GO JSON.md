@@ -227,13 +227,75 @@ for better understanding check [[GO method set]]
 1. The difference being the `Encoder` first marshals the object to a `JSON` encoded string, the write that data to a buffer stream -> uses more memory overhead
 2. Encoding/Decoding `JSON` refers to the process of actually reading/writing the character data to a string or binary form
 3.  Marshaling/Unmarshaling refers to the process of mapping `JSON` type from and to GO data types and primitives
-4. In Golang, struct data in converted into `JSON` using `Marshal()` and `JSON` data to string using `Unmarshal()` method.
+4. In GO, struct data in converted into `JSON` using `Marshal()` and `JSON` data to string using `Unmarshal()` method.
+
+```ad-summary
+title: encoding vs marashling
+
+encoding -> marshal object to binary and write it to io.Writer 
+marshaling -> marshal object to binery and pass it
+
+```go
+func Marshal(v any) ([]byte, error)
+// vs
+func NewEncoder(w io.Writer) *Encoder
+func (enc *Encoder) Encode(v any) error
+
+```
+
+```go
+
+func NewEncoder(w io.Writer) *Encoder {
+	return &Encoder{w: w, escapeHTML: true}
+}
+
+func (enc *Encoder) Encode(v any) error
+
+```
 
 ###### Encoding example
 
 ```go 
+type User struct {
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+}
+
+func Run() {
+	u := User{Name: "ahmadreza marashi", Age: 25}
+	if err := json.NewEncoder(os.Stdout).Encode(u); err != nil {
+		log.Fatalln(err)
+	}
+	/*
+		{"name":"ahmadreza marashi","age":25}
+	*/
+}
+
+func Run2(){
+	enc := json.NewEncoder(os.Stdout)
+	u := User{Name: "ahmadreza marashi", Age: 25}
+	enc.SetIndent("", "\t")
+	_ = enc.Encode(u) // here we just ignore the potential errors
+	_ = enc.Encode(u)
+	/*
+		{
+	        "name": "ahmadreza marashi",
+	        "age": 25
+		}
+		{
+		        "name": "ahmadreza marashi",
+		        "age": 25
+		}
+	*/
+}
 
 ```
+
+
+#### Decoding vs Unmarshaling
+
+
+
 
 
 ### Custom tag
