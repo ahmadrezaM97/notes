@@ -84,6 +84,55 @@ This distinction arises because
 
 Even in cases where the compiler could take the address of a value to pass to the method, if the method modifies the value -> the changes will be lost in the caller
 
+### summery
+
+1. if you have a `*T` you can call methods that have receiver type of `*T` and `T`
+2. if you have a `T` and it is addressable you can call methods that have a receiver type of `*T` as well as `T`(t.Meth() will be equivalent to (&t).Meth())
+3. if you have a `T` and it is not addressable,
+	1. for instance, the result of a function call
+	2. result of indexing into a map
+go can NOT get a pointer to it, so you can only call methods that have a receiver type of `T`
+
+4. if you have an interface `I`, and some or all of the methods is `I`'S method set are provided by methods with a receiver of `*T` => `*T` satisfy `I` bot `T` does not.
+
+```ad-note
+title: What? wait? valued in an interface is what?
+
+The concrete value stored in an interface is not addressable, in same way, that a map element is not addressable.
+
+
+A non-pointer value stored in an interface isn't addressable to maintain type integrity.
+why? for example, a pointer to A, which point to a value of type A in an interface, would be invlidated when a value of a diffrent type B is subsequently stored in the interface.
+```
+
+
+
+example:
+```go
+type Data struct{}
+func (d *Data) Do() {}
+
+func f() Data {
+	return Data{}
+}
+
+func Run(){
+	// function returen
+	f().Do() // error
+
+	// literal value
+	Data{}.Do() // error
+
+	// interface
+	var _ Doer = Data{} // error | right on is var _ Doer = &Data{}
+	
+	// map example
+	m := make(map[int]Data)
+	m[0] = Data{}
+	m[0].Do() // error
+}
+```
+4. 
 
 #### Should I define methods on values or pointers?
 
@@ -101,11 +150,16 @@ __For types such as basic types, slices, and small `struct`, a value receiver is
 
 
 1. if the receiver type is a `map`, `func` or `chan`, do NOT user a pointer to the. if the receiver is `slice` and the method doesn't reslice or reallocate the slice, do NOT use a pointer to it
-2. If the method needs to mutate the receiver, the receiver MUST be PONTER.
+2. If the method needs to mutate the receiver, the receiver MUST be POINTER.
 3. if the receiver is a struct that contains a `sync.Mutex` (or any similar) the receiver MUST be a pointer.
 4. if the receiver is a large `struct` or `arrar`, a pointer receiver is more efficient
 	1. How large is large? Assume it's equivalent to passing all its elements as argument to the method. if the feels too large. it's also too large for the receiver
-5. Can function or methods, either concurrently or when called from this method mutating the receiver? A value type creates a copy of the receiver when method is invoked
+5. if change must must be visible in the original receiver -> user pointer
+6. if the receiver is a struct, array or slice and any of it's elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to reader
+7. if the receiver is a small array or struct that is naturally a value type( like time.Time) with no mutable fields and no pointer, or us just a simple basic type such as `int`  or `string`, a value receiver is makes sense.
+	1. Do not choose a value receiver type for this reason without profiling first.
+8. DO not mix receiver types, choose either pointer or struct types for all available methods
+9. when is doubt -> pointer
 _____
 ##### References
 1. [go FAQ](https://go.dev/doc/faq#different_method_sets)
