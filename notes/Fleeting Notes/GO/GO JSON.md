@@ -161,21 +161,83 @@ func Run() {
 }
 ```
 
+### The Unmarshler (custom unmarshling)
 
-### encoding and `marashling`
+```go
+type Unmarshaler interface {
+	UnmarshalJSON([]byte) error
+}
+```
 
-#### Difference of json Encoding vs Marshing
+example
 
-* The difference being the `Encoder` first marshals the object to a JSON encoded string, the write that data to a buffer stream -> uses more moemory overhead
+```go
+
+type User struct {
+	Name string `json:"-"`
+	Age  int    `json:"age"`
+}
+
+func (m *User) UnmarshalJSON(data []byte) error {
+	var d struct {
+		FirstName string `json:"firstname"`
+		LastName  string `json:"Lastname"`
+		Age       int    `json:"age"`
+	}
+
+	if err := json.Unmarshal(data, &d); err != nil {
+		return err
+	}
+
+	m.Name = fmt.Sprintf("%s - %s", d.FirstName, d.LastName)
+	m.Age = d.Age
+
+	return nil
+}
+
+var d = `{ 
+	"firstname": "ahmadreza", 
+	"lastname": "marsahi",
+	"age": 18
+}`
+
+func Run() {
+
+	var u User
+	if err := json.Unmarshal([]byte(d), &u); err != nil {
+		log.Fatalln(err)
+	}
+
+	fmt.Printf("%+v\n", u)
+}
+
+```
+
+```ad-warning
+title: consider method set
+
+if you define `UnmarshalJSON` as value reciever it could mutate receiver itself, it MUST be a pointer receiver.
+
+for better understanding check [[GO method set]]
+```
 
 
-* Encoding/Decoding `JSON` refers to the process of actually reading/writing the character data to a string or binary form
-* Marshaling/Unmarshaling refers to the process of mapping `JSON` type from and to GO data types and primitives
-* In Golang, struct data in converted into `JSON` using `Marshal()` and `JSON` data to string using `Unmarshal()` method.
+### `Encoding` vs `marashling`
+
+1. The difference being the `Encoder` first marshals the object to a `JSON` encoded string, the write that data to a buffer stream -> uses more memory overhead
+2. Encoding/Decoding `JSON` refers to the process of actually reading/writing the character data to a string or binary form
+3.  Marshaling/Unmarshaling refers to the process of mapping `JSON` type from and to GO data types and primitives
+4. In Golang, struct data in converted into `JSON` using `Marshal()` and `JSON` data to string using `Unmarshal()` method.
+
+###### Encoding example
+
+```go 
+
+```
 
 
-### custom tag
-
+### Custom tag
+[[Go struct custom tag]]
 
 
 _____
