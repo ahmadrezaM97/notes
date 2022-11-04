@@ -45,6 +45,29 @@ A method call x.m() is valid if the method set of ( the type of )x contains m an
 if x addressable and &x's method set contains m, x.m() is shorthand for (&x).m()
 ```
 
+__Both value receiver and pointer receiver methods can be invoked on a correctly-typed pointer or non-pointer 
+
+__Regardless of what the method is called on, within the method body the identifier of the receiver refers to a by-copy value when a value receiver is used, a pointer when a pointer receiver is used
+
+####  So what is the difference?
+
+```go
+
+type Data struct{}
+func (d *Data) Do() {}
+
+type Doer interface {
+	Do()
+}
+
+// Do is pointer receiver so just *Data has it => data do NOT satisfy Doer interface
+var _ Doer = Data{}
+/*
+cannot use Data{} (value of type Data) as type Doer in variable declaration:
+        Data does not implement Doer (Do method has pointer receiver)
+*/
+
+```
 
 
 ```ad-important
@@ -61,6 +84,13 @@ This distinction arises because
 
 Even in cases where the compiler could take the address of a value to pass to the method, if the method modifies the value -> the changes will be lost in the caller
 
+
+#### Should I define methods on values or pointers?
+
+* First, and most important, does the method need to modify the receiver?
+	* If it does, the receiver `must` be a pointer
+		* __Slices and maps acts as references, so their story is a little more subtle
+			* BUT change the length of
 
 
 _____
