@@ -102,9 +102,34 @@ The concrete value stored in an interface is not addressable, in same way, that 
 
 
 A non-pointer value stored in an interface isn't addressable to maintain type integrity.
-why? for example, a pointer to A, which point to a value of type A in an interface, would be invlidated when a value of a diffrent type B is subsequently stored in the interface.
 ```
 
+```ad-important
+title: why? why? why?
+
+for example, a pointer to A, which point to a value of type A in an interface, would be invlidated when a value of a diffrent type B is subsequently stored in the interface.
+```go
+type I interface{} // or any :D
+var A int
+var B string
+
+func main(){
+	var a A = 5
+	var i I = a
+	fmt.Printf("%T\n", i)
+
+	var aPtr *A = &(i.(A)) // not allowd, but if it were
+	var b B = "hey"
+	i = b
+	
+	fmt.Printf("i of type %T, aPtr is oftype %T\n",i, aptr)	
+	
+}
+
+After putting B into i, what aPtr pointing to? it was declared as pointer to a A but now I contain a B and aPtr is no longer a valid pointer to A.
+
+```
+https://go.dev/play/p/eeaYzqZsmOs
 
 
 example:
