@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO JSON.md",
+                "file": "Fleeting Notes/Keep-Alive.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,9 +23,29 @@
             "id": "bb8fbb4e60205f64",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "c535de646145ba00",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/kafka vs rabbit.md",
+                "file": "Fleeting Notes/Docker Storage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2031df63cb1d5125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Docker-Volume.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +63,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,20 +147,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434,
-    "collapsed": true
+    "width": 434
   },
-  "active": "f4bea7ebf7c16a15",
+  "active": "bb8fbb4e60205f64",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/GO JSON marshall vs encode.md",
-    "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/Golang logging useing logrus.md",
-    "Fleeting Notes/GO/GO String.md",
-    "Fleeting Notes/GO/Go Server Handler.md",
-    "Fleeting Notes/GO/Go Map.md",
-    "Fleeting Notes/GO/Docker Go Guides.md",
-    "Fleeting Notes/GO/Context - GO.md",
-    "Fleeting Notes/GO/Go Class.md",
-    "Fleeting Notes/GO/GO Concurrency.md"
+    "Fleeting Notes/GO/GO Channels.md",
+    "Fleeting Notes/GO/GO HTTP HANDLERFUC vs FUNC(w,r).md",
+    "Fleeting Notes/GO/Go Concurrency.md",
+    "Fleeting Notes/GO/GO HTTP HANDLER.md",
+    "Fleeting Notes/DNS.md",
+    "Fleeting Notes/GO/GO HTTP REQUEST.md",
+    "Fleeting Notes/Docker Storage.md",
+    "Fleeting Notes/Docker-Volume.md",
+    "Fleeting Notes/Docker Network.md",
+    "Fleeting Notes/Docker instruction.md"
   ]
 }
