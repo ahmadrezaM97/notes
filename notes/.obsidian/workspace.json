@@ -23,8 +23,12 @@
             "id": "bb8fbb4e60205f64",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Asyncs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -122,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fleeting Notes/Asyncs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,15 +156,15 @@
   },
   "active": "bb8fbb4e60205f64",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/GO Channels.md",
-    "Fleeting Notes/GO/GO HTTP HANDLERFUC vs FUNC(w,r).md",
-    "Fleeting Notes/GO/Go Concurrency.md",
-    "Fleeting Notes/GO/GO HTTP HANDLER.md",
+    "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
+    "Fleeting Notes/asd.md",
+    "Fleeting Notes/Cache.md",
     "Fleeting Notes/DNS.md",
-    "Fleeting Notes/GO/GO HTTP REQUEST.md",
-    "Fleeting Notes/Docker Storage.md",
-    "Fleeting Notes/Docker-Volume.md",
-    "Fleeting Notes/Docker Network.md",
-    "Fleeting Notes/Docker instruction.md"
+    "Fleeting Notes/Start VPS.md",
+    "Fleeting Notes/temp.md",
+    "Fleeting Notes/Test coverage.md",
+    "Fleeting Notes/The cost of Hash-Tables.md",
+    "Fleeting Notes/HTTP Anatomy.md",
+    "Permanent Notes/HTTP protocol.md"
   ]
 }
