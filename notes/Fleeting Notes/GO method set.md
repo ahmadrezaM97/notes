@@ -2,17 +2,8 @@
 Created: 2022-11-04 02:44
 Tags: 
 ____
-#### Why Do `T` and `*T` have different method sets?
+let start with this question "what is the difference between a pointer receiver and a value receiver? Do we can call a pointer receiver on value? 
 
-
-* __A method set of a type `T` consists of all methods with receiver type `T`.
-* __while that of the corresponding pointer type `*T` consists of all methods with receiver `*T` or `T`
-
-```ad-note
-method set of `T` is subset of `*T`
-```
-
-__what it does NOOOOT  mean?__
 ```go
 type Data struct {
 	cnt int
@@ -26,14 +17,14 @@ func (d Data)DoValue(){ // pointer receiver
 }
 
 d := Data{}
-// `T` has just DoValue, and `*T` has both Dovalue and DoPointer
+
 d.DoPointer() // ok
 d.DoValue()// also ok
 
 (&d).DoPointer() // ok
 (&d).DoValue() // ok
-
 ```
+
 
 ```ad-important
 title: how it is possible
@@ -44,6 +35,57 @@ A method call x.m() is valid if the method set of ( the type of )x contains m an
 
 if x addressable and &x's method set contains m, x.m() is shorthand for (&x).m()
 ```
+
+In other words, you can call value receiver on both value and pointer, but a pointer receiver  can be called on a pointer or and addressable value
+So this question come to mind what's does "addressable" mean? 
+ * when the compiler can get address of a pointer
+
+well, when compiler can not?
+
+1 -> literal value
+2 -> map key
+3 -> function return 
+4-> interface *
+
+example:
+```go
+type Data struct{}
+func (d *Data) Do() {}
+
+func f() Data {
+	return Data{}
+}
+
+func Run(){
+	// function returen
+	f().Do() // error
+
+	// literal value
+	Data{}.Do() // error
+
+	// interface
+	var _ Doer = Data{} // error | right on is var _ Doer = &Data{}
+	
+	// map example
+	m := make(map[int]Data)
+	m[0] = Data{}
+	m[0].Do() // error
+}
+```
+
+
+
+#### Why Do `T` and `*T` have different method sets?
+
+
+* __A method set of a type `T` consists of all methods with receiver type `T`.
+* __while that of the corresponding pointer type `*T` consists of all methods with receiver `*T` or `T`
+
+```ad-note
+method set of `T` is subset of `*T`
+```
+
+__what it does NOOOOT  mean?__
 
 __Both value receiver and pointer receiver methods can be invoked on a correctly-typed pointer or non-pointer 
 
@@ -132,32 +174,7 @@ After putting B into i, what aPtr pointing to? it was declared as pointer to a A
 https://go.dev/play/p/eeaYzqZsmOs
 
 
-example:
-```go
-type Data struct{}
-func (d *Data) Do() {}
 
-func f() Data {
-	return Data{}
-}
-
-func Run(){
-	// function returen
-	f().Do() // error
-
-	// literal value
-	Data{}.Do() // error
-
-	// interface
-	var _ Doer = Data{} // error | right on is var _ Doer = &Data{}
-	
-	// map example
-	m := make(map[int]Data)
-	m[0] = Data{}
-	m[0].Do() // error
-}
-```
-4. 
 
 #### Should I define methods on values or pointers?
 
