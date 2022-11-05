@@ -75,6 +75,48 @@ https://medium.com/rungo/working-with-json-in-go-7e3a37c5a07b
 
 #### JSON Tag
 
+example
+```go
+func DoJsonTag() {
+
+	type Data struct {
+		Name    string `json:"name"`
+		Family  string `json:"family"`
+		Phone   string `json:"-"`
+		Email   string
+		Address string `json:"address,omitempty"`
+	}
+
+	sample := Data{
+		Name:  "ahmadreza",
+		Phone: "09374078185",
+		Email: "ahmad1997rezamarashi",
+	}
+
+	var inp []byte
+	if d, err := json.Marshal(sample); err != nil {
+		log.Fatalln(err)
+	} else {
+		inp = d
+		fmt.Printf("%+v\n", string(d))
+		// look these is no address here because we use emitempty tag here but family is here with empty straing
+		// {"name":"ahmadreza","family":"","Email":"ahmad1997rezamarashi"}
+	}
+
+	var data Data
+
+	if err := json.Unmarshal(inp, &data); err != nil {
+		log.Fatalln(err)
+	} else {
+		fmt.Printf("%+v\n", data)
+		// phone is empty because we set json tag "-"
+		// {Name:ahmadreza Family: Phone: Email:ahmad1997rezamarashi Address:}
+	}
+
+}
+
+```
+
 #### The Marshaler (custom marshaling)
 
 ```go
@@ -294,6 +336,47 @@ func Run2(){
 
 #### Decoding vs Unmarshaling
 
+```go
+func NewDecoder(r io.Reader) *Decoder {
+	return &Decoder{r: r}
+}
+
+
+func (dec *Decoder) Decode(v any) error 
+```
+
+* Decode reads the next `JSON-encoded` value from its input and stores it in the value pointed to by v
+
+example
+``` go
+func DoDecoder() {
+	data := []byte(`
+	{
+		"user":"ahmadrezam97",
+		"reqs": ["r1", "r2"],
+		"info": {
+			"name": "ahmadreza",
+			"age": 25
+		}
+	}
+	`)
+	reader := bytes.NewReader(data)
+	betterValue := struct {
+		User string   `json:"user"`
+		Reqs []string `json:"reqs"`
+		Info struct {
+			Name string `json:"name"`
+			Age  int    `json:"age"`
+		} `json:"info"`
+	}{}
+	dec := json.NewDecoder(reader)
+	if err := dec.Decode(&betterValue); err != nil {
+		log.Fatalln(err)
+	}
+	fmt.Println(betterValue)
+}
+
+```
 
 
 
