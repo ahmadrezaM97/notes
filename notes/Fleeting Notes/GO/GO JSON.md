@@ -72,8 +72,24 @@ jsonData, err := json.MarshalIndent(data, "***", "\t")
 https://medium.com/rungo/working-with-json-in-go-7e3a37c5a07b
 
 
+#### default encoding types
+
+| Go type | JSON Type |
+|---------|-----------|
+| bool | boolean|
+| floaf64 | number|
+|string|string|
+|nil pointer| null|
+| time.Time | RFC 339|
+
 
 #### JSON Tag
+
+* `omitempty`
+	* when unmarshling data you can leave out a key completely if the key's value contaons a zero using the `omitempty` tag.
+* non-exported(lower-case) fields are ignored by the marshaled
+* ignore field explicitly
+	* using `json:"-"` you can ignore exported fields explicitly
 
 example
 ```go
