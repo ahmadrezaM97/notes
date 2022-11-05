@@ -214,7 +214,7 @@ title: what did we learn?
 2. If the method needs to __mutate__ the receiver, the receiver __MUST__ be __POINTER__.
 3. if the receiver is a struct that contains a `sync.Mutex` (or any similar) the receiver __MUST__ be a __pointer__. 
 	1. for more details check the [[Go sync package]]
-4. if the receiver is a large `struct` or `arrar`, a pointer receiver is more efficient
+4. if the receiver is a large `struct` or `array`, a pointer receiver is more efficient
 	1. How large is large? Assume it's equivalent to passing all its elements as argument to the method. if the feels too large. it's also too large for the receiver
 5. if the receiver is a struct, array or slice and any of it's elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to reader
 6. if the receiver is a small array or struct that is naturally a value type( like time.Time) with no mutable fields and no pointer, or us just a simple basic type such as `int`  or `string`, a value receiver is makes sense.

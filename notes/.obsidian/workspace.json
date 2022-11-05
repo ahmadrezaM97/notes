@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/GO/GO JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,6 +169,7 @@
   },
   "active": "c535de646145ba00",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/Docker Storage.md",
     "Fleeting Notes/Vocab.md",
@@ -177,7 +178,6 @@
     "Fleeting Notes/Asyncs.md",
     "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
     "Fleeting Notes/asd.md",
-    "Fleeting Notes/Cache.md",
-    "Fleeting Notes/DNS.md"
+    "Fleeting Notes/Cache.md"
   ]
 }
