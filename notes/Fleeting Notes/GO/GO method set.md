@@ -57,6 +57,10 @@ example:
 type Data struct{}
 func (d *Data) Do() {}
 
+type Doer interface {
+	Do()
+}
+
 func f() Data {
 	return Data{}
 }
