@@ -17,7 +17,7 @@ unless the value is the predeclared identifier nil, which has no type
 
 ```ad-note
 
-nil is a predeclared identifier representing the zero value for a `posinter`, `channel`, `func`, `interface`, `map` or `slice` type.
+nil is a predeclared identifier representing the zero value for a `pointer`, `channel`, `func`, `interface`, `map` or `slice` type.
 
 ```
 
