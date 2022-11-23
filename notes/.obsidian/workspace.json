@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2127af26132c8c3d",
+        "id": "43700ddc0402e15f",
         "type": "tabs",
         "children": [
           {
-            "id": "f4bea7ebf7c16a15",
+            "id": "9fa22f581e1e1e23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -79,7 +75,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,8 +103,10 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "f4bea7ebf7c16a15",
+  "active": "9fa22f581e1e1e23",
   "lastOpenFiles": [
+    "Fleeting Notes/Go sync package.md",
+    "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/Keep-Alive.md",
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/handy linux command.md",
@@ -117,8 +114,6 @@
     "Fleeting Notes/Twitter project.md",
     "Fleeting Notes/System-design-primer.md",
     "Fleeting Notes/Cache.md",
-    "Fleeting Notes/GO/GO method set.md",
-    "Fleeting Notes/GO/Nil.md",
-    "Fleeting Notes/GO/Go Map.md"
+    "Fleeting Notes/GO/Nil.md"
   ]
 }

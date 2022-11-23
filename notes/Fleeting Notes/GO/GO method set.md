@@ -160,8 +160,8 @@ title: why? why? why?
 for example, a pointer to A, which point to a value of type A in an interface, would be invlidated when a value of a diffrent type B is subsequently stored in the interface.
 ```go
 type I interface{} // or any :D
-var A int
-var B string
+type A int
+type B string
 
 func main(){
 	var a A = 5
@@ -216,7 +216,7 @@ title: what did we learn?
 	1. for more details check the [[Go sync package]]
 4. if the receiver is a large `struct` or `array`, a pointer receiver is more efficient
 	1. How large is large? Assume it's equivalent to passing all its elements as argument to the method. if the feels too large. it's also too large for the receiver
-5. if the receiver is a struct, array or slice and any of it's elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to reader
+5. If the receiver is a struct, array or slice and any of it's elements is a pointer to something that might be mutating, prefer a pointer receiver, as it will make the intention clearer to reader
 6. if the receiver is a small array or struct that is naturally a value type( like time.Time) with no mutable fields and no pointer, or us just a simple basic type such as `int`  or `string`, a value receiver is makes sense.
 	1. Do not choose a value receiver type for this reason without profiling first.
 7. DO not mix receiver types, choose either pointer or struct types for all available methods
