@@ -13,62 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Keep-Alive.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c535de646145ba00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/GO/Nil.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2031df63cb1d5125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Docker-Volume.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ab8f728080fc4c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/handy linux command.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "017d85de9ad66979",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Vocab.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -127,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/handy linux command.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,17 +108,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "2ab8f728080fc4c6",
+  "active": "f4bea7ebf7c16a15",
   "lastOpenFiles": [
+    "Fleeting Notes/Keep-Alive.md",
+    "Fleeting Notes/Docker-Volume.md",
+    "Fleeting Notes/handy linux command.md",
+    "Fleeting Notes/Vocab.md",
     "Fleeting Notes/Twitter project.md",
     "Fleeting Notes/System-design-primer.md",
     "Fleeting Notes/Cache.md",
     "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/GO/Nil.md",
-    "Fleeting Notes/Docker-Volume.md",
-    "Fleeting Notes/GO/Go Map.md",
-    "Fleeting Notes/GO/Go Pointer.md",
-    "Fleeting Notes/GO/GO Refreltion.md",
-    "Fleeting Notes/GO/GO Memory.md"
+    "Fleeting Notes/GO/Go Map.md"
   ]
 }
