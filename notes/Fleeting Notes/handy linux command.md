@@ -8,6 +8,22 @@ ____
 
 ``` bash
 du -sh .
+
+mtr -t divar.ir
+
+
+fn -ln -1
+
+
+netstat -tlnp
+
+lsof -t -i :<PORT>
+
+pidof <app-name>
+# pids of that appname
+
+pidof <appname> | tr ' ' '\n' | xargs -I {} echo {} 
+
 ```
 
 
