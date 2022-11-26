@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Go cload native patterns.md",
+                "file": "Fleeting Notes/Go Embedding.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Go cload native patterns.md",
+                "file": "Fleeting Notes/Go Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,8 +122,8 @@
   },
   "active": "9fa22f581e1e1e23",
   "lastOpenFiles": [
-    "Fleeting Notes/Go Style guild.md",
     "Fleeting Notes/Go cload native patterns.md",
+    "Fleeting Notes/Go Style guild.md",
     "Fleeting Notes/Go sync package.md",
     "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/Keep-Alive.md",
