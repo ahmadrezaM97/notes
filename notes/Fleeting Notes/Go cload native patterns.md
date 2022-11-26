@@ -2,8 +2,7 @@ Created: 2022-11-23 19:51
 Tags: 
 ____
 
-
-```ad-quote
+```ad-tip
 title: W.Dijkstra 
 Progress is possible only if we train ourselves to think about programs without thinking of them as pieces of executable code.
 ```

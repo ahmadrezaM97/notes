@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Go Style guild.md",
+                "file": "Fleeting Notes/Go cload native patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,8 +120,9 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "e040d68ab3e41186",
+  "active": "9fa22f581e1e1e23",
   "lastOpenFiles": [
+    "Fleeting Notes/Go Style guild.md",
     "Fleeting Notes/Go cload native patterns.md",
     "Fleeting Notes/Go sync package.md",
     "Fleeting Notes/GO/GO method set.md",
@@ -131,7 +131,6 @@
     "Fleeting Notes/handy linux command.md",
     "Fleeting Notes/Vocab.md",
     "Fleeting Notes/Twitter project.md",
-    "Fleeting Notes/System-design-primer.md",
-    "Fleeting Notes/Cache.md"
+    "Fleeting Notes/System-design-primer.md"
   ]
 }
