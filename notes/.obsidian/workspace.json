@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Go Embedding.md",
+                "file": "Chrome Clippings.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,13 +69,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -91,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Go Embedding.md",
+                "file": "Chrome Clippings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,15 +120,15 @@
   },
   "active": "9fa22f581e1e1e23",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/GO HTTP HANDLER.md",
+    "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
+    "Fleeting Notes/Availability vs  Consistency.md",
+    "Fleeting Notes/Availability Patterns.md",
+    "Fleeting Notes/GO/GO HTTP HANDLERFUC vs FUNC(w,r).md",
+    "Fleeting Notes/Go Embedding.md",
     "Fleeting Notes/Go cload native patterns.md",
     "Fleeting Notes/Go Style guild.md",
     "Fleeting Notes/Go sync package.md",
-    "Fleeting Notes/GO/GO method set.md",
-    "Fleeting Notes/Keep-Alive.md",
-    "Fleeting Notes/Docker-Volume.md",
-    "Fleeting Notes/handy linux command.md",
-    "Fleeting Notes/Vocab.md",
-    "Fleeting Notes/Twitter project.md",
-    "Fleeting Notes/System-design-primer.md"
+    "Fleeting Notes/GO/GO method set.md"
   ]
 }
