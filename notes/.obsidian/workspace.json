@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3952073aed358ecd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO Error.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/handy linux command.md",
+                "file": "Fleeting Notes/GO Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,8 +120,9 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "122eef41eecead0c",
+  "active": "3952073aed358ecd",
   "lastOpenFiles": [
+    "Fleeting Notes/handy linux command.md",
     "Fleeting Notes/GO/Nil.md",
     "Chrome Clippings.md",
     "Fleeting Notes/Go Style guild.md",
@@ -117,7 +131,6 @@
     "Fleeting Notes/Availability vs  Consistency.md",
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/GO/GO HTTP HANDLERFUC vs FUNC(w,r).md",
-    "Fleeting Notes/Go Embedding.md",
-    "Fleeting Notes/Go cload native patterns.md"
+    "Fleeting Notes/Go Embedding.md"
   ]
 }
