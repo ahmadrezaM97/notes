@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO Error.md",
+                "file": "Fleeting Notes/GO/Nil.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO Error.md",
+                "file": "Fleeting Notes/GO/Nil.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +122,7 @@
   },
   "active": "3952073aed358ecd",
   "lastOpenFiles": [
+    "Fleeting Notes/GO Error.md",
     "Fleeting Notes/handy linux command.md",
     "Fleeting Notes/GO/Nil.md",
     "Chrome Clippings.md",
@@ -130,7 +131,6 @@
     "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
     "Fleeting Notes/Availability vs  Consistency.md",
     "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/GO/GO HTTP HANDLERFUC vs FUNC(w,r).md",
-    "Fleeting Notes/Go Embedding.md"
+    "Fleeting Notes/GO/GO HTTP HANDLERFUC vs FUNC(w,r).md"
   ]
 }
