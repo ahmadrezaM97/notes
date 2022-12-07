@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO Error.md",
+                "file": "Fleeting Notes/Algorithms and data-structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO Error.md",
+                "file": "Fleeting Notes/Algorithms and data-structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +106,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "122eef41eecead0c",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
-    "Fleeting Notes/handy linux command.md",
-    "Fleeting Notes/GO/Nil.md",
-    "Fleeting Notes/GO Error.md",
-    "Chrome Clippings.md",
-    "Fleeting Notes/Go Style guild.md",
-    "Fleeting Notes/GO/GO HTTP HANDLER.md",
-    "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
-    "Fleeting Notes/Availability vs  Consistency.md",
+    "Fleeting Notes/GO/Basic Data Types.md",
+    "Fleeting Notes/GO/Context - GO.md",
+    "Fleeting Notes/GO/Docker Go Guides.md",
+    "Fleeting Notes/GO/GO Channels.md",
+    "Fleeting Notes/GO/Go Class.md",
+    "Fleeting Notes/GO/GO JSON.md",
+    "Fleeting Notes/GO/Go Map.md",
     "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/GO/GO HTTP HANDLERFUC vs FUNC(w,r).md"
+    "Fleeting Notes/Availability vs  Consistency.md",
+    "Fleeting Notes/Asyncs.md"
   ]
 }
