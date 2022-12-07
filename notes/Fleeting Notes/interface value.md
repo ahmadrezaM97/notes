@@ -51,11 +51,34 @@ Interface values are represented as a two-word pair
 > these pointer are implicit, not directly exposed to GO
 
 
-
-
-
 ![[gointer2.png]]
 
+##### The first word 
+* The first word in the interface value points at what I call an interface table or itable.
+* Itable begins with some metadata about the types involved and then becomes a list of function pointers.
+	-> Interface type, not the dynamic type.
+
+
+#### The Second word 
+* the second word in the interface value points at the actual data, in this case a copy of b. 
+* The assignment var s Stringer = b make a copy of b rather than point at b.
+	* if b later changes s won't
+* values stored in interface might be arbitrarily large , but only one word is dedicated ti holding the value in the interface  structure, -> so the assignment allocates a chink of memory on the heap and records the pointer in the one-word slog ( there's an obvious optimization when the value does fit in the slot)
+
+```ad-note 
+title: type switch
+The Go compiler generates code equivalent to the C expression s.tab->Type to Obtain the type pointer and check it agints the desire type.
+
+It the types match the value can be copied by dereferencing s.data
+```
+
+```ad-note 
+title: function call
+
+To call s.String(), the Go compiler generate code that does equivalent of the C expression s.tab->fun[0](s.data)
+
+it calls the appropriate function pointer from the itable, passing the interface value's data word as the function's first
+```
 
 _____
 ##### References
