@@ -83,7 +83,10 @@ it calls the appropriate function pointer from the itable, passing the interface
 
 #### Memory optimizations
 
-![[]]
+* If the interface type involved is empty, it has no methods itable serves no purpose to except to hold the pointer to the original type.
+* In this case, the itable can be dropped and the value can point at the type directly
+
+![[gointer3.png]]
 
 _____
 ##### References
