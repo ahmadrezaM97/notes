@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Algorithms and data-structures.md",
+                "file": "Fleeting Notes/GO/Nil.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdc55796ce5f963f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/interface value.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Algorithms and data-structures.md",
+                "file": "Fleeting Notes/interface value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,17 +119,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "bdc55796ce5f963f",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Nil.md",
+    "Fleeting Notes/GO/GO JSON.md",
+    "Fleeting Notes/GO/Go Pointer.md",
+    "Fleeting Notes/Algorithms and data-structures.md",
     "Fleeting Notes/GO/Basic Data Types.md",
     "Fleeting Notes/GO/Context - GO.md",
     "Fleeting Notes/GO/Docker Go Guides.md",
     "Fleeting Notes/GO/GO Channels.md",
     "Fleeting Notes/GO/Go Class.md",
-    "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/Go Map.md",
-    "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/Availability vs  Consistency.md",
-    "Fleeting Notes/Asyncs.md"
+    "Fleeting Notes/GO/Go Map.md"
   ]
 }
