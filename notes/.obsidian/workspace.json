@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -119,7 +120,7 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "bdc55796ce5f963f",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
     "Fleeting Notes/GO/Nil.md",
     "Fleeting Notes/GO/GO JSON.md",

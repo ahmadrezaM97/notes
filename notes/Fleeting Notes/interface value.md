@@ -60,10 +60,10 @@ Interface values are represented as a two-word pair
 
 
 #### The Second word 
-* the second word in the interface value points at the actual data, in this case a copy of b. 
+* The second word in the interface value points at the actual data, in this case a copy of b. 
 * The assignment var s Stringer = b make a copy of b rather than point at b.
 	* if b later changes s won't
-* values stored in interface might be arbitrarily large , but only one word is dedicated ti holding the value in the interface  structure, -> so the assignment allocates a chink of memory on the heap and records the pointer in the one-word slog ( there's an obvious optimization when the value does fit in the slot)
+* Values stored in interface might be arbitrarily large, but only one word is dedicated ti holding the value in the interface  structure, -> so the assignment allocates a chink of memory on the heap and records the pointer in the one-word slog ( there's an obvious optimization when the value does fit in the slot)
 
 ```ad-note 
 title: type switch
@@ -79,6 +79,11 @@ To call s.String(), the Go compiler generate code that does equivalent of the C 
 
 it calls the appropriate function pointer from the itable, passing the interface value's data word as the function's first
 ```
+
+
+#### Memory optimizations
+
+![[]]
 
 _____
 ##### References
