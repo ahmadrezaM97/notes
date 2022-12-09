@@ -161,7 +161,28 @@ check this for more information [[GO JSON]]
 	}
 ```
 3. Sometimes it is necessary to guarantee  within the package implementing the type that it actually satisfies the interface
-	1. `json.RawMessage` needs a custom JSON representation, it should implement `json.MArshaler`, but there are no static conversions that would cause the 
+	1. `json.RawMessage` needs a custom JSON representation, it should implement `json.MArshaler`, but there are no static conversions that would cause the compiler to verify this automatically.
+
+```go
+	var _ json.Marshaler = (*RawMessage)(nil)
+	
+```
+
+[uber-go-guide-verify-interface-compliance](https://github.com/uber-go/guide/blob/master/style.md#verify-interface-compliance)
+
+#### GO Comments
+
+[link](https://github.com/golang/go/wiki/CodeReviewComments#interfaces)
+
+1. Go interface generally belong in the package that uses the values of the interface type, not the package that implements those values.
+2. The implementing package should return concrete (usually pointer or struct) -> new methods can be added to implementations without requiring extensive refactoring.
+3. Do not define interfaces on the implementor side of an API "for mocking", instead, design the API so that it can be tested using the public API of the real implementation.
+4. Do not define interfaces before they are used.
+	1. without a realistic example of usage, it is too difficult to see whether an interface is even necessary, let alone what methods it ought to contain
+
+Exporting an interface
+
+Writing good interfaces is difficult, it's easy to pollute the "API" of a package by exposing bread or unnecessary interface
 _____
 ##### References
 1. https://research.swtch.com/interfaces
