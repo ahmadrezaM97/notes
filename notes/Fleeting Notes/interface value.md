@@ -88,7 +88,6 @@ it calls the appropriate function pointer from the itable, passing the interface
 
 ![[gointer3.png]]
 
-https://research.swtch.com/interfaces
 
 ```go
 package main
@@ -102,49 +101,29 @@ type I interface {
 	Do()
 }
 
-type A int32
+type A int
 
 func (a A) Do() {}
 
-func DoInterface() {
-	var s I
-	// v := 10
-	s = A(1)
-
-	fmt.Printf("size: %d\n", unsafe.Sizeof(s))
-
-	l := uintptr(unsafe.Pointer(&s))
-	l += 8
-	printPointerIntVal(l)
-}
-
-func printIntVal(p uintptr) {
-	fmt.Println(*(*int)(unsafe.Pointer(p)))
-}
 func printPointerIntVal(p uintptr) {
 	pp := *(*uintptr)(unsafe.Pointer(p))
-	printIntVal(pp)
-}
-func DoArray() {
-	a := [...]int{1997, 1998, 1999}
-	fmt.Printf("size: %d\n", unsafe.Sizeof(a))
-	p := unsafe.Pointer(&a)
-	fmt.Println(*(*int)(p))
-
-	pi := uintptr(p)
-	pi += 8
-	printIntVal(pi)
-	pi += 8
-	printIntVal(pi)
-	fmt.Println(unsafe.Alignof(pi))
+	fmt.Println(*(*int)(unsafe.Pointer(pp)))
 }
 
 func main() {
-	DoInterface()
-}
+	var s I
+	s = A(1997)
 
+	fmt.Printf("size: %d\n", unsafe.Sizeof(s)) // 16
+	l := uintptr(unsafe.Pointer(&s))
+	l += 8
+	printPointerIntVal(l) // 1997
+}
 ```
+
+
 _____
 ##### References
-1.
+1. https://research.swtch.com/interfaces
+
 
