@@ -182,7 +182,35 @@ check this for more information [[GO JSON]]
 
 Exporting an interface
 
-Writing good interfaces is difficult, it's easy to pollute the "API" of a package by exposing bread or unnecessary interface
+Writing good interfaces is difficult, it's easy to pollute the "API" of a package by exposing bread or unnecessary interface.
+
+#### Consider creating a separate interfaces-only package for namespacing and standardization
+
+> this is not an official guideline from Go team, it's just an observation as having package that contain only interfaces is a common pattern in standard library.
+
+1. An example is the `hash.Hash` interface that's implemented by packages under the subdirectories.
+	1. the hash package only exposes intefaces
+2. `encoding`
+
+Private interfaces don't have to deal with these considerations as they're not exposed
+-> we can have larger interface without worrying about contents
+-> interfaces can be duplicated across packages, such as the `timeout` interface exist in both `os` and `net`.
+
+https://github.com/golang/go/blob/c170b14c2c1cfb2fd853a37add92a82fd6eb4318/src/os/error.go#L35-L37
+
+```go
+type timeout interface {
+	Timeout() bool
+}
+```
+
+in conclusion:
+
+Defer, defer, and defer writing an interface to when you have a better understating of the abstraction needed.
+
+A good signal as a producer is when you have multiple types that implements the same method signatures.
+
+Them you can refactor and return an interface. As  a consumer keep  your interfaces tiny so that multiple types can implement.
 _____
 ##### References
 1. https://research.swtch.com/interfaces
