@@ -121,7 +121,47 @@ func main() {
 }
 ```
 
+#### Effective GO
 
+1. Interfaces in Go provide a way to specify the behavior of an object
+	1. if something can do this, then it can be used here
+2. Interface with only one or two methods are common in Go code.
+3. They are usually given a name derived from the method such as io.Writer for something that implements Write
+
+
+#### Exporting an interface
+
+If a type exist only to implement an interface and will never have exported methods beyond that interface, there is no need to export the type itself
+
+Exporting just the interface makes it clear the value has no interesting behavior beyond  what is described in the interface
+
+It also avoids the need to repeat the documentation on every instance of a common methods 
+
+In such cases, the constructor should return an interface value rather than the implementing type.
+
+
+#### Interface checks
+
+1. At compile time:
+	1. A type need not declare explicitly that it implements an interface.
+	2. in practice, most interface conversions are static and therefore checked at compile time.
+	3. passing an `*os.File` to a function expecting an `io.Reader` will not compile unless `*os.File` implements the interface.
+2. At runtime:
+	1. When the JSON encode receives a value that implements that interface, the encoder invokes the value's marashaling method to convert it to JSON insread of doing the standard conversion.
+
+check this for more information [[GO JSON]]
+
+```go
+	m, ok := val.(json.Marshaler)
+	
+	if _, ok := val.(json.Marshaler); ok {
+		// do custom conversion
+	}else {
+		// do default conversion
+	}
+```
+3. Sometimes it is necessary to guarantee  within the package implementing the type that it actually satisfies the interface
+	1. `json.RawMessage` needs a custom JSON representation, it should implement `json.MArshaler`, but there are no static conversions that would cause the 
 _____
 ##### References
 1. https://research.swtch.com/interfaces
