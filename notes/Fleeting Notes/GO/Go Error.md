@@ -63,12 +63,90 @@ Options:
 1. returning error directly
 	1. without extra context
 	2. we can not mark error
-	3. source error available
+	3. source error is available
 2. Custom error type
 	1. extra context is possible
-	2. we can mark e
+	2. we can mark error
+	3. source error availability is possible
+3.  fmt.Error with %w
+	1. with extra context 
+	2. we can not mark error
+	3. source error is available
+4. fmt.Error with %v
+	1. with extra context
+	2. we can not mark error
+	3. source error is not avaible
+
+### Do not handle an error twice
+logging an error is handling an error. Hence, we should either log or return an error.
 
 
+### Please be careful when you wanna ignore erorr
+
+In some cases, we may want to ignore an error returned by a function.
+
+```go
+
+func f(){
+	// ...
+	notify()
+}
+
+func notify() error {
+	// ...
+}
+```
+
+for a maintainability perspective, the code can lead to some issues
+Do this
+
+```go
+func f(){
+	// at-most once delivery.
+	// Hence, it's accepted to miss some of them in case of errors
+	_ = notify()
+}
+```
+
+
+### Don't miss defer error
+
+```go
+package main
+
+import (
+	"errors"
+	"fmt"
+	"log"
+)
+
+func badThingsMightHappen() error {
+	return errors.New("A very bad thing happened")
+}
+
+func HandleDeferError() (err error) {
+	defer func() {
+		deferErr := badThingsMightHappen()
+		if err != nil {
+			if deferErr != nil {
+				// (err!=nil, deferErr!=nil) -> log deferErr and return err
+				log.Printf("defer error: %v\n", deferErr)
+			}
+			// (err!=nil, deferErr=nil) -> return err
+			return
+		}
+		// (err=nil, defer=?) return defer err
+		err = deferErr
+	}()
+
+	return errors.New("SHIT")
+}
+
+func main() {
+	fmt.Println(HandleDeferError())
+}
+
+```
 
 #### panic recover
 #### Best Practices
