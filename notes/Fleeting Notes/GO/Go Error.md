@@ -34,15 +34,44 @@ func (e *errorString) Error() string {
 }
 ```
 
-
-[[ A good technique to handle HTTP error ]]
-
+[[A good technique to handle HTTP error ]]
 [[Nil Error Mistake]]
+
+#### Wrap Error
+
+Since Go 1.13, the %w directive allow us to wrap errors conveniently.
+In general, the two main use cases for error wrapping are 
+	1. Adding additional context to an error
+	2. making an error as specific error
+
+case study:
+we receive a request from a specific user to access a database resource, but we get a "permission denied" error during the query.
+for debugging purposes, if the error is eventually logged, we want to add extra context. in this case, we can wrap the error to indicate who the user is and what resource is being accessed.
+
+![[go-error-0.png]]
+
+
+```go
+if err != nil {
+	return fmt.Errorf("bar failed: %w", err)
+}
+```
+
+![[go-error-2.png]]
+
+Options:
+1. returning error directly
+	1. without extra context
+	2. we can not mark error
+	3. source error available
+2. Custom error type
+	1. extra context is possible
+	2. we can mark e
+
 
 
 #### panic recover
 #### Best Practices
-#### Wrap Error
 #### Custom Error
 
 The error type
