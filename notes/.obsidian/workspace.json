@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Go Sort.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,8 +155,9 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "9de9d12c1d016ecc",
+  "active": "976abad61f73cf95",
   "lastOpenFiles": [
+    "Fleeting Notes/Go Sort.md",
     "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/GO/Nil.md",
     "Fleeting Notes/GO/Nil Error Mistake.md",
@@ -165,7 +166,6 @@
     "Fleeting Notes/GO/GO Refreltion.md",
     "Fleeting Notes/GO/Go Pointer.md",
     "Fleeting Notes/GO/ratelimit.md",
-    "Fleeting Notes/GO/Basic Data Types.md",
-    "Fleeting Notes/Pub-Sub-vs-request-response.md"
+    "Fleeting Notes/GO/Basic Data Types.md"
   ]
 }
