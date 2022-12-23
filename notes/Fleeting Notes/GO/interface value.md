@@ -2,6 +2,8 @@ Created: 2022-12-07 12:45
 Tags: 
 ____
 
+### When should I use a pointer to an interface?
+GO FAQ
 # duck typing 
 
 ```ad-quote

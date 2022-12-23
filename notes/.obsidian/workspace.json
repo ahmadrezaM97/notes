@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Go Error.md",
+                "file": "Fleeting Notes/GO/Go Style guild.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "976abad61f73cf95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/Go Error.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9cb59cb7f807b7d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/Go Error.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35cf0eb600aa7d58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/Nil Error Mistake.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Nil Error Mistake.md",
+                "file": "Fleeting Notes/GO/Nil Error Mistake.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -90,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Go Error.md",
+                "file": "Fleeting Notes/GO/Nil Error Mistake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,17 +155,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "04e80ad16f5edc97",
+  "active": "35cf0eb600aa7d58",
   "lastOpenFiles": [
-    "Fleeting Notes/Nil Error Mistake.md",
-    "Fleeting Notes/Go Error.md",
-    "Fleeting Notes/A good technique to handle HTTP error.md",
-    "Fleeting Notes/interface value.md",
-    "Fleeting Notes/Interface.md",
-    "Fleeting Notes/GO/GO HTTP HANDLER.md",
-    "Fleeting Notes/GO/Go Net-HTTP.md",
-    "Fleeting Notes/GO/GO IO.md",
-    "Fleeting Notes/GO/GO HTTP REQUEST.md",
-    "Fleeting Notes/GO/Nil.md"
+    "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/GO/GO HTTP LISTEN AND SERVE.md",
+    "Fleeting Notes/GO/Go Runtime Scheduler.md",
+    "Fleeting Notes/GO/GO Refreltion.md",
+    "Fleeting Notes/GO/Go Pointer.md",
+    "Fleeting Notes/GO/Nil Error Mistake.md",
+    "Fleeting Notes/GO/Nil.md",
+    "Fleeting Notes/GO/ratelimit.md",
+    "Fleeting Notes/GO/Basic Data Types.md",
+    "Fleeting Notes/Pub-Sub-vs-request-response.md"
   ]
 }
