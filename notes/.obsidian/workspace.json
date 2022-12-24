@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/GO/Go Runtime Scheduler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df6fb3696cf0830a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Go Time.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/Go Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,14 +167,14 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "976abad61f73cf95",
+  "active": "df6fb3696cf0830a",
   "lastOpenFiles": [
-    "Fleeting Notes/Go Sort.md",
+    "Fleeting Notes/GO/Go Runtime Scheduler.md",
     "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/Go Sort.md",
     "Fleeting Notes/GO/Nil.md",
     "Fleeting Notes/GO/Nil Error Mistake.md",
     "Fleeting Notes/GO/GO HTTP LISTEN AND SERVE.md",
-    "Fleeting Notes/GO/Go Runtime Scheduler.md",
     "Fleeting Notes/GO/GO Refreltion.md",
     "Fleeting Notes/GO/Go Pointer.md",
     "Fleeting Notes/GO/ratelimit.md",
