@@ -96,15 +96,28 @@ It returns a Timer that can be used to cancel the call using its `Stop` method.
 func AfterFunc(d Duration, f func()) *Timer
 ```
 
-Reset changes the timer to expire after duration d. 
-it returns `true` if the timer had been active, `false` if the `timer` had expired or been stopped.
 
 NewTimer creates a new timer :D
 ```go
 func NewTimer(d Duration) *Timer
 ```
 
-Reset changes the the timer to ex
+Reset changes the timer to expire after duration d. 
+it returns `true` if the timer had been active, `false` if the `timer` had expired or been stopped.
+
+```go 
+func (t *Timer) Reset(d Duration) bool
+```
+
+Stop prevents the Timer from firing
+.it returns true -> if the call stops the timer,
+false -> if the timer has already expired or been stopped.
+
+```ad-danger
+Stop does not close the channel, to prevent a read from the channnel successding incorrectly
+```
+
+To ensure the channel is empty after a call to Stop, check the return value and drain the channel.
 
 #TODO 
 complete this
@@ -136,7 +149,7 @@ func main() {
 ### `time.After(1*time.Second)`
 
 ```go
-func After(d Duration) <-chan Time {
+func After(d Duration) <- chan Time {
 	return NewTimer(d).C
 }
 ```
