@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go Style guild.md",
+                "file": "Fleeting Notes/Go Time.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Runtime Scheduler.md",
+                "file": "Fleeting Notes/Go Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,17 +154,17 @@
     "width": 434,
     "collapsed": true
   },
-  "active": "976abad61f73cf95",
+  "active": "04e80ad16f5edc97",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Go Style guild.md",
+    "Fleeting Notes/GO/Go Runtime Scheduler.md",
     "Fleeting Notes/Go struct custom tag.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/Go Time.md",
-    "Fleeting Notes/GO/Go Runtime Scheduler.md",
     "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/Go Sort.md",
     "Fleeting Notes/GO/Nil.md",
     "Fleeting Notes/GO/Nil Error Mistake.md",
-    "Fleeting Notes/GO/GO HTTP LISTEN AND SERVE.md",
-    "Fleeting Notes/GO/GO Refreltion.md"
+    "Fleeting Notes/GO/GO HTTP LISTEN AND SERVE.md"
   ]
 }

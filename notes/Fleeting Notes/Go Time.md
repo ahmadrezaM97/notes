@@ -99,6 +99,13 @@ func AfterFunc(d Duration, f func()) *Timer
 Reset changes the timer to expire after duration d. 
 it returns `true` if the timer had been active, `false` if the `timer` had expired or been stopped.
 
+NewTimer creates a new timer :D
+```go
+func NewTimer(d Duration) *Timer
+```
+
+Reset changes the the timer to ex
+
 #TODO 
 complete this
 
