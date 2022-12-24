@@ -96,6 +96,34 @@ It returns a Timer that can be used to cancel the call using its `Stop` method.
 func AfterFunc(d Duration, f func()) *Timer
 ```
 
+Reset changes the timer to expire after duration d. 
+it returns `true` if the timer had been active, `false` if the `timer` had expired or been stopped.
+
+#TODO 
+complete this
+
+
+
+```go
+package main
+
+import (
+	"log"
+	"time"
+)
+
+func main() {
+	t := time.AfterFunc(
+		2*time.Second,
+		func() {
+			log.Println("Hey")
+		},
+	)
+	time.Sleep(1 * time.Second)
+	t.Stop()
+}
+```
+
 
 
 ### `time.After(1*time.Second)`
