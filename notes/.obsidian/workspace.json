@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,8 +189,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a4e0d6336b022d42",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/GO/Go Embedding.md",
     "Fleeting Notes/GO/GO IO.md",
     "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
@@ -199,7 +200,6 @@
     "Fleeting Notes/GO/Go sync package.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/GO/Docker Go Guides.md",
-    "Fleeting Notes/GO/Context - GO.md",
-    "Fleeting Notes/GO/GO Channels.md"
+    "Fleeting Notes/GO/Context - GO.md"
   ]
 }
