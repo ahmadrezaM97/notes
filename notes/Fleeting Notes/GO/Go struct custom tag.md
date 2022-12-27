@@ -4,6 +4,7 @@ Tags:
 ____
 
 first we should understand what we can do with reflection
+[[Go reflect on struct]]
 
 
 _____

@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "ea2278712971aef9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Go reflect on struct.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "976abad61f73cf95",
             "type": "leaf",
             "state": {
@@ -179,15 +191,15 @@
   },
   "active": "a4e0d6336b022d42",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/Go sync package.md",
+    "Fleeting Notes/Go reflect on struct.md",
     "Fleeting Notes/GO/Go struct custom tag.md",
+    "Fleeting Notes/GO/Go sync package.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/GO/GO IO.md",
     "Fleeting Notes/GO/Docker Go Guides.md",
     "Fleeting Notes/GO/Context - GO.md",
     "Fleeting Notes/GO/GO Channels.md",
     "Fleeting Notes/GO/Go cload native patterns.md",
-    "Fleeting Notes/GO/Go Concurrency.md",
-    "Fleeting Notes/GO/GO Concurrency.md"
+    "Fleeting Notes/GO/Go Concurrency.md"
   ]
 }
