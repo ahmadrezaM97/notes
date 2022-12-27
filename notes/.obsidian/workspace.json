@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go struct custom tag.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go struct custom tag.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,15 +191,15 @@
   },
   "active": "a4e0d6336b022d42",
   "lastOpenFiles": [
-    "Fleeting Notes/Go reflect on struct.md",
+    "Fleeting Notes/GO/Go Embedding.md",
+    "Fleeting Notes/GO/GO IO.md",
+    "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
     "Fleeting Notes/GO/Go struct custom tag.md",
+    "Fleeting Notes/Go reflect on struct.md",
     "Fleeting Notes/GO/Go sync package.md",
     "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/GO IO.md",
     "Fleeting Notes/GO/Docker Go Guides.md",
     "Fleeting Notes/GO/Context - GO.md",
-    "Fleeting Notes/GO/GO Channels.md",
-    "Fleeting Notes/GO/Go cload native patterns.md",
-    "Fleeting Notes/GO/Go Concurrency.md"
+    "Fleeting Notes/GO/GO Channels.md"
   ]
 }
