@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
+                "file": "Fleeting Notes/A good technique to handle HTTP error.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Go reflect on struct.md",
+                "file": "Fleeting Notes/GO/Go Map.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md",
+                "file": "Fleeting Notes/GO/Go Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,17 +189,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "ea2278712971aef9",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/Go Error.md",
-    "Fleeting Notes/GO/Go Embedding.md",
-    "Fleeting Notes/GO/GO IO.md",
-    "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
-    "Fleeting Notes/GO/Go struct custom tag.md",
-    "Fleeting Notes/Go reflect on struct.md",
-    "Fleeting Notes/GO/Go sync package.md",
-    "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/Docker Go Guides.md",
-    "Fleeting Notes/GO/Context - GO.md"
+    "Fleeting Notes/GO/GO method set.md",
+    "Fleeting Notes/GO/Go Net-HTTP.md",
+    "Fleeting Notes/GO/GO padding and Alignment.md",
+    "Fleeting Notes/GO/GO Refreltion.md",
+    "Fleeting Notes/GO/GO String.md",
+    "Fleeting Notes/Strings.md",
+    "Fleeting Notes/Unicode, UTF-8, ASCII.md",
+    "Fleeting Notes/GO/Context - GO.md",
+    "Fleeting Notes/GO/Basic Data Types.md",
+    "Fleeting Notes/GO/Go Class.md"
   ]
 }
