@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go Map.md",
+                "file": "Fleeting Notes/GO/GO HTTP ERROR.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Map.md",
+                "file": "Fleeting Notes/GO/GO HTTP ERROR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,17 +189,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ea2278712971aef9",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Go Class.md",
+    "Fleeting Notes/Availability Patterns.md",
+    "Fleeting Notes/Communication.md",
+    "Fleeting Notes/GO/Go Map.md",
     "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/GO/Go Net-HTTP.md",
     "Fleeting Notes/GO/GO padding and Alignment.md",
     "Fleeting Notes/GO/GO Refreltion.md",
     "Fleeting Notes/GO/GO String.md",
-    "Fleeting Notes/Strings.md",
-    "Fleeting Notes/Unicode, UTF-8, ASCII.md",
-    "Fleeting Notes/GO/Context - GO.md",
-    "Fleeting Notes/GO/Basic Data Types.md",
-    "Fleeting Notes/GO/Go Class.md"
+    "Fleeting Notes/Strings.md"
   ]
 }
