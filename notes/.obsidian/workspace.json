@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/microservices/event sourcing.md",
+                "file": "Fleeting Notes/microservices/distributed transaction.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/microservices/event sourcing.md",
+                "file": "Fleeting Notes/microservices/distributed transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,15 +203,15 @@
   },
   "active": "2538deed3ad1010a",
   "lastOpenFiles": [
+    "Fleeting Notes/microservices/event sourcing.md",
+    "Fleeting Notes/insert template.md",
+    "Fleeting Notes/microservices/distributed transaction.md",
+    "Templates/Note Template.md",
     "Fleeting Notes/GO/GO HTTP ERROR.md",
     "Fleeting Notes/GO/Go Time.md",
     "Fleeting Notes/GO/Go Class.md",
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/Communication.md",
-    "Fleeting Notes/GO/Go Map.md",
-    "Fleeting Notes/GO/GO method set.md",
-    "Fleeting Notes/GO/Go Net-HTTP.md",
-    "Fleeting Notes/GO/GO padding and Alignment.md",
-    "Fleeting Notes/GO/GO Refreltion.md"
+    "Fleeting Notes/GO/Go Map.md"
   ]
 }
