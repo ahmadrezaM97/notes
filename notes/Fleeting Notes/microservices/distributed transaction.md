@@ -75,6 +75,27 @@ __it is not really recommended for many microservice-based systems__ because
 
 
 
+#### SAGA
+
+```ad-note
+title: what is saga in a nutshell?
+saga is a message-driven sequence of local transaction to maintain data consistancy.
+```
+
+![[data-consitancy-in-distributed-transaction-0.png]]
+
+The traditional approach to maintaining data consistency across multiple services, databases or message broker is to use distributed transactions.
+
+The the facto standard distributed transaction management is the open_XA. XA uses [[2PC]] to enuse that all participants in a transaction either commit or rollback.
+
+Mist SQL databases are XA compliant, as are some message brokers.
+
+One problem is that many model technologies, including NOSQL databases such as MongoDB and Cassandra, don not support them.
+Also, distributed transaction aren't supported by modern message broker such as `RabbitMQ` and `Apche Kafka`.
+
+Another problem with distributed transactions is that they are a form of `synchronous` `IPC`, which reduces availability.
+
+
 
 https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
 
