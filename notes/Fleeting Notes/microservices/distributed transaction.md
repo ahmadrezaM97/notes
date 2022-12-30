@@ -76,7 +76,7 @@ __it is not really recommended for many microservice-based systems__ because
 
 
 
-https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategy
+https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
 
 
 _____
