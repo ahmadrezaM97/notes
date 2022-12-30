@@ -300,6 +300,39 @@ log.Infof("Operation aborted: %v", err)
 https://google.github.io/styleguide/go/best-practices.html#error-handling
 https://google.github.io/styleguide/go/decisions#errors
 
+
+#### Error handling best practice
+
+in Go error are just values, they are created by code and consumed by code
+	1. Converted into diagnostic information for display to humans.
+	2. Used by the maintainer
+	3. interpreted by an end user
+
+Error messages also show up across a variety of different surfaces including log messages, error dumps, and rendered UIs
+
+
+Code that process ( consumers or produces) error should do so deliberately
+it can be tempting to ignore, or blindly propagate an error 
+it is always worth considering whether the current function is the call frame is positioned to handle error most effectively.
+
+1. when creating an error value, decide whether to give it any structure
+
+
+
+2. when handling an error, consider adding information that you have byt the caller and/or callee might not.
+	1. TODO: adding information
+3. logging
+	1. TODO: logging
+
+
+While is is usually not appropriate to ignore an error, a reasonable exception to this is when orchestrating related operations
+where often only the first error is useful.
+package `errgroup` provide a convenient abstraction for a group of operations that can all fail or be canceled as a group.
+
+
+
+[[Error group]]
+
 #### Custom Error
 
 The error type
