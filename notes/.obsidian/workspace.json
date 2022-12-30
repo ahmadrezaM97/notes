@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/HTTP 1.1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46899679d53b4a38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/microservices/distributed transaction.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/microservices/distributed transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,17 +213,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2538deed3ad1010a",
+  "active": "46899679d53b4a38",
   "lastOpenFiles": [
-    "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/microservices/event sourcing.md",
-    "Fleeting Notes/insert template.md",
-    "Templates/Note Template.md",
-    "Fleeting Notes/GO/GO HTTP ERROR.md",
-    "Fleeting Notes/GO/Go Time.md",
-    "Fleeting Notes/GO/Go Class.md",
-    "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/Communication.md",
-    "Fleeting Notes/GO/Go Map.md"
+    "Fleeting Notes/Computer Networking.md",
+    "Fleeting Notes/Keep-Alive.md",
+    "Fleeting Notes/HTTP 1.1.md",
+    "Fleeting Notes/Asyncs.md",
+    "Fleeting Notes/Algorithms and data-structures.md",
+    "Fleeting Notes/Docker bind-mount.md",
+    "Fleeting Notes/DNS.md",
+    "Fleeting Notes/microservices/distributed transaction.md",
+    "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md"
   ]
 }
