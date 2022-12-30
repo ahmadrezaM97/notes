@@ -50,11 +50,33 @@ __Possible solution__
 
 There is two phases here 
 1. A prepare phase
-2. A commit pahse
+2. A commit phase
 
-1. in the prepare phase, all `microservices` will be asked to prepare for some data change that could be done atomically.
-2. Once all `microservices` are prepared, the commit phase will ask all `microservices` to make the actual change
+In the prepare phase, all `microservices` will be asked to prepare for some data change that could be done atomically.
 
+Once all `microservices` are prepared, the commit phase will ask all `microservices` to make the actual change
+
+There needs to be a `golabl coordinator` to maintain the lifecycle of the transaction, and the coordinator will need to call the microservices in the prepare and commit phases.
+
+![[2pc-0.png]]
+
+![[2pc-1.png]]
+
+#### Benefits of using 2PC
+I works :D
+#### Disadvantages of useing 2PC
+
+__it is not really recommended for many microservice-based systems__ because 
+1. 2PC is synchronous (blocking)
+		1. The protocol will need to lock the object that will be changed before the transaction completes.
+		2. This is not good. In a db, transactions tend to be fast-normally within 50 ms
+			1. The lock could become a system performance bottleneck
+		3. __There is a chance of [[dead-lock]].__
+
+
+
+
+https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategy
 
 
 _____
