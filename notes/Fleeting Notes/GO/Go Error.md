@@ -34,48 +34,82 @@ func (e *errorString) Error() string {
 }
 ```
 
-[[A good technique to handle HTTP error ]]
-[[Nil Error Mistake]]
 
-#### Wrap Error
+errors.Is
 
-Since Go 1.13, the %w directive allow us to wrap errors conveniently.
-In general, the two main use cases for error wrapping are 
-	1. Adding additional context to an error
-	2. making an error as specific error
+__Is reports whether any error in err's chain matches target.
+The chain consists of err it self followed by the sequence of errors obtained by repeatedly calling Unwrap__
 
-case study:
-we receive a request from a specific user to access a database resource, but we get a "permission denied" error during the query.
-for debugging purposes, if the error is eventually logged, we want to add extra context. in this case, we can wrap the error to indicate who the user is and what resource is being accessed.
 
-![[go-error-0.png]]
+errors.As
+
+__As finds the first error in err's chain that matches target
+
+The chain consists of err it self followed by the sequence of errors obtained by repeatedly calling Unwrap 
+
+An error matches target if the error's concrete value is assignable to the value pointed to by target, or if the error has a method As(interface{}) bool such that As(target) returns true. In the latter case, the As method is responsible for setting target.
 
 
 ```go
-if err != nil {
-	return fmt.Errorf("bar failed: %w", err)
+package main
+
+import (
+	"errors"
+	"fmt"
+)
+
+var (
+	ErrSample = errors.New("sample")
+)
+
+func DoSampleError() error {
+
+	f := func() error {
+		return fmt.Errorf("first: %w", ErrSample)
+	}
+
+	if err := f(); err != nil {
+		return fmt.Errorf("second: %w", err)
+	}
+
+	return nil
+
 }
+
+type MyError struct {
+	msg string
+}
+
+func (c *MyError) Error() string {
+	return c.msg
+}
+
+func DoCustomError() error {
+	return &MyError{msg: "Random"}
+
+}
+
+func main() {
+	if err := DoSampleError(); err != nil {
+		fmt.Println(err)
+		fmt.Println(errors.Is(err, ErrSample))
+	}
+
+	if err := DoCustomError(); err != nil {
+		var p *MyError
+		fmt.Println(
+			errors.As(err, &p),
+		)
+	}
+}
+
 ```
 
-![[go-error-2.png]]
 
-Options:
-1. returning error directly
-	1. without extra context
-	2. we can not mark error
-	3. source error is available
-2. Custom error type
-	1. extra context is possible
-	2. we can mark error
-	3. source error availability is possible
-3.  fmt.Error with %w
-	1. with extra context 
-	2. we can not mark error
-	3. source error is available
-4. fmt.Error with %v
-	1. with extra context
-	2. we can not mark error
-	3. source error is not avaible
+### Mistakes
+[[A good technique to handle HTTP error ]]
+[[Nil Error Mistake]]
+
 
 ### Do not handle an error twice
 logging an error is handling an error. Hence, we should either log or return an error.
@@ -109,46 +143,7 @@ func f(){
 ```
 
 
-### Don't miss defer error
-
-```go
-package main
-
-import (
-	"errors"
-	"fmt"
-	"log"
-)
-
-func badThingsMightHappen() error {
-	return errors.New("A very bad thing happened")
-}
-
-func HandleDeferError() (err error) {
-	defer func() {
-		deferErr := badThingsMightHappen()
-		if err != nil {
-			if deferErr != nil {
-				// (err!=nil, deferErr!=nil) -> log deferErr and return err
-				log.Printf("defer error: %v\n", deferErr)
-			}
-			// (err!=nil, deferErr=nil) -> return err
-			return
-		}
-		// (err=nil, defer=?) return defer err
-		err = deferErr
-	}()
-
-	return errors.New("SHIT")
-}
-
-func main() {
-	fmt.Println(HandleDeferError())
-}
-
-```
-
-### defer panic recover
+### Defer panic recover
 https://go.dev/blog/defer-panic-and-recover
 
 Defer statements allow us to think about closing each file right after opening it, guaranteeing that, regardless of the number of return statements in the function, the files will be closed.
@@ -264,6 +259,45 @@ If the current goroutine i panicking, a call to recover will capture the value g
 #TODO 
 add example codes
 
+### Don't miss defer error
+
+```go
+package main
+
+import (
+	"errors"
+	"fmt"
+	"log"
+)
+
+func badThingsMightHappen() error {
+	return errors.New("A very bad thing happened")
+}
+
+func HandleDeferError() (err error) {
+	defer func() {
+		deferErr := badThingsMightHappen()
+		if err != nil {
+			if deferErr != nil {
+				// (err!=nil, deferErr!=nil) -> log deferErr and return err
+				log.Printf("defer error: %v\n", deferErr)
+			}
+			// (err!=nil, deferErr=nil) -> return err
+			return
+		}
+		// (err=nil, defer=?) return defer err
+		err = deferErr
+	}()
+
+	return errors.New("SHIT")
+}
+
+func main() {
+	fmt.Println(HandleDeferError())
+}
+
+```
+
 
 #### Best Practices
 
@@ -301,7 +335,7 @@ https://google.github.io/styleguide/go/best-practices.html#error-handling
 https://google.github.io/styleguide/go/decisions#errors
 
 
-#### Error handling best practice
+### Error handling best practice
 
 in Go error are just values, they are created by code and consumed by code
 	1. Converted into diagnostic information for display to humans.
@@ -316,29 +350,39 @@ it can be tempting to ignore, or blindly propagate an error
 it is always worth considering whether the current function is the call frame is positioned to handle error most effectively.
 
 1. when creating an error value, decide whether to give it any structure
-
-
-
 2. when handling an error, consider adding information that you have byt the caller and/or callee might not.
-	1. TODO: adding information
-3. logging
-	1. TODO: logging
-
 
 While is is usually not appropriate to ignore an error, a reasonable exception to this is when orchestrating related operations
 where often only the first error is useful.
 package `errgroup` provide a convenient abstraction for a group of operations that can all fail or be canceled as a group.
 
-
-
 [[Error group]]
 
-#### Custom Error
+```go
+	ctx := context.Background()
+	g, ctx := errgroup.WithContext(ctx)
+
+	for i := 0; i < 10; i++ {
+		i := i
+		g.Go(func() error {
+			if rand.Intn(5)%2 == 0 {
+				return fmt.Errorf("random Eror")
+			}
+			fmt.Println(i)
+			return nil
+		})
+	}
+	g.TryGo()
+	if err := g.Wait(); err != nil {
+		log.Println(err)
+	}
+	
+```
+
+```
+### Custom Error
 
 The error type
-
-
-
 
 ```go 
 type errorString struct {

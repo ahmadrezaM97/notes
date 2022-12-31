@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "0883355a3a50185e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Error group.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "976abad61f73cf95",
             "type": "leaf",
             "state": {
@@ -215,6 +227,8 @@
   },
   "active": "46899679d53b4a38",
   "lastOpenFiles": [
+    "Fleeting Notes/Error group.md",
+    "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/microservices/event sourcing.md",
     "Fleeting Notes/Computer Networking.md",
@@ -222,8 +236,6 @@
     "Fleeting Notes/HTTP 1.1.md",
     "Fleeting Notes/Asyncs.md",
     "Fleeting Notes/Algorithms and data-structures.md",
-    "Fleeting Notes/Docker bind-mount.md",
-    "Fleeting Notes/DNS.md",
-    "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md"
+    "Fleeting Notes/Docker bind-mount.md"
   ]
 }
