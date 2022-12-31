@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/microservices/distributed transaction.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "mode": "source",
                 "source": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/microservices/distributed transaction.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,6 +215,7 @@
   },
   "active": "46899679d53b4a38",
   "lastOpenFiles": [
+    "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/microservices/event sourcing.md",
     "Fleeting Notes/Computer Networking.md",
     "Fleeting Notes/Keep-Alive.md",
@@ -223,7 +224,6 @@
     "Fleeting Notes/Algorithms and data-structures.md",
     "Fleeting Notes/Docker bind-mount.md",
     "Fleeting Notes/DNS.md",
-    "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/127.0.0.0.1 vs 0.0.0.0.md"
   ]
 }

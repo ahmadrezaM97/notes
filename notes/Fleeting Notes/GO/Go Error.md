@@ -81,7 +81,7 @@ Options:
 logging an error is handling an error. Hence, we should either log or return an error.
 
 
-### Please be careful when you wanna ignore erorr
+### Please be careful when you wanna ignore error
 
 In some cases, we may want to ignore an error returned by a function.
 
@@ -148,7 +148,7 @@ func main() {
 
 ```
 
-#### defer panic recover
+### defer panic recover
 https://go.dev/blog/defer-panic-and-recover
 
 Defer statements allow us to think about closing each file right after opening it, guaranteeing that, regardless of the number of return statements in the function, the files will be closed.
