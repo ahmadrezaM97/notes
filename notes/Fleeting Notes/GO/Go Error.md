@@ -284,7 +284,7 @@ func HandleDeferError() (err error) {
 		err = deferErr
 	}()
 
-	return errors.New("SHIT")
+	return errors.New("ooo")
 }
 
 func main() {
@@ -309,7 +309,7 @@ Error strings
 
 ```go
 // bad
-err := fmt.Errorf("something bad happend.")
+err := fmt.Errorf("Something bad happend.")
 
 // good
 err := fmt.Errorf("something bad happend")
