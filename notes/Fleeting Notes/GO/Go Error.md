@@ -110,11 +110,6 @@ func main() {
 [[A good technique to handle HTTP error ]]
 [[Nil Error Mistake]]
 
-
-### Do not handle an error twice
-logging an error is handling an error. Hence, we should either log or return an error.
-
-
 ### Please be careful when you wanna ignore error
 
 In some cases, we may want to ignore an error returned by a function.
@@ -337,6 +332,12 @@ https://google.github.io/styleguide/go/decisions#errors
 
 ### Error handling best practice
 
+
+
+Do not handle an error twice
+logging an error is handling an error. Hence, we should either log or return an error.
+
+
 in Go error are just values, they are created by code and consumed by code
 	1. Converted into diagnostic information for display to humans.
 	2. Used by the maintainer
@@ -350,7 +351,7 @@ it can be tempting to ignore, or blindly propagate an error
 it is always worth considering whether the current function is the call frame is positioned to handle error most effectively.
 
 1. when creating an error value, decide whether to give it any structure
-2. when handling an error, consider adding information that you have byt the caller and/or callee might not.
+2. when handling an error, consider adding information that you have by the caller and/or callee might not.
 
 While is is usually not appropriate to ignore an error, a reasonable exception to this is when orchestrating related operations
 where often only the first error is useful.
@@ -379,7 +380,7 @@ package `errgroup` provide a convenient abstraction for a group of operations th
 	
 ```
 
-```
+
 ### Custom Error
 
 The error type
