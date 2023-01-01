@@ -129,6 +129,10 @@ __Coordinating sagas__
 	Distributed the decision making and sequencing among the saga participants.
 	The primarily communicate the exchanging event
 ![[saga-choreography.png]]
+
+__Advantage__
+
+
 -> __Orchestration__
 	Centeralize a saga's coordination logic in a saga orchestrator class.
 	A sage orchestrator sends command messages to sage participants telling them witch 
@@ -136,9 +140,15 @@ __Coordinating sagas__
 
 ![[saga-orchestration.png]]
 
-
-
-
+-> __Benefits__
+1. __Simpler Dependencies
+	1. The saga orchestrator invokes the saga participants, but the participants don't invoke the orchestrator. => the orchestatror depends on the participants but not vice versa. and there are no cycle dependency
+2. __Less Coupling
+	1. each service just has to implement  API that is invoked by the orchestator, so it doesn't know about other events.
+3. __Improve sepration of concerns and simplifies the business logic_
+	1. The saga coordination logic is localized in the saga orchestrator.
+		1. => the domain objects are simpler and hve no knowledge about the sagas participants
+		2. 
 https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
 
 
