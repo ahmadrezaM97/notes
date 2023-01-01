@@ -147,8 +147,27 @@ __Advantage__
 	1. each service just has to implement  API that is invoked by the orchestator, so it doesn't know about other events.
 3. __Improve sepration of concerns and simplifies the business logic_
 	1. The saga coordination logic is localized in the saga orchestrator.
-		1. => the domain objects are simpler and hve no knowledge about the sagas participants
-		2. 
+		1. => the domain objects are simpler and has no knowledge about the sagas participants
+		2. for instance: when using orchestration, the `Order` class has no knowledge of any of the sagas, so it has a simpler state machine model.
+-> Drawback
+1. The risk of centeralizing too much business logic in the orchestrator
+	1. the result in a design where the smart orchestrator tells the dumb services what operations to do
+	2. How to solve?
+		1. By designing orchestrators that are solely responsible for sequencing and don't contain any other business logic
+
+
+
+### The lack of isolation.
+
+```ad-note
+title: the isolation? what? 
+The I in ACID stands for `isolation`
+The iosolation prperty of ACID transactions ensures that the outcome of executing multiple transactions concurrently is the same as if were executed in some serial order
+```
+
+
+
+
 https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
 
 
