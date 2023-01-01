@@ -125,7 +125,17 @@ The sage executes the compensation transaction ins reverse order.
 
 __Coordinating sagas__
 
--> Chore
+-> __Choreography__
+	Distributed the decision making and sequencing among the saga participants.
+	The primarily communicate the exchanging event
+![[saga-choreography.png]]
+-> __Orchestration__
+	Centeralize a saga's coordination logic in a saga orchestrator class.
+	A sage orchestrator sends command messages to sage participants telling them witch operation to perform.
+
+![[saga-orchestration.png]]
+
+
 
 
 https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
