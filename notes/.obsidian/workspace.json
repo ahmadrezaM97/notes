@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/A good technique to handle HTTP error.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/A good technique to handle HTTP error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,8 +131,8 @@
   },
   "active": "46899679d53b4a38",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/Nil Error Mistake.md",
     "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/GO/Nil Error Mistake.md",
     "Fleeting Notes/A good technique to handle HTTP error.md",
     "Fleeting Notes/HTTP 1.1.md",
     "Fleeting Notes/GO/GO HTTP ERROR.md",
