@@ -86,15 +86,46 @@ saga is a message-driven sequence of local transaction to maintain data consista
 
 The traditional approach to maintaining data consistency across multiple services, databases or message broker is to use distributed transactions.
 
-The the facto standard distributed transaction management is the open_XA. XA uses [[2PC]] to enuse that all participants in a transaction either commit or rollback.
+The the facto standard distributed transaction management uses [[2PC]] to ensure that all participants in a transaction either commit or rollback.
 
-Mist SQL databases are XA compliant, as are some message brokers.
+__Problems with [[2PC]]
 
-One problem is that many model technologies, including NOSQL databases such as MongoDB and Cassandra, don not support them.
-Also, distributed transaction aren't supported by modern message broker such as `RabbitMQ` and `Apche Kafka`.
+1. Many model technologies, including NOSQL databases such as MongoDB and Cassandra, don not support them. Also, distributed transaction aren't supported by modern message broker such as `RabbitMQ` and `Apche Kafka`.
+2. Another problem with distributed transactions is that they are a form of `synchronous` `IPC`, which reduces availability.
 
-Another problem with distributed transactions is that they are a form of `synchronous` `IPC`, which reduces availability.
+__What is Saga pattern
 
+-> Sage are mechanism to maintain data consistency in a microservice architecture without having to use distributed transactions.
+
+-> Sage is a sequence of local transactions, Each local transaction update data within a single service using familiar [[ACID]] transaction frameworks and libraries.
+
+__Example
+![[saga-example-0.png]]
+
+This saga consists of the following local transactions:
+1. Order Service -> Create an order in an `APPROVAL_PENDING` state.
+2. Consumer Service -> Verify that the consumer can place an order
+3. Kitchen Service -> Validate order details and create a `Ticket` in the `CREATE_PENDING`
+4. Accounting Service -> Anuthorize consumer's credit card.
+5. Kitchen Service -> Change the state of the `Ticket` to `AWAITING_ACCEPTANCE`
+6. Order Service -> Change the state of the `Order` to `APPROVED`
+
+
+__First Challenge: ROLLBACK
+
+__Sage use compensating transaction to roll back changes__
+
+-> A great feature of traditional ACID transactions is that the business logic can easily roll back a transaction it it detects the violation of a business rule.
+
+![[saga-compensating-transaction-0.png]]
+
+The sage executes the compensation transaction ins reverse order.
+
+
+
+__Coordinating sagas__
+
+-> Chore
 
 
 https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
