@@ -131,7 +131,8 @@ __Coordinating sagas__
 ![[saga-choreography.png]]
 -> __Orchestration__
 	Centeralize a saga's coordination logic in a saga orchestrator class.
-	A sage orchestrator sends command messages to sage participants telling them witch operation to perform.
+	A sage orchestrator sends command messages to sage participants telling them witch 
+	operation to perform.
 
 ![[saga-orchestration.png]]
 
