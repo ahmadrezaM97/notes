@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/network/arptable.md",
+                "file": "Fleeting Notes/Databse/isolation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0118b61e0517aaa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/network/arptable.md",
+                "file": "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,17 +177,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "0118b61e0517aaa0",
   "lastOpenFiles": [
-    "Fleeting Notes/network/network namespace.md",
-    "Fleeting Notes/network/arptable.md",
     "Fleeting Notes/Databse/isolation.md",
+    "Fleeting Notes/microservices/distributed transaction.md",
+    "Fleeting Notes/microservices/event sourcing.md",
+    "Fleeting Notes/network/arptable.md",
+    "Fleeting Notes/network/network namespace.md",
     "Fleeting Notes/index.md",
     "Fleeting Notes/Databse/index.md",
     "Fleeting Notes/GO/Nil Error Mistake.md",
     "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/WebSocket.md",
-    "Fleeting Notes/Web Servers.md",
-    "Fleeting Notes/Vocab.md"
+    "Fleeting Notes/WebSocket.md"
   ]
 }
