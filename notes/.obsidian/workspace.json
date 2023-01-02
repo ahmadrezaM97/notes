@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73d742809d959dd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/network/arptable.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "764ab93838836161",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/network/network namespace.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/isolation.md",
+                "file": "Fleeting Notes/network/network namespace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,17 +165,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b97bb44f92fe0e4b",
+  "active": "764ab93838836161",
   "lastOpenFiles": [
+    "Fleeting Notes/network/arptable.md",
+    "Fleeting Notes/Databse/isolation.md",
     "Fleeting Notes/index.md",
     "Fleeting Notes/Databse/index.md",
-    "Fleeting Notes/Databse/isolation.md",
     "Fleeting Notes/GO/Nil Error Mistake.md",
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/WebSocket.md",
     "Fleeting Notes/Web Servers.md",
     "Fleeting Notes/Vocab.md",
-    "Fleeting Notes/UNIX socket vs IP socket.md",
-    "Fleeting Notes/Unicode, UTF-8, ASCII.md"
+    "Fleeting Notes/UNIX socket vs IP socket.md"
   ]
 }
