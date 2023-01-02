@@ -23,10 +23,28 @@ Since saving an event is a single operation, it is inherently atomic.
 
 The application reconstructs an entity's current state by replaying the events
 
+Applications persist events in an event store, which is a database of events.
+The store has an API for adding and retrieving an entity's events.
+
+The event store also behaves like a message broker.
+It provides an API that enables services to subscribe to events.
+when a services save an event in the event store it is delivered to all interested subscribes.
 
 
+![[storingevents.png]]
+
+Benefits 
+1. it solves of the key problems in implementing an event-driven architecture and makes it possible to reliably publish events whenever state changes.
+2. it provides a 100% reliable `audit log` of the changes made to a business entity
+
+
+Drawbacks:
+	1. it is a different and unfamiliar style of programming and so there is a learning curve
+	2. The event store is difficult to query since it requires typical queries to reconstruct the state of the business entities
+		1. -> application must use[[CQRS]] to implement queries this in turn means thatapplications must handle eventually consistent data
 
 _____
+
 ##### References
 1.
 
