@@ -165,8 +165,22 @@ The I in ACID stands for `isolation`
 The iosolation prperty of ACID transactions ensures that the outcome of executing multiple transactions concurrently is the same as if were executed in some serial order
 ```
 
+Updates made by each of a saga's local transactions are immediately visible to other sagas once that local transaction commits =>
+1. Other sagas can change the data accessed by the saga while it's executing
+2. Other sagas can read its data before the saga has completed its updates
 
+We can consider saga to be ACD
+1. Atomicity: The saga implementation ensures all or nothing
+2. Consistency: Refrential integrity within a service is handle nu local databases, Referential integrity across services is handled by the services. 
+3. Durability: Handled by local databases
 
+__Overview of anomalies__
+1. Lost updates
+	 One saga overwrite without reading changes made by another saga
+2. Dirty reads
+	A transaction or a saga reads the updates made by a saga that has not yet completed those update
+3. fuzzy/ nonrepeatable reads
+    Two different steps of a saga read the same data and get different result because another saga has made updates.
 
 https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
 
