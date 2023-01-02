@@ -24,10 +24,16 @@ This means that the database will accept any transaction on a particular row tha
 The other transaction has to wait till the point the pervios transaction on the rows is committed and only after that, any other transaction will be able to perform a write operation for the specific rows.
 ```
 
-
-
-```ad-
+```ad-note
+title: Lost update
+The problem occurs when there are two transaction onvolved and both are unaware of each other the trnasaction created by the earlier update.
 ```
+
+```ad-note
+title:Nonrepeatable Reads
+This problem occurs when two `SELECT` statements of the same data results in diffrent values because another transaction has updated data between two `SELET` statement.
+```
+
 _____
 ##### References
 1.
