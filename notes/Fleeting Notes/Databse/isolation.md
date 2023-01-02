@@ -12,11 +12,22 @@ ____
 __Read Committed Isolation Level__
 
 ```ad-note
-title: dirty read
+title: no dirty read
+This means the database will not read any uncomitted values.
+```
 
+![[dirty-read.png]]
+
+```ad-note
+title: not dirty write
+This means that the database will accept any transaction on a particular row that is already having a transaction running on it.
+The other transaction has to wait till the point the pervios transaction on the rows is committed and only after that, any other transaction will be able to perform a write operation for the specific rows.
 ```
 
 
+
+```ad-
+```
 _____
 ##### References
 1.
