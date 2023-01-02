@@ -33,6 +33,8 @@ The problem occurs when there are two transaction onvolved and both are unaware 
 title:Nonrepeatable Reads
 This problem occurs when two `SELECT` statements of the same data results in diffrent values because another transaction has updated data between two `SELET` statement.
 ```
+http://ithare.com/databases-101-acid-mvcc-vs-locks-transaction-isolation-levels-and-concurrency/
+
 
 _____
 ##### References
