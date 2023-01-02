@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/asd.md",
+                "file": "Fleeting Notes/Availability Patterns.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/asd.md",
+                "file": "Fleeting Notes/GO/Nil Error Mistake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,17 +129,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "46899679d53b4a38",
+  "active": "e3e36d06e7583a2b",
   "lastOpenFiles": [
-    "Fleeting Notes/microservices/event sourcing.md",
-    "Fleeting Notes/microservices/distributed transaction.md",
-    "Fleeting Notes/Asyncs.md",
     "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/Cache.md",
-    "Fleeting Notes/Availability vs  Consistency.md",
-    "Fleeting Notes/Cache coherence problem.md",
-    "Fleeting Notes/Sage.md",
-    "Fleeting Notes/A good technique to handle HTTP error.md",
-    "Fleeting Notes/GO/Go Error.md"
+    "Fleeting Notes/WebSocket.md",
+    "Fleeting Notes/Web Servers.md",
+    "Fleeting Notes/Vocab.md",
+    "Fleeting Notes/UNIX socket vs IP socket.md",
+    "Fleeting Notes/Unicode, UTF-8, ASCII.md",
+    "Fleeting Notes/Unicode.md",
+    "Fleeting Notes/two-pointer techniqe.md",
+    "Fleeting Notes/Two general Problem.md",
+    "Fleeting Notes/Twitter project.md"
   ]
 }

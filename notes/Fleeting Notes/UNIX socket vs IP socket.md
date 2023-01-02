@@ -4,10 +4,10 @@ Tags:  #unix #linux
 ____
 
 ##### A UNIX
-- A UNIX socket(Unix Domain Socket), is an [[inter-process communication]] mechanism that allows bidirectional data exchange between processes running on the seme machine.
+- A UNIX socket(Unix Domain Socket), is an [[inter-process communication]] mechanism that allows bidirectional data exchange between processes running on the same machine.
 
 
-- IP sockets ( especially [[TCP protocol]] ) are a mechanism allowing communicatio between processes over the network
+- IP sockets ( especially [[TCP protocol]] ) are a mechanism allowing communication between processes over the network
 	- In some cases, you can use TCP/IP sockets to talk with processes running on the same computer ( by using the [[loopback interface]]) 
 
 
