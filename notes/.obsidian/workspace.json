@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/network/network namespace.md",
+                "file": "Fleeting Notes/network/arptable.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/network/network namespace.md",
+                "file": "Fleeting Notes/network/arptable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,8 +165,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "764ab93838836161",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/network/network namespace.md",
     "Fleeting Notes/network/arptable.md",
     "Fleeting Notes/Databse/isolation.md",
     "Fleeting Notes/index.md",
@@ -175,7 +176,6 @@
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/WebSocket.md",
     "Fleeting Notes/Web Servers.md",
-    "Fleeting Notes/Vocab.md",
-    "Fleeting Notes/UNIX socket vs IP socket.md"
+    "Fleeting Notes/Vocab.md"
   ]
 }
