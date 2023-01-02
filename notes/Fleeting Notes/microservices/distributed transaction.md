@@ -182,6 +182,18 @@ __Overview of anomalies__
 3. fuzzy/ nonrepeatable reads
     Two different steps of a saga read the same data and get different result because another saga has made updates.
 
+
+Solotuins
+
+1. Semantic lock-> An application-level lock
+	1. `PENDING_STATE`
+2. Commutative update -> Design update operation to be excutable in any order
+3. Pessimistic view -> Reorder the steps to minimize business risk.
+4. Reread value -> prevent dirty write by rereading data to verity that it's unchanged before overwriting
+5. Version file -> Record the updates to a record so the they can be reorderd
+6. By value -> Use each request's business risk to dynamically select the concurrent mechanism
+
+
 https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared#how_to_choose_a_distributed_transactions_strategyp
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/microservices/distributed transaction.md",
+                "file": "Fleeting Notes/microservices/event sourcing.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/microservices/distributed transaction.md",
+                "file": "Fleeting Notes/microservices/event sourcing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +130,15 @@
   },
   "active": "46899679d53b4a38",
   "lastOpenFiles": [
-    "Fleeting Notes/Sage.md",
-    "Fleeting Notes/A good technique to handle HTTP error.md",
-    "Fleeting Notes/GO/Go Error.md",
-    "Fleeting Notes/GO/Nil Error Mistake.md",
-    "Fleeting Notes/HTTP 1.1.md",
-    "Fleeting Notes/GO/GO HTTP ERROR.md",
-    "Fleeting Notes/Error group.md",
     "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/microservices/event sourcing.md",
-    "Fleeting Notes/Computer Networking.md"
+    "Fleeting Notes/Asyncs.md",
+    "Fleeting Notes/Availability Patterns.md",
+    "Fleeting Notes/Cache.md",
+    "Fleeting Notes/Availability vs  Consistency.md",
+    "Fleeting Notes/Cache coherence problem.md",
+    "Fleeting Notes/Sage.md",
+    "Fleeting Notes/A good technique to handle HTTP error.md",
+    "Fleeting Notes/GO/Go Error.md"
   ]
 }
