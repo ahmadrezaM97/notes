@@ -53,14 +53,25 @@ title: select for update
 FOR UPDATE telss the database to locks all rows returned by the query.
 ```
 
-
 [[django select_for_update]]
 
--> In postgres doctument
-
-FOR UPDATE cause the toes retrieved by the `SELECT` statement to be locked as thought for update.
+-> In postgres document
+`FOR UPDATE` cause the toes retrieved by the `SELECT` statement to be locked as thought for update.
 This prevents them from being locked, modified or deleted by other transaction until the current transaction end.
 
+[[postgres locks]]
+
+
+
+#incomplete
+
+#### More example of write skew
+
+1. meeting room booking system.
+2. multiplayer game
+3. claiming a username
+4. preventing double-spending
+5. 
 
 
 
