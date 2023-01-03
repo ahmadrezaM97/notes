@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "c50746d06ade9764",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Rabbitmq/overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d5b78cd33925980b",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -186,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Error.md",
+                "file": "Fleeting Notes/Rabbitmq/overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,8 +237,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "961a4cbf628cad73",
+  "active": "c50746d06ade9764",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/Error group.md",
     "Fleeting Notes/Lost Update.md",
     "Fleeting Notes/write skew.md",
@@ -235,7 +248,6 @@
     "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
     "Fleeting Notes/Databse/isolation.md",
     "Fleeting Notes/microservices/distributed transaction.md",
-    "Fleeting Notes/microservices/event sourcing.md",
-    "Fleeting Notes/network/arptable.md"
+    "Fleeting Notes/microservices/event sourcing.md"
   ]
 }
