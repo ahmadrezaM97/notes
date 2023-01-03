@@ -45,6 +45,18 @@ You send message to a channel process, it uses the routing rules(exchange) to de
 
 ```
 
+![[rabbitmq-multipublisher-multiconsumer.png]]
+
+#### Guarantees
+
+__RabbitMQ offers "at most once delivery" and "at least once delivery" but not "exactly once delivery".
+
+#### Order
+
+Message are delivered in order of their arrival to the queue. This doesn't guarantee the completion of message processing matches that exact same order when you have competing consumers.
+This problem can be resolved by using __Consistent Hashing Exchange__.
+
+
 
 
 
