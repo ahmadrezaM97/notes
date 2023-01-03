@@ -90,6 +90,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fe14e760652b9de2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/django select_for_update.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 6
@@ -191,6 +203,8 @@
   },
   "active": "c3fec474300c2080",
   "lastOpenFiles": [
+    "Fleeting Notes/django select_for_update.md",
+    "Fleeting Notes/write skew.md",
     "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
     "Fleeting Notes/Databse/isolation.md",
     "Fleeting Notes/microservices/distributed transaction.md",
@@ -198,8 +212,6 @@
     "Fleeting Notes/network/arptable.md",
     "Fleeting Notes/network/network namespace.md",
     "Fleeting Notes/index.md",
-    "Fleeting Notes/Databse/index.md",
-    "Fleeting Notes/GO/Nil Error Mistake.md",
-    "Fleeting Notes/Availability Patterns.md"
+    "Fleeting Notes/Databse/index.md"
   ]
 }
