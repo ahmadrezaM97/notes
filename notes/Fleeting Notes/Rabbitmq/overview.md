@@ -29,10 +29,27 @@ The super simplified overview:
 4. Consumers maintain persist TCP connections with `RabbitMQ` and declare which queue(s) they consume.
 5. `RabbitMQ` __pushes__ messages to consumers.
 6. Consumers send acknowledgements of success/failure
-7. Messages are removed from queues once consumed successful
+7. Messages are removed from queues once consumed successfuly
+
+```ad-danger
+title: Do not be fooled!
+Exchange is _NOT_ a "thing".
+----
+A common misconception of exchange in rabbitmq are they are "things" that you send message to.
+
+---
+Infact that are routing rules.
+____
+
+You send message to a channel process, it uses the routing rules(exchange) to decide where to send the message on to.
+
+```
+
+
 
 
 _____
+
 ##### References
 1.
 
