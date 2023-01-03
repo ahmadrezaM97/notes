@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c3fec474300c2080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/write skew.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
+                "file": "Fleeting Notes/write skew.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,8 +189,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0118b61e0517aaa0",
+  "active": "c3fec474300c2080",
   "lastOpenFiles": [
+    "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
     "Fleeting Notes/Databse/isolation.md",
     "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/microservices/event sourcing.md",
@@ -187,7 +200,6 @@
     "Fleeting Notes/index.md",
     "Fleeting Notes/Databse/index.md",
     "Fleeting Notes/GO/Nil Error Mistake.md",
-    "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/WebSocket.md"
+    "Fleeting Notes/Availability Patterns.md"
   ]
 }
