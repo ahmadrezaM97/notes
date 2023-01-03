@@ -18,7 +18,6 @@ Building a fast, scalable, reliable distributed message xystem is an achievement
 ```
 
 
-
 ### Exchanges and Queues
 
 The super simplified overview:
@@ -56,6 +55,48 @@ __RabbitMQ offers "at most once delivery" and "at least once delivery" but not "
 Message are delivered in order of their arrival to the queue. This doesn't guarantee the completion of message processing matches that exact same order when you have competing consumers.
 This problem can be resolved by using __Consistent Hashing Exchange__.
 
+#### PUSH and CONSUMER PREFETCH
+
+1. RabbitMQ pushes messages to consumers in a stream
+2. There is a PULL API but it has terrible performance as each message requires a request/response round-trip
+3. Push-based system can overwhelm consumers if messages arrive at the queue faster than consumers can process them -> to avoid this consumer can configure a prefetch limit (a.k.a QoS limit). This is basically is the number of acknowledged messages that a consumer can have at any one time.
+
+
+```ad-warning
+title: Why push and not pull?
+
+1. First of all it is greate for low latency
+2. Secondly, idealy when we hae competing consumer of a single queue we want to distribute load evenly between them. And push is better for that purpose.
+
+If each consumer pulls messages then depending on how many they pull the distribution of work can get pretty uneven.
+The more uneven the distribution of message the more latency and the further the loss of message ordering at processing time.
+For that reason  RabbitMQ's PULL API only allow to pull on message at a time, but that seriously impacts performance.
+```
+
+
+#### Routing
+
+```ad-note
+title: what the heck are exchanges?
+They are basically just routing rules for message
+```
+
+Type of exchanges
+
+1. __Fanout__ 
+	1. Routes to all queues and exchanges that have a binding to the exchanges. -> The standard pub sub model
+2. __Direct__
+	1. Route message based on __Routing Key__ that the message carries with it, set by the publisher.
+	2. A routing key is a short string. Direct exchanges route messages to queues/exchanges that have __Binding Key__ that exactly matches the routing key.
+3. __Topic__
+	1. Routes messages based on a routing key, but allows wildcard matching.
+4. __Header__
+	1. RabbitMQ allows custom headers to be added to messages.
+	2. 
+```ad-note
+title: routing key?
+A routing key is a short string. 
+```
 
 
 
