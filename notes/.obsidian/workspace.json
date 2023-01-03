@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Lost Update.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Lost Update.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,6 +227,8 @@
   },
   "active": "961a4cbf628cad73",
   "lastOpenFiles": [
+    "Fleeting Notes/Error group.md",
+    "Fleeting Notes/Lost Update.md",
     "Fleeting Notes/write skew.md",
     "Fleeting Notes/postgres locks.md",
     "Fleeting Notes/django select_for_update.md",
@@ -234,8 +236,6 @@
     "Fleeting Notes/Databse/isolation.md",
     "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/microservices/event sourcing.md",
-    "Fleeting Notes/network/arptable.md",
-    "Fleeting Notes/network/network namespace.md",
-    "Fleeting Notes/index.md"
+    "Fleeting Notes/network/arptable.md"
   ]
 }
