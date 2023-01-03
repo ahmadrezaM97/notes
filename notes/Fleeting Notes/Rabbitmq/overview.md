@@ -25,10 +25,11 @@ The super simplified overview:
 
 1. Publishers send messages to exchanges.
 2. Exchange route messages to queues and other exchanges.
-3. RabbitMQ sends acknowledgements to publishers on message receipt.
-4. Consumers maintain persist TCP connections with RabbitMQ and declare which queue(s) they consume.
-5. RabbitMQ __pushes__ messages to consumers.
-6. 
+3. `RabbitMQ` sends acknowledgements to publishers on message receipt.
+4. Consumers maintain persist TCP connections with `RabbitMQ` and declare which queue(s) they consume.
+5. `RabbitMQ` __pushes__ messages to consumers.
+6. Consumers send acknowledgements of success/failure
+7. Messages are removed from queues once consumed successful
 
 
 _____
