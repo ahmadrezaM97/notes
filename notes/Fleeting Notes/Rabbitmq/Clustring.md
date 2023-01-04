@@ -31,7 +31,27 @@ Only messages set as persistent by their publisher will be recovered.
 
 ![[rabbit-durability-matrix.png]]
 
+#### publisher confirms
 
+Without publisher confirms it is possible to lose message
+
+A confirm is sent to a publisher once a message has been written to disk.
+
+RabbitMQ does not write message to disk on receipt but on a periodic basis, in the region of a few hundreds ms.
+
+when a queue is mirrored then an ack is only sent once all mirrors have also written their copy of the message to dist. -> adds more latency
+
+
+#### Clustering with Quorum Queues
+
+__Quoram queues are a replicated queue based on [[Raft]] consensus algorithm__
+
+A message is guaranteed not to be lost as long as majority of replicas are not permanently lost.
+On a majority are lost, no guarantees are made.
+
+
+
+Quorum queues use a write-ahead-log (WAL) for all operations. WAL operations are stored both in memory and written to disk. When the current WAL file reaches a predefined limit, it is flushed to a WAL segment file on disk and the system will begin to release the memory used by that batch of log entries. The segment files are then compacted over time as consumers [acknowledge deliveries](https://www.rabbitmq.com/confirms.html). Compaction is the process that reclaims disk space.
 
 
 _____
