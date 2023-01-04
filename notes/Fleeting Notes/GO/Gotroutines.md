@@ -18,8 +18,6 @@ Goroutines are multiplexed dynamically onto threads as needed to keep all the go
 ```
 
 
-
-
 It's easy to start a goroutine.
 The trick is knowing how the goroutine will stop:
 - you have a well-defined loop termination condition

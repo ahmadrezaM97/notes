@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Logging.md",
+                "file": "Fleeting Notes/GO/GO IO.md",
                 "mode": "source",
                 "source": false
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Logging.md",
+                "file": "Fleeting Notes/GO/GO IO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,15 +275,15 @@
   },
   "active": "8fb79ea9e3f96af5",
   "lastOpenFiles": [
-    "Fleeting Notes/Loadbalancer.md",
-    "Fleeting Notes/High-level-trade-offs.md",
-    "Fleeting Notes/HFS.md",
-    "Fleeting Notes/handy linux command.md",
-    "Fleeting Notes/helmify.md",
-    "Fleeting Notes/Docker Network.md",
-    "Fleeting Notes/Docker instruction.md",
-    "Fleeting Notes/CDN.md",
-    "Fleeting Notes/Communication.md",
-    "Fleeting Notes/car-knowledge-sharing-0.md"
+    "Fleeting Notes/GO/GO JSON.md",
+    "Fleeting Notes/GO/Go struct custom tag.md",
+    "Fleeting Notes/GO/GO ListenAndServe func.md",
+    "Fleeting Notes/GO/GO Memory.md",
+    "Fleeting Notes/GO/GO method set.md",
+    "Fleeting Notes/GO/Go Net-HTTP.md",
+    "Fleeting Notes/GO/Go reflect on struct.md",
+    "Fleeting Notes/GO/Go Runtime Scheduler.md",
+    "Fleeting Notes/GO/GO Refreltion.md",
+    "Fleeting Notes/GO/GO String.md"
   ]
 }
