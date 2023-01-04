@@ -128,54 +128,6 @@
             }
           },
           {
-            "id": "6e2b13496333d7ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/System Design/basic/Async vs Sync.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fb79ea9e3f96af5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/System Design/basic/Async vs Sync.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a30e6e4714d90b26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/System Design/basic/when message broker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5b78cd33925980b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/postgres locks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fe14e760652b9de2",
             "type": "leaf",
             "state": {
@@ -188,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -217,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "validate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,11 +178,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -246,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/System Design/basic/when message broker.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,17 +239,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a30e6e4714d90b26",
+  "active": "961a4cbf628cad73",
   "lastOpenFiles": [
+    "Fleeting Notes/django select_for_update.md",
+    "Fleeting Notes/Rabbitmq/Clustring.md",
+    "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/System Design/basic/Async vs Sync.md",
+    "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/Rabbitmq/overview.md",
+    "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/GO/Go struct custom tag.md",
-    "Fleeting Notes/GO/Go Sort.md",
-    "Fleeting Notes/GO/Go Server Handler.md",
-    "Fleeting Notes/GO/GO IO.md",
-    "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/GO ListenAndServe func.md",
-    "Fleeting Notes/GO/GO Memory.md",
-    "Fleeting Notes/GO/GO method set.md",
-    "Fleeting Notes/GO/Go Net-HTTP.md"
+    "Fleeting Notes/System Design/basic/when message broker.md",
+    "Fleeting Notes/GO/Go Sort.md"
   ]
 }
