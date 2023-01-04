@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO IO.md",
+                "file": "Fleeting Notes/GO/Go struct custom tag.md",
                 "mode": "source",
                 "source": false
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO IO.md",
+                "file": "Fleeting Notes/GO/Go struct custom tag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -275,15 +275,15 @@
   },
   "active": "8fb79ea9e3f96af5",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Go Sort.md",
+    "Fleeting Notes/GO/Go Server Handler.md",
+    "Fleeting Notes/GO/GO IO.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/GO/Go struct custom tag.md",
     "Fleeting Notes/GO/GO ListenAndServe func.md",
     "Fleeting Notes/GO/GO Memory.md",
     "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/GO/Go Net-HTTP.md",
-    "Fleeting Notes/GO/Go reflect on struct.md",
-    "Fleeting Notes/GO/Go Runtime Scheduler.md",
-    "Fleeting Notes/GO/GO Refreltion.md",
-    "Fleeting Notes/GO/GO String.md"
+    "Fleeting Notes/GO/Go reflect on struct.md"
   ]
 }
