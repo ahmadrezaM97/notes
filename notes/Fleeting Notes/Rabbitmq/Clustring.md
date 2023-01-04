@@ -51,7 +51,27 @@ On a majority are lost, no guarantees are made.
 
 
 A quorum queue has
-1. __on leader that recive
+1. __one leader that receive all reads and writes
+2. one more followers that receive all message and meta data from the leader.
+
+```ad-warning
+These followers do not exist for scaling out the reading of queues but solely for redundancy.
+```
+
+![[quorum.png]]
+
+__Leaders of multiple queues generally distributed across the cluster.__
+
+![[quarum1.png]]
+
+when a server goes down, any queues that had leader on that node need to elect a follower as the new leader.
+
+__They can only do so if a majority of replica queues are still available.__
+![[quoram2.png]]
+
+
+
+
 
 Quorum queues use a write-ahead-log (WAL) for all operations. WAL operations are stored both in memory and written to disk. When the current WAL file reaches a predefined limit, it is flushed to a WAL segment file on disk and the system will begin to release the memory used by that batch of log entries. The segment files are then compacted over time as consumers [acknowledge deliveries](https://www.rabbitmq.com/confirms.html). Compaction is the process that reclaims disk space.
 
