@@ -145,7 +145,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go struct custom tag.md",
+                "file": "Fleeting Notes/System Design/basic/Async vs Sync.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a30e6e4714d90b26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/System Design/basic/when message broker.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -234,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go struct custom tag.md",
+                "file": "Fleeting Notes/System Design/basic/when message broker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -273,17 +285,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8fb79ea9e3f96af5",
+  "active": "a30e6e4714d90b26",
   "lastOpenFiles": [
+    "Fleeting Notes/System Design/basic/Async vs Sync.md",
+    "Fleeting Notes/GO/Go struct custom tag.md",
     "Fleeting Notes/GO/Go Sort.md",
     "Fleeting Notes/GO/Go Server Handler.md",
     "Fleeting Notes/GO/GO IO.md",
     "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/Go struct custom tag.md",
     "Fleeting Notes/GO/GO ListenAndServe func.md",
     "Fleeting Notes/GO/GO Memory.md",
     "Fleeting Notes/GO/GO method set.md",
-    "Fleeting Notes/GO/Go Net-HTTP.md",
-    "Fleeting Notes/GO/Go reflect on struct.md"
+    "Fleeting Notes/GO/Go Net-HTTP.md"
   ]
 }
