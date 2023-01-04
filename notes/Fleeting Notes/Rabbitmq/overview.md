@@ -92,12 +92,23 @@ Type of exchanges
 	1. Routes messages based on a routing key, but allows wildcard matching.
 4. __Header__
 	1. RabbitMQ allows custom headers to be added to messages.
-	2. 
-```ad-note
-title: routing key?
-A routing key is a short string. 
-```
+	2. Header exchanges route messages according to those header values
+	3. Each binding includes exact match header values.
+	4. Multiple values can be added to a binding with `ANY` or `ALL` values required to match
+5. __Consistent Hashing__
+	1. This is an exchange that hashes either the routing key or a message header and routes to one queue only
+	2. This is useful when you need processing order guarantees with scaled out consumers
 
+![[rabbit-topic-example.png]]
+
+
+### Dead letter exchanges
+
+we can configure queues to send messages to an exchanges under following conditions
+
+1. Queues exceeds the configured number of messages
+2. Queues exceed the configured number of bytes
+3. Message Time To Live (TTL) expired. The publisher can set the lifetime of the message and also the queue can have a message TTL. which ever is shorter applies
 
 
 
