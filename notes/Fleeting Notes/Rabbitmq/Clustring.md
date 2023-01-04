@@ -50,6 +50,8 @@ A message is guaranteed not to be lost as long as majority of replicas are not p
 On a majority are lost, no guarantees are made.
 
 
+A quorum queue has
+1. __on leader that recive
 
 Quorum queues use a write-ahead-log (WAL) for all operations. WAL operations are stored both in memory and written to disk. When the current WAL file reaches a predefined limit, it is flushed to a WAL segment file on disk and the system will begin to release the memory used by that batch of log entries. The segment files are then compacted over time as consumers [acknowledge deliveries](https://www.rabbitmq.com/confirms.html). Compaction is the process that reclaims disk space.
 
