@@ -85,12 +85,17 @@ Quorum queue replicas on the minority side will no longer make progress ( accept
 
 ##### Recovering From a Split-brain
 
-to roecover from a split-brain, first choose one partition which you trust most.
-This partition will become the authority for the state of the system(schema, messages) to use; __any other changes which have occurred on the other partitions will be lost__
+to recover from a split-brain
+-> first choose one partition which you trust most.
+-> This partition will become the authority for the state of the system(schema, messages) to use; __any other changes which have occurred on the other partitions will be lost__
+-> Stop all nodes in the other partitions, then start them all up again when they rejoin the cluster they will restore state from the trusted partitions.
 
-Stop all nodes in the other partitions, then start them all up again when they rejoin the cluster they will restore state from the trusted partitions.
 
+three ways to deal with network partitions automativally
 
+1. `pause-minority`
+	1. rabbit will pause cluster nodes which determine themselves to be in a minority(i.e fewer or equal than the half the total number of nodes) 
+	2. 
 
 
 when a server goes down, any queues that had leader on that node need to elect a follower as the new leader.
