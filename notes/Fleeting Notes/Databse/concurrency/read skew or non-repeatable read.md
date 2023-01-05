@@ -50,6 +50,13 @@ A typical approach is that read committed use a separate snapshot for each query
 
 This allows a database to handle long-running read queries on a consistent snapshot at the same time as processing writes normally, without any lock contention between the two.
 
+
+```ad-note
+title: MVCC for read committed
+A typical approach is that read committed uses a separate snapshot for
+each query, while snapshot isolation uses the same snapshot for an entire transaction.
+```
+
 _____
 ##### References
 1.
