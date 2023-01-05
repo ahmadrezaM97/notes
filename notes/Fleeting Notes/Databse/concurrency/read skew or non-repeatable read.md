@@ -20,11 +20,11 @@ this anomaly is called a `nonrepeatable read` or `read skew`
 	2. During the time that the backup process is running, write  will continue to be made to the database.
 	3. you could end up with some parts of the backup container an older version of the data, and other parts containing a newer version
 2. Analytic queries and integrity checks
-	1. sometimes, you may want to tun a query that scan over large parts of data base, such queries are common in analytics or may be part of a periodic integrity check that every thing is in order( monitoring for data corruption)
+	1. sometimes, you may want to tun a query that scan over large parts of data base, such queries are common in analytics or may be part of a periodic integrity check that every thing is in order( monitoring for data corruption )
 
 ### Solution
 
-`Snapshot isolation` is the most common solution to this problem, the idea is that each transaction reads from a consistent snapshot of the databse, the transaction sees all the data that was committed in the database at the start of the transaction
+`Snapshot isolation` is the most common solution to this problem, the idea is that each transaction reads from a consistent snapshot of the database, the transaction sees all the data that was committed in the database at the start of the transaction
 Even if the data that was committed in the database at the start of the transaction
 
 
