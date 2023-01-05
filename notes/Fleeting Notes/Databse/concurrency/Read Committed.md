@@ -11,7 +11,8 @@ It makes two guarantees:
 	2. When writing to the database, you will only OVERWRITE data that has been committed. (no dirty write) [[dirty write]]
 
 
-Read commit
+Read committed is a very popular isolation level, it is the default setting in Oracle, PostgreSQL and many other database.
+
 
 
 _____

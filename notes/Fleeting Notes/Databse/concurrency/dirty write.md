@@ -27,6 +27,18 @@ you will see that in 'LOST UPDATE'
 
 ### Who read committed prevent dirty write?
 
+Most commonly, databases prevent dirty write by using row-level locks
+
+when a transaction wants to modify a particular object(row or document)
+It must first acquire a lock on the object It must the hold that lock until the transaction is committed or aborted,
+
+Only one transaction can hold the lock for any given object
+
+if another transaction wants to write to the same object, it must wait until the first transaction is committed or aborted.
+
+This locking is done automatically by databases in read committed mode(or stronger isolation level).
+
+
 
 
 _____
