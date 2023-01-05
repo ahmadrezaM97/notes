@@ -31,24 +31,24 @@ Only messages set as persistent by their publisher will be recovered.
 
 ![[rabbit-durability-matrix.png]]
 
-#### publisher confirms
+#### Publisher Confirms
 
 Without publisher confirms it is possible to lose message
 
-A confirm is sent to a publisher once a message has been written to disk.
+__A confirm is sent to a publisher once a message has been written to disk.__
 
-RabbitMQ does not write message to disk on receipt but on a periodic basis, in the region of a few hundreds ms.
+`RabbitMQ` does not write message to disk on receipt but on a periodic basis, in the region of a few hundreds ms.
 
 when a queue is mirrored then an ack is only sent once all mirrors have also written their copy of the message to dist. -> adds more latency
 
 
 #### Clustering with Quorum Queues
 
-__Quoram queues are a replicated queue based on [[Raft]] consensus algorithm__
+__`Quoram` queues are a replicated queue based on [[Raft]] consensus algorithm__
 
 A message is guaranteed not to be lost as long as majority of replicas are not permanently lost.
-On a majority are lost, no guarantees are made.
 
+On a majority are lost, no guarantees are made.
 
 A quorum queue has
 1. __one leader that receive all reads and writes
@@ -67,6 +67,7 @@ __Leaders of multiple queues generally distributed across the cluster.__
 when a server goes down, any queues that had leader on that node need to elect a follower as the new leader.
 
 __They can only do so if a majority of replica queues are still available.__
+
 ![[quoram2.png]]
 
 

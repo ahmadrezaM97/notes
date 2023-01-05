@@ -8,90 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1f36ff4dbbe34d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/write skew.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d73d58f99e3600ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/write skew.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "175bafc122cafb66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/dirty read.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4d523f964df86ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/dirty write.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "166d0eb11c1fc11e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/lost update.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5052634eac2a07d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/dirty read.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b345f8ecb0849c08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/Read Committed.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "80c5df4fb06cb57c",
             "type": "leaf",
             "state": {
@@ -103,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,15 +118,15 @@
   },
   "active": "80c5df4fb06cb57c",
   "lastOpenFiles": [
+    "Fleeting Notes/Databse/concurrency/Read Committed.md",
+    "Fleeting Notes/Rabbitmq/Clustring.md",
     "Fleeting Notes/Rabbitmq/overview.md",
     "Fleeting Notes/Databse/concurrency/dirty read.md",
     "Fleeting Notes/Databse/concurrency/dirty write.md",
     "Fleeting Notes/Databse/concurrency/lab.md",
-    "Fleeting Notes/Databse/concurrency/Read Committed.md",
     "Fleeting Notes/Databse/concurrency/phantom.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
     "Fleeting Notes/Databse/concurrency/write skew.md",
-    "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/Availability Patterns.md"
+    "Fleeting Notes/GO/GO JSON.md"
   ]
 }
