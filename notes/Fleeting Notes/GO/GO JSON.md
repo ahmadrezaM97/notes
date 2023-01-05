@@ -69,6 +69,15 @@ func MarshalIndent(v any, prefix, indent string) ([]byte, error) {
 jsonData, err := json.MarshalIndent(data, "***", "\t")
 ```
 
+
+```ad-note
+title: validate json
+you can use `json.Valid` to validate data is a valid JSON or not
+```go
+func Valid(data []byte) bool
+```
+
+
 https://medium.com/rungo/working-with-json-in-go-7e3a37c5a07b
 
 
