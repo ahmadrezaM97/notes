@@ -31,10 +31,18 @@ this anomaly is called a `nonrepeatable read` or `read skew`
 implementing snapshot isolation
 
 
+__Implementing snapshot isolation__
+
+1. Like read committed isolation, implementations of snapshot isolation typically use `write locks` to prevent dirty writes. however, reads do not require any locks
+
 ```ad-quote
 A Key principle of snapshot isolation is reader never block writer, and writers never block readers.
 ```
 
+To implement snapshot isolation, database use a generalization of the mechanism for preventing dirty reads.
+The database must potentially keep ser
+
+This allows a database to handle long-running read queries on a consistent snapshot at the same time as processing writes normally, without any lock contention between the two.
 
 _____
 ##### References
