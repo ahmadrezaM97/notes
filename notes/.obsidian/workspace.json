@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "52179de94fe2e020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustring.md",
+                "file": "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,12 +165,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0c482ac4ef19521b",
+  "active": "52179de94fe2e020",
   "lastOpenFiles": [
+    "Fleeting Notes/Rabbitmq/Clustring.md",
     "Fleeting Notes/Rabbitmq/priorities.md",
     "Fleeting Notes/Rabbitmq/durability.md",
     "Fleeting Notes/Rabbitmq/overview.md",
-    "Fleeting Notes/Rabbitmq/Clustring.md",
     "Fleeting Notes/Rabbitmq/partition handling.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
     "Fleeting Notes/Raft.md",
