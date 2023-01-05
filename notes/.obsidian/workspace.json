@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "1519330c6fe5d58f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Rabbitmq/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cf50458a6b1e3e89",
             "type": "leaf",
             "state": {
@@ -61,14 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
+                "file": "Fleeting Notes/Rabbitmq/Clustring.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
+                "file": "Fleeting Notes/Rabbitmq/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,17 +177,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "52179de94fe2e020",
+  "active": "1519330c6fe5d58f",
   "lastOpenFiles": [
     "Fleeting Notes/Rabbitmq/Clustring.md",
-    "Fleeting Notes/Rabbitmq/priorities.md",
     "Fleeting Notes/Rabbitmq/durability.md",
-    "Fleeting Notes/Rabbitmq/overview.md",
     "Fleeting Notes/Rabbitmq/partition handling.md",
+    "Fleeting Notes/Rabbitmq/priorities.md",
+    "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
+    "Fleeting Notes/Rabbitmq/overview.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
     "Fleeting Notes/Raft.md",
     "Fleeting Notes/Databse/concurrency/Read Committed.md",
-    "Fleeting Notes/Databse/concurrency/dirty read.md",
-    "Fleeting Notes/Databse/concurrency/dirty write.md"
+    "Fleeting Notes/Databse/concurrency/dirty read.md"
   ]
 }

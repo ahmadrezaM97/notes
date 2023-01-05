@@ -18,8 +18,6 @@ laze mode
 	1. quorum queues store their content on disk( per Raft requirements) as well as in memory( up to the in memory limit confiqured)
 
 
-
-
 ### Mirrored Queue
 `RabbitMQ` has two types of queues 
 1. Durable

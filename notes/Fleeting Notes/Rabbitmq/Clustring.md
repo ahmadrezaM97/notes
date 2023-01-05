@@ -90,7 +90,7 @@ Such messages could be lost "mid-way" in an perating system buffer or otherwise 
 in some cases quorum queues should not be used
 
 1. temporary nature of queue
-	1. transient or exclusive queues, high queue churn( delcalation and deltation rate)
+	1. transient or exclusive queues, high queue churn( declaration and deletetion rate)
 	2. lowest possible latency
 		1. the underlying consesus algorithm has an inherently higher latency due to its data safety feature
 	3. when data safety is not a priority
