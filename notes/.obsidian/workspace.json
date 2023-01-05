@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "80c5df4fb06cb57c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Databse/concurrency/Read Committed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -189,17 +201,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "80c5df4fb06cb57c",
   "lastOpenFiles": [
     "Fleeting Notes/Databse/concurrency/dirty read.md",
+    "Fleeting Notes/Databse/concurrency/dirty write.md",
+    "Fleeting Notes/Databse/concurrency/Read Committed.md",
     "Fleeting Notes/Databse/concurrency/phantom.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
-    "Fleeting Notes/Databse/concurrency/dirty write.md",
     "Fleeting Notes/Databse/concurrency/write skew.md",
     "Fleeting Notes/Databse/concurrency/lab.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/Availability Patterns.md",
-    "Fleeting Notes/GO/Nil Error Mistake.md",
-    "Fleeting Notes/Databse/isolation.md"
+    "Fleeting Notes/GO/Nil Error Mistake.md"
   ]
 }
