@@ -91,12 +91,22 @@ to recover from a split-brain
 -> Stop all nodes in the other partitions, then start them all up again when they rejoin the cluster they will restore state from the trusted partitions.
 
 
-three ways to deal with network partitions automativally
+three ways to deal with network partitions automatically
 
 1. `pause-minority`
 	1. rabbit will pause cluster nodes which determine themselves to be in a minority(i.e fewer or equal than the half the total number of nodes) 
-	2. 
-
+	2. it choose partition tolerance(consistency) over availability from the [[CAP theorem]]
+	3. the minority nodes will pause as soon as a partition  starts
+	4. the minority nodes will start again when the partition ends
+	5. This configuration prevent split-brain and is therefore able to automatically recover from network partition without inconsistencies
+2. `pause-if-all-down`
+	1. rabbitMQ will automatically pause cluster nodes which cannot reach any of the listed nodes
+	2. all the listed nodes must be down to pause a cluster node
+	3. this is close to he p
+3. `autoheal`
+	1. rabbitmq will automatically decide on a winning partition if a partition is deemed to have occurred and will restart all nodes that are not in the winning partition
+	2. Unlike `pause_minority` it therefore takes effect when a partition ends, rather than when one starts.
+	3. The winning partition is the one which has the most clients connected(or if the produces a draw)
 
 when a server goes down, any queues that had leader on that node need to elect a follower as the new leader.
 
