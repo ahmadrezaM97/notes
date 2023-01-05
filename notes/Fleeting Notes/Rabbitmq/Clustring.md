@@ -22,6 +22,12 @@ RabbitMQ has two types of queues
 2. non-durable
 	1. non-durable queues and exchanges are deleted on start-up.
 
+```ad-danger
+Regular queues can be non-durable, __Quorum__ queues are __always__ __durable__ per their assumed use cases.
+```
+
+
+
 ```ad-warning
 title: Presisst the Message
 Just because a queue is durable __doesn't__ mean its message survive a node restart.
@@ -64,11 +70,42 @@ __Leaders of multiple queues generally distributed across the cluster.__
 
 ![[quarum1.png]]
 
+
+
+
+### Partition handling
+
+While a network partition is in place, the two (or more!) sides of the cluster can evolve independently.
+With both side thinking the other has crashed. This scenario is known as split-brain.
+Queues, binding, exchange can be created or deleted separatly.
+
+quorum queues will elect a new leader on the majority side.
+Quorum queue replicas on the minority side will no longer make progress ( accept new messages, deliver to consumer), all this work will be dome by the new leader.
+
+
+##### Recovering From a Split-brain
+
+to roecover from a split-brain, first choose one partition which you trust most.
+This partition will become the authority for the state of the system(schema, messages) to use; __any other changes which have occurred on the other partitions will be lost__
+
+Stop all nodes in the other partitions, then start them all up again when they rejoin the cluster they will restore state from the trusted partitions.
+
+
+
+
 when a server goes down, any queues that had leader on that node need to elect a follower as the new leader.
 
 __They can only do so if a majority of replica queues are still available.__
 
+
 ![[quoram2.png]]
+
+
+
+
+
+
+
 
 
 https://jack-vanlightly.com/blog/2018/8/31/rabbitmq-vs-kafka-part-5-fault-tolerance-and-high-availability-with-rabbitmq
