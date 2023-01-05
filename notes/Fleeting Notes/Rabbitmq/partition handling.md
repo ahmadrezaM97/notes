@@ -56,14 +56,14 @@ three ways to deal with network partitions automatically
 
 which mode to pick?
 
-1. ignore
+1. `pause_if_all_down` with `ignore`
 	1. use when network is reliability is the highest practically possible and node availability is of topmost importance.
 	2. for example, all cluster nodes can be in the same rack or equivalent, connected with a switch, and that switch is also the route to outside world
-2. pause_minority
+2. `pause_minority`
 	1. appropriate when clustering across racks or availability zones in a single region, and the probability of losing a majority of nodes at once is considered very low.
 	2. this mode trades off some availability for the ability to automatically recover if the lost node come back
-3. autoheal
-	1. appropriate w
+3.  `autoheal`
+	1. appropriate when are more concerned with continuity of service than with data consistency across nodes
 
 
 

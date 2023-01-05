@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/partition handling.md",
+                "file": "Fleeting Notes/Rabbitmq/Clustring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "add15168c60d56d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Rabbitmq/durability.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c482ac4ef19521b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Rabbitmq/Clustring.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -90,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/partition handling.md",
+                "file": "Fleeting Notes/Rabbitmq/Clustring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,17 +153,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "cf50458a6b1e3e89",
+  "active": "0c482ac4ef19521b",
   "lastOpenFiles": [
-    "Fleeting Notes/Rabbitmq/Clustring.md",
-    "Fleeting Notes/Databse/concurrency/Read Committed.md",
+    "Fleeting Notes/Rabbitmq/priorities.md",
+    "Fleeting Notes/Rabbitmq/durability.md",
     "Fleeting Notes/Rabbitmq/overview.md",
-    "Fleeting Notes/Databse/concurrency/dirty read.md",
-    "Fleeting Notes/Databse/concurrency/dirty write.md",
-    "Fleeting Notes/Databse/concurrency/lab.md",
-    "Fleeting Notes/Databse/concurrency/phantom.md",
+    "Fleeting Notes/Rabbitmq/Clustring.md",
+    "Fleeting Notes/Rabbitmq/partition handling.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
-    "Fleeting Notes/Databse/concurrency/write skew.md",
-    "Fleeting Notes/GO/GO JSON.md"
+    "Fleeting Notes/Raft.md",
+    "Fleeting Notes/Databse/concurrency/Read Committed.md",
+    "Fleeting Notes/Databse/concurrency/dirty read.md",
+    "Fleeting Notes/Databse/concurrency/dirty write.md"
   ]
 }

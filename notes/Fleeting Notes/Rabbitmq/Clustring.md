@@ -13,29 +13,7 @@ __There is a chain of responsibility between producers, broker and consumers__
  when the broker acknowledges receipt of a message to the publisher, we don't expect that message to be lost
 
 
-### Durablelity
 
-RabbitMQ has two types of queues
-1. Durable
-	1. all queues are peristed to the Msesia database.
-	2. Durable queues are  redeclared on node start-up and so survive a restart, system crash or server failure( as long as the data survicves)
-2. non-durable
-	1. non-durable queues and exchanges are deleted on start-up.
-
-```ad-danger
-Regular queues can be non-durable, __Quorum__ queues are __always__ __durable__ per their assumed use cases.
-```
-
-
-
-```ad-warning
-title: Presisst the Message
-Just because a queue is durable __doesn't__ mean its message survive a node restart.
-Only messages set as persistent by their publisher will be recovered.
-
-```
-
-![[rabbit-durability-matrix.png]]
 
 #### Publisher Confirms
 
@@ -70,20 +48,23 @@ __Leaders of multiple queues generally distributed across the cluster.__
 
 ![[quarum1.png]]
 
-
-
-
 when a server goes down, any queues that had leader on that node need to elect a follower as the new leader.
 
 __They can only do so if a majority of replica queues are still available.__
-
 
 ![[quoram2.png]]
 
 
 
+### When not to use Quorum Queues
 
+in some cases quorum queues should not be used
 
+1. temporary nature of queue
+	1. transient or exclusive queues, high queue churn( delcalation and deltation rate)
+	2. lowest possible latency
+		1. the underlying consesus algorithm has an inherently higher latency due to its data safety feature
+	3. when data safety is not a priority
 
 
 
