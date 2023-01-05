@@ -102,7 +102,11 @@ three ways to deal with network partitions automatically
 2. `pause-if-all-down`
 	1. rabbitMQ will automatically pause cluster nodes which cannot reach any of the listed nodes
 	2. all the listed nodes must be down to pause a cluster node
-	3. this is close to he p
+	3. this is close to the pause minority, however, it allows an admin to decide which nodes to prefer instead of relying on the context
+
+If the cluster is made of two nodes in rack A and two nodes in rack B
+and the link between racks is lost, pause minrority
+
 3. `autoheal`
 	1. rabbitmq will automatically decide on a winning partition if a partition is deemed to have occurred and will restart all nodes that are not in the winning partition
 	2. Unlike `pause_minority` it therefore takes effect when a partition ends, rather than when one starts.
