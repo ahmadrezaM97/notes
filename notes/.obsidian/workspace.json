@@ -203,13 +203,13 @@
   },
   "active": "80c5df4fb06cb57c",
   "lastOpenFiles": [
+    "Fleeting Notes/Databse/concurrency/lab.md",
+    "Fleeting Notes/Databse/concurrency/dirty write.md",
     "Fleeting Notes/Databse/concurrency/Read Committed.md",
     "Fleeting Notes/Databse/concurrency/dirty read.md",
-    "Fleeting Notes/Databse/concurrency/dirty write.md",
     "Fleeting Notes/Databse/concurrency/phantom.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
     "Fleeting Notes/Databse/concurrency/write skew.md",
-    "Fleeting Notes/Databse/concurrency/lab.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/GO/Nil Error Mistake.md"

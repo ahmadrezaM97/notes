@@ -40,6 +40,15 @@ This locking is done automatically by databases in read committed mode(or strong
 
 
 
+### Postgres
+
+`ROW EXCLUSIE` ( RowExclusiceLock)
+
+Conflict with `SHARE` and `SHARE ROW EXCLUSIVE`, `EXCLUSIVE` and `ACCESS EXCLUSIVE` lock modes.
+
+The commands `UPDATE, DELETE, INSERT` and `MERGE` acquire this lock mode on the target __TABLE__ 
+In general, this lock mode will be acquired by any command that modifies data in table.
+
 
 _____
 ##### References
