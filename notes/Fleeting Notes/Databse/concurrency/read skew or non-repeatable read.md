@@ -40,7 +40,13 @@ A Key principle of snapshot isolation is reader never block writer, and writers 
 ```
 
 To implement snapshot isolation, database use a generalization of the mechanism for preventing dirty reads.
-The database must potentially keep ser
+
+The database must potentially keep several different committed versions of an object, because various in-progress transactions may need to see the state of the database at different points in time.
+
+Because it maintains several versions of an object side by side, this technique is known as multi-version concurrency control ([[MVCC]])
+
+storage engines that support snapshot isolation typically use `MVCC` for their read committed isolation level as well.
+A typical approach is that read committed use a separate snapshot for each query, while snapshot isolation uses the snap snapshot for an entire transaction.
 
 This allows a database to handle long-running read queries on a consistent snapshot at the same time as processing writes normally, without any lock contention between the two.
 
