@@ -2,7 +2,7 @@
 Created: 2023-01-03 03:25
 Tags: 
 ____
-[[dirty writes]] and [[lost updates]] are two kinds of race conditions, but we also have THE WRITE SKEW.
+[[dirty write]] and [[lost updates]] are two kinds of race conditions, but we also have THE WRITE SKEW.
 
 Intuitive example
 

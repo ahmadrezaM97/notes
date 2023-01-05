@@ -24,8 +24,16 @@ this anomaly is called a `nonrepeatable read` or `read skew`
 
 ### Solution
 
-`Snapshot isolation` is the most common solution to this problem, the idea is that each transaction reads from a consistent snapshot of the database, the transaction sees all the data that was committed in the database at the start of the transaction
-Even if the data that was committed in the database at the start of the transaction
+1. `Snapshot isolation` is the most common solution to this problem, the idea is that each transaction reads from a consistent snapshot of the database.
+2. The transaction sees all the data that was committed in the database at the start of the transaction
+3. Even if data is subsequently changed by another transaction, each transaction sees only the old data from that particular point of time.
+
+implementing snapshot isolation
+
+
+```ad-quote
+A Key principle of snapshot isolation is reader never block writer, and writers never block readers.
+```
 
 
 _____
