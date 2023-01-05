@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cf50458a6b1e3e89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Rabbitmq/partition handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustring.md",
+                "file": "Fleeting Notes/Rabbitmq/partition handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,10 +129,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "80c5df4fb06cb57c",
+  "active": "cf50458a6b1e3e89",
   "lastOpenFiles": [
-    "Fleeting Notes/Databse/concurrency/Read Committed.md",
     "Fleeting Notes/Rabbitmq/Clustring.md",
+    "Fleeting Notes/Databse/concurrency/Read Committed.md",
     "Fleeting Notes/Rabbitmq/overview.md",
     "Fleeting Notes/Databse/concurrency/dirty read.md",
     "Fleeting Notes/Databse/concurrency/dirty write.md",
