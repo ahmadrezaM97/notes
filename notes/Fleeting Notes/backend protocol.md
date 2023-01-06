@@ -111,7 +111,7 @@ This is when the magic happens! when the accept queue gets full then
 
 ### Spreading the accept() load
 https://blog.cloudflare.com/the-sad-state-of-linux-socket-balancing/
-
+https://www.youtube.com/watch?v=7mTH9AHVFvw
 
 #TODO 
 experiment
