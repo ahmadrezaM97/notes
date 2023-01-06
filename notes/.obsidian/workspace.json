@@ -4,107 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "161c02b3653a7e8f",
+        "id": "6470c8a5d64a51e8",
         "type": "tabs",
         "children": [
           {
-            "id": "80c5df4fb06cb57c",
+            "id": "ae54c7a19ccb6871",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustering.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1519330c6fe5d58f",
+            "id": "407b3d40ca42f3ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Databse/concurrency/lost update.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69fef65ddb5375c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/repeatable read.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7776e2bcabc2e3cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf50458a6b1e3e89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "add15168c60d56d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Rabbitmq/durability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c482ac4ef19521b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52179de94fe2e020",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustering.md",
+                "file": "Fleeting Notes/Defer Panic Recover.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,17 +128,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7776e2bcabc2e3cc",
+  "active": "ae54c7a19ccb6871",
   "lastOpenFiles": [
+    "Fleeting Notes/Defer Panic Recover.md",
+    "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/GO/Go Pointer.md",
+    "Fleeting Notes/Rabbitmq/Clustering.md",
+    "Fleeting Notes/Rabbitmq/durability.md",
+    "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md",
     "Fleeting Notes/Databse/concurrency/repeatable read.md",
     "Fleeting Notes/Databse/concurrency/write skew.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
-    "Fleeting Notes/Databse/concurrency/lab.md",
-    "Fleeting Notes/Databse/concurrency/dirty read.md",
-    "Fleeting Notes/Databse/concurrency/dirty write.md",
-    "Fleeting Notes/dirty writes.md",
-    "Fleeting Notes/Docker bind-mount.md",
-    "Fleeting Notes/Docker tmpfs mounts.md",
-    "Fleeting Notes/Databse/Two-Phase locking(2PL).md"
+    "Fleeting Notes/Databse/concurrency/lab.md"
   ]
 }

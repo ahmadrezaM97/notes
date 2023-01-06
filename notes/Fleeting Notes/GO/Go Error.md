@@ -2,8 +2,7 @@
 Created: 2022-12-11 18:25
 Tags: 
 ____
-#### introduction
-
+#### Introduction
 
 ```go
 if err != nil {
@@ -35,14 +34,44 @@ func (e *errorString) Error() string {
 }
 ```
 
+[[Defer Panic Recover]]
+[[multi error]]
+[[call stack in golang error]]
 
-errors.Is
+
+#### Wrap
+
+
+##### Examining errors with Is and As
+
+##### `errors.Is`
+
+```go
+func Is(err, target error) bool
+```
 
 __Is reports whether any error in err's chain matches target.
 The chain consists of err it self followed by the sequence of errors obtained by repeatedly calling Unwrap__
 
+```go
+if errors.Is(err, ErrPermission) {
+    // err, or some error that it wraps, is a permission problem
+}
+```
 
-errors.As
+```go
+// Good:
+func handlePet(...) {
+    switch err := process(an); {
+    case errors.Is(err, ErrDuplicate):
+        return fmt.Errorf("feed %q: %v", an, err)
+    case errors.Is(err, ErrMarsupial):
+        // ...
+    }
+}
+```
+
+##### `errors.As`
 
 __As finds the first error in err's chain that matches target
 
@@ -111,151 +140,8 @@ func main() {
 [[A good technique to handle HTTP error ]]
 [[Nil Error Mistake]]
 
-### Please be careful when you wanna ignore error
 
-In some cases, we may want to ignore an error returned by a function.
-
-```go
-
-func f(){
-	// ...
-	notify()
-}
-
-func notify() error {
-	// ...
-}
-```
-
-for a maintainability perspective, the code can lead to some issues
-Do this
-
-```go
-func f(){
-	// at-most once delivery.
-	// Hence, it's accepted to miss some of them in case of errors
-	_ = notify()
-}
-```
-
-
-### Defer panic recover
-https://go.dev/blog/defer-panic-and-recover
-
-Defer statements allow us to think about closing each file right after opening it, guaranteeing that, regardless of the number of return statements in the function, the files will be closed.
-
-```ad-note
-title: rule 1
-1. A deffered function's arguments are evaluated when the defer statement is evalueted
-```
-```go
-
-package main
-
-import "fmt"
-
-func Do() {
-	value := 0
-	defer fmt.Println(value) // value is zero(0)
-
-	value = 19
-}
-func main() {
-	Do()
-}
-```
-
-```
-0
-```
-
-```ad-note 
-title: rule 2
-2. Deffered function calls are executed in Last in First Out order after the surreounding function returns.
-```
-
-
-```go
-package main
-
-import "fmt"
-
-func Do() {
-	defer fmt.Println(1)
-	defer fmt.Println(2)
-	defer fmt.Println(3)
-
-	panic("panic")
-
-	defer fmt.Println(4)
-}
-func main() {
-	Do()
-}
-```
-
-```
-3
-2
-1
-panic: panic
-
-goroutine 1 [running]:
-main.Do()
-	/home/ahmadreza/Documents/personal/tamrinat/goclass/errorl/main.go:10 +0xf4
-main.main()
-	/home/ahmadreza/Documents/personal/tamrinat/goclass/errorl/main.go:15 +0x17
-exit status 2
-```
-
-
-```ad-note 
-
-3. Deferred functions may read and assign to the returning function's named return values
-```
-```go
-package main
-
-import (
-	"errors"
-	"fmt"
-)
-
-func Do() (err error) {
-
-	defer func() {
-		err = errors.New("defer error")
-	}()
-
-	err = errors.New("normal error")
-
-	return err
-}
-
-func main() {
-	if err := Do(); err != nil {
-		fmt.Println(err)
-	}
-}
-```
-
-```
-defer error
-```
-
-
-__Panic__ is a built-in function that stops the ordinary flow of control and begins panicking. when the function F calls panic, execution of F stops, any deferred functions in F are executed normally and then F returns to it's caller. To the caller, F then behaves like a call to panic.
-The process continues up the stack until all functions in the current have returned
-panic can be initiated by invoking panic directly. they can also be caused by runtime errors, such as out-of-bounds array accesses.
-
-__Recover__ is built-int function that regains control of a panicking Goroutine. Recover is only useful inside deferred functions
-During normal execution, a call to recover will return nil and have not other effect.
-If the current goroutine i panicking, a call to recover will capture the value given to panic and resume normal execution.
-
-#TODO 
-add example codes
-
-### Don't miss defer error
+#### Don't miss defer error
 
 ```go
 package main
@@ -327,13 +213,66 @@ depends, but should typically be capitalized.
 log.Infof("Operation aborted: %v", err)
 ```
 
+
+
+
+#### adding information
+
+```ad-note
+the programmer should ensure there’s sufficient information in the error without adding duplicate or irrelevant detail. 
+
+If you’re unsure, try triggering the error condition during development: that’s a good way to assess what the observers of the error (either humans or code) will end up with.
+```
+
+BAD
+
+```go
+// Bad:
+if err := os.Open("settings.txt"); err != nil {
+    return fmt.Errorf("could not open settings.txt: %w", err)
+}
+
+// Output:
+//
+// could not open settings.txt: open settings.txt: no such file or directory
+```
+
+
+GOOD
+
+```go
+// Good:
+if err := os.Open("settings.txt"); err != nil {
+    // We convey the significance of this error to us. Note that the current
+    // function might perform more than one file operation that can fail, so
+    // these annotations can also serve to disambiguate to the caller what went
+    // wrong.
+    return fmt.Errorf("launch codes unavailable: %v", err)
+}
+
+// Output:
+//
+// launch codes unavailable: open settings.txt: no such file or directory
+```
+
+
+```ad-warning
+title: wrapping
+It is best to avoid using `%w` unless you also document (and have tests that  
+validate) the underlying errors that you expose. If you do not expect your  
+caller to call `errors.Unwrap`, `errors.Is` and so on, don’t bother with `%w`.
+```
+
+```go
+
+err2 := fmt.Errorf("err2: %w", err1)
+```
+
 https://google.github.io/styleguide/go/best-practices.html#error-handling
 https://google.github.io/styleguide/go/decisions#errors
 
 
-### Error handling best practice
-
-
+#### best practice
 
 Do not handle an error twice
 logging an error is handling an error. Hence, we should either log or return an error.
@@ -382,8 +321,8 @@ package `errgroup` provide a convenient abstraction for a group of operations th
 ```
 
 
-### Custom Error
 
+#### Custom Error
 The error type
 
 ```go 
@@ -405,9 +344,33 @@ type SyntaxError struct {
 func (e *SyntaxError) Error() string { return e.msg }
 ```
 
+###### Please be careful when you wanna ignore error
+In some cases, we may want to ignore an error returned by a function.
 
-[[multi error]]
-[[call stack in golang error]]
+```go
+
+func f(){
+	// ...
+	notify()
+}
+
+func notify() error {
+	// ...
+}
+```
+
+for a maintainability perspective, the code can lead to some issues
+Do this
+
+```go
+func f(){
+	// at-most once delivery.
+	// Hence, it's accepted to miss some of them in case of errors
+	_ = notify()
+}
+```
+
+
 _____
 ##### References
 1.
