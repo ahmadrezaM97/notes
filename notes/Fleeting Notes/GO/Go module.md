@@ -66,12 +66,47 @@ ModuleDirective = "module" ( ModulePath | "(" newline ModulePath newline ")" ) n
 ##### `require` directive
 
 A `require` directive declares a minimum required version of a given module dependency.
-for each required module version, the go com
+for each required module version, the go commands loads the `go.mod` file for that version and i
+Once all requirements have been loaded, the go command resolve them using (MVS) to produce build list
 
+The  go commands automatically adds `//indirect` comments for some requirement.
+`// indirect` indicates that no package from the required module is directly imported by any packages in the main module.
+
+#### `replace`
+#### `exclude`
 #### `go`
 #### `Deprecation`
 
 
+#### Go build commands
+
+* go env
+	* print go environment variables
+* go build
+	* compile packages and dependencies
+* go fix
+* go generate
+	* generate go files 
+* go get
+	* add dependencies to current module and install them
+* go install
+	* compile and install packages and dependencies
+* go list
+	* list packages or modules
+* go run 
+	* compile and run
+* go test
+	* test packages
+* go vet
+	* report likely mistake in packages
+* go fmt 
+
+
+#### go build
+
+```
+go build [-o output] [build flag] [package]
+```
 
 The `go.mod` file defines the module's `module path` which is also the import path used for the root directory, and its `dependency requirements` which are the other modules needed for a successful build.
 each dependency requirement is written as a module path a specific [[semantic version]].
