@@ -98,7 +98,7 @@ backlog paramets of listen function use the value from the
 #### Slow application 
 https://blog.cloudflare.com/syn-packet-handling-in-the-wild/
 
-
+https://blog.cloudflare.com/syn-packet-handling-in-the-wild/
 what happens if the application can't keep up with calling `accept()` fast enough?
 
 This is when the magic happens! when the accept queue gets full then
@@ -154,7 +154,13 @@ problems
 1. backend is not fast enough
 2. client who don't `ACK`
 3. small backlog
-4. 
+
+
+
+send and received buffer
+
+TODOOOOOOOOOOOOO
+#TODO 
 _____
 ##### References
 1.
