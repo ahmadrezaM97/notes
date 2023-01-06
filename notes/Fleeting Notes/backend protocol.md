@@ -5,6 +5,8 @@ ____
 
 Connection Establishment
 
+![[syn-ack-queues.png]]
+
 1. Server Listen on an address:port
 
 ```ad-warning
@@ -35,6 +37,14 @@ https://www.alibabacloud.com/blog/tcp-syn-queue-and-accept-queue-overflow-explai
 	9. A [[file descriptor]]  is created for the connection
 one socket can have many connection, connection is kind of instance of socket
 you can have a single process that can handle a thousand connection
+
+
+
+problems 
+1. backend is not fast enough
+2. client who don't `ACK`
+3. small backlog
+4. 
 _____
 ##### References
 1.
