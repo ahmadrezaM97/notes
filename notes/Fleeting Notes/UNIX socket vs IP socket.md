@@ -2,6 +2,8 @@
 Created: 2022-04-09 19:44
 Tags:  #unix #linux
 ____
+https://getliner.com/picked-by-liner/reader-mode?url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Funderstanding-sockets
+
 
 ##### A UNIX
 - A UNIX socket(Unix Domain Socket), is an [[inter-process communication]] mechanism that allows bidirectional data exchange between processes running on the same machine.
