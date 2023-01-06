@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/backend protocol.md",
+                "file": "Fleeting Notes/GO/Go struct custom tag.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/backend protocol.md",
+                "file": "Fleeting Notes/GO/Go struct custom tag.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +130,7 @@
   },
   "active": "ae54c7a19ccb6871",
   "lastOpenFiles": [
+    "Fleeting Notes/backend protocol.md",
     "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/Defer Panic Recover.md",
     "Fleeting Notes/GO/Go Pointer.md",
@@ -138,7 +139,6 @@
     "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md",
     "Fleeting Notes/Databse/concurrency/repeatable read.md",
     "Fleeting Notes/Databse/concurrency/write skew.md",
-    "Fleeting Notes/Databse/concurrency/lost update.md",
-    "Fleeting Notes/Databse/concurrency/lab.md"
+    "Fleeting Notes/Databse/concurrency/lost update.md"
   ]
 }
