@@ -15,9 +15,9 @@ if two transactions do this concurrently , one the modifications can be lost, be
 3. two user editing a wiki  page at the same time
 
 
-solutions
+### solutions
 
-1. Atomic write operations
+#### Atomic write operations
 
 for example the following instruction is concurrency-safe in most relational databases
 ```sql
@@ -25,11 +25,45 @@ for example the following instruction is concurrency-safe in most relational dat
 ```
 
  ->document database such as MongoDB provide atomic operations for making lock modifications to a part of a `JSON` document
- -> Redis provides atomic operations for modifying data structions such a priority queues
+ -> Redis provides atomic operations for modifying data structure such a priority queues
 
 not all writes can easily be expressed in terms of atomic operations, but in situations where atomic operations cab be used, they are usually the best choice.
 
-Atomic operations are usually implemented by taking an exclusive lock 
+Atomic operations are usually implemented by taking an exclusive lock  on the object when it is read so that no other transaction can reed it until the update has been applied.
+This technique is sometimes known as `cursor stability` . Another option is to simply force all atomic operation to be executed on a single thread.
+
+#### Explicit locking
+
+The application can explicitly lock objects that are going to be updated
+Then the application can perform a read-modify-write cycle, and if any other transaction tries to concurrently read the same object, it is forced to wait until the first read-modify-write cycle has completed.
+
+```sql
+BEGIN;
+SELECT * FROM figures WHERE name = 'robot' AND game_id = 337 FORUPDATE;
+
+-- check where move is valid, then update the position
+-- of the piece that was returned by the prevous SELECT
+
+UPDATE figure SET position = 'c4' WHERE id = 1237;
+
+COMMIT;
+```
+
+```ad-note
+title: FOR UPDATE
+the `FOR UPDATE` clause indicates that the database should take a lock on all rows returned by this query.
+```
+
+This works, but to get it right, you need to carefully think about your application logic.
+
+__It's easy to forget to add a necessary lock somewhere in the code, and thus introduce a race condition__
+
+#### Automatically detecting lost updates
+
+Atomic operations and locks are ways of preventing lost updates by forcing the read-modify-write cycles to happen sequentially.
+An alternative is to allow them to execute in parallel and, it the transaction manager detects a lost update, abort the transaction and force it to retry its read-modify-write cycle.
+
+
 _____
 ##### References
 1.
