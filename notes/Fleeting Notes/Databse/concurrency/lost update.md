@@ -15,7 +15,13 @@ if two transactions do this concurrently , one the modifications can be lost, be
 3. two user editing a wiki  page at the same time
 
 
-### solutions
+### Solutions
+
+1. Atomic write operations
+2. Automatically detect lost update ( postgres in repeatable-read isolation level do this)
+3. Explicit lock( select for update)
+4. compare-set 
+
 
 #### Atomic write operations
 
@@ -73,6 +79,33 @@ MySQL and InnoDB's repeatable read doesn't prevent lost update.
 some authors argue that a database must prevent lost updates in order to qualify as providing snapshot isolation, so `MySQL` does not provide snapshot isolation under this definition.
 
 #### Compare-and-set
+
+In databases that don't provide transactions, you sometimes find an atomic compare-and-set operation 
+Th purpose of this operation is to avoid lost updates by allowing an update to happen only if the value has not changed since you last read it
+
+```sql
+-- This may or maynot be safe, depending on the database implementation
+
+UPDATE wiki_pages SET content = 'new content' WHERE id = 1233 AND content = 'old content'
+```
+
+
+
+
+### Conflict resolution and replication
+
+In replicated database, preventing lost updates takes on another dimension.
+since they have copies of the data on multiple nodes, and the data can potentially be modified concurrently on different nodes
+
+=> some additional step need to be taken to prevent lost update.
+
+1. Lock and compare-and-set operations assume that there is a single up-to-date copy of the data
+	1. However, database with multi-leader or leaderless replication usually allow several writes to happen concurrently and replicate them asynchronously
+	2. so they can not guarantee that there is a single up-to-date copy of the data
+	3. see [[linerizability]]
+
+
+A common approach in such replicated databases is to allow concurrent writes to create several conflicting versions of a value (a.k.a `sibling` ) and to use application code or special data structure to resolve and merge these version after the fact.
 
 
 _____
