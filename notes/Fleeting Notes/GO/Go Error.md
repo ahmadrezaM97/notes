@@ -2,7 +2,7 @@
 Created: 2022-12-11 18:25
 Tags: 
 ____
-#### Introduction
+### Introduction
 
 ```go
 if err != nil {
@@ -39,10 +39,24 @@ func (e *errorString) Error() string {
 [[call stack in golang error]]
 
 
-#### Wrap
+### Wrap
 
 
-##### Examining errors with Is and As
+#### Wrapping errors with %w
+
+It is common to use the `fmt.Errorf` function to add additional information to an error
+```go
+if err != nil {
+	return fmt.Errorf("decompress %v: %v", name, err)
+}
+```
+
+1. since `Go1.13`, the `fmt.Errof` function supports a new `%w` verb
+2. when this verb is present, the error returned by `fmt.Errorf`__ will have and `Unwrap` method__ returning the argument of %w, which must be an error.
+3. __in all other ways, %w is identical to %v__
+
+
+#### Examining errors with Is and As
 
 ##### `errors.Is`
 
@@ -79,9 +93,6 @@ The chain consists of err it self followed by the sequence of errors obtained by
 
 An error matches target if the error's concrete value is assignable to the value pointed to by target, or if the error has a method As(interface{}) bool such that As(target) returns true. In the latter case, the As method is responsible for setting target.
 
-
-
-
 ```go
 package main
 
@@ -117,7 +128,7 @@ func (c *MyError) Error() string {
 }
 
 func DoCustomError() error {
-	return &MyError{msg: "Random"}
+	return fmt.Errorf("do custom thing: %w", &MyError{msg: "Random"})
 
 }
 
@@ -130,12 +141,23 @@ func main() {
 	if err := DoCustomError(); err != nil {
 		var p *MyError
 		fmt.Println(
+			err,
 			errors.As(err, &p),
 		)
 	}
 }
 
 ```
+
+#### Whether to wrap
+
+when adding additional context to an error, either `fmt.Errorf` or by implementing a custom type, you need to decide whether the new error should wrap the original.
+
+__There is no single answer to this question it depends on the context in which the new error is created__
+
+Wrap an error to expose it to callers
+Do not wrap and error when doing so would expose implementation details.
+
 
 
 ### Mistakes
