@@ -102,7 +102,7 @@ since they have copies of the data on multiple nodes, and the data can potential
 1. Lock and compare-and-set operations assume that there is a single up-to-date copy of the data
 	1. However, database with multi-leader or leaderless replication usually allow several writes to happen concurrently and replicate them asynchronously
 	2. so they can not guarantee that there is a single up-to-date copy of the data
-	3. see [[linerizability]]
+	3. see [[linearizability]]
 
 
 A common approach in such replicated databases is to allow concurrent writes to create several conflicting versions of a value (a.k.a `sibling` ) and to use application code or special data structure to resolve and merge these version after the fact.

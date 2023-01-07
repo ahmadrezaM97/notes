@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Databse/concurrency/lost update.md",
+                "file": "Fleeting Notes/linearizability.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "a5a58c46ff77807a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/concurrency/lost update.md",
+                "file": "Fleeting Notes/linearizability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,15 +126,15 @@
   },
   "active": "553cb7c6c80ec4c2",
   "lastOpenFiles": [
-    "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md",
-    "Fleeting Notes/Databse/concurrency/repeatable read.md",
+    "Fleeting Notes/Databse/concurrency/content.md",
+    "Fleeting Notes/Rabbitmq/content.md",
+    "Fleeting Notes/Databse/concurrency/phantom.md",
+    "Fleeting Notes/Lost Update.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
     "Fleeting Notes/Databse/concurrency/lab.md",
-    "Fleeting Notes/Databse/concurrency/dirty write.md",
-    "Fleeting Notes/Sockets.md",
-    "Fleeting Notes/UNIX socket vs IP socket.md",
-    "Fleeting Notes/GO/Go Embedding.md",
-    "Fleeting Notes/GO/Go Error.md",
-    "Fleeting Notes/GO/Go module.md"
+    "Fleeting Notes/Databse/concurrency/Read Committed.md",
+    "Fleeting Notes/Databse/concurrency/repeatable read.md",
+    "Fleeting Notes/Databse/concurrency/write skew.md",
+    "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md"
   ]
 }
