@@ -61,7 +61,18 @@ __It's easy to forget to add a necessary lock somewhere in the code, and thus in
 #### Automatically detecting lost updates
 
 Atomic operations and locks are ways of preventing lost updates by forcing the read-modify-write cycles to happen sequentially.
+
 An alternative is to allow them to execute in parallel and, it the transaction manager detects a lost update, abort the transaction and force it to retry its read-modify-write cycle.
+
+__An advantage of this approach is that databases can perform this check efficiently in conjunction with snapshot isolation__
+
+__PostgreSQL's repeatable read and SQL Server's snapshot isolation level automatically detect when a lost update has occurred and abort the offending transaction.__
+
+MySQL and InnoDB's repeatable read doesn't prevent lost update.
+
+some authors argue that a database must prevent lost updates in order to qualify as providing snapshot isolation, so `MySQL` does not provide snapshot isolation under this definition.
+
+#### Compare-and-set
 
 
 _____
