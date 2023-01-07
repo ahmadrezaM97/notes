@@ -45,17 +45,16 @@ The database must potentially keep several different committed versions of an ob
 
 Because it maintains several versions of an object side by side, this technique is known as multi-version concurrency control ([[MVCC]])
 
-storage engines that support snapshot isolation typically use `MVCC` for their read committed isolation level as well.
-A typical approach is that read committed use a separate snapshot for each query, while snapshot isolation uses the snap snapshot for an entire transaction.
-
-This allows a database to handle long-running read queries on a consistent snapshot at the same time as processing writes normally, without any lock contention between the two.
-
+__This allows a database to handle long-running read queries on a consistent snapshot at the same time as processing writes normally, without any lock contention between the two.
 
 ```ad-note
 title: MVCC for read committed
 A typical approach is that read committed uses a separate snapshot for
 each query, while snapshot isolation uses the same snapshot for an entire transaction.
 ```
+
+
+####  indexes and snapshot isolation
 
 _____
 ##### References
