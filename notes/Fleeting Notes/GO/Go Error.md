@@ -238,6 +238,7 @@ log.Infof("Operation aborted: %v", err)
 ```
 
 
+###Stack traces and the errors packages
 
 
 #### adding information
