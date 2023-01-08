@@ -3,6 +3,52 @@ Created: 2023-01-07 22:28
 Tags: 
 ____
 
+
+Very soon the data volume, read/write qps will exceed the capacity of a single redis instance
+
+in general there are three ways to shard the keys to multiple instances
+
+#### Client-side sharding
+
+
+example;
+say we have an ad-ranking engine
+-> essentially is a recommendation service that recalls relevant ads  from ads DB and ranks ads for each ad_request.
+-> the rank engine need to retrieve real-time bid of each ad in order to perform ad auction.
+-> Due to the highly latency-sensitive nature of the business, all readl-time bid of ads are computed and pre-loaded to a redis cluster
+
+![[redis-shard-client-side.png]]
+
+in client-side sharding, the redis client contains the sharding & routing logic.
+In other words, it is aver thick client
+advantage
+	architecture doesn't rely on any middleware, there are only two parties	1. Redis client
+	2. Redis nodes
+
+
+
+#### server side sharding with centeralized proxy (aka middleware)
+
+a middleware is used as proxy.
+requests from ad-ranking engine will hit the proxy.
+The proxy contains the sharding & routing logic to determine which redis instance to visit to retrieve data.
+
+![[redis-sharding-with-proxy.png]]
+
+
+#### Decentralized server-side sharding
+
+Decentralized sharding is what actually used in official Redis clusters.
+
+-> __Each node in the cluster maintains a local copy of the "routing tables?__
+
+-> __Continuously updates its routing table through gossip protocol__.
+-
+
+I
+
+
+
 ### introduction
 
 Redis cluster is an active-passive cluster implementation that consist of master and slave nodes.

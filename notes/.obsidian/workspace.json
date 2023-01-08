@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Databse/redis/redis sentinal.md",
+                "file": "Fleeting Notes/Databse/redis/redis cluster.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d92a0adf64a39d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Databse/redis/persistent.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/redis/redis sentinal.md",
+                "file": "Fleeting Notes/Databse/redis/redis cluster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,15 +130,15 @@
   },
   "active": "abb037ed6679baf3",
   "lastOpenFiles": [
-    "Fleeting Notes/Databse/redis/temp.md",
+    "Fleeting Notes/Databse/redis/persistent.md",
     "Fleeting Notes/Databse/redis/redis cluster.md",
+    "Fleeting Notes/Databse/redis/redis sentinal.md",
+    "Fleeting Notes/Databse/redis/temp.md",
     "Fleeting Notes/linearizability.md",
     "Fleeting Notes/Databse/concurrency/content.md",
     "Fleeting Notes/Rabbitmq/content.md",
     "Fleeting Notes/Databse/concurrency/phantom.md",
     "Fleeting Notes/Lost Update.md",
-    "Fleeting Notes/Databse/concurrency/lost update.md",
-    "Fleeting Notes/Databse/concurrency/lab.md",
-    "Fleeting Notes/Databse/concurrency/Read Committed.md"
+    "Fleeting Notes/Databse/concurrency/lost update.md"
   ]
 }
