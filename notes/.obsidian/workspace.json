@@ -8,51 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "553cb7c6c80ec4c2",
+            "id": "abb037ed6679baf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/linearizability.md",
+                "file": "Fleeting Notes/Databse/redis/redis sentinal.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "534c00e554ec1755",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/redis/redis cluster.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1aeb2565d9555bc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Databse/redis/temp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5a58c46ff77807a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/redis/temp.md",
+                "file": "Fleeting Notes/Databse/redis/redis sentinal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,10 +116,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1aeb2565d9555bc8",
+  "active": "abb037ed6679baf3",
   "lastOpenFiles": [
-    "Fleeting Notes/Databse/redis/redis cluster.md",
     "Fleeting Notes/Databse/redis/temp.md",
+    "Fleeting Notes/Databse/redis/redis cluster.md",
     "Fleeting Notes/linearizability.md",
     "Fleeting Notes/Databse/concurrency/content.md",
     "Fleeting Notes/Rabbitmq/content.md",
