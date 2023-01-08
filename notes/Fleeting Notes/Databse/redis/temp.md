@@ -14,6 +14,8 @@ redis cluster
 https://medium.com/@bb8s/deep-dive-into-redis-cluster-sharding-algorithms-and-architecture-a093a92e97af
 
 
+https://medium.com/@bb8s/how-redis-cluster-achieves-high-availability-and-data-persistence-8cdc899764e8
+
 
 deep dive into redis replication
 
