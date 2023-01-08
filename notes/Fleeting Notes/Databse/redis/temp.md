@@ -2,6 +2,12 @@
 Created: 2023-01-07 22:33
 Tags: 
 ____
+https://www.alibabacloud.com/blog/high-concurrency-practices-of-redis-snap-up-system_597858
+
+https://redis.io/docs/manual/patterns/distributed-locks/
+
+https://redis.com/ebook/part-2-core-concepts/chapter-6-application-components-in-redis/6-2-distributed-locking/6-2-3-building-a-lock-in-redis/
+
 https://architecturenotes.co/redis/
 
 redis cluster 
