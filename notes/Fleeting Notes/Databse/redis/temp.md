@@ -4,6 +4,11 @@ Tags:
 ____
 https://www.alibabacloud.com/blog/high-concurrency-practices-of-redis-snap-up-system_597858
 
+https://www.baeldung.com/redis-sentinel-vs-clustering
+
+
+https://rtfm.co.ua/en/redis-replication-part-1-overview-replication-vs-sharding-sentinel-vs-cluster-redis-topology/
+
 https://redis.io/docs/manual/patterns/distributed-locks/
 
 https://redis.com/ebook/part-2-core-concepts/chapter-6-application-components-in-redis/6-2-distributed-locking/6-2-3-building-a-lock-in-redis/
