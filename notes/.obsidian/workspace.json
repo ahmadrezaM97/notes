@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Databse/redis/temp.md",
+                "file": "Fleeting Notes/Databse/redis/redis cluster.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/redis/temp.md",
+                "file": "Fleeting Notes/Databse/redis/redis cluster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +143,7 @@
   },
   "active": "d92a0adf64a39d7b",
   "lastOpenFiles": [
+    "Fleeting Notes/Databse/redis/temp.md",
     "Fleeting Notes/Databse/redis/redis cluster.md",
     "Fleeting Notes/Consistent Hashing.md",
     "Fleeting Notes/Databse/redis/redis sentinal.md",
@@ -151,7 +152,6 @@
     "Fleeting Notes/Databse/concurrency/phantom.md",
     "Fleeting Notes/GO/GO String.md",
     "Fleeting Notes/GO/Go Error.md",
-    "Fleeting Notes/GO/Go cload native patterns.md",
-    "Fleeting Notes/Databse/concurrency/dirty read.md"
+    "Fleeting Notes/GO/Go cload native patterns.md"
   ]
 }

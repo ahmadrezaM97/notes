@@ -63,7 +63,7 @@ consistent hashing is a classical sharding algorithm.
 [[Consistent Hashing]]
 
 
-#### Hot slot sharding
+#### slot sharding
 
 Redis cluster uses hash slot.
 
@@ -77,8 +77,8 @@ Each node is responsible for storing a set of slots, and the associated k-v pair
 in essence, the hash slot is another layer of abstraction.
 It decouples data records (kv pairs) and nodes.
 
-each node only need to know what slots shoud be stored on ot.
-slots are encoded as bit arrary
+each node only need to know what slots should be stored on it.
+slots are encoded as bit array
 
 
 ### introduction
@@ -102,35 +102,6 @@ When a master fails or is found to be unreachable by the majority of the cluster
 The remaining masters hold a vote and elect on of the failing masters' salves to take its place.
 
 
-#### Rejoining The cluster
-
-When the failing master eventually rejoins the cluster, it will join as a slave and begin to replicate another master
-
-#### Sharding
-
-redis sharded data automatically into the servers.
-
-Redis has a consept of the `hash slot` in order to split data.
-All the data are divided into slots
-
-There are 16384 slots. These slots are divided by the number of servers
-
-If there are 3 servers A,B and C then
-
-* Server 1 contains hash slots from 0 to 5500.
-* Server 2 contains hash slots from 5501 to 11000.
-* Server 3 contains hash slots from 11001 to 16383
-
-
-
-
-Redis scales horizontally with a deployment topology called Redis cluster.
-
-With redis cluster, you get the ability to:
-1. Automatically split your data set among multiple nodes
-2. Continue operation when a subset of the nodes are experiencing failures or are unable to communicate with the rest of cluster
-
-redis cluster is a data sharding solution with automatic management, failover.
 
 
 _____
