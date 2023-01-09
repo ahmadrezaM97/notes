@@ -1,4 +1,4 @@
-# temp
+Each master node in a cluster handles a subset of the 16384 hash slots.# temp
 Created: 2023-01-07 22:33
 Tags: 
 ____

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Databse/redis/redis cluster.md",
+                "file": "Fleeting Notes/Databse/redis/temp.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Databse/redis/redis cluster.md",
+                "file": "Fleeting Notes/Databse/redis/temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,8 +143,8 @@
   },
   "active": "d92a0adf64a39d7b",
   "lastOpenFiles": [
-    "Fleeting Notes/Consistent Hashing.md",
     "Fleeting Notes/Databse/redis/redis cluster.md",
+    "Fleeting Notes/Consistent Hashing.md",
     "Fleeting Notes/Databse/redis/redis sentinal.md",
     "Fleeting Notes/Databse/redis/persistent.md",
     "Fleeting Notes/GO/Go Embedding.md",
