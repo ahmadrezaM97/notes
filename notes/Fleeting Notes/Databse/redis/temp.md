@@ -4,6 +4,8 @@ Tags:
 ____
 https://www.alibabacloud.com/blog/high-concurrency-practices-of-redis-snap-up-system_597858
 
+https://docs.google.com/document/d/1LAsuCZnnn7Fon4_rD4NxCGk_PA9tc3gEk_H54Zoqw6s/edit#
+
 https://www.baeldung.com/redis-sentinel-vs-clustering
 
 
