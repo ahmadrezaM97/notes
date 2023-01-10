@@ -155,15 +155,15 @@
   },
   "active": "0cab8ddc4929233e",
   "lastOpenFiles": [
-    "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
     "Fleeting Notes/Rabbitmq/content.md",
+    "Fleeting Notes/Rabbitmq/durability.md",
+    "Fleeting Notes/Rabbitmq/overview.md",
+    "Fleeting Notes/Rabbitmq/partition handling.md",
+    "Fleeting Notes/Rabbitmq/priorities.md",
+    "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
     "Fleeting Notes/Databse/redis/temp.md",
     "Fleeting Notes/Databse/redis/redis sentinal.md",
-    "Fleeting Notes/Databse/redis/benchmarsk.md",
-    "Fleeting Notes/Databse/redis/redis cluster.md",
-    "Fleeting Notes/Consistent Hashing.md",
-    "Fleeting Notes/Databse/redis/persistent.md",
-    "Fleeting Notes/GO/Go Embedding.md",
-    "Fleeting Notes/Databse/concurrency/phantom.md"
+    "Fleeting Notes/Rabbitmq/Clustering.md",
+    "Fleeting Notes/Databse/redis/benchmarsk.md"
   ]
 }
