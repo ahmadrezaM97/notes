@@ -108,6 +108,8 @@ https://tanzu.vmware.com/content/webinars/jun-11-ha-and-data-safety-in-messaging
 Quorum queues use a write-ahead-log (WAL) for all operations. WAL operations are stored both in memory and written to disk. When the current WAL file reaches a predefined limit, it is flushed to a WAL segment file on disk and the system will begin to release the memory used by that batch of log entries. The segment files are then compacted over time as consumers [acknowledge deliveries](https://www.rabbitmq.com/confirms.html). Compaction is the process that reclaims disk space.
 
 
+
+![[rabbit-mirrired-queues-chain-replication-1.png]]
 _____
 ##### References
 1.
