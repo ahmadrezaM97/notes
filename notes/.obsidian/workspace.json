@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/System Design/framework.md",
+                "file": "Fleeting Notes/Rabbitmq/Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,8 +178,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "0cab8ddc4929233e",
   "lastOpenFiles": [
+    "Fleeting Notes/System Design/framework.md",
     "Fleeting Notes/Rabbitmq/vid.md",
     "Fleeting Notes/Rabbitmq/Clustering.md",
     "Fleeting Notes/Rabbitmq/content.md",
@@ -188,7 +189,6 @@
     "Fleeting Notes/Rabbitmq/partition handling.md",
     "Fleeting Notes/Rabbitmq/priorities.md",
     "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
-    "Fleeting Notes/Databse/redis/temp.md",
-    "Fleeting Notes/Databse/redis/redis sentinal.md"
+    "Fleeting Notes/Databse/redis/temp.md"
   ]
 }
