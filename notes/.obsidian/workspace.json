@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustering.md",
+                "file": "Fleeting Notes/handy linux command.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Rabbitmq/Clustering.md",
+                "file": "Fleeting Notes/handy linux command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,9 +180,9 @@
   },
   "active": "0cab8ddc4929233e",
   "lastOpenFiles": [
+    "Fleeting Notes/Rabbitmq/Clustering.md",
     "Fleeting Notes/System Design/framework.md",
     "Fleeting Notes/Rabbitmq/vid.md",
-    "Fleeting Notes/Rabbitmq/Clustering.md",
     "Fleeting Notes/Rabbitmq/content.md",
     "Fleeting Notes/Rabbitmq/durability.md",
     "Fleeting Notes/Rabbitmq/overview.md",
