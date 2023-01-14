@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO HTTP RESPONSE.md",
+                "file": "Fleeting Notes/GO/GO String.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO HTTP RESPONSE.md",
+                "file": "Fleeting Notes/GO/GO String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,6 +191,8 @@
   },
   "active": "e59a063049f75fe1",
   "lastOpenFiles": [
+    "Fleeting Notes/Strings.md",
+    "Fleeting Notes/GO/GO HTTP RESPONSE.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/GO/good sql.md",
     "Fleeting Notes/GO/Nil.md",
@@ -198,8 +200,6 @@
     "Fleeting Notes/Shop system design.md",
     "Fleeting Notes/Software Test.md",
     "Fleeting Notes/OOP.md",
-    "Templates/Note Template.md",
-    "Templates/Map of Content.md",
-    "Fleeting Notes/Rabbitmq/content.md"
+    "Templates/Note Template.md"
   ]
 }

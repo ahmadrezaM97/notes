@@ -167,6 +167,19 @@ func DoStringConcatenation(){
 * It uses between 1 and 4 bytes to represent each rune, but only 1 byte for ASCII characters and only 2 or 3 bytes for most runes in common use.
 * Go source file is always UTF-8
 
+
+`#####` EqualFold
+
+`EqualFold` reports whether s and, interpreted as `UTF-8` string are equal under Unicode case-folding, which is a more general from of case-insensitivity.
+
+```go
+
+func EqualFold(s, t string) bool
+
+strings.Equalforld(data,"something")
+
+```
+
 _____
 ##### References
 1.
