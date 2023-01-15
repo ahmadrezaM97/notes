@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "42926cc908d6dbe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Python context manager.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a884df01eb866d6d",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -150,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO String.md",
+                "file": "Fleeting Notes/Python context manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,8 +201,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e59a063049f75fe1",
+  "active": "42926cc908d6dbe4",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/GO String.md",
     "Fleeting Notes/Strings.md",
     "Fleeting Notes/GO/GO HTTP RESPONSE.md",
     "Fleeting Notes/GO/GO JSON.md",
@@ -199,7 +212,6 @@
     "Fleeting Notes/Caching.md",
     "Fleeting Notes/Shop system design.md",
     "Fleeting Notes/Software Test.md",
-    "Fleeting Notes/OOP.md",
-    "Templates/Note Template.md"
+    "Fleeting Notes/OOP.md"
   ]
 }
