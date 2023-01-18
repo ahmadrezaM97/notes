@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Python context manager.md",
+                "file": "Fleeting Notes/GO/Go Error.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "243df06d5c629824",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/A good technique to handle HTTP error.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Python context manager.md",
+                "file": "Fleeting Notes/GO/A good technique to handle HTTP error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,17 +213,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "42926cc908d6dbe4",
+  "active": "243df06d5c629824",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/GO/GO HTTP ERROR.md",
+    "Fleeting Notes/Python context manager.md",
     "Fleeting Notes/GO/GO String.md",
     "Fleeting Notes/Strings.md",
     "Fleeting Notes/GO/GO HTTP RESPONSE.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/GO/good sql.md",
     "Fleeting Notes/GO/Nil.md",
-    "Fleeting Notes/Caching.md",
-    "Fleeting Notes/Shop system design.md",
-    "Fleeting Notes/Software Test.md",
-    "Fleeting Notes/OOP.md"
+    "Fleeting Notes/Caching.md"
   ]
 }
