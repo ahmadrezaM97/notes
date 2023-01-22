@@ -115,7 +115,7 @@ in Go 1.6 module-aware commands report an error after discovering a problem .
 the `go install` command can now install an executable at a specific version by specifying an @version suffix
 `go install` command ignore any `go.mod `files in the current directory and parents
 
-
+https://www.practical-go-lessons.com/chap-17-go-modules
 
 
 
