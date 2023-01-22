@@ -101,9 +101,26 @@ __Use `go clean -modecahe` to remove it all (i.e., in make clean)__
 ```
 
 
-### Daily Workflow
 
-day-to-day workflow can
+## No automatic changes to go.mod and go.sum
+
+
+previously, when the go command found a problem with `go.mod` or `go.sum` like a missing require directive or a missing sum, it would attempt to fix the problem atuomatically.
+in Go 1.6 module-aware commands report an error after discovering a problem .
+
+
+
+### Installing an executable at a specific version
+
+the `go install` command can now install an executable at a specific version by specifying an @version suffix
+`go install` command ignore any `go.mod `files in the current directory and parents
+
+
+
+
+
+
+```
 
 
 _____
