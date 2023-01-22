@@ -25,8 +25,62 @@ Go's dependency management protects against some risks:
 
 BUT it cannot ensure the actual quality of security of the original code
 
+"A little copying is better than a little dependency" go provebs
+
+#### import compatibility rule
+
+__If an old packages and a new package have the same import path, the new package must be backward compatible with the old package__
+
+```go
+package hello
+
+import (
+	"github.com/x"
+	x2 "github.com/x/v2"
+)
+```
+
+Note that you can import both versions if necessary
 
 
+### `go.mod`
+
+the `go.mod` file has your module name along with direct dependency requirements (and since go 1.13, the version of go)
+
+
+```
+module hello
+require github.com/x v1.1
+go 1.13
+```
+
+some important environment variables
+
+```bash
+GOPROXY=https://proxy.golang.org,direct
+GOSUMDB=sum.golang.org
+```
+
+ans set this for private  repositories
+
+```bash
+GOPRIVATE=github.com/xxx, github.com/yyy
+GONOSUMDB=githiub.com/xxx, github.com/yyy
+```
+
+remember also you must be set up for access to private `Github` repos in order to download private modules
+
+![[go-module-proxy.png]]
+
+
+
+```ad-warning
+title: pseudo-versions
+go.mod file my recored pseudo-versions for non-release/trunk versions as well as "replacements"
+```
+
+
+ 
 
 ### definition
 
