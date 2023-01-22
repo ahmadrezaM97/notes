@@ -3,6 +3,31 @@ Created: 2023-01-07 02:33
 Tags: 
 ____
 
+* Go module support is intended to solve several problems
+	* avoid the need for `$GOPATH`
+	* group packages versioned/released together
+	* support semantic versioning & backward compatibility
+	* provide in-project dependency management
+	* __Offer strong dependency security & availability__
+	* continue support of `vendoring`
+	* __work transparently across the Go ecosystem.
+
+```ad-tip
+title: GO modules proxying
+go modules proxying offers the value of vendoring without requiring your prokect to vendor all the 3rd-party code in your repo.
+```
+
+Go's dependency management protects against some risks:
+	1. flaky repos
+	2. package that disappear
+	3. conflicting dependency versions
+	4. surreptitious changes to public packages
+
+BUT it cannot ensure the actual quality of security of the original code
+
+
+
+
 ### definition
 
 A module is a collection of Go packages stored in a file tree with a `go.mod` file at its root.

@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/go copy.md",
+                "file": "Fleeting Notes/GO/Go module.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/go copy.md",
+                "file": "Fleeting Notes/GO/Go module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,6 +227,7 @@
   },
   "active": "4f003f2fb6b8bc6c",
   "lastOpenFiles": [
+    "Fleeting Notes/go copy.md",
     "Fleeting Notes/GO/A good technique to handle HTTP error.md",
     "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/GO/GO HTTP ERROR.md",
@@ -235,7 +236,6 @@
     "Fleeting Notes/Strings.md",
     "Fleeting Notes/GO/GO HTTP RESPONSE.md",
     "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/good sql.md",
-    "Fleeting Notes/GO/Nil.md"
+    "Fleeting Notes/GO/good sql.md"
   ]
 }
