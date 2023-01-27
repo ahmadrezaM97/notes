@@ -56,8 +56,10 @@ __Instantiation fails if step 2 fails.__
 
 
 ```ad-warning 
+Types can have type parameter lists, too.
 
 
+Methods declare the respective type parameters witch the receiver.
 ```
 
 ```go
@@ -69,10 +71,69 @@ type Tree[T any] struct{
 
 func (t *Tree[T]) Lookup(x T) *Tree[T]
 
+// istantiations
 var stringTree Tree[String]
 ```
 
 
+### Type sets
+
+kind of types that a type parameter can be instantiated with
+
+1. Ordinary parameter list have a type for each value parameter.
+	1. This type defines a set of values
+2. Type parameter lists also have a type for each type parameter
+	1. This type defines a set of types. 
+		1. __IT IS CALLED THE TYPE CONSTRAINT__
+
+
+```go
+type min[T contraints.Ordered](x,y T) T {
+	if x < y {
+		return x
+	}
+
+	return y
+}
+
+/*
+
+`constrints.Ordered` has two functions:
+1. only types witch orderable values can be passed as type arguments to T.
+2. Values of type `T` can e used as operands for `<` in the function body.
+*/
+```
+
+```ad-danger 
+Type Constraints are interfaces.
+```
+
+__Until recently interface defines a set of methods
+The different views__
+
+![[generic-interface.png]]
+
+The different view 
+	__Interface defines a set of type
+
+![[generic-interface-2.png]]
+
+__We can add type explicitly to an interface__
+
+![[interface-generic-2.png]]
+
+```go
+package constraints
+
+type Ordered interface {
+	int | float | ~string
+}
+```
+
+```ad-tip
+~ is a new token added to Go.
+~T means the set of all types with underlyning type T.
+```
 
 
 
