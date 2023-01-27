@@ -7,7 +7,7 @@ New language features in Go 1.18
 
 1. type parameters for functions and types
 2. type sets defined by interfaces
-3. type interfaces
+3. type inference
 
 ```ad-note 
 title: type parameter
@@ -169,8 +169,44 @@ func main() {
 #### Constraint literals
 
 ```go 
+/*
 [S inteface{~[]E}, E interface{}]
+[S ~[]E, E any]
+[S ~[]E, E any]
+*/
+
+func elementExist[S ~[]E, E comparable](arr S, element E) bool {
+	for i := range arr {
+		if arr[i] == element {
+			return true
+		}
+	}
+
+	return false
+}
+
+func main() {
+	fmt.Println(elementExist([]int{1, 2, 3, 4, 5, 6}, 10))
+	fmt.Println(elementExist([]string{"a", "b", "c"}, "b"))
+
+}
+
+
 ```
+
+
+
+### type inference
+```go
+
+func min[T constraints.Ordered](x,y T) T
+
+m = min(1,2)
+
+```
+__ passing type arguments  leads to more verbose code__
+
+
 
 
 A generic type example
