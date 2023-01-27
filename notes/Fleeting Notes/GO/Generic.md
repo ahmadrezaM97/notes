@@ -136,6 +136,42 @@ type Ordered interface {
 ```
 
 
+You can define an interface as type constraint
+```go
+
+type SHIT int
+
+func (s SHIT) Do() string {
+	return "SHIT"
+}
+
+type MyInterface interface {
+	~int | float64
+	Do() string
+}
+
+func f[V MyInterface](v V) {
+	fmt.Println(v.Do())
+}
+
+func main() {
+	f(SHIT(2))
+}
+```
+
+
+### The two functions of a type constraint
+
+1. The __type set__ of __a constraint__ is  __a set of valid type arguments__.
+2. If __all types__ in the constraint __support an operation__, that operation may be used with respective type parameter. ( * some restriction apply ( I don't know what))
+
+
+#### Constraint literals
+
+```go 
+[S inteface{~[]E}, E interface{}]
+```
+
 
 A generic type example
 
