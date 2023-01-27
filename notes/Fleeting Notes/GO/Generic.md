@@ -3,12 +3,85 @@ Created: 2023-01-27 19:33
 Tags: 
 ____
 
-A generic type example
+New language features in Go 1.18
 
-Firstly, let's view an example to show how generic types look like.
+1. type parameters for functions and types
+2. type sets defined by interfaces
+3. type interfaces
+
+```ad-note 
+title: type parameter
+A type parameter gives you the ability, to parameterize a function or atype with types
+
+
+`[P, Q constraint1, R contraint2]`
+```
+
+
+```ad-tip
+title: type parameter list
+Type parameter lists look like ordinary parameter lists witch square bracketes. `[]`
+It is customary to start type parameters which upper-case letters to emphasize that they are types.
+
+
+```
+
+```go
+func min(x, y float64) float64 {
+	if x < y {
+		return x
+	}
+
+	return y
+}
+
+type min[T contraints.Ordered](x,y T) T {
+	if x < y {
+		return x
+	}
+
+	return y
+}
+
+intMin := min[int](2,3)
+floatMin := min[float64](2.0, 3.0)
+```
+
+
+#### instantiation
+
+1. substitute type arguments for type parameters.
+2. check that type arguments implement their constraints.
+__Instantiation fails if step 2 fails.__
+
+
+```ad-warning 
+
+
+```
+
+```go
+
+type Tree[T any] struct{
+	left, right *Tree[T]
+	data  T
+}
+
+func (t *Tree[T]) Lookup(x T) *Tree[T]
+
+var stringTree Tree[String]
+```
+
+
+
+
+
+A generic type example
 
 
 A type parameter list may contain one and more type parameter declarations which are enclosed in square brackets and separated by commas.
+
+
 
 
 
