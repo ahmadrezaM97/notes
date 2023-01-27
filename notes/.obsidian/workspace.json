@@ -92,6 +92,42 @@
             }
           },
           {
+            "id": "f5991312c74130cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f45ad57aa91ab88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/A good technique to handle HTTP error.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a2b71ece8de13e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/Generic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a884df01eb866d6d",
             "type": "leaf",
             "state": {
@@ -128,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -186,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go module.md",
+                "file": "Fleeting Notes/GO/Generic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,17 +261,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4f003f2fb6b8bc6c",
+  "active": "8a2b71ece8de13e3",
   "lastOpenFiles": [
-    "Fleeting Notes/go copy.md",
     "Fleeting Notes/GO/A good technique to handle HTTP error.md",
-    "Fleeting Notes/GO/Go Error.md",
-    "Fleeting Notes/GO/GO HTTP ERROR.md",
-    "Fleeting Notes/Python context manager.md",
-    "Fleeting Notes/GO/GO String.md",
-    "Fleeting Notes/Strings.md",
-    "Fleeting Notes/GO/GO HTTP RESPONSE.md",
-    "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/good sql.md"
+    "Fleeting Notes/GO/Basic Data Types.md",
+    "Fleeting Notes/GO/Context - GO.md",
+    "Fleeting Notes/GO/CSP.md",
+    "Fleeting Notes/GO/GO Channels.md",
+    "Fleeting Notes/GO/Std log package in golang.md",
+    "Fleeting Notes/GO/good sql.md",
+    "Fleeting Notes/GO/Gotroutines.md",
+    "Fleeting Notes/GO/Go reflect on struct.md",
+    "Fleeting Notes/GO/Go Pointer.md"
   ]
 }
