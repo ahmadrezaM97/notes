@@ -5,26 +5,15 @@ ____
 
 New language features in Go 1.18
 
-1. type parameters for functions and types
-2. type sets defined by interfaces
-3. type inference
+1. __Type parameters for functions and types
+2. __Type sets defined by interfaces
+3. __Type inference
 
-```ad-note 
-title: type parameter
-A type parameter gives you the ability, to parameterize a function or atype with types
+### Type parameter
 
+__Functions__ and __Types__ are now premitted to have type parameters.
 
-`[P, Q constraint1, R contraint2]`
-```
-
-
-```ad-tip
-title: type parameter list
-Type parameter lists look like ordinary parameter lists witch square bracketes. `[]`
-It is customary to start type parameters which upper-case letters to emphasize that they are types.
-
-
-```
+A type parameter list looks like an ordinary parameter list, expect that it uses square brackets instead of parentheses.
 
 ```go
 func min(x, y float64) float64 {
@@ -43,15 +32,15 @@ type min[T contraints.Ordered](x,y T) T {
 	return y
 }
 
+// these are called instantiation
 intMin := min[int](2,3)
 floatMin := min[float64](2.0, 3.0)
 ```
 
+##### Instantiation
 
-#### instantiation
-
-1. substitute type arguments for type parameters.
-2. check that type arguments implement their constraints.
+1. Substitute type arguments for type parameters.
+2. Check that type arguments implement their constraints.
 __Instantiation fails if step 2 fails.__
 
 
@@ -78,35 +67,43 @@ var stringTree Tree[String]
 
 ### Type sets
 
-kind of types that a type parameter can be instantiated with
 
-1. Ordinary parameter list have a type for each value parameter.
-	1. This type defines a set of values
-2. Type parameter lists also have a type for each type parameter
-	1. This type defines a set of types. 
-		1. __IT IS CALLED THE TYPE CONSTRAINT__
+* An ordinary function has a type for each value parameter; that type defines a set of values.
+	* For instance, if we have a `float64` type as in the non-generic function `Min`, the premissible set of argument values ins the set of floating-point values that can be represented by the `float64` type.
+* Similarly, type parameter lists have a type for each type parameter.
+	* Because a type parameter is itself a type, __the types of type parameters defines sets of types__
+	* This meta-type is called a __TYPE CONSTRAINT__
 
+```ad-important
+In GO, type constraints must be interfaces.
+That is, an interface type can be used as a value type, and it can also be used as a meta-type.
+```
 
+* Interfaces define methods, so obviously we can express type constraints that require certain method to be present 
 ```go
-type min[T contraints.Ordered](x,y T) T {
-	if x < y {
-		return x
-	}
 
-	return y
+type SomethingWired int
+
+func (s SomethingWired) Do() string {
+	return "SHIT"
 }
 
-/*
+type MyInterface interface {
+	~int | float64
+	Do() string
+}
 
-`constrints.Ordered` has two functions:
-1. only types witch orderable values can be passed as type arguments to T.
-2. Values of type `T` can e used as operands for `<` in the function body.
-*/
+func f[V MyInterface](v V) {
+	fmt.Println(v.Do())
+}
+
+func main() {
+	f(SomethingWired(2))
+}
 ```
 
-```ad-danger 
-Type Constraints are interfaces.
-```
+* BUT `constraints.Ordered` is an interface type too, and the `<` operator is not a method. (`WTF`? :D)
+	* To make this work, we look at interfaces in a new way.
 
 __Until recently interface defines a set of methods
 The different views__
