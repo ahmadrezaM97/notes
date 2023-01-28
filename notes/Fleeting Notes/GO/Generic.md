@@ -105,17 +105,27 @@ func main() {
 * BUT `constraints.Ordered` is an interface type too, and the `<` operator is not a method. (`WTF`? :D)
 	* To make this work, we look at interfaces in a new way.
 
-__Until recently interface defines a set of methods
-The different views__
+
+(first view)
+__Until recently interface defines a set of methods__, which is roughly the set of methods enumerated in the interface.
+Any type that implements all those methods implements the interface
 
 ![[generic-interface.png]]
 
-The different view 
-	__Interface defines a set of type
+(second view)
+But another way of looking at this is __to say that the interface defines a set of types, namely the types that implement those methods.__
+From this perspective, any type that is an element of the interface's type set implements the interface.
 
 ![[generic-interface-2.png]]
 
-__We can add type explicitly to an interface__
+The two views lead to the same outcome
+__for each set of methods we can imagine the corresponding set of types that implement those methods, and that is the set of types defined by the interface.__
+
+
+__We can extended the syntax for inteface types to make this work__
+```go
+interface { int|string|bool}
+```
 
 ![[interface-generic-2.png]]
 
@@ -128,6 +138,8 @@ type Ordered interface {
 ```
 
 ```ad-tip
+For type constraints we usually don't care about a specific type, such as `string`; we are interested in all string types.
+That is what ~ token is for.
 ~ is a new token added to Go.
 ~T means the set of all types with underlyning type T.
 ```
