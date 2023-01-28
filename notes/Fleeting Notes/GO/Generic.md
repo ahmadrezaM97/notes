@@ -122,7 +122,7 @@ The two views lead to the same outcome
 __for each set of methods we can imagine the corresponding set of types that implement those methods, and that is the set of types defined by the interface.__
 
 
-__We can extended the syntax for inteface types to make this work__
+__We can extended the syntax for interface types to make this work__
 ```go
 interface { int|string|bool}
 ```
@@ -143,6 +143,11 @@ That is what ~ token is for.
 ~ is a new token added to Go.
 ~T means the set of all types with underlyning type T.
 ```
+
+
+##### Literal interface as a type constrants
+
+
 
 
 You can define an interface as type constraint
@@ -319,6 +324,24 @@ func main() {
 }
 ```
 
+
+### WFT
+
+you can have this shit
+
+```go
+func Do[V comparable](v V) string {
+	return fmt.Sprintf("%v\n", v)
+}
+
+type Doer[V comparable] interface {
+	Do(v V) string
+}
+
+func RunDoer[V comparable](d Doer[V]) {
+	d.Do()
+}
+```
 
 
 Since Go.18, value types falls into two categories
