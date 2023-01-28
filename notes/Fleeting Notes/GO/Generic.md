@@ -145,7 +145,98 @@ That is what ~ token is for.
 ```
 
 
-##### Literal interface as a type constrants
+##### Literal interface as a type constraints
+
+```go
+[S interface{[~]E}, E interface{}]
+[S ~[]E, E interface{}]
+[S ~[]E, E any]
+```
+
+### Type inference
+
+The last new major language feature is type inference. In some ways this is the most complicated change to the language.
+but it is important because it lets people use a natural style when writing code that calls generic function.
+
+#### function argument type inference
+
+with type parameters comes the need to pass type arguments, which can make for verbose code.
+```go
+func GMin[T constraints.Order](x, y T) T {...}
+```
+
+the type parameter T is used to specify the types of the ordinary non-type arguments `x` and `y`.
+
+we can do
+```go
+var a, b, m float64 
+m = GMin[float64](a,b) // explicit type argument
+```
+in many cases the compiler can infer the type argument for `T` from the ordinary arguments.
+This makes the code shorter while remaining clear.
+
+```go
+var a, b, m float64
+m = GMin(a,b) // no type argument
+```
+
+This kind of inference, which infers the type arguments from the types of the arguments to the function, is called `function argument type inference`.
+
+#### Constraint type inference
+
+The language supports another kind of type inference, `constraint type inference`. To describe this, lets' start with this example of scaling a slice of integers.
+
+```go
+// Scale returns a copy of s with each elemts multiplied by c.
+
+// fist attampt
+
+func sclae[E constraints.Integer](s []E, c E) []E{
+	r := make([]E, len(s))
+	for i,v := range s {
+		r[i] = v * c
+	}
+
+
+	return r
+}
+```
+
+This is a generic function that works for a slice of any integer type.
+Now suppose that we have a multi-dimensional `Point` type, where each Point is simply a list of integers giving the coordinates of the point. naturally this type will have some methods.
+
+```go
+type Point []int32
+
+func (p Point) String() string{
+	// details not important.
+}
+
+
+func SclaeAndPrint(p Point) {
+	r := Scale(p, 2)
+	fmt.Println(r.String()) // does not compile
+}
+
+```
+
+The problem is that the `Salce` function returns a value of type `[]E` where `E` is the element type of the argument slice.
+When we call `Scale` whit a value of type `Point`, whose underlying type is `[]int32`, we get back a value of type `[]int32`, not type `Point`.
+
+This follow from the way that the generic code is written, but it's not what we want.
+
+```go
+
+func Scale[S ~[]E, E constraints.Integer](s S, c E) S {
+	r := make(S, len(s))
+	for i,v := range s {
+		r[i] = v*c
+	}
+
+	return r
+}
+```
+
 
 
 
