@@ -3,6 +3,86 @@ Created: 2023-02-01 21:07
 Tags: 
 ____
 
+### Basic
+
+```ad-quote
+Tests are just code, we are in control of what we will write and how complicated we'll make our test.
+
+We need to kepp the code quality high in our tests too.
+```
+
+what is a test?
+	Repeatable steps to verify if a piece of code is working as it is supposed to.
+
+#TODO 
+
+### Testing with Go's `testing` package
+
+* Golang's `testing` package supports automated testing of Go packages.
+	* it exposes valuable functions that we can use to get a couple of benefits
+		* a better-looking code, a standardized approach to testing, and nicer looking output.
+		* Eliminate the need to create our reporting of failed/passed tests.
+
+The `testing` package 
+	1. testing
+	2. benchmarking
+	3. fazzitest(? new in go.18)
+
+We use the `testing.T` type, which, when passed to `Test*` functions, manages the test state and formats the test logs.
+
+```go
+package main
+
+import "testing"
+
+func TestMax(t *testing.T){
+	actual := Max([]int{1,2,3})
+	if actual != 4 {
+		t.Errorf("Expected %d, go %d",4,actual)
+	}
+}
+```
+
+we make the test fail by using the `t.Errorf` function and supply the error message.
+
+__What happens when we run `go test`__
+
+This command automates testing the package named by __the import path.__
+
+`go test` recompiles each package along with any files with name matching the file pattern `*_test.go`
+
+something like this
+```
+FAIL    github.com/ahmadrezam97/testl/sample    0.003s
+```
+
+-> make fail the test using `t.Errorf`
+
+
+
+The most basic test
+
+```go
+func Max(numbers []int) int {
+	var max int 
+
+	for _, number := range numbers {
+		if number > max {
+			max = number
+		}
+	}
+	
+	return max 
+}
+
+
+func TestMax(numbers)
+```
+
+
+
+
+
 which kind of files?
 how to run test?
 what is testing.T or B or F?
