@@ -148,7 +148,9 @@ That is what ~ token is for.
 
 ```go
 [S interface{[~]E}, E interface{}]
+
 [S ~[]E, E interface{}]
+
 [S ~[]E, E any]
 ```
 
