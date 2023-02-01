@@ -101,9 +101,32 @@ FAIL	github.com/ahmadrezam97/testl/sample	0.002s
 Some situation
 
 1. I need to mock a function
+	1. high order functions ( I personally don't like this)
+		1. Stateless | clear
+		2. Dependency graph(`sql` open outside of it's module) and ugly parameter list
+	2. monkey patching ( I hate this method :| )
+		1. define a package global value and reattach it for every test
+			1. not good for parallel testing
 2. I need to mock a method o a type
+	1. use interface (e.x `io.ReadCloser` ->`*os.File`) and write a simple mock concrete type
+		1.  "Accept interface, return structs"
+		2. Don't be afraid to define your own interface
 3. I have a large interface, I need to mock a small set of its methods
+	1. use embed interface in to struct(then you have explicit satisfaction)
 4. I need to mock an HTTP call
+	1. parameterize URL base line and then 
+	```go 
+httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request){
+
+	// mocks
+
+}))
+
+
+resp, err := makeCall(testURL)
+
+```
+
 
 _____
 ##### References
