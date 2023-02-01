@@ -83,9 +83,31 @@ title: WE HAVE TO KNOW
 #### Logging with `Log` and `Logf`
 
 
-### Go failing tests
+### Go Failing tests
 
+```go
+type 
+func (c *T) Error(args ...any)
+func (c *T) Errorf(format string, args ..any)
 
+func (c *T) Fail()
+func (c *T) FailNow()
+
+func (c *T) Fatal(args ...any)
+func (c *T) Fatalf(foramt string, args ...any)
+
+func (c *T) Log(args ...any)
+func (c *T) Logf(foramt string, args ...any)
+```
+
+`Logf` same as `fmt.Printf`
+`Log` ~ `fmtPrintln`
+`Logf` and `Log` save the output to the error log( instead of `os.Stdout`)
+
+```ad-note
+title: when you see result of log and logf
+when the test fails or in verbose mode with `go test-v`
+```
 
 The most basic test
 
