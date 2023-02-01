@@ -128,6 +128,18 @@
             }
           },
           {
+            "id": "082d119b6caa3d96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Go Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a884df01eb866d6d",
             "type": "leaf",
             "state": {
@@ -164,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -222,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Generic.md",
+                "file": "Fleeting Notes/Go Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,10 +273,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8a2b71ece8de13e3",
+  "active": "082d119b6caa3d96",
   "lastOpenFiles": [
-    "Fleeting Notes/GO/Context - GO.md",
     "Fleeting Notes/GO/Generic.md",
+    "Fleeting Notes/GO/Context - GO.md",
     "Fleeting Notes/GO/CSP.md",
     "Fleeting Notes/GO/Basic Data Types.md",
     "Fleeting Notes/GO/ratelimit.md",
