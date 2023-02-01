@@ -32,7 +32,7 @@ concurrency is property of a code but parallelism is a property of execution.
 
 P1, P2 -> logical proccess
 
-M -> OS Thread
+M - machine
 Core -> hardware thread
 
 G1, G2 -> Goroutine
@@ -55,15 +55,15 @@ G1, G2 -> Goroutine
 			* requesting access to a resource over the network
 			* making system calls into the operating system
 			* waiting for an event to occur
-		* A Goroutine that needs to read a file would be I/O-Bound
+		* A `Goroutine` that needs to read a file would be I/O-Bound
 
 * With  `CPU-Bound` workloads you need parallelism to leverage concurrency
-	* A single OS/hardware thread handling multiple Goroutines is not efficient since the Goroutines are not moving in and out of waiting states as part of their workload
+	* A single OS/hardware thread handling multiple `Goroutines` is not efficient since the `Goroutines` are not moving in and out of waiting states as part of their workload
 * With `I/O-Bound` workloads you don't need parallelism to use concurrency 
-	* A single OS/hardware thread can handle multiple Goroutines with efficiency since the Goroutines are naturally moving in and out of waiting states as part of their workload
+	* A single OS/hardware thread can handle multiple `Goroutines` with efficiency since the `Goroutines` are naturally moving in and out of waiting states as part of their workload
 
--> To Few Goroutines and you have more idle time
--> Too many Goroutines and you have  move context switch latency time
+-> To Few `Goroutines` and you have more idle time
+-> Too many `Goroutines` and you have  move context switch latency time
 
 _____
 ##### References

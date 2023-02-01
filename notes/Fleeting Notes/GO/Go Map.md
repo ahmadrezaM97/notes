@@ -39,6 +39,11 @@ a[0] = a
 ```
 
 
+```ad-important
+title: nil map
+zero value of map is `nil`, and a nil map is readonly.
+if you put something on it, it will panic
+```
 
 ___
 __
