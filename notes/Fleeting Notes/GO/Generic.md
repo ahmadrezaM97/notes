@@ -11,7 +11,7 @@ New language features in Go 1.18
 
 ### Type parameter
 
-__Functions__ and __Types__ are now premitted to have type parameters.
+__Functions__ and __Types__ are now permitted to have type parameters.
 
 A type parameter list looks like an ordinary parameter list, expect that it uses square brackets instead of parentheses.
 
@@ -69,7 +69,7 @@ var stringTree Tree[String]
 
 
 * An ordinary function has a type for each value parameter; that type defines a set of values.
-	* For instance, if we have a `float64` type as in the non-generic function `Min`, the premissible set of argument values ins the set of floating-point values that can be represented by the `float64` type.
+	* For instance, if we have a `float64` type as in the non-generic function `Min`, the permissible set of argument values ins the set of floating-point values that can be represented by the `float64` type.
 * Similarly, type parameter lists have a type for each type parameter.
 	* Because a type parameter is itself a type, __the types of type parameters defines sets of types__
 	* This meta-type is called a __TYPE CONSTRAINT__
