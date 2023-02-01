@@ -58,6 +58,33 @@ FAIL    github.com/ahmadrezam97/testl/sample    0.003s
 
 -> make fail the test using `t.Errorf`
 
+go test different running modes
+1. The first mode is called local directory mode.
+	1. this mode is active when the command is invoked with no arguments.
+		1. in local directory mode, `go test` will compile the package sources and the tests found in the current directory and then run the resulting test binary.
+	2. after the package test finishes, `go test` prints a summary line showing
+		1. The test status (`ok` or `FAIL`)
+		2. The package name
+		3. The elapsed time
+2. The second mode is called package list mode. the mode is activated when the command is invoked with explicit arguments.
+	1. in this mode `go test` will compile and test each of the packages listed as arguments
+	2. if package test passes, `go test` prints only the final `ok` summary line
+	3. if a package test fails, `go test` prints the complete test output
+
+
+```ad-important
+title: WE HAVE TO KNOW
+1. Every test file ends with `*_test.go`
+2. Every test function has the format `TestXxx` 
+	1. Where `Xxx` must not start with a lowercase letter.
+	
+```
+
+#### Logging with `Log` and `Logf`
+
+
+### Go failing tests
+
 
 
 The most basic test
