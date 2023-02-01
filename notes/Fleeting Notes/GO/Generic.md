@@ -2,7 +2,6 @@
 Created: 2023-01-27 19:33
 Tags: 
 ____
-
 New language features in Go 1.18
 
 1. __Type parameters for functions and types

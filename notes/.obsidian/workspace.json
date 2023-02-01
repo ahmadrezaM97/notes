@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Context - GO.md",
+                "file": "Fleeting Notes/GO/Generic.md",
                 "mode": "source",
                 "source": false
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Context - GO.md",
+                "file": "Fleeting Notes/GO/Generic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,6 +263,7 @@
   },
   "active": "8a2b71ece8de13e3",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Context - GO.md",
     "Fleeting Notes/GO/Generic.md",
     "Fleeting Notes/GO/CSP.md",
     "Fleeting Notes/GO/Basic Data Types.md",
@@ -271,7 +272,6 @@
     "Fleeting Notes/GO/Test.md",
     "Fleeting Notes/Availability Patterns.md",
     "Fleeting Notes/GO/interface value.md",
-    "Fleeting Notes/GO/Gotroutines.md",
-    "Fleeting Notes/GO/good sql.md"
+    "Fleeting Notes/GO/Gotroutines.md"
   ]
 }
