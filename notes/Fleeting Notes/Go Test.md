@@ -181,9 +181,87 @@ ok  	github.com/ahmadrezam97/testl/person	(cached)	coverage: 80.0% of statements
 
 
 ```bash
-go test ./person --coverprofile=prof.out
+$go test ./person --coverprofile=prof.out
 ok  	github.com/ahmadrezam97/testl/person	0.001s	coverage: 83.3% of statements
 ```
+
+
+```bash
+$ cat prof.out
+mode: set
+github.com/ahmadrezam97/testl/person/person.go:9.42,10.13 1 1
+github.com/ahmadrezam97/testl/person/person.go:14.2,14.15 1 1
+github.com/ahmadrezam97/testl/person/person.go:18.2,20.8 1 1
+github.com/ahmadrezam97/testl/person/person.go:10.13,12.3 1 1
+github.com/ahmadrezam97/testl/person/person.go:14.15,16.3 1 0
+github.com/ahmadrezam97/testl/person/person.go:23.44,25.2 1 1
+```
+
+
+```bash
+$ go tool cover -html=prof.out
+```
+
+![[go-cover.png]]
+
+
+### using `-short` mode
+
+The `-shot` mode for `go test` allows us to mark any long-running tests to be skipped in this mode.
+
+`go test` and the `testing` package support this via the `t.Skip()`, the `testing.Short()` function and `-short` flag
+
+```bash
+$ go test ./... -short -v 
+```
+
+```
+=== RUN   TestSomething
+=== RUN   TestSomething/simple_test
+    sample_test.go:35: if you see this, you run verbose test or it's failed
+=== RUN   TestSomething/zero_test
+    sample_test.go:35: if you see this, you run verbose test or it's failed
+--- FAIL: TestSomething (0.00s)
+    --- PASS: TestSomething/simple_test (0.00s)
+    --- FAIL: TestSomething/zero_test (0.00s)
+=== RUN   TestFoo
+    sample_test.go:51: SHIIIIIIIIIIT
+--- SKIP: TestFoo (0.00s)
+FAIL
+FAIL	github.com/ahmadrezam97/testl/sample	0.002s
+FAIL
+
+```
+
+
+```go
+func TestFoo(t *testing.T) {
+	if testing.Short() {
+		t.Skipf("SHIIIIIIT")
+	}
+	t.Logf("Testing foo")
+	t.FailNow()
+	t.Logf("Another log from foo")
+}
+```
+
+
+### Subtests
+
+Subtests are a construct in Go's `testing` package that split our test functions into granular test processes.
+
+They unlock helpful functionality  such as better handling of errros, more control over running tests, concurrency, and more straightforward code.
+
+The actualization of subsets in the `testing` package is the `Run` method.
+It takes two arguments
+	1. the names of the `subtest`
+	2. the `subtest` function
+
+The name is and identifier of the `subtests`, which unlocks running a specific `subtest` using the `go tesat` command
+
+like with ordinary test functions, `subtest` are reported after the parent test function is down, meaning all `subtests` have finished running.
+
+
 
 
 ```
