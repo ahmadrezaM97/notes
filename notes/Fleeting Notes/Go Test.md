@@ -127,21 +127,66 @@ These `*_test file` can contain test functions, benchmark function and example f
 `go test` has two running modes.
 
 1. __Local directory mode, or running without arguments.__
+	1. `go test` compiles the package sources and tests found in the current directory and the runs the resulting test binary.
+	2. this mode __disables caching__.
+	3. After the package test finishes, `go test` prints a summary line showing 
+		1. The test status (`ok` and `FAIL`)
+		2. The package name
+		3. Elapsed time.
 2. __Package list mode, or running with arguments.__
+	1.  `go test` compiles and tests each package listed as arguments to the command.
+	2. If a package test passes, `go test` prints only the final `ok` summary line.
+	3. If a package test fails, `go test` prints the complete test output.
+	4. To run your test in this mode, run `go test` with explicit package arguments.
+		1. `go test PACKAGE_NAME` to test a specific package 
+		2. `go test ./...`  to test all packages in directory tree
+		3. `go test .` to run all tests in the current directory
 
-In the __local directory mode__, `go test` compiles the package sources and tests found in the current directory and the runs the resulting test binary.
+```ad-note
+title: verbose mode
+If we would like to see a more detailed output, we can use the `-v` flag
+```
+```bash
+$ go test ./person -v 
+=== RUN   TestNewPersonPositiveAge
+--- PASS: TestNewPersonPositiveAge (0.00s)
+=== RUN   TestNewPersonNegativeAge
+--- PASS: TestNewPersonNegativeAge (0.00s)
+PASS
+ok  	github.com/ahmadrezam97/testl/person	(cached)
 
-this mode disables caching.
+```
 
-After the package test finishes, `go test` prints a summary line showing the test status (`ok` and `FAIL`), the package name, and elapsed time.
 
-in the __package list mode__, `go test` compiles and tests each package listed as arguments to the command.
-If a package test passes, `go test` prints only the final `ok` summary line.
-If a package test fails, `go test` prints the complete test output.
+```ad-note
+by adding the `-failfast` flag, we stopped wight where we got the first failure
+```
 
-To run your test in this mode, run `go test` with explicit package arguments.
-For example, we can run `go test PACKAGE_NAME` to test a specific package or `go test ./...`  to test all packages in directory tree. Or we can run `go test .` to run all tests in the current directory
 
+
+#### Test Coverage
+
+Another exciting feature that is packed in `go test` is test coverage.
+Taken from Go's website:
+
+```ad-quote
+Test coverage is a term that describes how much of a package's code is exercised by running the package's test.
+If executing the test sute causes 80% of the package's source statements to be run, we sa the coverage is 80%
+```
+
+```bash
+$ go test ./... --cover
+ok  	github.com/ahmadrezam97/testl/person	(cached)	coverage: 80.0% of statements
+```
+
+
+```bash
+go test ./person --coverprofile=prof.out
+ok  	github.com/ahmadrezam97/testl/person	0.001s	coverage: 83.3% of statements
+```
+
+
+```
 
 
 
