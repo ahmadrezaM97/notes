@@ -257,6 +257,9 @@ it enables better handling of failures, fine-grained control of which tests to r
 
 ### `t.Run` method
 
+```go 
+func (t *T) Run(name string, f func(t *T)) bool
+```
 
 `Run` runs the function in a separate goroutine and blocks until it returns or calls `t.Parallel` to become a parallel test.
 
@@ -301,39 +304,123 @@ func TestSomething(t *testing.T) {
 	}
 
 }
+```
+
+```
+$ testl go test ./person -v
+=== RUN   TestOlder
+=== RUN   TestOlder/FirstOlderThanSecond
+=== RUN   TestOlder/SecondOlderThanFirst
+--- PASS: TestOlder (0.00s)
+    --- PASS: TestOlder/FirstOlderThanSecond (0.00s)
+    --- PASS: TestOlder/SecondOlderThanFirst (0.00s)
+=== RUN   TestNewPersonPositiveAge
+--- PASS: TestNewPersonPositiveAge (0.00s)
+=== RUN   TestNewPersonNegativeAge
+--- PASS: TestNewPersonNegativeAge (0.00s)
+=== RUN   TestNewPersonWithMoreThan130Years
+--- PASS: TestNewPersonWithMoreThan130Years (0.00s)
+PASS
+ok  	github.com/ahmadrezam97/testl/person	0.001s
 
 ```
 
 
+#### Selectively running subtests with `go test`
 
-
-
+```bash
+go test -v -count=1 -run="TestOlder/FirstOlderThanSecond"
 ```
 
+#### Shared Setup and Teardown
 
-
-
-
-The most basic test
+another somewhat hidden side of subtests is unlocking the ability to create isolated setup and teardown functions
 
 ```go
-func Max(numbers []int) int {
-	var max int 
-
-	for _, number := range numbers {
-		if number > max {
-			max = number
-		}
-	}
-	
-	return max 
+func setupSubtest(t *testing.T) {
+	t.Logf("[SETUP] hello 👋")
 }
 
+func tearDownSubtest(t *testing.T) {
+	t.Logf("[TEARDOWN] Bye, bye")
+}
 
-func TestMax(numbers)
+func TestOlder(t *testing.T) {
+
+	cases := []struct {
+		name     string
+		age1     int
+		age2     int
+		expected bool
+	}{
+		{
+			name:     "FirstOlderThanSecond",
+			age1:     1,
+			age2:     2,
+			expected: false,
+		},
+		{
+			name:     "SecondOlderThanFirst",
+			age1:     2,
+			age2:     1,
+			expected: true,
+		},
+	}
+
+	for _, c := range cases {
+		t.Run(c.name, func(t *testing.T) {
+			setupSubtest(t)
+			defer tearDownSubtest(t)
+
+			p1, _ := person.NewPerson(c.age1)
+			p2, _ := person.NewPerson(c.age2)
+
+			got := p1.Older(p2)
+
+			if got != c.expected {
+				t.Errorf("Expected %v > %v, got %v", p1.Age(), p2.Age(), got)
+			}
+		})
+	}
+}
+```
+
+```
+go test ./person -v
+=== RUN   TestOlder
+=== RUN   TestOlder/FirstOlderThanSecond
+    person_test.go:10: [SETUP] hello 👋
+    person_test.go:14: [TEARDOWN] Bye, bye
+=== RUN   TestOlder/SecondOlderThanFirst
+    person_test.go:10: [SETUP] hello 👋
+    person_test.go:14: [TEARDOWN] Bye, bye
+--- PASS: TestOlder (0.00s)
+    --- PASS: TestOlder/FirstOlderThanSecond (0.00s)
+    --- PASS: TestOlder/SecondOlderThanFirst (0.00s)
+
 ```
 
 
+#### TestMain
+
+There are times when our test file has to do some extra setup or teardown before or after the tests in a file are run.
+
+Therefore, when a test file contains a `TestMain` function, the test will call `TestMain(m *testing.M)` instead of running the tests directly.
+
+Think of it in this way
+	every test file contains a "hidden" `TestMain` function, and its contents look something like this
+
+```go
+func TestMain(m *testing.M) {
+	os.Exist(m.Run())
+}
+```
+
+`TestMain` will run in the main goroutine, and it does the setup or teardown necessary arround a call to `m.Run`.
+
+`m.Run` runs all the test functions in the test file.
+
+`Testmain` will take the result of the `m.Run` invcation and then call `os.Exit` with the result as an argument.
 
 
 
