@@ -246,20 +246,64 @@ func TestFoo(t *testing.T) {
 ```
 
 
-### Subtests
+### `Subtests`
 
-Subtests are a construct in Go's `testing` package that split our test functions into granular test processes.
+#### introduction
 
-They unlock helpful functionality  such as better handling of errros, more control over running tests, concurrency, and more straightforward code.
+In Go 1.7, the testing package introduces a Run method on the `T` and `B` types that allows for the creation of `subtests` and `sub-benchmarks`.
 
-The actualization of subsets in the `testing` package is the `Run` method.
-It takes two arguments
-	1. the names of the `subtest`
-	2. the `subtest` function
+it enables better handling of failures, fine-grained control of which tests to run from the command line, control of parallelism, and often results in simpler and more maintainable code.
 
-The name is and identifier of the `subtests`, which unlocks running a specific `subtest` using the `go tesat` command
 
-like with ordinary test functions, `subtest` are reported after the parent test function is down, meaning all `subtests` have finished running.
+### `t.Run` method
+
+
+`Run` runs the function in a separate goroutine and blocks until it returns or calls `t.Parallel` to become a parallel test.
+
+
+
+```go
+func TestSomething(t *testing.T) {
+
+	testTable := []struct {
+		name           string
+		a              int
+		b              int
+		expectedResult string
+	}{
+		{
+			name:           "simple test",
+			a:              1,
+			b:              2,
+			expectedResult: "result is 2",
+		},
+		{
+			name:           "zero test",
+			a:              0,
+			b:              2,
+			expectedResult: "result is 1",
+		},
+	}
+
+	for _, tt := range testTable {
+
+		t.Run(tt.name, func(t *testing.T) {
+			t.Log("if you see this, you run verbose test or it's failed")
+			actualResult := sample.DoSomething(tt.a, tt.b)
+
+			if tt.expectedResult != actualResult {
+				t.FailNow()
+				t.Errorf("")
+			}
+
+			assert.Equal(t, tt.expectedResult, actualResult)
+		})
+	}
+
+}
+
+```
+
 
 
 
