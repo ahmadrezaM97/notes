@@ -110,6 +110,42 @@ when the test fails or in verbose mode with `go test-v`
 ```
 
 
+### `go test` command
+
+
+`go test` is a command that automates the execution of test files and functions in a Go project.
+
+`go test` will recompile each package and any files with names matching the file pattern `*_test.go`.
+
+These `*_test file` can contain test functions, benchmark function and example functions(fuzz test?)
+
+`go test` compiles test files that declare a package, ending with the suffix `*_test.go` as a separate package. it then links them with the main test binary and runs them.
+
+
+#### Running Modes
+
+`go test` has two running modes.
+
+1. __Local directory mode, or running without arguments.__
+2. __Package list mode, or running with arguments.__
+
+In the __local directory mode__, `go test` compiles the package sources and tests found in the current directory and the runs the resulting test binary.
+
+this mode disables caching.
+
+After the package test finishes, `go test` prints a summary line showing the test status (`ok` and `FAIL`), the package name, and elapsed time.
+
+in the __package list mode__, `go test` compiles and tests each package listed as arguments to the command.
+If a package test passes, `go test` prints only the final `ok` summary line.
+If a package test fails, `go test` prints the complete test output.
+
+To run your test in this mode, run `go test` with explicit package arguments.
+For example, we can run `go test PACKAGE_NAME` to test a specific package or `go test ./...`  to test all packages in directory tree. Or we can run `go test .` to run all tests in the current directory
+
+
+
+
+
 
 The most basic test
 
