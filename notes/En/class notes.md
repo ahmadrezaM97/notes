@@ -137,8 +137,84 @@ they shound be mindful
 
 wearing makeup
 waring clone/ glass / perfum
+
+
+it's reasably priced
+it's mote effforatable compare to
+means of publish transporai
+i wish
+
+As i just mentions
+taking a walk
+
+took 
+
+to get everywhere
+
+grean areas / green spaces
+hospotable
+add more parking aredy 
+I had a lot of memories
+I perefer my father 
+it danger to get far 
+
+because, since 
+the city
+I may loose my slef
+or get my slef lost
+
+
+attend class(there is not "To")
+Vegetation 
+
+when i am 
+
+take taxi
+
+within walking distanse
+
+get everything
+
+stuff  [uncountable]
+
 4- pairs
 
+
+in a convenient location
+
+The opportunity of getting familiar with art
+
+they can discover some talent in themslef
+
+The opportunity of getting familiar with art
+
+collecctions
+
+to not do that
+the future version of myslef
+my
+
+sad pieses of music
+
+Are meant for entertainment
+Call themseleves artists
+
+speak their protests
+
+they should be ber
+voice their anger
+
+
+__important to me__
+
+I went to a musem
+movies
+Styles
+
+-> made me go
+-> forced me to musems
+
+special
 _____
 ##### References
 1.
