@@ -17,6 +17,16 @@ accommodation (non-countable)
 1. a place for someone to stay, live or work
 2. The price for the holiday includes flights and acoomodation
 3. living accommodations for the crew
+
+cozy | cosy
+1. A plate that is cosy is small, comfortable and warm
+2. A situation that is cosy is comfortable and friendly
+3. a really cozy flat
+
+carmped (small and comfortable)
+	1. a cramped room, building doest not have enough space for the people in it
+		1. The kitchen was small and cramped
+	
 __as sense of belonging__
 
 ### different type of house
@@ -48,6 +58,15 @@ As a student I live in student accommodation
 
 I live in a really comfy(=comfortable) flat
 I live in a spacious flat (=roomy flat)
+
+
+it's a bit of cramped flat
+The neighbors are so noisy
+
+
+### Do you like your house?
+
+
 _____
 ##### References
 1.
