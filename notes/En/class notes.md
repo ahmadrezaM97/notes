@@ -214,7 +214,48 @@ Styles
 -> made me go
 -> forced me to musems
 
+we were close to eachother
 special
+
+through me a brithday party
+
+(tense)
+
+I was in the middle of pary of mine
+
+themselfs
+
+those kinds of parties
+it is no big deal anymore
+
+gave me to
+that I always  wented
+on the birthdta
+
+I have the habit of wrting on the margins
+I am used to (ing)
+# TODO
+
+I am intersentd in crime genre
+I prefer finction to non-fiction
+
+looking for = seeking a 
+detective genre
+
+
+by your slef, 
+on your owne
+
+It depends on your preferences
+
+get his autgraph
+
+
+field  of study
+experties
+
+an amazing
+there are plenty of examples
 _____
 ##### References
 1.
