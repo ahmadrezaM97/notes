@@ -62,8 +62,82 @@ That would be a lie to say no.
 
 Poisonous
 
+Evolutionary reason behid in 
+
+get killed
+eaten
+
+amputated
+people should be afraid of shark
+pople have every reason to be afraid of sharks
+
+Amputated
+
+it's al
+
+wale
+
+these days I don't 
+
+In their natural habitants
+
+like a person in jail
+
+beind bars
+The Middle East
+The us, uk ,
+
+the leaks
+the mountains
 
 
+we went trough an almost 3-years pandemincc
+
+how it taseted like
+Dangerous
+For medical purposes
+nessery
+
+In danger of becoming extinct
+
+i we lose them, we have lost them for good/ for every
+
+how trendy 
+
+i am an expert 
+
+every two weeks
+
+had long hair
+
+I used to have long hair
+I used to wear my hear long
+
+A man in my culture does
+
+i don't worry(self) too much about my appreance
+I am too busy for that
+
+
+XYZ: Examine Your Attention
+
+Draw their attention to that
+
+bring it to their attention
+
+
+their more cofmptable
+On my last trip
+do it econamicly 
+i have econamic concerts 
+
+theri should be  being harmful to their skins
+
+they shound be mindful
+
+wearing makeup
+waring clone/ glass / perfum
+4- pairs
 
 _____
 ##### References
