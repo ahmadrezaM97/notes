@@ -70,6 +70,14 @@ will we use electric cars more in the future
 8. If i were to talk about my favorite sport, i suppose i would choose...
 9. 
 
+
+I don't know the specific name of it
+I am not sure what it's called
+it's basically made out of 
+it's something that i put ...
+it's a kind of
+it's similar to
+
 ### notes
 
 Elderly people
