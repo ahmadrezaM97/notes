@@ -98,7 +98,7 @@ ex:
 __Opinion, Compare and evaluate__
 ex:
 1. which jobs are popular in your country?
-2. which food is popular in  your contry?
+2. which food is popular in  your country?
 
 
 1. Give an opinion?

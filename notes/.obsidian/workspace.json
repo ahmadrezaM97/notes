@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/job.md",
+                "file": "Fleeting Notes/Speaking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,17 +199,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f0cc150c54eac5a4",
+  "active": "41f4d8f58b1c496d",
   "lastOpenFiles": [
+    "Fleeting Notes/IELTS.md",
+    "Fleeting Notes/job.md",
     "Fleeting Notes/Speaking.md",
     "Fleeting Notes/Home.md",
-    "Fleeting Notes/IELTS.md",
     "Fleeting Notes/Speaking filters.md",
     "Fleeting Notes/Conditional.md",
     "Fleeting Notes/GRAMMER.md",
     "Statics/rabbitmq-multipublisher-multiconsumer.png",
     "Fleeting Notes/Go Test.md",
-    "Fleeting Notes/GO/Go Embedding.md",
-    "Fleeting Notes/Rabbitmq/overview.md"
+    "Fleeting Notes/GO/Go Embedding.md"
   ]
 }

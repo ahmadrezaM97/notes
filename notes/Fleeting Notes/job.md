@@ -16,7 +16,7 @@ ____
 		1. That coat really suits Paul
 		2. Red suits you
 3. eager (adj.)
-	1. k
+	1. keen, enthusiastic 
 ### questions
 
 Why do you want this job?
