@@ -36,7 +36,7 @@ it's all about the context
 5. If you go, I will go too
 	1. read
 	2. simple present as future + future
-7.  If I had won the comptetion, I'd have|land a great jobs now 
+7.  If I had won the _competition_, I'd have|land a great jobs now 
 8. If you will|would follow me please, I'll show you to your table
 9. If it will help my case, I will take the test
 	1. result and action
