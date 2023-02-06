@@ -30,6 +30,30 @@
             }
           },
           {
+            "id": "41f4d8f58b1c496d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Speaking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3a1e62e2e2ddd56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6c1b8f709d76687b",
             "type": "leaf",
             "state": {
@@ -66,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Speaking filters.md",
+                "file": "Fleeting Notes/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,17 +187,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6c1b8f709d76687b",
+  "active": "c3a1e62e2e2ddd56",
   "lastOpenFiles": [
+    "Fleeting Notes/Speaking.md",
     "Fleeting Notes/IELTS.md",
+    "Fleeting Notes/Speaking filters.md",
     "Fleeting Notes/Conditional.md",
     "Fleeting Notes/GRAMMER.md",
     "Statics/rabbitmq-multipublisher-multiconsumer.png",
-    "Fleeting Notes/Speaking.md",
     "Fleeting Notes/Go Test.md",
     "Fleeting Notes/GO/Go Embedding.md",
     "Fleeting Notes/Rabbitmq/overview.md",
-    "Templates/Note Template.md",
-    "Fleeting Notes/GO/GO String.md"
+    "Templates/Note Template.md"
   ]
 }
