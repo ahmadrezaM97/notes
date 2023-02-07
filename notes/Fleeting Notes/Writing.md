@@ -2,6 +2,29 @@
 Created: 2023-02-08 00:00
 Tags: 
 ____
+### Structure
+
+-> two main idea
+
+1. The introduction
+	1. tell the reader what you are going to tell them.
+	2. parts
+		1. background statement
+		2. rewrite the question prompt with your own words
+		3. write your thesis statement
+2. The paragraphs
+	1. tell them
+	2. parts
+		1. topic
+		2. main reason and example
+		3. second reason and example
+		4. wrap up the idea
+3. The conclusion
+	1. Tell the reader that you told them
+	2. parts
+		1. This essay discussed/argued/ compared/ showed main idea 1 and main idea 2
+		2. my opinion.
+
 
 ### introduction
 
@@ -104,8 +127,52 @@ ____
 
 1. Acceptable
 2. Advantage
+3. however
+4. nevertheless
+5. in addition
+6. moreover
+7. further
 
 
+either and nethider
+
+
+clause -> group of words has a subject and a verb
+
+contrast:
+1. though + adverb clause ( a little more informal) ( you can end sentences with though but not with although)
+	1. The exam was difficult, I think I did well though
+	2. 
+2. although + adverb clause 
+	1. Although the exam was difficult, I think I did  well
+	2. I think I did well, although the exam was difficult 
+	3. Although some people per
+3. even though  + adverb clause ( emphasis | expectation)
+	1. e.x.: even though the exam was easy, I failed
+
+
+contrast
+prepositions
+phrase -> group of words
+1. despite + phrase
+	1. Despite his best efforts the man just couldn't succeed.
+	2. Despite being on time the lecture, we were not admitted.
+2. in spite of + phrase
+	1. in spite of his best efforts the man just couldn't succeed.
+	
+
+contrast
+
+1. however
+2. nevertheless
+3. nonetheless
+
+
+g2.  adding information
+
+1. in addition
+2. moreover
+3. furthermore
 
 _____
 ##### References
