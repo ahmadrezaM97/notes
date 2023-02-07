@@ -146,10 +146,14 @@ contrast:
 2. although + adverb clause 
 	1. Although the exam was difficult, I think I did  well
 	2. I think I did well, although the exam was difficult 
-	3. Although some people per
+	3. Although some people prefer eating at home, I prefer eating at a __restaurant__
 3. even though  + adverb clause ( emphasis | expectation)
 	1. e.x.: even though the exam was easy, I failed
 
+
+although + subject + verb + `,` + subject + verb
+even though Canada is a good country, Canada has problems.
+although learning English is fun, some people don't like it
 
 contrast
 prepositions
@@ -159,20 +163,37 @@ phrase -> group of words
 	2. Despite being on time the lecture, we were not admitted.
 2. in spite of + phrase
 	1. in spite of his best efforts the man just couldn't succeed.
-	
 
-contrast
+#### Transitions
+change from one idea to another idea
+they create flow
+to transition -> to bridge
 
+
+####  Adding information
+
+1 `+` 1 `=` 2
+you should have two idea
+be really careful about that
+
+1. In addition
+2. Moreover
+3. Furthermore
+
+
+1. Therefore 
+2. thus
+3. consequently
+4. so
+5. then 
+6. hense
+7. as a result
+
+##### show a contrast
 1. however
 2. nevertheless
 3. nonetheless
 
-
-g2.  adding information
-
-1. in addition
-2. moreover
-3. furthermore
 
 _____
 ##### References
