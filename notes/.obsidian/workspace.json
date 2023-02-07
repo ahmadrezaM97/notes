@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "322cd2061d621d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Writing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/class notes.md",
+                "file": "Fleeting Notes/Writing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,8 +129,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "bb2afea466048872",
+  "active": "322cd2061d621d44",
   "lastOpenFiles": [
+    "En/class notes.md",
     "Statics/rabbitmq-multipublisher-multiconsumer.png",
     "Fleeting Notes/Speaking filters.md",
     "Fleeting Notes/Speaking.md",
@@ -126,7 +140,6 @@
     "Fleeting Notes/Home.md",
     "Fleeting Notes/Conditional.md",
     "Fleeting Notes/GRAMMER.md",
-    "Fleeting Notes/Go Test.md",
-    "Fleeting Notes/GO/Go Embedding.md"
+    "Fleeting Notes/Go Test.md"
   ]
 }
