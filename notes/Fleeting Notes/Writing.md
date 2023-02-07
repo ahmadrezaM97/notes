@@ -70,14 +70,40 @@ ____
 13. As a result, ...
 14. In light of the aforesaid factors,
 15. According to above-mentioned analysis, it is manifest that
-16. 
+16. In summary,
+17. Based on this point,
+18. I am convinced that
+19. In conclusion
+20. I would argue that,
+21. Accordingly, I would be generally advisable for [] to []
+22. On balance, I would assert that the government would be well-advised
+23. Despite that,
+24. It is commonly accepted that
+25. Certainly, I would acknowledge that
+26. This is due to the fact,
+27. therefore, overall I would argue that
+28. It would be wise for parents to look after ..
+29. For my part, after considering the arguments above, I  feel that...
+30. In the final analysis
+31. For this reason, I am convinced that
+32. On the basis of the above discussion, I believe that
+33. Having considered all the arguments above, 
+34. I would conclude that
+35. To sum up, in despite of the fact that ...
+36. To conclude, though ...
+37. in light of the above factors, I firmly believe that...
+38. in conclusion
+39. I would argue that...
+40. Having considered both views, I think
+41. I would suggest
+
 
 
 
 #### Vocab
 
 1. Acceptable
-2. Advan
+2. Advantage
 
 
 
