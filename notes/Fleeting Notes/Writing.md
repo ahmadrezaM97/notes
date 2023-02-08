@@ -201,6 +201,54 @@ be really careful about that
 
 #### Cause and effect
 
+cause( verb)
+1. to make something happen, especially something bad
+	1. heavy traffic is causing delays on the freeway
+	2. The fire causes 150,00 worth of damage
+2. __cause something for somebody__
+	1. The oil spill is causing problems for _coastal_ fisheries.
+3. cause concern/ uncertainty/ embarrassment
+	1. the policy changes have caused great uncertainty for the workforce.
+	2. I'm sorry if i caused any confusion
+4. cause somebody/ something to do something
+	1. what caused you to change your mind.
+
+
+```ad-danger
+title: cause
+
+1. Someone or something __CAUSES__ something
+
+Investigators are trying to find out what caused the accident
+
+2. Something causes a person or thing __TO DO__ something
+the injury caused him to lose the game
+
+DO NOT SAY
+
+cause that someone does something
+
+```
+
+
+```ad-danger
+title: make
+
+1. someone or something makes antoher person or thing __DO__ something.
+
+the warmer temperatures made the ice caps melt.
+
+the injury made him lose the game.
+
+DO NOT SAY
+make someone/something to do something
+
+```
+
+cause a problem
+cause pain
+cause an accident
+
 cause -> why something happens | situation or an event that leads to something 
 
 study (cause) do well (effect)
@@ -225,7 +273,12 @@ Due to (CAUSE), (EFFECT)
 
 __Thus__
 
+I drank tequila. _Thus_, I was hangover.
+
 __Hence__
+I drank tequila. _Hence_, I was hangover.
+
+
 
 effect -> what happens
 
