@@ -301,6 +301,9 @@ E-books are increasingly popular.__Consequently__, there has been a fall in sale
 3. owning to
 4. because of ( less formal)
 
+
+vocab
+
 _____
 ##### References
 1.
