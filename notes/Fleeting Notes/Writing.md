@@ -191,9 +191,62 @@ be really careful about that
 
 ##### show a contrast
 1. however
-2. nevertheless
-3. nonetheless
+	1. I love the spring seasons. However I always get allergies.
+2. nevertheless (more formal)
+	1. I love the spring seasons. Nevertheless, I always get allergies.
+	2. There's a global pandemic. Nevertheless, some people refuse to wear a mask.
+3. nonetheless ( more formal)
+	1. 
 
+
+#### Cause and effect
+
+cause -> why something happens | situation or an event that leads to something 
+
+study (cause) do well (effect)
+drink tequila(cause) hangover(effect)
+
+__SO__
+-> I drank tequila, so I have a hangover
+-> John forgot his anniversary, so his wife is angry.
+
+__Because, Since___
+
+Because I studied hard, I did well.
+since you forgot, I will tell you again.
+
+__As a result__
+As a result of oceans becoming warmer, coral reefs are dying.
+
+__As a consequence__(usually negative effect)
+As a consequence of (CAUSE), (RESULT)
+__Due to__
+Due to (CAUSE), (EFFECT)
+
+__Thus__
+
+__Hence__
+
+effect -> what happens
+
+Do you prefer paper books or e-books?
+well, I have to say.
+I am a bit old-fashion
+
+
+E-books are increasingly popular.__Consequently__, there has been a fall in sales of paper books.
+
+1. therefore
+2. as a result
+3. thus = therefore = consequently
+4. that's why (informal)
+
+1. due to + noun phrase
+	1. __Due to__ increasingly popularity of e-books, there has been a fall in sales of paper books.
+	2. 
+2. As a result of
+3. owning to
+4. because of ( less formal)
 
 _____
 ##### References
