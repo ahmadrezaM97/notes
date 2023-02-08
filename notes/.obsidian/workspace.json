@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Writing.md",
+                "file": "Fleeting Notes/Speaking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1d03ae4c524f15d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/class 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Writing.md",
+                "file": "Fleeting Notes/class 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,17 +141,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "322cd2061d621d44",
+  "active": "e1d03ae4c524f15d",
   "lastOpenFiles": [
+    "Fleeting Notes/Speaking.md",
+    "Fleeting Notes/Writing.md",
     "En/class notes.md",
     "Statics/rabbitmq-multipublisher-multiconsumer.png",
     "Fleeting Notes/Speaking filters.md",
-    "Fleeting Notes/Speaking.md",
     "Fleeting Notes/IELTS.md",
     "Fleeting Notes/job.md",
     "Fleeting Notes/Home.md",
     "Fleeting Notes/Conditional.md",
-    "Fleeting Notes/GRAMMER.md",
-    "Fleeting Notes/Go Test.md"
+    "Fleeting Notes/GRAMMER.md"
   ]
 }
