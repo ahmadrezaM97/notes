@@ -20,12 +20,60 @@
             }
           },
           {
+            "id": "470ca37e27b78343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/subjects/problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4bcc435cb7ce110",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/subjects/advantages and disadvantages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e32871069024a47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/subjects/advantages and disadvantages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6a4dcd26bf4bd9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/subjects/advantages and disadvantages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "61d67a13948453e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS/subjects/Addressing problems.md",
+                "file": "IELTS/subjects/problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -115,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IELTS/subjects/Addressing problems.md",
+                "file": "IELTS/subjects/advantages and disadvantages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,17 +201,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "61d67a13948453e2",
+  "active": "d6a4dcd26bf4bd9d",
   "lastOpenFiles": [
+    "IELTS/subjects/stress.md",
+    "IELTS/subjects/advantages and disadvantages.md",
+    "IELTS/subjects/affect.md",
+    "IELTS/subjects/Home.md",
+    "IELTS/subjects/job.md",
+    "IELTS/subjects/problems.md",
     "Fleeting Notes/core values.md",
     "IELTS/Speaking filters.md",
     "Fleeting Notes/class 2.md",
-    "IELTS/IELTS.md",
-    "IELTS/Home.md",
-    "IELTS/job.md",
-    "IELTS/Writing.md",
-    "IELTS/Speaking.md",
-    "IELTS/Speaking01.md",
-    "En/class notes.md"
+    "IELTS/IELTS.md"
   ]
 }
