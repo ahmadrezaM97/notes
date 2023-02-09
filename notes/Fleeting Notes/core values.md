@@ -3,15 +3,21 @@
 2. It was about my first big and important task, Our estimation for the task was 20 days.
 3. It was a quite bit complicated because 
 	1. it consists of development in multiple microservices 
-	2. in different teams
-4. I had to design the feature and implement it, 
+	2. in divar, each microservice has it owner, and if you want implement a future in a microservice the owner will review your code for correctness and integrity.
+	3. in different teams
+5. After our planing ended,
+6. some part of my task was depend on frontend side and design side
+7. I couldn't make progress as much as I expected after one week 
+8. when my team leader asked my about the task, I explained  to her what I had done. 
+9. after that we had a long meeting, and she told 
+	1. she kindly showed my If I had a correct sence of owner ship for that task
+		1. before I started writing code I would have realized
 
-
-5. Healthy egos
+9. Healthy egos
 	1. 
-6. pursuit of excellence
+10. pursuit of excellence
 	1. 
-7. feedback obsessed
+11. feedback obsessed
 	1. Giving a feedback
 		1. last month I got an merge request and I reviewed it, generally and then 
 	2. receiving a feedback
@@ -25,4 +31,4 @@
 		1. back then, I wanted to get done my task a much as I can to show the team i am good engineer. 
 		2. So  I was not really active in our retroseptives
 	4. I am going to tell you about 
-8. No BS
+12. No BS
