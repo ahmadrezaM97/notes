@@ -1,10 +1,17 @@
 
+1. I am going to tell you about one of my experience in the first couple of months after I started my work at Divar.
+2. It was about my first big and important task, Our estimation for the task was 20 days.
+3. It was a quite bit complicated because 
+	1. it consists of development in multiple microservices 
+	2. in different teams
+4. I had to design the feature and implement it, 
 
-1. Healthy egos
+
+5. Healthy egos
 	1. 
-2. pursuit of excellence
+6. pursuit of excellence
 	1. 
-3. feedback obsessed
+7. feedback obsessed
 	1. Giving a feedback
 		1. last month I got an merge request and I reviewed it, generally and then 
 	2. receiving a feedback
@@ -18,4 +25,4 @@
 		1. back then, I wanted to get done my task a much as I can to show the team i am good engineer. 
 		2. So  I was not really active in our retroseptives
 	4. I am going to tell you about 
-5. No BS
+8. No BS
