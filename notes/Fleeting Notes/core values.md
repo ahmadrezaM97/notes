@@ -5,19 +5,26 @@
 	1. it consists of development in multiple microservices 
 	2. in divar, each microservice has it owner, and if you want implement a future in a microservice the owner will review your code for correctness and integrity.
 	3. in different teams
-5. After our planing ended,
-6. some part of my task was depend on frontend side and design side
-7. I couldn't make progress as much as I expected after one week 
-8. when my team leader asked my about the task, I explained  to her what I had done. 
-9. after that we had a long meeting, and she told 
-	1. she kindly showed my If I had a correct sence of owner ship for that task
-		1. before I started writing code I would have realized
-
-9. Healthy egos
+4. I designed feature without sharing and discussing what I wanted to do with any one.
+	2. It was like I should implement this api in this service and that api on that service  and then I just started coding
+6. after two or three days, I realized that I overlooked  important aspect of task, I didn't see some corner cases so I had to rewrite almost evertyhing
+7. at the same time  for some part of the task we needed a web page, and the front-end engineer was waiting for me to give him API documentation.
+8. So after a one week I almost didn't any progress
+9. when my team leader asked my about the task , I explained  the situation
+10. she said we need to talk about it  and we had long discussion
+	1. she kindly showed my 
+		1. when i am supposed to get done a task, I should take the  complete responsibility of the of the task 
+		2. And it means
+			1. before I started coding I should  have discussed with other engineer about my desing How i want to implement  to get it done on time
+		3. I should prepared documentation before start writing code because the fontend engineer could start without documents
+		4. She told me my responsibilty is not just writing codes
+		5. I should plan, discuss and comunicate about task to get it done in the perfect way 
+	2. I learn the meaning of ownership after that
+11. Healthy egos
 	1. 
-10. pursuit of excellence
+12. pursuit of excellence
 	1. 
-11. feedback obsessed
+13. feedback obsessed
 	1. Giving a feedback
 		1. last month I got an merge request and I reviewed it, generally and then 
 	2. receiving a feedback
@@ -31,4 +38,4 @@
 		1. back then, I wanted to get done my task a much as I can to show the team i am good engineer. 
 		2. So  I was not really active in our retroseptives
 	4. I am going to tell you about 
-12. No BS
+14. No BS
