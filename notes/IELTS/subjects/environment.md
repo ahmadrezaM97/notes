@@ -6,41 +6,54 @@
 
 ### Traffic 
 
+1. traffic (noun)
+1. a traffic jam
+2. when there is a lot of traffic and cars can not move we say that there is traffic jam
+3. I like to check traffic before I leave
+4. depends on the traffic
+5. if there is not much traffic it takes usually 10 minutes
+6. heavy traffic = bad traffic
+7. light traffic 
+8.  I'm struck in a traffic jam
+
+### City
+
+
 ### Global warming
 
 A __gradual__ increase in the earth's temperature that cause changes in climate
 
-Renewable energy != nonrenewable resources ( old gas, coal) (fossil fuel)
-sea pollution
-I strive no to use disposable plastic, such as coffee cups in Starbucks
-I enacour to turn off the lights in
-1. solar energy
-2. wind energy
-It is a long-term change
-Greenhouse gases are contributing to climate change
-Carbon emissions
-Fossil fuel
-Decomposition
-Carbon Footprint
-	how much CO2 you put in the atmosphere 
-Greenhouse gases
-1. Methana(CH$)
-2. Carbon dioxide (CO@)
-
-climate change in immediate problem
-it has serious impact
-there is an urgent need for us to reduce our carbon footprint
-we need to make a __drastic__ change
-__idea for talking about something is big__
-
-
-
-
-Ecosystem ( environment- system)
-Ecology
-Ecological (adj.)
-Eco-friendly (adj)
-
+1. Renewable energy != nonrenewable resources ( old gas, coal) (fossil fuel)
+2. sea pollution | air pollution
+3. I strive no to use disposable plastic, such as coffee cups in Starbucks
+4. I make an effort to turn taps off when possible
+5. some of renewable energies
+	1. solar energy
+	2. wind energy
+6. climate change is a long-term change
+7. greenhouse gases are contributing to climate change
+8. climate change is result of  gradual increasing in the earth's temperature.
+9. we should reduce Carbon emissions
+10. Fossil fuel
+11. Decomposition
+12. Carbon Footprint = how much CO2 you put in the atmosphere
+13. Greenhouse gases
+	1. Methana(CH$)
+	2. Carbon dioxide (CO@)
+14. climate change in immediate problem
+15. it has serious impact
+16. there is an urgent need for us to reduce our carbon footprint
+17. we need to make a __drastic__ change
+18. this fabric bad is eco-friendly
+19. Ecosystem ( environment- system)
+20. Ecology(n.) = the study of the environment
+21. Ecological (adj.)
+22. Eco-friendly (adj) = describes things that protect and look after the environment, rather than damaging it
+23. people __dump__ rubbish in the sea, on the __streets__
+24. biodegradable = capable of being decomposed by bacteria
+25. waste ( noun)
+26. recycle waste fined for illegally dumping waste
+27. dump waste = there were
 Waste - rubbish | garbage  
 pollution | pollutants 
 Recycle | reduce | reuse
