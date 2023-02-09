@@ -68,6 +68,30 @@
             }
           },
           {
+            "id": "6fb2ff176e6c82e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/subjects/habits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2494eb0bdefdb675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/subjects/environment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "61d67a13948453e2",
             "type": "leaf",
             "state": {
@@ -104,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -162,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IELTS/subjects/advantages and disadvantages.md",
+                "file": "IELTS/subjects/environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,17 +225,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d6a4dcd26bf4bd9d",
+  "active": "2494eb0bdefdb675",
   "lastOpenFiles": [
-    "IELTS/subjects/stress.md",
+    "IELTS/subjects/habits.md",
     "IELTS/subjects/advantages and disadvantages.md",
+    "IELTS/subjects/stress.md",
     "IELTS/subjects/affect.md",
     "IELTS/subjects/Home.md",
     "IELTS/subjects/job.md",
     "IELTS/subjects/problems.md",
     "Fleeting Notes/core values.md",
     "IELTS/Speaking filters.md",
-    "Fleeting Notes/class 2.md",
-    "IELTS/IELTS.md"
+    "Fleeting Notes/class 2.md"
   ]
 }
