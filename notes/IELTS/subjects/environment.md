@@ -91,6 +91,15 @@ to
 
 __the car crashed into a tree or a telephone pole__
 Car hit a person
+1. slam
+	1. he slams the door behind him as he leaves
+2. brake (noun)
+	1. a piece of equipment that makes that a vehicle go more slowly or stop
+		1. test you brakes after driving through water
+		2. I manage to put the brakes on just in time.
+
+
+The car in front stopped suddenly and I had to slam on the brakes
 
 I slammed on the brakes to avoid running over a dog= tried to stop suddenly
 The driver lost control of the car and crashed into the guardrail
