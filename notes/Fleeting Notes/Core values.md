@@ -1,8 +1,10 @@
 tech stack
 your core value
 
-immerse
 
+
+1. 
+immerse
 face challenge
 
 lack on knowledge

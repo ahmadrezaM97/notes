@@ -8,90 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c01ae6e287a5ba8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Core values.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "470ca37e27b78343",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/subjects/problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d4bcc435cb7ce110",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/subjects/advantages and disadvantages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e32871069024a47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/subjects/advantages and disadvantages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6a4dcd26bf4bd9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/subjects/advantages and disadvantages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fb2ff176e6c82e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/subjects/habits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2494eb0bdefdb675",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/subjects/environment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1479937742d633e9",
             "type": "leaf",
             "state": {
@@ -102,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "61d67a13948453e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/subjects/problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c67c185c67fd758",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/Speaking01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eefc85d42380a6ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/Speaking filters.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
