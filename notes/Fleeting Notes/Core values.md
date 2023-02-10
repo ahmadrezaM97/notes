@@ -1,3 +1,15 @@
+tech stack
+your core value
+
+immerse
+
+face challenge
+
+lack on knowledge
+lack  of communication
+
+loop feedback
+
 
 1. lots of bugs
 	1. my first task lots of bugs
