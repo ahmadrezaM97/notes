@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Core values.md",
+                "file": "IELTS/Writing.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Core values.md",
+                "file": "IELTS/Writing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,8 +116,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1479937742d633e9",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/Core values.md",
     "Fleeting Notes/getgeround.md",
     "IELTS/subjects/advice.md",
     "IELTS/subjects/environment.md",
@@ -126,7 +127,6 @@
     "IELTS/subjects/stress.md",
     "IELTS/subjects/affect.md",
     "IELTS/subjects/Home.md",
-    "IELTS/subjects/job.md",
-    "IELTS/subjects/problems.md"
+    "IELTS/subjects/job.md"
   ]
 }
