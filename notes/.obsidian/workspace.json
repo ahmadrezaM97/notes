@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS/grammar/effect vs affect.md",
+                "file": "IELTS/Writing.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IELTS/grammar/effect vs affect.md",
+                "file": "IELTS/Writing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,6 +155,7 @@
   },
   "active": "ecfd4bdae883c870",
   "lastOpenFiles": [
+    "IELTS/grammar/effect vs affect.md",
     "IELTS/writing/1.md",
     "IELTS/Writing.md",
     "IELTS/writing structure.md",
@@ -163,7 +164,6 @@
     "IELTS/subjects/advice.md",
     "IELTS/subjects/environment.md",
     "IELTS/subjects/habits.md",
-    "IELTS/subjects/advantages and disadvantages.md",
-    "IELTS/subjects/stress.md"
+    "IELTS/subjects/advantages and disadvantages.md"
   ]
 }
