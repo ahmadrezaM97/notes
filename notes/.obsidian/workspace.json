@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6a00f4e318e44640",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IELTS/Writing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,8 +129,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "6a00f4e318e44640",
   "lastOpenFiles": [
+    "IELTS/writing structure.md",
+    "IELTS/Writing.md",
     "Fleeting Notes/Core values.md",
     "Fleeting Notes/getgeround.md",
     "IELTS/subjects/advice.md",
@@ -125,8 +140,6 @@
     "IELTS/subjects/habits.md",
     "IELTS/subjects/advantages and disadvantages.md",
     "IELTS/subjects/stress.md",
-    "IELTS/subjects/affect.md",
-    "IELTS/subjects/Home.md",
-    "IELTS/subjects/job.md"
+    "IELTS/subjects/affect.md"
   ]
 }
