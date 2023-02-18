@@ -25,11 +25,28 @@ golang layout
 [[GOPATH]]
 
 
+[[GO flag std]]
+
 is a variable that defines the root of your workspace
 
 
 comment are code, they are supposed to be read
 proper sentence structure
+
+
+
+-> cmd 
+	set of fordel ( represent name of binary)
+	with a main.go
+-> internal (business)
+-> internal / platform
+
+internal and go compiler
+
+-> logging ( search about bestpractices)
+-> config
+
+
 
 ___
 

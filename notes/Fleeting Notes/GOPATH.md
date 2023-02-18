@@ -18,6 +18,8 @@ If the environment variable is unset, `GOPATH` defaults to a subdirectory named 
 3. `bin`
 	1. it holds complied commands. Every command ios named for its source driectory
 
+https://www.geeksforgeeks.org/golang-gopath-and-goroot/
+
 ```ad-note
 
 Whe using modules in GO, the GOPATH is no longer used to determine imports. However, it is still used to store downloaded source code in pkg and compiled commands `bin`

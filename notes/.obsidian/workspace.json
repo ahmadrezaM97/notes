@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GOPATH.md",
+                "file": "Fleeting Notes/GO/refactoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,8 +141,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "bfa81913b46212cd",
+  "active": "6d87be00d94a4837",
   "lastOpenFiles": [
+    "Fleeting Notes/GOPATH.md",
     "Fleeting Notes/GO/refactoring.md",
     "IELTS/subjects/economy.md",
     "IELTS/writing/1.md",
@@ -151,7 +152,6 @@
     "IELTS/writing structure.md",
     "Fleeting Notes/Core values.md",
     "Fleeting Notes/getgeround.md",
-    "IELTS/subjects/advice.md",
-    "IELTS/subjects/environment.md"
+    "IELTS/subjects/advice.md"
   ]
 }
