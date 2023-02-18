@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1479937742d633e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/Writing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a00f4e318e44640",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/Writing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7ebc2e12782732e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/writing/1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ecfd4bdae883c870",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/writing/1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "18cdd3bbb9a2ca33",
             "type": "leaf",
             "state": {
@@ -66,9 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6d87be00d94a4837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/refactoring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bfa81913b46212cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GOPATH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IELTS/subjects/economy.md",
+                "file": "Fleeting Notes/GOPATH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,8 +141,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "18cdd3bbb9a2ca33",
+  "active": "bfa81913b46212cd",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/refactoring.md",
+    "IELTS/subjects/economy.md",
     "IELTS/writing/1.md",
     "IELTS/Writing.md",
     "IELTS/grammar/effect vs affect.md",
@@ -174,8 +152,6 @@
     "Fleeting Notes/Core values.md",
     "Fleeting Notes/getgeround.md",
     "IELTS/subjects/advice.md",
-    "IELTS/subjects/environment.md",
-    "IELTS/subjects/habits.md",
-    "IELTS/subjects/advantages and disadvantages.md"
+    "IELTS/subjects/environment.md"
   ]
 }
