@@ -54,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7679f7117b7df763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "En/vocabulary/new word.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7191de983b9b5cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "En/vocabulary/new word.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -153,17 +177,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "00d09c66465ccfa3",
+  "active": "b7191de983b9b5cc",
   "lastOpenFiles": [
-    "En/vocabulary/every day collocation.md",
-    "En/vocabulary/wrong spells.md",
+    "En/vocabulary/have.md",
     "En/vocabulary/new word.md",
+    "En/vocabulary/get.md",
+    "En/vocabulary/wrong spells.md",
+    "En/vocabulary/every day collocation.md",
     "En/vocabulary/Do.md",
     "Fleeting Notes/GO/Go struct custom tag.md",
     "Fleeting Notes/GO/Go Sort.md",
     "Fleeting Notes/GO/refactoring.md",
-    "Fleeting Notes/GOPATH.md",
-    "IELTS/subjects/economy.md",
-    "IELTS/writing/1.md"
+    "Fleeting Notes/GOPATH.md"
   ]
 }
