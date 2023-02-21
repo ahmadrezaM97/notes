@@ -8,43 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "18cdd3bbb9a2ca33",
+            "id": "f448d7389b21bdfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IELTS/subjects/economy.md",
+                "file": "En/vocabulary/every day collocation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6d87be00d94a4837",
+            "id": "d52344a456d6eb6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go struct custom tag.md",
+                "file": "En/vocabulary/every day collocation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bfa81913b46212cd",
+            "id": "ac2079b6f88312d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GOPATH.md",
+                "file": "En/vocabulary/every day collocation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00d09c66465ccfa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "En/vocabulary/new word.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go struct custom tag.md",
+                "file": "En/vocabulary/new word.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,17 +153,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6d87be00d94a4837",
+  "active": "00d09c66465ccfa3",
   "lastOpenFiles": [
+    "En/vocabulary/every day collocation.md",
+    "En/vocabulary/wrong spells.md",
+    "En/vocabulary/new word.md",
+    "En/vocabulary/Do.md",
+    "Fleeting Notes/GO/Go struct custom tag.md",
     "Fleeting Notes/GO/Go Sort.md",
     "Fleeting Notes/GO/refactoring.md",
     "Fleeting Notes/GOPATH.md",
     "IELTS/subjects/economy.md",
-    "IELTS/writing/1.md",
-    "IELTS/Writing.md",
-    "IELTS/grammar/effect vs affect.md",
-    "IELTS/writing structure.md",
-    "Fleeting Notes/Core values.md",
-    "Fleeting Notes/getgeround.md"
+    "IELTS/writing/1.md"
   ]
 }
