@@ -3,6 +3,67 @@ Created: 2023-02-21 18:08
 Tags: 
 ____
 
+
+----
+__Passive sentences with reporting verb__
+
+1. what is passive sentence?
+	1. the subject does not carry out the action, it receives 
+	2. The house was build in 1995(to be + p.p.)
+2. what is a reporting verb?
+	1. Reporting verbs are used to communicate what someone said or someone's intentions at one time in particular
+		1. They __said__ that the house was build in 1995.
+
+### Reporting passive
+
+passive sentence with reporting verb
+
+active: __they say__ that the house is very old
+Reporting passive: __It is said__ that the house is very old.
+
+active: The police thought that the thief was hiding somewhere in the city.
+
+1. It is thought that thief was hiding somewhere is the city
+2. The thief was thought to be hiding somewhere in the city
+
+
+Type of reporting passive
+
+1. impersonal(easy)
+	1. __It has been announced__ that the film will be launched in November.
+	3. __people believe __that the band will go on tour next summer
+	4. __It is believed__ that the band will go on tour next summer
+	5. __The press reported__ that there was a revolution brewing in the country.
+	6. __It was reported__ that there was a revolution brewing in the country.
+	7. __The government announced__ (that) new reforms will take place next year.
+	8. __It was announced__ (that) new reforms will take place next year.
+
+1. find the reporting verb
+2. start with "IT" and add 
+	1. the reporting verb in passive
+	2. that optional
+3. next sentence without any change
+
+
+1. __people are saying__ that nobody will vote for him again
+2. __It is being said__ that nobody will vote for him again
+
+1. __The class agreed__ that they will have the exam next week.
+2. __It was agreed__ that the class would have the exam next week.
+
+5. Personal( difficult)
+
+forget about "that"
+
+
+1. __The film has been announced__ to be launched in November.
+2. people believe that the band will go on tour next summer.
+3. The band is believed to go on tour next summer.
+4. A revolution was reported to brewing in the country
+
+________
+
+
 People assume that he is from New York
 
 1. It's assumed that he's from New York ( impersonal)
@@ -12,7 +73,12 @@ People assume that he is from New York
 It is considered that they work hard
 They are considered to work hard
 They are considered to be working hard
-It's s
+
+It's expected that your work hard
+
+They are expected to work hard
+They are reported to have worked hard
+
 
 reminder
 

@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -117,13 +116,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "2305738117fe1030",
   "lastOpenFiles": [
+    "En/vocabulary/new word.md",
+    "En/grammar/passive reporting.md",
     "En/vocabulary/wrong spells.md",
     "En/vocabulary/Untitled.md",
     "En/vocabulary/every day collocation.md",
-    "En/vocabulary/new word.md",
-    "En/grammar/passive reporting.md",
     "En/vocabulary/have.md",
     "En/vocabulary/get.md",
     "En/vocabulary/Do.md",
