@@ -28,9 +28,9 @@ active: The police thought that the thief was hiding somewhere in the city.
 
 
 Type of reporting passive
+#### impersonal(easy)
 
-1. impersonal(easy)
-	1. __It has been announced__ that the film will be launched in November.
+ 1. __It has been announced__ that the film will be launched in November.
 	3. __people believe __that the band will go on tour next summer
 	4. __It is believed__ that the band will go on tour next summer
 	5. __The press reported__ that there was a revolution brewing in the country.
@@ -51,15 +51,43 @@ Type of reporting passive
 1. __The class agreed__ that they will have the exam next week.
 2. __It was agreed__ that the class would have the exam next week.
 
-5. Personal( difficult)
+
+#### Personal( difficult)
 
 forget about "that"
 
+1. find the reporting web
+2. start with second subject
+	1. add reporting in the passive
+3. Add the infinitive of the second main verb.
+subject(2nd) + passive(to be + p.p.) + to-infinitive
 
-1. __The film has been announced__ to be launched in November.
-2. people believe that the band will go on tour next summer.
-3. The band is believed to go on tour next summer.
-4. A revolution was reported to brewing in the country
+
+
+4. __The film has been announced__ to be launched in November.
+5. people believe that the band will go on tour next summer.
+6. The band is believed to go on tour next summer.
+7. A revolution was reported to brewing in the country
+
+https://www.youtube.com/watch?v=rArLKtAlnUk
+
+infinitive
+1. simple: __to do__
+	1. __present simple and future __
+	3. Everyone says that the model make a lot of money
+	4. The model is said to make a lot of money
+2. continuous: __to be doing__
+	1. __present continuous__
+	2. Everyone says that the model __is making__ a lot of money.
+	3. The model is said __to be making__ a lot of money.
+3. prefect simple: __to have done__
+	1. __past simple, present perfect simple and past perfect simple__ ( action was finished)
+	2. Everyone said that the model made a lot of money.
+	3. The model was said to have made a lot of money.
+4. prefect continuous: __to have been doing__
+	1. __past continuous, present perfect continuous, pas perfect continuous__
+	2. Everyone says that the model was making a lot of money
+	3. The model is said to have been making a lot of money
 
 ________
 
