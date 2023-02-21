@@ -8,79 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f448d7389b21bdfa",
+            "id": "2305738117fe1030",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "En/vocabulary/every day collocation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d52344a456d6eb6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/every day collocation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac2079b6f88312d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/every day collocation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00d09c66465ccfa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/new word.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7679f7117b7df763",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/new word.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7191de983b9b5cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/new word.md",
+                "file": "En/grammar/passive reporting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -138,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/vocabulary/new word.md",
+                "file": "En/grammar/passive reporting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,17 +117,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b7191de983b9b5cc",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
-    "En/vocabulary/have.md",
-    "En/vocabulary/new word.md",
-    "En/vocabulary/get.md",
     "En/vocabulary/wrong spells.md",
+    "En/vocabulary/Untitled.md",
     "En/vocabulary/every day collocation.md",
+    "En/vocabulary/new word.md",
+    "En/grammar/passive reporting.md",
+    "En/vocabulary/have.md",
+    "En/vocabulary/get.md",
     "En/vocabulary/Do.md",
     "Fleeting Notes/GO/Go struct custom tag.md",
-    "Fleeting Notes/GO/Go Sort.md",
-    "Fleeting Notes/GO/refactoring.md",
-    "Fleeting Notes/GOPATH.md"
+    "Fleeting Notes/GO/Go Sort.md"
   ]
 }

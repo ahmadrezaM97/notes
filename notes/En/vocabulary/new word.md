@@ -3,24 +3,25 @@ Created: 2023-02-21 17:27
 Tags: 
 ____
 
-1. chronic
-2. shortage
-3. sensation
-4. claim a position
-5. perpetually 
-6. assassinate
-7. plot 
-8. hangout
-9. take after somebody
-10. take up
-11. take over
-12. tailor
-13. A knack of something
-14. possess
-15. Abundance
-16. Assist
-17. Alleviate
-18. Poverty
+1. legitimate
+2. chronic
+3. shortage
+4. sensation
+5. claim a position
+6. perpetually 
+7. assassinate
+8. plot 
+9. hangout
+10. take after somebody
+11. take up
+12. take over
+13. tailor
+14. A knack of something
+15. possess
+16. Abundance
+17. Assist
+18. Alleviate
+19. Poverty
 20. Every day
 21. Every Other day
 22. By every now and then
