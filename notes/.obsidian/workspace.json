@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go advanced testing.md",
+                "file": "En/vocabulary/new word.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +142,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5b1c12bd3be034c1",
+  "active": "12979ac7d2eef544",
   "lastOpenFiles": [
     "En/vocabulary/wrong spells.md",
     "Fleeting Notes/GO/Go advanced testing.md",
