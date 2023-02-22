@@ -42,9 +42,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2b5e85273045c97d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "En/class/010.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fffb53ae9f64bcc4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/vocabulary/new word.md",
+                "file": "En/class/010.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,11 +164,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "12979ac7d2eef544",
+  "active": "2b5e85273045c97d",
   "lastOpenFiles": [
+    "En/vocabulary/new word.md",
+    "En/class/010.md",
+    "En/class",
     "En/vocabulary/wrong spells.md",
     "Fleeting Notes/GO/Go advanced testing.md",
-    "En/vocabulary/new word.md",
     "En/grammar/passive reporting.md",
     "En/vocabulary/Untitled.md",
     "En/vocabulary/every day collocation.md",
