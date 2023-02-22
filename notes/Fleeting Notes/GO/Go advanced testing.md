@@ -52,6 +52,26 @@ t.Helper() // make stack trace better. since go:1.9
 
 https://www.youtube.com/watch?v=8hQG7QlcLBk
 
+#### Repeat yourself
+
+1. Localized logic is more important than test lines of code
+2. When a test fails, you very often don't remember the details of the test.It is very cumbersome to have logic spread across multiple call site.
+3. Limit helpers to very reused logic don't that doesn't fail often or fail all at once.
+4. Helpers only help the person who know they exist and what they do.
+
+
+#### Packages/ Functions
+
+1. break down functionality into packages/ function judiciously
+	1. Do not overdo it. Do it where it makes sense.
+2. Doing this correctly will aid testing while also improving organization over-doing it will complicated testing and readability
+3. Qualitative, but practice will make perfect
+4. Unless the function is _extremely_ complex, we try to test only the exported functions, the exported API.
+5. We treat unexported functions/structs as implementation details
+	1. they are a means to an end.
+	2. As long as we test the end and it behaves within spec, the means don't matter.
+6. Some people take this too far and choose to only integration/ acceptance test, the ultimate "test the end, ignore the means". We disagree with this approach.
+7. 
 
 _____
 ##### References

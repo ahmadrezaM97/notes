@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -142,9 +143,9 @@
   },
   "active": "5b1c12bd3be034c1",
   "lastOpenFiles": [
-    "En/vocabulary/new word.md",
     "En/vocabulary/wrong spells.md",
     "Fleeting Notes/GO/Go advanced testing.md",
+    "En/vocabulary/new word.md",
     "En/grammar/passive reporting.md",
     "En/vocabulary/Untitled.md",
     "En/vocabulary/every day collocation.md",
