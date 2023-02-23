@@ -56,6 +56,30 @@
             }
           },
           {
+            "id": "cc1a1cad67120554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/close http.Request body.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd2f69a85ef5c912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/close http.Request body.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fffb53ae9f64bcc4",
             "type": "leaf",
             "state": {
@@ -66,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -108,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -125,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/class/010.md",
+                "file": "Fleeting Notes/GO/close http.Request body.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,10 +187,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2b5e85273045c97d",
+  "active": "dd2f69a85ef5c912",
   "lastOpenFiles": [
-    "En/vocabulary/new word.md",
+    "Fleeting Notes/GO/flag.md",
+    "Fleeting Notes/GO/close http.Request body.md",
     "En/class/010.md",
+    "En/vocabulary/new word.md",
     "En/class",
     "En/vocabulary/wrong spells.md",
     "Fleeting Notes/GO/Go advanced testing.md",
