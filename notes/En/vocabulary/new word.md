@@ -3,11 +3,12 @@ Created: 2023-02-21 17:27
 Tags: 
 ____
 
-1. at a glance
-2. 
-3. .  conspire
+1. grocery
+	1. 
+2. at a glance
+3. conspire
 	1. con.spire
-	2. verb - intansitive
+	2. verb - intransitive
 	3. To secretly plan with someone else to do something illegal.
 		4. conspire (with somebody) to do something.
 		5. conspire against
