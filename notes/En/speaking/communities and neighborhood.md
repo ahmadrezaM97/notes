@@ -7,7 +7,7 @@ ____
 
 There are many ways to describe
 
-1. residental
+1. residential
 2. polluted 
 3. spacious
 4. crowded
@@ -19,7 +19,11 @@ There are many ways to describe
 10. noisy
 11. quiet
 12. business district
-13. densely popluta
+13. densely populated
+
+1. I live in a typical working-class neighborhood. It can be a little crowded at times, and the local community is densely populetd
+
+
 
 https://manwrites.com/how-to-talk-about-your-neighbourhood-in-english/
 
