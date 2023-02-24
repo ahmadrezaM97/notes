@@ -3,10 +3,17 @@ Created: 2023-02-21 17:27
 Tags: 
 ____
 
-1. grocery
-	1. 
-2. at a glance
-3. conspire
+1. were/ worn
+2. outfit
+	1. a set of clothes worn together, especially for a special occasion
+	2. She bought a new outfit for the party
+	3. 
+3. groceries
+	1. food and other goods that are sold by a grocer or a supermarket
+	2. I got to the grocery store
+	3. It seems as though every day a new kind of cereal appears on the grocery shelves.
+4. at a glance
+5. conspire
 	1. con.spire
 	2. verb - intransitive
 	3. To secretly plan with someone else to do something illegal.
@@ -15,289 +22,289 @@ ____
 	4. if events conspire to do something, they happen at the same time and make something bad happen
 		1. conspire to do something
 		2. conspire against
-4. conspiracy
-5. reforms will take place next year.
-6. brew
-7. legitimate
-8. chronic
-9. shortage
-10. sensation
-11. claim a position
-12. perpetually 
-13. assassinate
-14. plot 
-15. hangout
-16. take after somebody
-17. take up
-18. take over
-19. tailor
-20. A knack of something
-21. possess
-22. Abundance
-23. Assist
-24. Alleviate
-25. Poverty
-26. Every day
-27. Every Other day
-28. By every now and then
-29. Lease
-30. landlord
-31. Nomad
-32. Withdraw
-33. Exprell
-34. Drop out
-35. Delicious 
-36. Confess
-37. Admit
-38. take something/somebody for granted
-39. Acquire
-40. inquire(Enquire)
-41. require
-42. Obtain
-43. Retrieve
-44. Accumulate
-45. propel
-46. intimidate
-47. Eligible
-48. timid
-49. Suburb
-50. Urban
-51. popular
-52. popularity
-53. political
-54. policies
-55. politicians
-56. Critical thinking
-57. vital
-58. magnificent
-59. significant
-60. criticize
-61. criticism
-62. according to
-63. regarding to
-64. down to earth
-65. sensible
-66. pragmatic
-67. obviously
-68. observation
-69. poison
-70. poisonous
-71. poisoning
-72. emission
-73. Visually
-74. Emerging
+6. conspiracy
+7. reforms will take place next year.
+8. brew
+9. legitimate
+10. chronic
+11. shortage
+12. sensation
+13. claim a position
+14. perpetually 
+15. assassinate
+16. plot 
+17. hangout
+18. take after somebody
+19. take up
+20. take over
+21. tailor
+22. A knack of something
+23. possess
+24. Abundance
+25. Assist
+26. Alleviate
+27. Poverty
+28. Every day
+29. Every Other day
+30. By every now and then
+31. Lease
+32. landlord
+33. Nomad
+34. Withdraw
+35. Exprell
+36. Drop out
+37. Delicious 
+38. Confess
+39. Admit
+40. take something/somebody for granted
+41. Acquire
+42. inquire(Enquire)
+43. require
+44. Obtain
+45. Retrieve
+46. Accumulate
+47. propel
+48. intimidate
+49. Eligible
+50. timid
+51. Suburb
+52. Urban
+53. popular
+54. popularity
+55. political
+56. policies
+57. politicians
+58. Critical thinking
+59. vital
+60. magnificent
+61. significant
+62. criticize
+63. criticism
+64. according to
+65. regarding to
+66. down to earth
+67. sensible
+68. pragmatic
+69. obviously
+70. observation
+71. poison
+72. poisonous
+73. poisoning
+74. emission
+75. Visually
+76. Emerging
 	1. Eventually the truth emerged
-75. consensus
+77. consensus
 	1. there is a growing consensus that the current regime has failed
-76. creature of habit
-77. Hazard
-78. mitigate
-79. it pays off for me
-80. Cause
-81. Make 
-82. Effect
-83. Affect
-84. Influence
-85. Whole
-86. Nether not / either or
-87. Banal and Boring
-88. Drawback
-89. First and Formost
-90. Competition
-91. Competetive
-92. Carried
-93. Career
-94. Stress
-95. Depression
-96. Mental disorder
-97. Take responsibilty 
-98. Yet 
-99. Barely
-100. Independent in/on
-101. That is to day
-102. Merit
-103. int therms of
-104. Travel
-105. Trip
-106. Advantage and disadvantages
-107. Aquire
-108. Economy
-109. Age old debate
-110.  Novelty
-111. Evident
-112. Flipout
-113. Decades | centuries | years
-114. Influence
-115. Expedition
-116. Substantial
-117. substance
-118. Hazardous
-119. Welfare
-120. Advocate
-121. court
-122. Extremist
-123. Suicide
-124. concern
-125. exceed
+78. creature of habit
+79. Hazard
+80. mitigate
+81. it pays off for me
+82. Cause
+83. Make 
+84. Effect
+85. Affect
+86. Influence
+87. Whole
+88. Nether not / either or
+89. Banal and Boring
+90. Drawback
+91. First and Formost
+92. Competition
+93. Competetive
+94. Carried
+95. Career
+96. Stress
+97. Depression
+98. Mental disorder
+99. Take responsibilty 
+100. Yet 
+101. Barely
+102. Independent in/on
+103. That is to day
+104. Merit
+105. int therms of
+106. Travel
+107. Trip
+108. Advantage and disadvantages
+109. Aquire
+110. Economy
+111. Age old debate
+112.  Novelty
+113. Evident
+114. Flipout
+115. Decades | centuries | years
+116. Influence
+117. Expedition
+118. Substantial
+119. substance
+120. Hazardous
+121. Welfare
+122. Advocate
+123. court
+124. Extremist
+125. Suicide
+126. concern
+127. exceed
 	1. to be more than a particular number of amount
 		1. working hours must not exceed 42 hours a week
 		2. His performance exceeded our expectations
 	2. 
-126. provistion
-127. illegal
-128. Nuance
-129. various
-130. Varied
-131. Financial
-132. Endanger
-133. appearance
-134. Ethical
-135. Ethic
-136. intuition
-137. Intutive
-138. Stress out
-139. get instinct
-140. Ambiguity 
-141. interpretation
-142. interperate
-143. interpretative
-144. Analogy
-145. chore
-146. mandatory
-147. Strength != weakness
-148. Obligation
-149. Strive to do something
-150. pollutant
-151. Explosion
-152. Weapon
-153. scientist
+128. provistion
+129. illegal
+130. Nuance
+131. various
+132. Varied
+133. Financial
+134. Endanger
+135. appearance
+136. Ethical
+137. Ethic
+138. intuition
+139. Intutive
+140. Stress out
+141. get instinct
+142. Ambiguity 
+143. interpretation
+144. interperate
+145. interpretative
+146. Analogy
+147. chore
+148. mandatory
+149. Strength != weakness
+150. Obligation
+151. Strive to do something
+152. pollutant
+153. Explosion
+154. Weapon
+155. scientist
 	1. scien.tist
-154. Scientific
-155. Science (`sci` | `ence`)
-156. conventional
-157. controversial
-158. smash
-159. collision
-160. Hospitable
-161. Hurt
-162. Nearby
-163. thereby
-164. seat belt
-165. commute
-166. emit
-167. associate
-168. boil down
-169. persuade
-170. appetite
-171. Abolish
-172. Vary
-173. Run out of
-174. Solely
-175. Fight atttendant
-176. Fancy
-177. Myth
-178. Dispel
-179. Mutual
-180. Put something off
-181. sibtle
-182. onstacle
-183. overcome
-184. certain
-185. carry on
-186. spot on
-187. slim
-188. to grip
-189. intense
-190. admire
-191. admit
-192. encourage
-193. when it comes to
-194. among 
-195. come across
-196. come up
-197. end up
-198. lead to
-199. devastated
-200. convince
-201. Amuse
-202. omit
-203. surveys
-204. Take a day off
-205. Irony
-206. iron
-207. new born
-208. set off
-209. settle down
-210. preserving
-211. ally
-212. wandering
-213. take advice
-214. paralysis by analysis
-215. ingest
-216. A portion
-217. rigid
-218. renovate
-219. fade
-220. twitch
-221. resign
-222. adapt
-223. adjust
-224. alter
-225. cure
-226. demote
-227. disappear
-228. dissolve
-229. vanish
-230. vivid
-231. witnesses
-232. Barrow
-233. Lend
-234. Deposit
-235. Loan
-236. Exceeded authority
-237. Expensive
-238. constly
-239. High-Priced
-240. Overpriced
-241. splash out on something
-242. Get it over with
-243. get over with
-244. journalist
-245. A tedious journey
-246. tedious
-247. picking up
-248. Bought
-249. provide someone with something
-250. value (verb)
-251. convey
-252. regardless of something
-253. Convey
-254. Genius
-255. Genuine 
-256. Encounter
-257. across
-258. beneficial
-259. abundant
-260. considerable
-261. Enormous
-262. tremendous
+156. Scientific
+157. Science (`sci` | `ence`)
+158. conventional
+159. controversial
+160. smash
+161. collision
+162. Hospitable
+163. Hurt
+164. Nearby
+165. thereby
+166. seat belt
+167. commute
+168. emit
+169. associate
+170. boil down
+171. persuade
+172. appetite
+173. Abolish
+174. Vary
+175. Run out of
+176. Solely
+177. Fight atttendant
+178. Fancy
+179. Myth
+180. Dispel
+181. Mutual
+182. Put something off
+183. sibtle
+184. onstacle
+185. overcome
+186. certain
+187. carry on
+188. spot on
+189. slim
+190. to grip
+191. intense
+192. admire
+193. admit
+194. encourage
+195. when it comes to
+196. among 
+197. come across
+198. come up
+199. end up
+200. lead to
+201. devastated
+202. convince
+203. Amuse
+204. omit
+205. surveys
+206. Take a day off
+207. Irony
+208. iron
+209. new born
+210. set off
+211. settle down
+212. preserving
+213. ally
+214. wandering
+215. take advice
+216. paralysis by analysis
+217. ingest
+218. A portion
+219. rigid
+220. renovate
+221. fade
+222. twitch
+223. resign
+224. adapt
+225. adjust
+226. alter
+227. cure
+228. demote
+229. disappear
+230. dissolve
+231. vanish
+232. vivid
+233. witnesses
+234. Barrow
+235. Lend
+236. Deposit
+237. Loan
+238. Exceeded authority
+239. Expensive
+240. constly
+241. High-Priced
+242. Overpriced
+243. splash out on something
+244. Get it over with
+245. get over with
+246. journalist
+247. A tedious journey
+248. tedious
+249. picking up
+250. Bought
+251. provide someone with something
+252. value (verb)
+253. convey
+254. regardless of something
+255. Convey
+256. Genius
+257. Genuine 
+258. Encounter
+259. across
+260. beneficial
+261. abundant
+262. considerable
+263. Enormous
+264. tremendous
 	1. very great in amount, scale or intensity
-263. abuse
-264. inhuman
-265. savage
-266. brutal
-267. cruel
-268. miserable
-269. Disruptive 
-270. destructive
-271. Consequently
-272. Raise
-273. Rise
-274. spacious
-275. species
-276. gambling
-277. Endanger
-278. 
+265. abuse
+266. inhuman
+267. savage
+268. brutal
+269. cruel
+270. miserable
+271. Disruptive 
+272. destructive
+273. Consequently
+274. Raise
+275. Rise
+276. spacious
+277. species
+278. gambling
+279. Endanger
+280. 
 
 _____
 ##### References

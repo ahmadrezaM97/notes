@@ -19,10 +19,24 @@ Talking about fashion:
 	1. it's a bit tight
 8. stretchy 
 	1. mom pants :D
-9. flashy
-10. comfy ( comfortable)
-11. baggy
-12. 
+9. plain (normal)
+	1. plain T-shirt
+10. It's too light/loose at the front/ at the back / on the side
+11. trying on sides
+12. Its suits you
+13.  
+14. outfits
+15. get someone attention
+16. flashy
+17. comfy ( comfortable)
+18. baggy
+19. It really  brings out your eyes
+20. nice outfit
+21. I think blacks works with everything
+22. It's look good on you
+23. Dress up
+24. Zip up
+25. Try on 
 _____
 ##### References
 1.
