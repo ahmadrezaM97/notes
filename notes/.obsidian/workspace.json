@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "5af260dc5b6e5350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "En/class/011.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c8a44f498075df8e",
             "type": "leaf",
             "state": {
@@ -102,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -160,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/speaking/socializing.md",
+                "file": "En/class/011.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,14 +212,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b86b830840dc77c2",
+  "active": "5af260dc5b6e5350",
   "lastOpenFiles": [
+    "En/speaking/socializing.md",
+    "En/class/011.md",
     "En/speaking/communities and neighborhood.md",
     "En/vocabulary/wrong spells.md",
     "En/vocabulary/new word.md",
     "En/vocabulary/rather-qutie-fairy.md",
     "En/grammar/would rather.md",
-    "En/speaking/socializing.md",
     "En/speaking/clothes and shopping.md",
     "En/speaking/templates.md",
     "En/speaking/Untitled",
