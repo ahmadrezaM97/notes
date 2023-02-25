@@ -5,12 +5,28 @@ ____
 
 sociable / friendly / gregarious / outgoing / 
 
-affable (adjective) -> friendly, good-natured, or easy to talk
+Meet new friends
 
-1. gregarious
+to make friends
+to hand out
+to chit chat
+to connect
+
+
+1. affable (adjective) -> friendly, good-natured, or easy to talk
+	1. I am quite an affable person
+	2. I am a little bit of an affable person
+	3. 
+2. amiable
+3. approachable
+	1. I think I am quite approachable
+4.  He's rather unfriendly, solitary, aloof, cold
+5. aloof
+	1. not friendly | to be distant(cold)
+6. gregarious
 	1. adjective
 	2. friendly and preferring to be with other people (= sociable) (!= solitary)
-2. Solitary
+7. Solitary
 	1. adjective
 	2. spending a lot of time alone, usually because you like being along
 		1. != sociable
