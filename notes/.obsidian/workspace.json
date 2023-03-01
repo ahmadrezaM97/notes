@@ -8,43 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56b3bee7348e1e81",
+            "id": "e409bd08b6c00a11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "En/speaking/clothes and shopping.md",
+                "file": "En/writing/phrase and tips.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b86b830840dc77c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/speaking/socializing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5af260dc5b6e5350",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/class/011.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8a44f498075df8e",
+            "id": "af7664bb30ce5524",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,67 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fe598bf04af33fed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/new word.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b715fb810b0ddaf4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/rather-qutie-fairy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3cd1d0a488c1899",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/grammar/would rather.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "963ad74475ce240f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/speaking/socializing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fffb53ae9f64bcc4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -173,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/class/011.md",
+                "file": "En/writing/phrase and tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,12 +128,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5af260dc5b6e5350",
+  "active": "e409bd08b6c00a11",
   "lastOpenFiles": [
-    "En/speaking/socializing.md",
-    "En/class/011.md",
-    "En/speaking/communities and neighborhood.md",
+    "En/writing/sample task1.md",
     "En/vocabulary/wrong spells.md",
+    "En/writing/phrase and tips.md",
+    "En/class/011.md",
+    "En/writing",
+    "En/speaking/socializing.md",
+    "En/speaking/communities and neighborhood.md",
     "En/vocabulary/new word.md",
     "En/vocabulary/rather-qutie-fairy.md",
     "En/grammar/would rather.md",
