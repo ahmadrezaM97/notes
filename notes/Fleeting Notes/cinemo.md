@@ -30,7 +30,7 @@ good glassdoor comment
 
 ##### STAR
 Questions
-
+_I feel my skills are particularly well-suited to this position because_
 
 1. question:
 	1. tell me about the time 
