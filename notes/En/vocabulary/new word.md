@@ -3,10 +3,24 @@ Created: 2023-02-21 17:27
 Tags: 
 ____
 
-1. __residential__
-2. put emphasis on something
+1. contention (claom)
+	1. heated disagreement
+	2. (formal) a strong opinion that someone expresses 
+		1. somebody contention that
+		3. Her main contention is that doctors should do more to encourage healthy eating
+	3. (formal) argument and disagreement between people
+		1. __source/area/point__
+		2. The issue of hunting is a source of contention
+	4. someone's contention is the idea or opinion that they are expressing in an argument or discussion.
+		1. This evidence support their contention that the out break of violence was prearreanged
+		2. Sufficient research evidence exist to support this contention
+		3. (assertion, claim, stand idea)
+	5. 
+2. __residential__
+3. put emphasis on something
 	1. special attention or importance given to something
-3. rather
+	2. 
+4. rather
 	4. adverb
 	5. fairy or to some degree
 		1. I was rather surprised to see him with his ex-wife
