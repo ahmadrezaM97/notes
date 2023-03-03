@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "381ee2b8aa644f93",
+        "id": "ee62b4034c96742d",
         "type": "tabs",
         "children": [
           {
-            "id": "e4400354176f80f9",
+            "id": "c6cbba9796159935",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/housinganywhere.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97b0c865afeb5134",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "En/vocabulary/wrong spells.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/housinganywhere.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,10 +116,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e4400354176f80f9",
+  "active": "c6cbba9796159935",
   "lastOpenFiles": [
-    "En/vocabulary/wrong spells.md",
+    "Fleeting Notes/GO/Go Pointer.md",
+    "Fleeting Notes/TCP protocol.md",
+    "Fleeting Notes/GO/GO JSON.md",
+    "Fleeting Notes/GO/Go Embedding.md",
+    "Fleeting Notes/GO/Go module.md",
     "Fleeting Notes/housinganywhere.md",
+    "En/vocabulary/wrong spells.md",
     "Fleeting Notes/cinemo.md",
     "En/writing/phrase and tips.md",
     "En/writing/sample task1.md",
@@ -154,10 +147,6 @@
     "Fleeting Notes/GO/Go advanced testing.md",
     "En/grammar/passive reporting.md",
     "En/vocabulary/Untitled.md",
-    "En/vocabulary/every day collocation.md",
-    "En/vocabulary/have.md",
-    "En/vocabulary/get.md",
-    "En/vocabulary/Do.md",
-    "Fleeting Notes/GO/Go struct custom tag.md"
+    "En/vocabulary/every day collocation.md"
   ]
 }

@@ -33,16 +33,28 @@ questions
 1. tell me about yourself
 	1. Well, I am ahmadreza, I'm 25 
 	2. I've been working as a backend software engineer for like 3 years
-	3. I worked in two different teams
+	3. I worked in two different teams ( a product team and then infrastructure team)
 		1. first I was in car selling vertical and our responsibility was working on people who want sell and buy cars
-		2. I developed  lots of features with python and Golang on kuberntes infrastructure
+		2. I developed  lots of features with python and __Golang__ on __kuberntes__ infrastructure
 		3. we had weekly meeting with the product team to discuss new solutions 
-		4. I also took ownership  multiple microservice , I was suppose to maintian an improve services
+		4. I also took ownership  multiple __microservice__ , I was suppose to maintian an improve services
 	4. currently I am in core search team
-		1. and my main resposiblties are first maintain search services that are most importaint services in DIVAR
+		1. and my main responsibilites are first maintain search services that are most important services in DIVAR
 		2. and secondly we are rewriting our services from python to golang
-	5. for a couple of months I was interviewer in jouner pipleline
-	6. and I also manage golang workshop for my colleages to discuss best practices 
+	5. for a couple of months I was __interviewer__ in jouner pipleline
+	6. and I also manage __golang__ workshop for my colleages to discuss best practices 
+2. Why do you want this role
+	1. I was looking for new opportunities in European countries for international countries
+	2. I believe working in an international environment is next step in my career path.
+	3. I talked about housinganywhere with my friend and he was very happy to work there  and he talk me through the company a little bit and he told a little bit about the job
+	4. I visited the site and read about your culture we have similiar value here
+		1. 
+	5. then I explore glassdoor comments and reviews 
+		1. very welcoming company
+		2. big modern office
+		3. learning and having good time
+		4. 
+	6. 
 _____
 ##### References
 1.
