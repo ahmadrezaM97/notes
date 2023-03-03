@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee62b4034c96742d",
+        "id": "f052f681bdbd166d",
         "type": "tabs",
         "children": [
           {
-            "id": "c6cbba9796159935",
+            "id": "e14c365e56f1c432",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/housinganywhere.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "talk",
+                "query": "we work together",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/housinganywhere.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,21 +117,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c6cbba9796159935",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/Core values.md",
+    "Fleeting Notes/getgeround.md",
+    "Fleeting Notes/housinganywhere.md",
+    "En/writing/sample task1.md",
+    "En/writing/phrase and tips.md",
+    "En/speaking/socializing.md",
+    "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/GO/Go Pointer.md",
     "Fleeting Notes/TCP protocol.md",
     "Fleeting Notes/GO/GO JSON.md",
     "Fleeting Notes/GO/Go Embedding.md",
     "Fleeting Notes/GO/Go module.md",
-    "Fleeting Notes/housinganywhere.md",
     "En/vocabulary/wrong spells.md",
     "Fleeting Notes/cinemo.md",
-    "En/writing/phrase and tips.md",
-    "En/writing/sample task1.md",
     "En/class/011.md",
     "En/writing",
-    "En/speaking/socializing.md",
     "En/speaking/communities and neighborhood.md",
     "En/vocabulary/new word.md",
     "En/vocabulary/rather-qutie-fairy.md",
@@ -144,9 +148,6 @@
     "Fleeting Notes/GO/flag.md",
     "En/class/010.md",
     "En/class",
-    "Fleeting Notes/GO/Go advanced testing.md",
-    "En/grammar/passive reporting.md",
-    "En/vocabulary/Untitled.md",
-    "En/vocabulary/every day collocation.md"
+    "Fleeting Notes/GO/Go advanced testing.md"
   ]
 }
