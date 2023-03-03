@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/cinemo.md",
+                "file": "Fleeting Notes/housinganywhere.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97b0c865afeb5134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "En/vocabulary/wrong spells.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/cinemo.md",
+                "file": "Fleeting Notes/housinganywhere.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,10 +130,11 @@
   },
   "active": "e4400354176f80f9",
   "lastOpenFiles": [
-    "En/writing/phrase and tips.md",
-    "Fleeting Notes/cinemo.md",
-    "En/writing/sample task1.md",
     "En/vocabulary/wrong spells.md",
+    "Fleeting Notes/housinganywhere.md",
+    "Fleeting Notes/cinemo.md",
+    "En/writing/phrase and tips.md",
+    "En/writing/sample task1.md",
     "En/class/011.md",
     "En/writing",
     "En/speaking/socializing.md",
