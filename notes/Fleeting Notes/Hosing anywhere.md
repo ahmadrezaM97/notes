@@ -3,7 +3,7 @@
 Created: 2023-03-13 16:33
 Tags: 
 ____
- 
+ Let’s improve the renting experience for everyone.
 
 
 Housinganywhere
@@ -44,7 +44,36 @@ Internainal diverse
 
 1. we need to improve listing quality, some of customers could pick the correct brand and model of their car when they wanted to post and advertisements.
 	1. we improve conflict percentage from 10 percent to 2 percent.
-2. 
+2. knoledge sharing
+	1. about Http evolution
+	2. about golang
+		1. error
+		2. string
+		3. scheduler
+		4. table driven test and subtest
+	3. 
+3. before deploy
+	1. easy to revert
+	2. unit test and integration test
+4. adding test for each bug
+5. fast startup and greaceful shutdown
+6. keep development and staging and production as similar as possible
+7. 
+8. 12 rules
+	1.  one codebase traced in revision control, many deploys
+		1. production
+		2. staging
+		3. developer 1
+		4. developer 2
+	2. explicit dependency
+		1. docker-compose ( easy to test for new developer)
+	3. build, release run
+		1. strictly seprate build and run stage
+		2. build
+			1. transform code to exectuable
+		3. release
+			1. executable with configs
+	4. 
 
 
 
