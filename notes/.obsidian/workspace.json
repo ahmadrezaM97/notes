@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e14c365e56f1c432",
+            "id": "11720341978c9cce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "En/vocabulary/new words.md",
+                "file": "Fleeting Notes/Hosing anywhere.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/vocabulary/new words.md",
+                "file": "Fleeting Notes/Hosing anywhere.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,10 +116,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e14c365e56f1c432",
+  "active": "11720341978c9cce",
   "lastOpenFiles": [
-    "En/vocabulary/wrong spells.md",
     "En/vocabulary/new words.md",
+    "Fleeting Notes/Hosing anywhere.md",
+    "En/vocabulary/wrong spells.md",
     "Fleeting Notes/housinganywhere.md",
     "Fleeting Notes/Core values.md",
     "Fleeting Notes/getgeround.md",
@@ -146,7 +147,6 @@
     "Fleeting Notes/GO/close http.Request body.md",
     "Fleeting Notes/GO/flag.md",
     "En/class/010.md",
-    "En/class",
-    "Fleeting Notes/GO/Go advanced testing.md"
+    "En/class"
   ]
 }
