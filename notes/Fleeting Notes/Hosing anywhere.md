@@ -6,6 +6,7 @@ ____
  Let’s improve the renting experience for everyone.
 
 
+
 Housinganywhere
 1. search fast, search smart
 	1. browse hundreds of properties in your city of choice.
@@ -39,7 +40,14 @@ Internainal diverse
 نمیدونم این مصاحبه بود یا نه ولی یذره تکنیکال تر اینکه قبل و حین دپلوی از چیا مطمئن میشی، چجوری با stake holder ها درمیون میذاری، و  پروسه تست اتوماتیک و دستی رو هم اشاره کن اگه سوال مرتبط بود
 
 
+ OURS
+	1. Honesty
+	2. non-discriminatory behavior
+	3. We make bold and agile decisions
+	4. We learn from our decisions
+	5.  work together to create products that we are proud of
 
+ideal candidate __ **
 
 
 1. we need to improve listing quality, some of customers could pick the correct brand and model of their car when they wanted to post and advertisements.
@@ -60,7 +68,7 @@ Internainal diverse
 6. keep development and staging and production as similar as possible
 7. 
 8. 12 rules
-	1.  one codebase traced in revision control, many deploys
+	1.  one code base traced in revision control, many deploys
 		1. production
 		2. staging
 		3. developer 1
