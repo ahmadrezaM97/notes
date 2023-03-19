@@ -54,8 +54,26 @@ ____
 
 ![[kafka-zero-copy-1.png]]
 
+https://www.youtube.com/watch?v=qu96DFXtbG4&list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH&index=2
+
 
 #### Kafka Broker
+
+
+#### message
+1. single unit of data
+2. is just array of bytes
+3. have an optional key ( byte array)
+
+
+ 
+publish /subscribe
+messaging system
+
+open-source
+
+distribute event log immutable persisted on disk
+
 
 producer 
 broker
