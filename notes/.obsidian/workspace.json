@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Fleeting Notes/etcd.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd24ca9587cd13cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Fleeting Notes/kafka/kafka.md",
                 "mode": "source",
                 "source": false
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,12 +141,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "92accac5cc27937b",
+  "active": "dd24ca9587cd13cd",
   "lastOpenFiles": [
+    "Statics/kafka-9.png",
+    "Statics/kafka-9.png.crdownload",
+    "Fleeting Notes/zookeaper.md",
+    "Fleeting Notes/etcd.md",
+    "Fleeting Notes/insert tem.md",
+    "Fleeting Notes/kafka/kafka.md",
     "Statics/kafka-zero-copy-1.png",
     "Statics/kafka-zero-copy-0.png",
     "Fleeting Notes/Hosing anywhere.md",
-    "Fleeting Notes/kafka/kafka.md",
     "Fleeting Notes/kafka",
     "Fleeting Notes/housinganywhere.md",
     "Fleeting Notes/Core values.md",
@@ -157,10 +174,7 @@
     "En/speaking/communities and neighborhood.md",
     "En/vocabulary/rather-qutie-fairy.md",
     "En/grammar/would rather.md",
-    "En/speaking/clothes and shopping.md",
-    "En/speaking/templates.md",
     "En/speaking/Untitled",
-    "En/class notes.md",
     "En/speaking",
     "En/class"
   ]

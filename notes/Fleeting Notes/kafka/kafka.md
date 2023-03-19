@@ -54,7 +54,15 @@ ____
 
 ![[kafka-zero-copy-1.png]]
 
-https://www.youtube.com/watch?v=qu96DFXtbG4&list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH&index=2
+https://www.youtube.com/watch?v=EiWsPd6JDoo
+
+
+https://www.youtube.com/watch?v=-DyWhcX3Dpc&list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA
+
+youtube.com/watch?v=RYC-7wECMds&list=PLa7VYi0yPIH14oEOfwbcE9_gM5lOZ4ICN
+
+https://www.youtube.com/watch?v=Vv4HpLfqAz4
+https://www.youtube.com/watch?v=gZj16chk0Ss
 
 
 #### Kafka Broker
@@ -81,4 +89,24 @@ consumer
 
 * __Topic__
 	* 
-	
+
+
+### Kafka
+
+refrences: 
+https://jack-vanlightly.com/blog/2017/12/4/rabbitmq-vs-kafka-part-1-messaging-topologies
+
+#### introduction
+
+__Kafka is a distributed, replicated commit log__
+1. distributed
+	1. Kafka is deployed as a cluster of nodes, for both fault tolerance and scale
+2. Replicated
+	1. because message are usually replicated across multiple  odes ( servers)
+3. Commit Log
+	1. because message are stored in partitioned, append only logs which called  __Topics__.
+	2. __this concept of a log is the principal killer feature of kafka__
+
+![[kafka-9.png]]
+
+
