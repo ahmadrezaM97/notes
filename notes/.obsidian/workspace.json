@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/microservices/event sourcing.md",
+                "file": "Fleeting Notes/kafka/kafka.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/microservices/event sourcing.md",
+                "file": "Fleeting Notes/kafka/kafka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,8 +118,8 @@
   },
   "active": "dd24ca9587cd13cd",
   "lastOpenFiles": [
-    "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/microservices/event sourcing.md",
+    "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/zookeaper.md",
     "Fleeting Notes/CQRS.md",
     "Fleeting Notes/kafka/kafka.md",
