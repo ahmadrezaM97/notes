@@ -2,7 +2,6 @@
 Created: 2023-03-19 17:24
 Tags: 
 ____
-
 ### introduction
 
 1. It's about real-time experience 
@@ -36,11 +35,32 @@ ____
 		1. re
 
 
+
+### why KAFKA is fast
+
+#### sequential access pattern
 * One of the reasons Kafka is fast( has a high throughput) is Kafka use sequential I/O
 	* append only log as primary data structure 
 	* access patterns
 		1. random 
 		2. sequential 
-* zero copy principle
 
-]
+
+####  zero copy principle
+
+[[zero copy]]
+
+![[kafka-zero-copy-0.png]]
+
+![[kafka-zero-copy-1.png]]
+
+
+#### Kafka Broker
+
+producer 
+broker
+consumer
+
+* __Topic__
+	* 
+	
