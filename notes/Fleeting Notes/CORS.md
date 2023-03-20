@@ -21,9 +21,28 @@ you username is stored in a secure browser cookie for a certain period of time s
 Later on, you go to an innocent-seeming webpage listing some fact about bunnies. The webpage's HTML also has a little JS to make [[AJEX]] to the previous banking website to make a wire transaction to another acount.
 Because your session is still authenticated with the cooki that was stored earlier, the banking web site thinks it's just you clicking on a lik on theri site to submit a wire transaction.
 
-The easy fix was for browser to detect when a request is made from one website to another and prevent the response from being readable. 
-This is __Same-Origin-policy__
 
+The easy fix was for browser to detect when a request is made from one website to another and prevent the response from being readable. 
+This is __Same-Origin-policy__.
+‌
+BUT, what about loading images from other websites?
+Unlike AJAX requests, browsers do allow embedding most content from other website, such as images, script tags, css, etc by default.
+Some possible exceptions are __iframes__ depending on the sit's configuration, and fonts, depending on browser.
+
+AND, this does leave an avenue of attack open for __CSRF__ attacks, since could use `<image src='...'/>` to make a malicious `GET` request to another website rather than loading an image.
+Servers have to do some additional work on their end to implement security, by using [[CSRF TOKENS]] [[Transaction Tickets]] if GET requests can result in any unwanted side effects or revealing confidential information. 
+
+If you are developing an API and you want to allow people to make AJAX or newer web APIs like Fetch requests to your API in the browser, Or more simply, you want to make sure anyone can access a font you are sharing from you website, regardless of their browser.
+
+Here, We've arrived at __`CORS`__
+
+__`CORS`__ allows servers to specify certain trusted `origin` they  are willing to permit request from.
+Origins are defined as the combination of protocol (HTTP, HTTPS), host and port.
+
+Browser which implement the `CORS` policy will include a HTTP header called `Origin` in request made with AJAX, including above information.
+
+#### Simple requests
+To
 
 
 
