@@ -42,7 +42,9 @@ Origins are defined as the combination of protocol (HTTP, HTTPS), host and port.
 Browser which implement the `CORS` policy will include a HTTP header called `Origin` in request made with AJAX, including above information.
 
 #### Simple requests
-To
+
+to instruct the browser to expose server responses to a HTTP requests from certain origin, the web server must respond to the request with an additional HTTP response header.`Access-Control-Allow-Origin: <origin>`.
+Alternatively the web server my expose it's respones to all origins by specifying a value `Aceess-Control-Allow-Origin:**`
 
 
 
