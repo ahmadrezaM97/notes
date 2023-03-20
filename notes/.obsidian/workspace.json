@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "87f9c47a7291c829",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/communication-design-pattern/request-response.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -77,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/kafka/kafka.md",
+                "file": "Fleeting Notes/communication-design-pattern/request-response.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,13 +130,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "dd24ca9587cd13cd",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/kafka/kafka.md",
+    "Fleeting Notes/communication-design-pattern/request-response.md",
+    "Fleeting Notes/communication-design-pattern",
     "Fleeting Notes/microservices/event sourcing.md",
     "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/zookeaper.md",
     "Fleeting Notes/CQRS.md",
-    "Fleeting Notes/kafka/kafka.md",
     "Statics/kafka-9.png",
     "Statics/kafka-9.png.crdownload",
     "Fleeting Notes/etcd.md",
@@ -149,7 +165,6 @@
     "Fleeting Notes/cinemo.md",
     "En/class/011.md",
     "En/writing",
-    "En/speaking/communities and neighborhood.md",
     "En/speaking/Untitled",
     "En/speaking",
     "En/class"
