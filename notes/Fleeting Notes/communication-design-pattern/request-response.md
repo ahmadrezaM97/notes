@@ -124,7 +124,46 @@ What is push
 		* lots of false
 	* Network bandwidth
 	* Wasted backend resources
-	* 
+
+
+#### Long Polling
+
+> request is taking long, I'll check with you later but talk to me only when it's  ready
+
+* Client sends a request
+* Server responds immediately with a handle
+* Server continues to process the request
+* Client uses that handle to check for status
+* __Server Does not reply until it has the response__
+* So we got a handle, we can disconnect a client
+
+```ad-note
+kafka use this
+```
+
+![[long-polling-2.png]]
+
+
+
+* Long polling pros
+	* Less chary and backend friendly
+	* Client can still disconnect
+* Log polling pros
+	* Nor real time
+
+
+#### Server Sent Events
+
+> one request, a very very long response> 
+
+* A response has start and end
+* Client send a request
+* Server sends logical events as part of response
+* Server never writes the end of the response
+* It is still a request but an unending response
+* Client parses the streams data looking for events
+
+
 
 
 _____
