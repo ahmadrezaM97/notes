@@ -43,8 +43,19 @@ Browser which implement the `CORS` policy will include a HTTP header called `Ori
 
 #### Simple requests
 
+__GET, HEAD or POST without any special HTTP headers__
+
 to instruct the browser to expose server responses to a HTTP requests from certain origin, the web server must respond to the request with an additional HTTP response header.`Access-Control-Allow-Origin: <origin>`.
 Alternatively the web server my expose it's respones to all origins by specifying a value `Aceess-Control-Allow-Origin:**`
+
+### Preflight request
+
+__DELETE or PUT or (HEAD, GET or POST with special header)___
+The browser will send "preflight" request to find out the `CORS` result prior to sending the actual request.
+
+The preflight request is an __OPTIONS__ request made to the same HTTP path as the request, with a couple of HTTP headers.
+
+* __Origin__ the 
 
 
 
