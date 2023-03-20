@@ -109,7 +109,23 @@ What is push
 * Server responds immediately with a handle
 * Server continues to process the request
 * Client uses that handle to check for status
-* 
+* Multiple "short" request response as polls
+
+[[Long-or-Short polling]]
+
+![[short-polling2.png]]
+
+* Short polling Pros
+	* Simple
+	* Good for long running requests
+	* Client can disconnect (save request id/ task id)
+* Short polling Cons
+	*  Too chatty
+		* lots of false
+	* Network bandwidth
+	* Wasted backend resources
+	* 
+
 
 _____
 ##### References
