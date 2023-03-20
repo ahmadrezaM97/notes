@@ -163,8 +163,28 @@ kafka use this
 * It is still a request but an unending response
 * Client parses the streams data looking for events
 
+![[sse.png]]
 
 
+* SSE Pros
+	* Real time
+	* Compatible with request/response
+* SSE cons
+	* Client must be online
+	* Client might bot be able to handle (like what happends in push)
+	* Polling is preferred for light clients
+	* HTTP/1.1 (problem) (6 connections)
+
+
+
+### Publish Subscribe
+
+> one publisher many readers
+
+
+### multiplexin
+### Stateful vs stateless
+### Sidecar pattern
 
 _____
 ##### References
