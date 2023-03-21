@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Core values.md",
+                "file": "Fleeting Notes/CORS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "46c4b5f38c2443f3",
+            "id": "ae881e2194b58768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/CORS.md",
+                "file": "Fleeting Notes/HAW-Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/CORS.md",
+                "file": "Fleeting Notes/HAW-Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,10 +153,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "46c4b5f38c2443f3",
+  "active": "ae881e2194b58768",
   "lastOpenFiles": [
-    "Fleeting Notes/Core values.md",
     "Fleeting Notes/CORS.md",
+    "Fleeting Notes/HAW-Design.md",
+    "Fleeting Notes/CQRS.md",
+    "Fleeting Notes/linearizability.md",
+    "Fleeting Notes/getgeround.md",
+    "Fleeting Notes/Core values.md",
     "Fleeting Notes/communication-design-pattern/request-response.md",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
@@ -169,7 +172,6 @@
     "Fleeting Notes/microservices/event sourcing.md",
     "Fleeting Notes/microservices/distributed transaction.md",
     "Fleeting Notes/zookeaper.md",
-    "Fleeting Notes/CQRS.md",
     "Statics/kafka-9.png",
     "Statics/kafka-9.png.crdownload",
     "Fleeting Notes/etcd.md",
@@ -182,7 +184,6 @@
     "IELTS/writing/1.md",
     "En/vocabulary/new words.md",
     "En/vocabulary/wrong spells.md",
-    "Fleeting Notes/getgeround.md",
     "En/writing/sample task1.md",
     "En/writing/phrase and tips.md",
     "En/speaking/socializing.md",
@@ -190,8 +191,6 @@
     "Fleeting Notes/GO/Go Pointer.md",
     "Fleeting Notes/TCP protocol.md",
     "Fleeting Notes/GO/GO JSON.md",
-    "Fleeting Notes/GO/Go Embedding.md",
-    "Fleeting Notes/GO/Go module.md",
     "En/writing",
     "En/speaking/Untitled",
     "En/speaking",
