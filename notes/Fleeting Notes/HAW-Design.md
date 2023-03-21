@@ -14,12 +14,12 @@ facts
 
 1. functional requirements
 	1. notification system
-		2. Email
-		3. SMS
-		4. Whatsapp 
-		5. Slack
-	2. shared interface / API for product engineering 
-	3. __Unsubscribe__ or opt out in case of email, `SMS` and `Whatsapp`
+		2. `Email`
+		3. `SMS`
+		4. `Whatsapp` 
+		5. `Slack`
+	2. Shared interface / API for product engineering 
+	3. __Unsubscribe__ or opt out in case of `email`, `SMS` and `Whatsapp`
 	4. in case of emails __Bulk__ notifications in specefic scenarios
 
 
