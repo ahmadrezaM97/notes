@@ -55,7 +55,26 @@ The browser will send "preflight" request to find out the `CORS` result prior to
 
 The preflight request is an __OPTIONS__ request made to the same HTTP path as the request, with a couple of HTTP headers.
 
-* __Origin__ the 
+__REQUEST__
+
+* __Origin__ the origin header that would be included with the actual request being made by the website
+* __Access-Control-Request-Method__
+	* the method of the actual request being made by the website
+* __Access-Control-Request-Header__
+	* a comma-separated list of headers that would be included in the actual request.
+
+web server that wish to support __CORS__ request must respond to preflght requests with the following HTTP header.
+
+__RESPONSE__
+
+* __Access-Control-Allow-Origin__
+	* the white list origin, or **
+* __Access-Control-Allow-methods__
+	* A comma-separated list of methods the web server wishes to permit for cross-origin requests.
+* __Access-Control-Allow-Headers__
+	* A comma-separated list of HTTP headers the web server wishes to permit for cross-origin request
+
+__If any of the information in the response headers does not match the actual parameters of the request, the browser will not send the actual request__
 
 
 
