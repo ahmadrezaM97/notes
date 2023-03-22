@@ -52,7 +52,42 @@ Requirements
 
 Databse
 APIS
-1. Send
+
+SendNofitication
+
+```json
+{
+	"user_id": "314342132",
+	"priority": "high", // ("high", "low") for transactional and promotional
+	"type": ["SMS", "EMAIL"], // array of enum (SMS, EMAIL, WHATSAPP, SLACK),
+	"content" :{
+		"template":"12",
+		"values": {
+			"text":"s",
+			"time":"daas"
+		}
+	}
+}
+```
+
+SendBulkNotfication 
+```json
+
+{
+	"user_id": "314342132",
+	"priority": "high", // ("high", "low") for transactional and promotional
+	"type": ["SMS", "EMAIL"], // array of enum (SMS, EMAIL, WHATSAPP, SLACK),
+	"content" :{
+		"template":"12",
+		"values": {
+			"text":"s",
+			"time":"daas"
+		}
+	}
+}
+```
+
+
 
 _____
 ##### References
