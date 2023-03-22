@@ -71,10 +71,10 @@ SendNofitication
 ```
 
 SendBulkNotfication 
-```json
 
+```json
 {
-	"user_id": "314342132",
+	"topic_id": "all",
 	"priority": "high", // ("high", "low") for transactional and promotional
 	"type": ["SMS", "EMAIL"], // array of enum (SMS, EMAIL, WHATSAPP, SLACK),
 	"content" :{
