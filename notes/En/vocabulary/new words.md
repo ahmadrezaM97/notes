@@ -16,7 +16,7 @@ ____
 	2. if you __embark on__ something new, difficult, or exciting, you start doing it
 		1. He's embarking on a new career as a writer
 		2. The government embarked on a program of radical economic reform
-	3. embark on a ship, aricraft, train
+	3. embark on a ship, aircraft, train
 			1.when someone embarks on a ship, they go on board before the start of a journey
 1. Integral 
 	1. adjective
