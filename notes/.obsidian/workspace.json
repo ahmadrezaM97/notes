@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "En/vocabulary/new words.md",
+                "file": "Fleeting Notes/GO/GO Concurrency.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/vocabulary/new words.md",
+                "file": "Fleeting Notes/GO/GO Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,8 +167,9 @@
   },
   "active": "ae881e2194b58768",
   "lastOpenFiles": [
-    "Fleeting Notes/DDD.md",
+    "En/class/010.md",
     "En/vocabulary/new words.md",
+    "Fleeting Notes/DDD.md",
     "Fleeting Notes/HAW-Design.md",
     "Fleeting Notes/CORS.md",
     "Fleeting Notes/CQRS.md",
@@ -202,7 +203,6 @@
     "En/speaking/socializing.md",
     "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/GO/Go Pointer.md",
-    "Fleeting Notes/TCP protocol.md",
     "En/writing",
     "En/speaking/Untitled",
     "En/speaking",
