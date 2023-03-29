@@ -3,7 +3,13 @@ Created: 2023-02-21 17:27
 Tags: 
 ____
 
-1. quest 
+1. advers 
+	1. adj
+	2. no good or favorable
+	3. they fear it could have an adverse effect on global financial markets.
+	4. 
+2. adversity
+3. quest 
 	1. noun
 		1. a long search for something that is difficult to find
 		2. quest for 
@@ -11,7 +17,7 @@ ____
 		4. the quest for human happiness
 		5. world leaders are now united in their quest for peace.
 		6. 
-2. embark
+4. embark
 	1. verb
 	2. if you __embark on__ something new, difficult, or exciting, you start doing it
 		1. He's embarking on a new career as a writer

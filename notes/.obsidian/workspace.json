@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/DDD.md",
+                "file": "En/vocabulary/new words.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,10 +165,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "213113bc6c44f062",
+  "active": "ae881e2194b58768",
   "lastOpenFiles": [
-    "En/vocabulary/new words.md",
     "Fleeting Notes/DDD.md",
+    "En/vocabulary/new words.md",
     "Fleeting Notes/HAW-Design.md",
     "Fleeting Notes/CORS.md",
     "Fleeting Notes/CQRS.md",
