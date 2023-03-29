@@ -64,6 +64,87 @@ concurrency is property of a code but parallelism is a property of execution.
 
 ### Patterns
 
+#### generator
+
+```go
+func generatorKMultiply(k, step int) <-chan int {
+	c := make(chan int)
+
+	go func() {
+		for i := 1; step > 0; i *= k {
+			c <- i
+			step--
+		}
+
+		close(c)
+	}()
+
+	return c
+}
+
+func run() error {
+	multiplier10 := generatorKMultiply(10, 10)
+
+	for o := range multiplier10 {
+		fmt.Println(o)
+	}
+
+	return nil 
+}
+
+func run1() error {
+	for {
+		n, ok := <-multiplier10
+		if !ok {
+	 		break
+	 	}
+	 	fmt.Println(n)
+	}
+
+	return nil 
+}
+```
+
+#### FanIn
+
+```go
+func fanIn(chans ...<-chan int) <-chan int {
+	out := make(chan int)
+
+	var wg sync.WaitGroup
+
+	for _, c := range chans {
+		wg.Add(1)
+		go func(ci <-chan int) {
+			defer wg.Done()
+			for o := range ci {
+				out <- o
+			}
+		}(c)
+	}
+
+	go func() {
+		wg.Wait()
+		close(out)
+	}()
+
+	return out
+}
+
+func runFanIn() {
+	multiplier2 := generatorKMultiply(2, 10)
+	multiplier3 := generatorKMultiply(3, 10)
+	multiplier5 := generatorKMultiply(5, 10)
+
+	out := fanIn(multiplier2, multiplier3, multiplier5)
+	for o := range out {
+		fmt.Println(o)
+	}
+}
+
+
+```
+
 ### OS scheduler
 ###
 
