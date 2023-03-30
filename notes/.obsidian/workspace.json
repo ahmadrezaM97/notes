@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd24ca9587cd13cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/kafka/kafka.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87f9c47a7291c829",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/CORS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ae881e2194b58768",
             "type": "leaf",
             "state": {
@@ -42,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "213113bc6c44f062",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/DDD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "093401d0551d01b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Long-or-Short polling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
