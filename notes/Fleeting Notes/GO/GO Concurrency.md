@@ -145,6 +145,51 @@ func runFanIn() {
 
 ```
 
+
+#### Quite Signal
+
+```go
+func run() error {
+	rand.Seed(time.Now().UnixNano())
+	quite := make(chan struct{})
+
+	var wg sync.WaitGroup
+
+	for i := 0; i < 10; i++ {
+		wg.Add(1)
+
+		t := time.NewTimer(time.Duration(rand.Intn(5000)) * time.Millisecond)
+
+		go func(quickChan chan struct{}, cnt int) {
+			defer wg.Done()
+
+			select {
+			case <-t.C:
+				fmt.Printf("%d goroutine end\n", cnt)
+				return
+
+			case <-quickChan:
+				if !t.Stop() {
+					<-t.C
+				}
+				fmt.Printf("%d goroutine stop by quite chan\n", cnt)
+				return
+			}
+		}(quite, i)
+	}
+
+	go func() {
+		time.Sleep(1 * time.Second)
+		close(quite)
+	}()
+
+	wg.Wait()
+
+	return nil
+}
+```
+
+
 ### OS scheduler
 ###
 
