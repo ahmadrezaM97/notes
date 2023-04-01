@@ -3,13 +3,19 @@ Created: 2023-02-21 17:27
 Tags: 
 ____
 
-1. advers 
+1. ruminate
+	1. verb
+		1. (formal) to think carefully and deeply about something
+		2. ruminate on/over
+			3. he sat alone, ruminating on the injustice of the world
+		3. 
+2. advers 
 	1. adj
 	2. no good or favorable
 	3. they fear it could have an adverse effect on global financial markets.
 	4. 
-2. adversity
-3. quest 
+3. adversity
+4. quest 
 	1. noun
 		1. a long search for something that is difficult to find
 		2. quest for 
@@ -17,7 +23,7 @@ ____
 		4. the quest for human happiness
 		5. world leaders are now united in their quest for peace.
 		6. 
-4. embark
+5. embark
 	1. verb
 	2. if you __embark on__ something new, difficult, or exciting, you start doing it
 		1. He's embarking on a new career as a writer
