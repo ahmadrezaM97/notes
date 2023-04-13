@@ -4,22 +4,31 @@
 3. Your weak and strong points
 4. How do you motivate yourself
 5. Agile
+	1. aglie is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headch
 6. what do you see yourself in 5 years
 7. Tell us a time when you had problem with a team member and how you dealt with it
 8. Ho do you handle a conflict in a team?
 9. How do you describe to me what housing anywhere does?
 
 
-1. feed back
-2. tell me about time you was work well in communication
+10. feed back
+11. tell me about time you was work well in communication
 
 We're smart, hard-working people who're passionate about simplifying accommodation renting.
 We have the resources and opportunities of a fast-growing company yest the drive and flexibility of a startup
 
 
+#### Communication
+1. Tell me about a time you worked with cross-functional teams and management on a software development project.
+	1. How did you express complex information to non-experts in the field
+	2. how dud you process their needs against your own, and what was the was the outcome
+2. 
+
+### Teamwork
+1. tell me about a time you worked with your team developing or analying a software development lifecycle.
 
 
-1. __YOURS__
+3. __YOURS__
 	1. Be brave
 		1. we try new things, embrace change, and turn it into new opportunities
 	2. Go beyond
@@ -34,7 +43,7 @@ We have the resources and opportunities of a fast-growing company yest the drive
 	6. celebrate differences
 		1. contrasting vies make us stronger
 		2. Different perspective are the driving force behind better solutions
-2. __OURS__
+4. __OURS__
 	1. Honesty
 	2. non-discriminatory behavior
 	3. We make bold and agile decisions
