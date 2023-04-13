@@ -25,9 +25,14 @@ We have the resources and opportunities of a fast-growing company yest the drive
 2. 
 
 ### Teamwork
-1. tell me about a time you worked with your team developing or analying a software development lifecycle.
-
-
+1. whats important in teamwork
+	1. listen to the team member
+	2. work to the teams's strengths bu allowing team members todo what they are good at doing
+	3. adaptable and flexible throughout any team task as things can and often do change vewry quickly
+	4. motivate and support
+2. tell me about a time you worked with your team developing or analazing a software development life cycle.
+3. tell me about a time you worked with
+ 
 3. __YOURS__
 	1. Be brave
 		1. we try new things, embrace change, and turn it into new opportunities
