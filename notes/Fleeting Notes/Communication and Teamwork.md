@@ -4,7 +4,7 @@
 3. Your weak and strong points
 4. How do you motivate yourself
 5. Agile
-	1. aglie is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headch
+	1. agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headch
 6. what do you see yourself in 5 years
 7. Tell us a time when you had problem with a team member and how you dealt with it
 8. Ho do you handle a conflict in a team?
