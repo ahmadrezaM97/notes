@@ -1,18 +1,25 @@
+1. disagreement
+	1. It happends
+	2. I step back and I want to listen to the view point
+	3. I asked my self we both want best solution for the team(and company)
+		1. what would be best solution
+	4. 
 
-1. Tell me one time you worked well in a team
-2. What would your friends say is your weakness?
-3. Your weak and strong points
-4. How do you motivate yourself
-5. Agile
+
+3. Tell me one time you worked well in a team
+4. What would your friends say is your weakness?
+5. Your weak and strong points
+6. How do you motivate yourself
+7. Agile
 	1. agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer head
-6. what do you see yourself in 5 years
-7. Tell us a time when you had problem with a team member and how you dealt with it
-8. Ho do you handle a conflict in a team?
-9. How do you describe to me what housing anywhere does?
+8. what do you see yourself in 5 years
+9. Tell us a time when you had problem with a team member and how you dealt with it
+10. Ho do you handle a conflict in a team?
+11. How do you describe to me what housing anywhere does?
 
 
-10. feed back
-11. tell me about time you was work well in communication
+12. feed back
+13. tell me about time you was work well in communication
 
 We're smart, hard-working people who're passionate about simplifying accommodation renting.
 We have the resources and opportunities of a fast-growing company yest the drive and flexibility of a startup
