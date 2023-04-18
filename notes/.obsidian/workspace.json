@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "38a056e766a5e3dd",
+        "id": "7a97bb0c68a7be3c",
         "type": "tabs",
         "children": [
           {
-            "id": "006015e802631e62",
+            "id": "f5ff393f04c70ae1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/CORS.md",
+                "file": "Fleeting Notes/Sage.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/CORS.md",
+                "file": "Fleeting Notes/Sage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +116,23 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "006015e802631e62",
+  "active": "f5ff393f04c70ae1",
   "lastOpenFiles": [
-    "Fleeting Notes/CSRF TOKENS.md",
-    "Fleeting Notes/CORS.md",
-    "Fleeting Notes/Communication and Teamwork.md",
+    "Fleeting Notes/Error group.md",
+    "Fleeting Notes/Consistent Hashing.md",
+    "Fleeting Notes/linearizability.md",
+    "Fleeting Notes/Untitled.md",
+    "Fleeting Notes/OOP.md",
+    "Fleeting Notes/go copy.md",
+    "Fleeting Notes/GO test main func.md",
+    "Fleeting Notes/HAW-Design.md",
+    "Fleeting Notes/zookeaper.md",
     "Fleeting Notes/Conditional.md",
     "Fleeting Notes/insert tem.md",
-    "Fleeting Notes/zookeaper.md",
-    "Fleeting Notes/HAW-Design.md",
+    "Fleeting Notes/etcd.md",
+    "Fleeting Notes/CORS.md",
+    "Fleeting Notes/CSRF TOKENS.md",
+    "Fleeting Notes/Communication and Teamwork.md",
     "Fleeting Notes/communication-design-pattern/request-response.md",
     "Fleeting Notes/Communication.md",
     "Fleeting Notes/class 2.md",
@@ -135,25 +143,17 @@
     "En/class/010.md",
     "Fleeting Notes/DDD.md",
     "Fleeting Notes/CQRS.md",
-    "Fleeting Notes/linearizability.md",
     "Fleeting Notes/getgeround.md",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
-    "Fleeting Notes/Long-or-Short polling.md",
     "Statics/short-polling2.png",
     "Statics/short-polling-2.pn",
-    "Fleeting Notes/kafka/kafka.md",
     "Fleeting Notes/communication-design-pattern",
-    "Fleeting Notes/microservices/event sourcing.md",
-    "Fleeting Notes/microservices/distributed transaction.md",
     "Statics/kafka-9.png",
     "Statics/kafka-9.png.crdownload",
-    "Fleeting Notes/etcd.md",
     "Statics/kafka-zero-copy-1.png",
     "Statics/kafka-zero-copy-0.png",
-    "Fleeting Notes/Hosing anywhere.md",
     "Fleeting Notes/kafka",
-    "Fleeting Notes/housinganywhere.md",
     "En/writing",
     "En/speaking/Untitled",
     "En/speaking",
