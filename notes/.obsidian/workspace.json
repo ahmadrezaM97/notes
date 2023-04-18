@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "abbc1fe645b5e9bd",
+        "id": "38a056e766a5e3dd",
         "type": "tabs",
         "children": [
           {
-            "id": "ae881e2194b58768",
+            "id": "006015e802631e62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Communication and Teamwork.md",
+                "file": "Fleeting Notes/CORS.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Communication and Teamwork.md",
+                "file": "Fleeting Notes/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,10 +116,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ae881e2194b58768",
+  "active": "006015e802631e62",
   "lastOpenFiles": [
-    "Fleeting Notes/Conditional.md",
+    "Fleeting Notes/CSRF TOKENS.md",
+    "Fleeting Notes/CORS.md",
     "Fleeting Notes/Communication and Teamwork.md",
+    "Fleeting Notes/Conditional.md",
     "Fleeting Notes/insert tem.md",
     "Fleeting Notes/zookeaper.md",
     "Fleeting Notes/HAW-Design.md",
@@ -132,7 +134,6 @@
     "Fleeting Notes/GO/GO Concurrency.md",
     "En/class/010.md",
     "Fleeting Notes/DDD.md",
-    "Fleeting Notes/CORS.md",
     "Fleeting Notes/CQRS.md",
     "Fleeting Notes/linearizability.md",
     "Fleeting Notes/getgeround.md",
@@ -153,7 +154,6 @@
     "Fleeting Notes/Hosing anywhere.md",
     "Fleeting Notes/kafka",
     "Fleeting Notes/housinganywhere.md",
-    "IELTS/writing/1.md",
     "En/writing",
     "En/speaking/Untitled",
     "En/speaking",
