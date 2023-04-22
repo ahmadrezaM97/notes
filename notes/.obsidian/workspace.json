@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "7a97bb0c68a7be3c",
+        "id": "8969d525ac283828",
         "type": "tabs",
         "children": [
           {
-            "id": "f5ff393f04c70ae1",
+            "id": "6ead93560cf293e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8e2a133f98bfed6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Sage.md",
+                "file": "Fleeting Notes/Handle error gracefully.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Sage.md",
+                "file": "Fleeting Notes/Handle error gracefully.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,8 +125,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f5ff393f04c70ae1",
+  "active": "8e2a133f98bfed6c",
   "lastOpenFiles": [
+    "Fleeting Notes/Handle error gracefully.md",
+    "Fleeting Notes/Sage.md",
     "Fleeting Notes/Error group.md",
     "Fleeting Notes/Consistent Hashing.md",
     "Fleeting Notes/linearizability.md",
@@ -142,8 +153,6 @@
     "Fleeting Notes/GO/GO Concurrency.md",
     "En/class/010.md",
     "Fleeting Notes/DDD.md",
-    "Fleeting Notes/CQRS.md",
-    "Fleeting Notes/getgeround.md",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
     "Statics/short-polling2.png",
