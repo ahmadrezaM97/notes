@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8e477fd5e7ce09f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Profile Go Applications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Handle error gracefully.md",
+                "file": "Fleeting Notes/Profile Go Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,9 +137,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8e2a133f98bfed6c",
+  "active": "8e477fd5e7ce09f7",
   "lastOpenFiles": [
     "Fleeting Notes/Handle error gracefully.md",
+    "Fleeting Notes/Profile Go Applications.md",
     "Fleeting Notes/Sage.md",
     "Fleeting Notes/Error group.md",
     "Fleeting Notes/Consistent Hashing.md",
@@ -152,7 +165,6 @@
     "En/vocabulary/new words.md",
     "Fleeting Notes/GO/GO Concurrency.md",
     "En/class/010.md",
-    "Fleeting Notes/DDD.md",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
     "Statics/short-polling2.png",

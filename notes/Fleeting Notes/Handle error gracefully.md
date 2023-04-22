@@ -51,7 +51,21 @@ switch err := err.(type){
 
 #### Opaque errors
 
+```go
 
+func fn() error {
+	x, err := bar.Foo()
+	if err != nil {
+		return err	
+	}
+	// use x
+}
+```
+
+
+```ad-quote
+Assert errors for behaviour, not type.
+```
 
 
 
