@@ -7,6 +7,11 @@ ____
 time -v ./served
 ```
 
+```
+go run -gcflags -m main.go
+```
+
+
 
 
 _____
