@@ -139,6 +139,9 @@
   },
   "active": "8e477fd5e7ce09f7",
   "lastOpenFiles": [
+    "Statics/stack-allocation.png",
+    "Statics/process-memory-layout.png",
+    "Statics/virtual-memory-0.png",
     "Fleeting Notes/Handle error gracefully.md",
     "Fleeting Notes/Profile Go Applications.md",
     "Fleeting Notes/Sage.md",
@@ -164,7 +167,6 @@
     "Fleeting Notes/Databse/concurrency/lost update.md",
     "En/vocabulary/new words.md",
     "Fleeting Notes/GO/GO Concurrency.md",
-    "En/class/010.md",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
     "Statics/short-polling2.png",

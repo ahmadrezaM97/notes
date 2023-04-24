@@ -2,6 +2,40 @@
 Created: 2023-04-22 20:39
 Tags: 
 ____
+#### Go memory Allocator
+
+##### Virtual memory
+1. Processes do not read directly from physical memory
+	1. Security
+	2. Coordination between multiple processes
+2. Virtual memory abstracts that away from the process
+	1. Segmentation
+	2. Page table
+
+![[virtual-memory-0.png]]
+
+
+
+![[process-memory-layout.png]]
+
+
+![[stack-allocation.png]]
+
+
+#### Heap Allocation
+1. For objects with size only known at __runtime__
+2. C provides malloc and free
+3. C++ provides new and delete
+4. Go use `espace analysis` and has `garbage collection`
+
+
+
+
+
+
+
+
+
 ### time
 ```
 time -v ./served
@@ -47,6 +81,12 @@ phases
 __Sweeping___
 * Occurs when Goroutines attempt to allocate new heap memory
 * The latency of Sweeping is added to the cost of performing an allocation, not GC
+
+__GC Percentage__
+1. GC percentage is set to 100 by default
+2. Represents a ratio of how much new heap memory can be allocated before the next collection has to start
+3. set with  `GOGC` environmental variable.
+
 
 
 
