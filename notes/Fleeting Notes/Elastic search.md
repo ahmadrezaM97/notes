@@ -32,6 +32,27 @@ If a fields is not indexed, you can not search for that
 it's for strings texts
 
 
+BKTree for integers
+
+
+### Shard
+
+Elasticsearch provide the ability to subdivide the index into multiple pieces called shards.
+
+Each shard is in itself a fully-functional and independent "index" that can be hosted on any node within a cluster.
+
+
+### Replica
+
+* Basically, a replica shard is a copy of a primary shard
+* replica provide redundant copies of your data to protect against hardware failure and 
+	* increase capacity to serve read request like searching or retireving a document.
+* 
+
+#### Document default fields
+
+* `__Index` a logical namespace that groups one or more shards. Not stored and not indexed.
+* `__Type` the class of object that the  
 
 _____
 ##### References
