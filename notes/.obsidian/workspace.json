@@ -11,8 +11,24 @@
             "id": "6ead93560cf293e2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/IP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "761a848ea31fa7c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/backend protocol/IP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -40,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -99,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Profile Go Applications.md",
+                "file": "Fleeting Notes/backend protocol/IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,12 +153,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "761a848ea31fa7c0",
   "lastOpenFiles": [
+    "Fleeting Notes/IP.md",
+    "Fleeting Notes/backend protocol/IP.md",
+    "Fleeting Notes/Handle error gracefully.md",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
     "Statics/virtual-memory-0.png",
-    "Fleeting Notes/Handle error gracefully.md",
     "Fleeting Notes/Profile Go Applications.md",
     "Fleeting Notes/Sage.md",
     "Fleeting Notes/Error group.md",
@@ -167,7 +184,6 @@
     "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md",
     "Fleeting Notes/Databse/concurrency/lost update.md",
     "En/vocabulary/new words.md",
-    "Fleeting Notes/GO/GO Concurrency.md",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
     "Statics/short-polling2.png",
