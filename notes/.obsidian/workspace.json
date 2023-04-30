@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -137,7 +138,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8e477fd5e7ce09f7",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",

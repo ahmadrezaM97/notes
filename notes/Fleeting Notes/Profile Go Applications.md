@@ -2,6 +2,19 @@
 Created: 2023-04-22 20:39
 Tags: 
 ____
+### productivity problems
+
+1. creation of new services
+2. context switching
+3. delivery of global features
+
+1. Dependency injection
+	1. logger -> config -> tracer  | db -> service -> server 
+	2. handler -> controler -> repoisory | gateways
+2. Consistent code structure
+3. Monorepo
+
+
 #### Go memory Allocator
 
 ##### Virtual memory
