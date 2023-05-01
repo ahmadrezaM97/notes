@@ -76,6 +76,7 @@ curl 'http://172.19.40.23:9200/post/_doc/AZ40lvfl' -H 'Authorization: Basic ZWxh
 ```
 
 
+#### Add new index
 _____
 ##### References
 1.
