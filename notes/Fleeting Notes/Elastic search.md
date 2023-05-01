@@ -77,6 +77,19 @@ curl 'http://172.19.40.23:9200/post/_doc/AZ40lvfl' -H 'Authorization: Basic ZWxh
 
 
 #### Add new index
+
+
+```ad-warning
+Internally, Elasticsearch has marked the old document as deleted and added an entirely new document.
+
+The old version of the document doesn't disappear immediately, although you won't be able to access it.
+
+
+Elasticsearch cleans up deleted documents in the background as you continue to index more data.
+```
+
+
+
 _____
 ##### References
 1.
