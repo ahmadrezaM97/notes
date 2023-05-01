@@ -55,6 +55,27 @@ Each shard is in itself a fully-functional and independent "index" that can be h
 * `__Type` the class of object that the
 * 
 
+
+
+### Retrieving a Document
+
+`GET post/_doc/AZ40lvfl`
+
+`GET post/_doc/AZ40lvfl?pretty`
+
+#### Retrieving Part of a Document
+
+`GET post/_doc/AZ40lvfl?_source=data.title`
+
+#### without metadata
+
+`GET post/_doc/AZ40lvfl/_source`
+
+``` bash
+curl 'http://172.19.40.23:9200/post/_doc/AZ40lvfl' -H 'Authorization: Basic ZWxhc3RpYzpaeEVnOHh4X25CLXlOLWhk' 
+```
+
+
 _____
 ##### References
 1.
