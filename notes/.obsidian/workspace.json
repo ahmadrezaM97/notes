@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "e029f1b59e0a4e74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/SOLID.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8e2a133f98bfed6c",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/CURL.md",
+                "file": "Fleeting Notes/SOLID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,10 +190,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "32a3a2f8b2cc57bf",
+  "active": "e029f1b59e0a4e74",
   "lastOpenFiles": [
-    "Fleeting Notes/Elastic search.md",
     "Fleeting Notes/CURL.md",
+    "Fleeting Notes/SOLID.md",
+    "Fleeting Notes/Elastic search.md",
     "Fleeting Notes/backend protocol/IP.md",
     "Fleeting Notes/IP.md",
     "Fleeting Notes/Handle error gracefully.md",
@@ -208,7 +221,6 @@
     "Fleeting Notes/communication-design-pattern/request-response.md",
     "Fleeting Notes/Communication.md",
     "Fleeting Notes/class 2.md",
-    "Fleeting Notes/Databse/concurrency/read skew or non-repeatable read.md",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
     "Statics/short-polling2.png",
