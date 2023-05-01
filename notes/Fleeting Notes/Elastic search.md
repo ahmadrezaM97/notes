@@ -52,7 +52,8 @@ Each shard is in itself a fully-functional and independent "index" that can be h
 #### Document default fields
 
 * `__Index` a logical namespace that groups one or more shards. Not stored and not indexed.
-* `__Type` the class of object that the  
+* `__Type` the class of object that the
+* 
 
 _____
 ##### References
