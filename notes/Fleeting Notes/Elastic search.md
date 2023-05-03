@@ -2,6 +2,9 @@
 Created: 2023-04-30 22:13
 Tags: 
 ____
+![[elastic-index-inverted-index.png]]
+
+
 
 #### Introduction
 
