@@ -6,7 +6,9 @@ ____
 ```go
 
 ```
+https://blog.devgenius.io/in-depth-analysis-of-golang-memory-escape-edfbfb856913
 
+https://www.sobyte.net/post/2022-03/go-escape/
 
 _____
 ##### References
