@@ -44,6 +44,16 @@
             }
           },
           {
+            "id": "17a74536d7cf183c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
+          },
+          {
             "id": "32a3a2f8b2cc57bf",
             "type": "leaf",
             "state": {
@@ -128,6 +138,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "600ab6cde9f4c144",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
