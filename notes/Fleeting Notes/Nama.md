@@ -6,13 +6,19 @@ ____
 Factory pattern
 Aggregation pattern
 
-  
-  
+## AJOR
+
+
+
+## NAMA
+
 * clients (12)
 * schema factory ?
 * web_url ?
 * translator
 * widgets
+* kiamia
+* ferdowsi?
 
 -   Get response
 	-   Check version
