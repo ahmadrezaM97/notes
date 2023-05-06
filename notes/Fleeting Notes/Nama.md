@@ -8,6 +8,11 @@ Aggregation pattern
 
   
   
+* clients (12)
+* schema factory ?
+* web_url ?
+* translator
+* widgets
 
 -   Get response
 	-   Check version
