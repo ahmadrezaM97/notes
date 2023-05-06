@@ -4,98 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "8969d525ac283828",
+        "id": "46ad10dddaf3a005",
         "type": "tabs",
         "children": [
           {
-            "id": "6ead93560cf293e2",
+            "id": "031e1a29b61526e0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "29a000cca3ef5871",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3b96bff46c449a8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/IP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "761a848ea31fa7c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/backend protocol/IP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b103cbd7c3f84a4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/GO/GO Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17a74536d7cf183c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
-          },
-          {
-            "id": "32a3a2f8b2cc57bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/CURL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e029f1b59e0a4e74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/SOLID.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e2a133f98bfed6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Handle error gracefully.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e477fd5e7ce09f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Profile Go Applications.md",
+                "file": "Fleeting Notes/Nama.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 247.5107650756836,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -168,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO Memory.md",
+                "file": "Fleeting Notes/Nama.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,8 +142,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b103cbd7c3f84a4a",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/Nama.md",
+    "Fleeting Notes/Profile Go Applications.md",
+    "Fleeting Notes/Handle error gracefully.md",
+    "Fleeting Notes/SOLID.md",
+    "Fleeting Notes/CURL.md",
+    "Fleeting Notes/GO/GO Memory.md",
     "Fleeting Notes/DNS.md",
     "Fleeting Notes/Vocab.md",
     "Fleeting Notes/Error group.md",
@@ -227,14 +168,8 @@
     "Fleeting Notes/GO/GO ListenAndServe func.md",
     "Fleeting Notes/GO/CSP.md",
     "Fleeting Notes/GO/Go Runtime Scheduler.md",
-    "Fleeting Notes/GO/GO Memory.md",
     "Fleeting Notes/GO/Go Concurrency.md",
     "Fleeting Notes/GO/GO web-server.md",
-    "Fleeting Notes/GO/GO HTTP HEADER.md",
-    "Fleeting Notes/GO/GO HTTP ERROR.md",
-    "Fleeting Notes/GO/Context - GO.md",
-    "Fleeting Notes/GO/GO HTTP REQUEST.md",
-    "Fleeting Notes/GO/GO Refreltion.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
