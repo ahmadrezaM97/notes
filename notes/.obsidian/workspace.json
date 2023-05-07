@@ -16,14 +16,6 @@
             }
           },
           {
-            "id": "29a000cca3ef5871",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "3b96bff46c449a8f",
             "type": "leaf",
             "state": {
@@ -36,7 +28,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +134,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "3b96bff46c449a8f",
   "lastOpenFiles": [
     "Fleeting Notes/Nama.md",
     "Fleeting Notes/Profile Go Applications.md",
