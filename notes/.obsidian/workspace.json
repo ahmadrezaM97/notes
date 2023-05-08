@@ -16,6 +16,18 @@
             }
           },
           {
+            "id": "93af1a233c8c5aaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/System design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3b96bff46c449a8f",
             "type": "leaf",
             "state": {
@@ -95,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Nama.md",
+                "file": "Fleeting Notes/System design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,8 +146,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3b96bff46c449a8f",
+  "active": "93af1a233c8c5aaa",
   "lastOpenFiles": [
+    "Fleeting Notes/System design.md",
     "Fleeting Notes/Nama.md",
     "Fleeting Notes/Profile Go Applications.md",
     "Fleeting Notes/Handle error gracefully.md",
@@ -161,7 +174,6 @@
     "Fleeting Notes/GO/CSP.md",
     "Fleeting Notes/GO/Go Runtime Scheduler.md",
     "Fleeting Notes/GO/Go Concurrency.md",
-    "Fleeting Notes/GO/GO web-server.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
