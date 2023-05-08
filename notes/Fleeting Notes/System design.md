@@ -40,7 +40,7 @@ articulate the problem -> com up with at least two solutions -> discuss the trad
 6. chat
 7. twitter
 8. tinder
-9. spotify
+9. [[Spotify-design]]
 10. key-value store
 11. Google doc
 12. google map
