@@ -9,6 +9,9 @@ ____
 * many to many? one to many?
 * blob storage, object storge? why?
 * why you split your database two difference
+	* access pattern? type queries
+* does that make scense
+* try to be up front
 ___
 functional requirements
 1. finding music
