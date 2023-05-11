@@ -56,3 +56,7 @@ verify(user,phone_number, code)
 
 send_message(user, message, receiver)
 read_message(sender, from, size)
+
+
+->  Dynamodb for chat application
+
