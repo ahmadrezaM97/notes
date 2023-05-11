@@ -36,6 +36,8 @@ non-functional requirements
 
 
 
+? is that seems reasonable? is that seems ok?
+
 
 #### Telegram
 
@@ -46,3 +48,11 @@ non-functional requirements
 5. there is limit for number of message chatacter?
 6. how many days should we keep messages?
 7. how many message people reguraly make in one day?
+
+
+
+send_login_verfication(user, phone_number)
+verify(user,phone_number, code)
+
+send_message(user, message, receiver)
+read_message(sender, from, size)
