@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836,
-    "collapsed": true
+    "width": 247.5107650756836
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Blob storage.md",
+                "file": "Fleeting Notes/Spotify-design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,12 +169,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a881d9c8198409d4",
+  "active": "bbba130358d62e91",
   "lastOpenFiles": [
-    "Fleeting Notes/Spotify-design.md",
     "Fleeting Notes/Blob storage.md",
-    "Fleeting Notes/System design.md",
     "Fleeting Notes/Nama.md",
+    "Fleeting Notes/System design.md",
+    "Fleeting Notes/Spotify-design.md",
     "Fleeting Notes/Profile Go Applications.md",
     "Fleeting Notes/Handle error gracefully.md",
     "Fleeting Notes/SOLID.md",

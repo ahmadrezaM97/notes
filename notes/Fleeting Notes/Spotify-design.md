@@ -33,3 +33,16 @@ non-functional requirements
 * how do we want search for a song?
 * Does that make scense so fat?
 * steam and network bandwith
+
+
+
+
+#### Telegram
+
+1. how many user do we have?
+2. is just one-on-one chat or there is group chat
+3. max limit of group?
+4. messages are just text or users can send images and etc..?
+5. there is limit for number of message chatacter?
+6. how many days should we keep messages?
+7. how many message people reguraly make in one day?
