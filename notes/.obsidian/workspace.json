@@ -40,6 +40,18 @@
             }
           },
           {
+            "id": "3fd50e57a83b8694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/DDD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a881d9c8198409d4",
             "type": "leaf",
             "state": {
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Spotify-design.md",
+                "file": "Fleeting Notes/DDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,16 +181,21 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "bbba130358d62e91",
+  "active": "3fd50e57a83b8694",
   "lastOpenFiles": [
-    "Fleeting Notes/Blob storage.md",
+    "Fleeting Notes/Communication and Teamwork.md",
+    "Fleeting Notes/Handle error gracefully.md",
+    "Fleeting Notes/Profile Go Applications.md",
+    "Fleeting Notes/DDD.md",
+    "Fleeting Notes/CURL.md",
     "Fleeting Notes/Nama.md",
+    "Fleeting Notes/kafka/kafka.md",
+    "Fleeting Notes/microservices/distributed transaction.md",
+    "Fleeting Notes/microservices/event sourcing.md",
+    "Fleeting Notes/Blob storage.md",
     "Fleeting Notes/System design.md",
     "Fleeting Notes/Spotify-design.md",
-    "Fleeting Notes/Profile Go Applications.md",
-    "Fleeting Notes/Handle error gracefully.md",
     "Fleeting Notes/SOLID.md",
-    "Fleeting Notes/CURL.md",
     "Fleeting Notes/GO/GO Memory.md",
     "Fleeting Notes/DNS.md",
     "Fleeting Notes/Vocab.md",
@@ -192,11 +209,6 @@
     "Fleeting Notes/go copy.md",
     "Fleeting Notes/GRAMMER.md",
     "Fleeting Notes/Conditional.md",
-    "Fleeting Notes/GOPATH.md",
-    "Fleeting Notes/GO/Std log package in golang.md",
-    "Fleeting Notes/GO/Golang logging useing logrus.md",
-    "Fleeting Notes/GO/GO ListenAndServe func.md",
-    "Fleeting Notes/GO/CSP.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
