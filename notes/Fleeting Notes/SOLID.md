@@ -26,10 +26,30 @@ title: Unix philosopy
 Do one thing and do it well
 ```
 
+
+* Historically, the SRP has been described this way
+	* A module should have one, and only one, reason to change.
+* Software are changed to satisfy users and stakeholders
+* those `users` and `stakeholders` are REASON TO CHANGE.
+	* a module should be responsible to one, and only one, user or stakeholder.
+* Unfortunately, user and stakeholders aren't the best words here
+* we are referring to a group who require that change, we'll refer to that group as an `actor`
+
+```ad-quote
+a module should be responsible to one, and only one, actor.
+```
+
+Cohesion is the force that bind together the code responsible to a single actor
+
+
+
 * two separate aspects of a problem need to be handled by different module.
 	* changes in a module should be originated from only on reason.
 * A Class should have only one primary responsibility and should not take other responsibility.
 	* A class should have only one reason to change
+
+
+
 
 #### Example
 
