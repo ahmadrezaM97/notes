@@ -26,8 +26,66 @@ title: Unix philosopy
 Do one thing and do it well
 ```
 
-* two separate aspects of a problem need to be handled by  different module.
-	* changes in a module should be originated from only on reason
+* two separate aspects of a problem need to be handled by different module.
+	* changes in a module should be originated from only on reason.
+* A Class should have only one primary responsibility and should not take other responsibility.
+	* A class should have only one reason to change
+
+#### Example
+
+```python
+import json
+
+class TelephoneDirectory:
+    def __init__(self):
+        self.data:dict[int,str]  = {}
+    
+    def add_entry(self, name:str, number:int) -> None:
+        self.data[name] = number 
+    
+    def delete_entry(self, name:str) -> None:
+        self.data.pop(name)
+    
+    def look_number(self, name:str) -> str:
+        return self.data.get(name)
+
+    def save_to_file(self, path:str)->None:
+        with open(path, "w") as file:
+            json.dump(self.data, file)
+```
+
+
+```python
+import json
+
+class TelephoneDirectory:
+    def __init__(self):
+        self.data:dict[int,str]  = {}
+    
+    def add_entry(self, name:str, number:int) -> None:
+        self.data[name] = number 
+    
+    def delete_entry(self, name:str) -> None:
+        self.data.pop(name)
+    
+    def look_number(self, name:str) -> str:
+        return self.data.get(name)
+
+class DictionaryPersis:
+    def persists(self,dictionary: TelephoneDirectory ,path):
+        with open(path, "w") as file:
+            json.dump(dictionary.data, file)
+```
+
+
+
+
+```go
+```
+
+
+
+
 
 ### Open/Closed Principle
 

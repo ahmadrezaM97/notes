@@ -11,72 +11,15 @@
             "id": "031e1a29b61526e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "93af1a233c8c5aaa",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/System design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbba130358d62e91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Spotify-design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fd50e57a83b8694",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/DDD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a881d9c8198409d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Blob storage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b96bff46c449a8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/Nama.md",
+                "file": "Fleeting Notes/SOLID.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/DDD.md",
+                "file": "Fleeting Notes/SOLID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,34 +124,37 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3fd50e57a83b8694",
+  "active": "031e1a29b61526e0",
   "lastOpenFiles": [
-    "Fleeting Notes/Communication and Teamwork.md",
-    "Fleeting Notes/Handle error gracefully.md",
-    "Fleeting Notes/Profile Go Applications.md",
-    "Fleeting Notes/DDD.md",
-    "Fleeting Notes/CURL.md",
-    "Fleeting Notes/Nama.md",
-    "Fleeting Notes/kafka/kafka.md",
-    "Fleeting Notes/microservices/distributed transaction.md",
-    "Fleeting Notes/microservices/event sourcing.md",
+    "Fleeting Notes/OOP.md",
+    "Fleeting Notes/Docker-Volume.md",
+    "Fleeting Notes/docker",
+    "Fleeting Notes/Docker bind-mount.md",
+    "Fleeting Notes/TCP protocol.md",
+    "Fleeting Notes/MAKEFILE.md",
+    "Fleeting Notes/mid-air collisions.md",
+    "Fleeting Notes/two-pointer techniqe.md",
+    "Fleeting Notes/The cost of Hash-Tables.md",
+    "Fleeting Notes/Event Driven System.md",
+    "Fleeting Notes/network/HTTP Anatomy.md",
+    "Fleeting Notes/network/HTTP Body.md",
     "Fleeting Notes/Blob storage.md",
-    "Fleeting Notes/System design.md",
-    "Fleeting Notes/Spotify-design.md",
+    "Fleeting Notes/Untitled 1.md",
+    "Fleeting Notes/Untitled",
+    "Fleeting Notes/elastic search",
+    "Fleeting Notes/elastic search/Elastic search.md",
     "Fleeting Notes/SOLID.md",
-    "Fleeting Notes/GO/GO Memory.md",
-    "Fleeting Notes/DNS.md",
-    "Fleeting Notes/Vocab.md",
-    "Fleeting Notes/Error group.md",
-    "Fleeting Notes/System-design-primer.md",
-    "Fleeting Notes/django select_for_update.md",
-    "Fleeting Notes/Interface Segregation Principle.md",
-    "Fleeting Notes/backend protocol.md",
-    "Fleeting Notes/file descriptor.md",
-    "Fleeting Notes/GO/GO test main func.md",
-    "Fleeting Notes/go copy.md",
-    "Fleeting Notes/GRAMMER.md",
-    "Fleeting Notes/Conditional.md",
+    "Fleeting Notes/Nama.md",
+    "Fleeting Notes/System design.md",
+    "Fleeting Notes/Rabbitmq/overview.md",
+    "Fleeting Notes/Rabbitmq/durability.md",
+    "Fleeting Notes/Rabbitmq/partition handling.md",
+    "Fleeting Notes/Rabbitmq/priorities.md",
+    "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
+    "Fleeting Notes/Rabbitmq/content.md",
+    "Fleeting Notes/Rabbitmq/vid.md",
+    "Fleeting Notes/Rabbitmq/Clustering.md",
+    "Fleeting Notes/microservices/distributed transaction.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
@@ -225,7 +171,6 @@
     "Fleeting Notes/kafka",
     "En/writing",
     "En/speaking/Untitled",
-    "En/speaking",
-    "En/class"
+    "En/speaking"
   ]
 }
