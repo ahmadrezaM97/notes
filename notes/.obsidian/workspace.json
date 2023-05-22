@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "140416b16c7fc1cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Repository pattern.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9149639528ccbf5b",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/SOLID.md",
+                "file": "Fleeting Notes/Repository pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,10 +149,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "031e1a29b61526e0",
+  "active": "140416b16c7fc1cf",
   "lastOpenFiles": [
-    "Fleeting Notes/Untitled 2.md",
     "Fleeting Notes/SOLID.md",
+    "Fleeting Notes/Repository pattern.md",
+    "Fleeting Notes/Untitled 2.md",
     "Fleeting Notes/OOP.md",
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
@@ -166,7 +180,6 @@
     "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
     "Fleeting Notes/Rabbitmq/content.md",
     "Fleeting Notes/Rabbitmq/vid.md",
-    "Fleeting Notes/Rabbitmq/Clustering.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
