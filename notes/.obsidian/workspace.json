@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Untitled 2.md",
+                "file": "Fleeting Notes/SOLID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,10 +136,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9149639528ccbf5b",
+  "active": "031e1a29b61526e0",
   "lastOpenFiles": [
-    "Fleeting Notes/SOLID.md",
     "Fleeting Notes/Untitled 2.md",
+    "Fleeting Notes/SOLID.md",
     "Fleeting Notes/OOP.md",
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
