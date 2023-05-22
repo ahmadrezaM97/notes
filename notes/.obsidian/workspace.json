@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9149639528ccbf5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Untitled 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/SOLID.md",
+                "file": "Fleeting Notes/Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +137,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "031e1a29b61526e0",
+  "active": "9149639528ccbf5b",
   "lastOpenFiles": [
+    "Fleeting Notes/SOLID.md",
+    "Fleeting Notes/Untitled 2.md",
     "Fleeting Notes/OOP.md",
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
@@ -143,7 +158,6 @@
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
     "Fleeting Notes/elastic search/Elastic search.md",
-    "Fleeting Notes/SOLID.md",
     "Fleeting Notes/Nama.md",
     "Fleeting Notes/System design.md",
     "Fleeting Notes/Rabbitmq/overview.md",
@@ -154,7 +168,6 @@
     "Fleeting Notes/Rabbitmq/content.md",
     "Fleeting Notes/Rabbitmq/vid.md",
     "Fleeting Notes/Rabbitmq/Clustering.md",
-    "Fleeting Notes/microservices/distributed transaction.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
