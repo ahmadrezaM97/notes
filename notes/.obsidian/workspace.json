@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Repository pattern.md",
+                "file": "Fleeting Notes/Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,8 +149,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "140416b16c7fc1cf",
+  "active": "9149639528ccbf5b",
   "lastOpenFiles": [
+    "Statics/aggregate-ddd-0.png",
     "Fleeting Notes/SOLID.md",
     "Fleeting Notes/Repository pattern.md",
     "Fleeting Notes/Untitled 2.md",
@@ -179,7 +180,6 @@
     "Fleeting Notes/Rabbitmq/priorities.md",
     "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
     "Fleeting Notes/Rabbitmq/content.md",
-    "Fleeting Notes/Rabbitmq/vid.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
