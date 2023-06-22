@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Untitled 2.md",
+                "file": "Fleeting Notes/GO/Nil.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5107650756836
+    "width": 200
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Untitled 2.md",
+                "file": "Fleeting Notes/GO/Nil.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,13 +151,13 @@
   },
   "active": "9149639528ccbf5b",
   "lastOpenFiles": [
+    "Fleeting Notes/Untitled 2.md",
     "Statics/aggregate-ddd-3.png",
     "Statics/aggregate-ddd-2.png",
     "Statics/aggregate-ddd-1.png",
     "Statics/aggregate-ddd-0.png",
     "Fleeting Notes/SOLID.md",
     "Fleeting Notes/Repository pattern.md",
-    "Fleeting Notes/Untitled 2.md",
     "Fleeting Notes/OOP.md",
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
@@ -189,7 +189,6 @@
     "Statics/virtual-memory-0.png",
     "Statics/sse.png",
     "Statics/long-polling-2.png",
-    "Statics/short-polling2.png",
     "Statics/short-polling-2.pn",
     "Fleeting Notes/communication-design-pattern",
     "Statics/kafka-9.png.crdownload",

@@ -10,7 +10,7 @@ ____
 * `string` -> `""`
 * `pointer, slice, map, channels, functions, interface `-> `nil`
 
-```ed-note
+```ad-note
 title: https://go.dev/ref/spec
 unless the value is the predeclared identifier nil, which has no type
 ```
@@ -32,7 +32,7 @@ pointers in Go
 	* garbage collection
 
 #### Slice
-* nil slice doesn't have backking array [ptr: nil, len:0, cap:0]
+* nil slice doesn't have backking array (ptr: nil, len:0, cap:0)
 
 ### interface
 * interface has to thing dynamic type and dynamic value
