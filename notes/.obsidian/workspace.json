@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Repository pattern.md",
+                "file": "Fleeting Notes/GO/GO HTTP REQUEST.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "housing",
+                "query": "nil",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +100,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Nil.md",
+                "file": "Fleeting Notes/GO/GO HTTP REQUEST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,15 +160,19 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9149639528ccbf5b",
+  "active": "140416b16c7fc1cf",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/GO/Context - GO.md",
+    "Fleeting Notes/GO/A good technique to handle HTTP error.md",
+    "Fleeting Notes/Repository pattern.md",
+    "Fleeting Notes/GO/Nil.md",
     "Fleeting Notes/Untitled 2.md",
     "Statics/aggregate-ddd-3.png",
     "Statics/aggregate-ddd-2.png",
     "Statics/aggregate-ddd-1.png",
     "Statics/aggregate-ddd-0.png",
     "Fleeting Notes/SOLID.md",
-    "Fleeting Notes/Repository pattern.md",
     "Fleeting Notes/OOP.md",
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
@@ -190,9 +195,6 @@
     "Fleeting Notes/Rabbitmq/overview.md",
     "Fleeting Notes/Rabbitmq/durability.md",
     "Fleeting Notes/Rabbitmq/partition handling.md",
-    "Fleeting Notes/Rabbitmq/priorities.md",
-    "Fleeting Notes/Rabbitmq/publisher confirms and Consumer ack.md",
-    "Fleeting Notes/Rabbitmq/content.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
