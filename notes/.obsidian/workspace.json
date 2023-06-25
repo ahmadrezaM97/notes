@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/SOLID.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO HTTP REQUEST.md",
+                "file": "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nil",
+                "query": "pointer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,12 +99,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 603.5110359191895,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO HTTP REQUEST.md",
+                "file": "Fleeting Notes/GO/GO method set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,8 +159,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "140416b16c7fc1cf",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/Algorithms and data-structures.md",
+    "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
+    "Fleeting Notes/SOLID.md",
+    "Fleeting Notes/GO/Golang Question.md",
+    "Fleeting Notes/GO/Go Pointer.md",
+    "Fleeting Notes/GO/GO HTTP REQUEST.md",
     "Fleeting Notes/GO/Go Error.md",
     "Fleeting Notes/GO/Context - GO.md",
     "Fleeting Notes/GO/A good technique to handle HTTP error.md",
@@ -172,7 +177,6 @@
     "Statics/aggregate-ddd-2.png",
     "Statics/aggregate-ddd-1.png",
     "Statics/aggregate-ddd-0.png",
-    "Fleeting Notes/SOLID.md",
     "Fleeting Notes/OOP.md",
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
@@ -190,11 +194,6 @@
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
     "Fleeting Notes/elastic search/Elastic search.md",
-    "Fleeting Notes/Nama.md",
-    "Fleeting Notes/System design.md",
-    "Fleeting Notes/Rabbitmq/overview.md",
-    "Fleeting Notes/Rabbitmq/durability.md",
-    "Fleeting Notes/Rabbitmq/partition handling.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
