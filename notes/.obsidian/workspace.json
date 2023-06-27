@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/GO/Go Time.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 603.5110359191895,
-    "collapsed": true
+    "width": 603.5110359191895
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/GO method set.md",
+                "file": "Fleeting Notes/GO/Go Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,16 +158,20 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "031e1a29b61526e0",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/interface value.md",
+    "Fleeting Notes/GO/Go sync package.md",
+    "Fleeting Notes/GO/Golang Question.md",
+    "Fleeting Notes/GO/GO Refreltion.md",
+    "Fleeting Notes/GO/Context - GO.md",
+    "Fleeting Notes/GO/Go Error.md",
+    "Fleeting Notes/GO/GO method set.md",
     "Fleeting Notes/Algorithms and data-structures.md",
     "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
     "Fleeting Notes/SOLID.md",
-    "Fleeting Notes/GO/Golang Question.md",
     "Fleeting Notes/GO/Go Pointer.md",
     "Fleeting Notes/GO/GO HTTP REQUEST.md",
-    "Fleeting Notes/GO/Go Error.md",
-    "Fleeting Notes/GO/Context - GO.md",
     "Fleeting Notes/GO/A good technique to handle HTTP error.md",
     "Fleeting Notes/Repository pattern.md",
     "Fleeting Notes/GO/Nil.md",
@@ -188,12 +191,8 @@
     "Fleeting Notes/The cost of Hash-Tables.md",
     "Fleeting Notes/Event Driven System.md",
     "Fleeting Notes/network/HTTP Anatomy.md",
-    "Fleeting Notes/network/HTTP Body.md",
-    "Fleeting Notes/Blob storage.md",
-    "Fleeting Notes/Untitled 1.md",
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
-    "Fleeting Notes/elastic search/Elastic search.md",
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
