@@ -34,7 +34,19 @@ ICMP
 * That is why PING might not work in those cases
 * Disabling ICMP also can cause real damage with connection establishment
 	* fragmentation needed
-* 
+
+IP Packet
+* Th IP Packet has headers and data section
+* IP packet is 20 bytes (can go up to 60 bytes if options are enabled)
+* Data section can go up to 65536
+TODO
+
+ARP
+Address Resolution Protocol
+* We need the MAX address to send frames(layer 2)
+* Most of the time we know the IP address but not the MAX
+* ARP Table is cached IP->MAC mapping
+
 _____
 ##### References
 1.

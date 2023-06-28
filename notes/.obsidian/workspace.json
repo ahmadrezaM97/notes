@@ -158,12 +158,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "031e1a29b61526e0",
   "lastOpenFiles": [
+    "Fleeting Notes/network/CURL.md",
     "Fleeting Notes/network/IP.md",
+    "Fleeting Notes/network/arptable.md",
     "Fleeting Notes/network/network-course.md",
-    "Fleeting Notes/network/CORS.md",
     "Fleeting Notes/network/CQRS.md",
+    "Fleeting Notes/network/CORS.md",
     "Fleeting Notes/GO/Go Time.md",
     "Fleeting Notes/GO/interface value.md",
     "Fleeting Notes/GO/Go sync package.md",
@@ -189,8 +191,6 @@
     "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
     "Fleeting Notes/Docker bind-mount.md",
-    "Fleeting Notes/TCP protocol.md",
-    "Fleeting Notes/MAKEFILE.md",
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
     "Statics/elastic-index-inverted-index.png",
