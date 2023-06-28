@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/GO/Go Time.md",
+                "file": "Fleeting Notes/network/network-course.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/GO/Go Time.md",
+                "file": "Fleeting Notes/network/network-course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,8 +158,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "031e1a29b61526e0",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/network/IP.md",
+    "Fleeting Notes/network/network-course.md",
+    "Fleeting Notes/network/CORS.md",
+    "Fleeting Notes/network/CQRS.md",
+    "Fleeting Notes/GO/Go Time.md",
     "Fleeting Notes/GO/interface value.md",
     "Fleeting Notes/GO/Go sync package.md",
     "Fleeting Notes/GO/Golang Question.md",
@@ -186,11 +191,6 @@
     "Fleeting Notes/Docker bind-mount.md",
     "Fleeting Notes/TCP protocol.md",
     "Fleeting Notes/MAKEFILE.md",
-    "Fleeting Notes/mid-air collisions.md",
-    "Fleeting Notes/two-pointer techniqe.md",
-    "Fleeting Notes/The cost of Hash-Tables.md",
-    "Fleeting Notes/Event Driven System.md",
-    "Fleeting Notes/network/HTTP Anatomy.md",
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
     "Statics/elastic-index-inverted-index.png",
