@@ -47,6 +47,22 @@ Address Resolution Protocol
 * Most of the time we know the IP address but not the MAX
 * ARP Table is cached IP->MAC mapping
 
+
+
+UDP
+* Stands for User Diagram Protocol
+* Layer 4
+* Ability to address processes in a host using ports
+* Simple protocol to send and receive data
+* prior communication not required (double edge sword) (stateless)
+* Stateless no knowledge is stored on the host
+* 8 byte header datagram
+* use cases
+	* video streaming
+	* VPN
+	* DNS
+	* WebRTC
+* 
 _____
 ##### References
 1.
