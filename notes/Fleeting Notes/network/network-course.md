@@ -91,7 +91,9 @@ http response
 3. Headers
 4. Code Text
 5. Body
-
+```
+curl --http2 -v https://example.com/
+```
 
 
 
