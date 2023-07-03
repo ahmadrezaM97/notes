@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "En/class/001.md",
+                "file": "Fleeting Notes/network/network-course.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 603.5110359191895,
-    "collapsed": true
+    "width": 409.51103591918945
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/class/001.md",
+                "file": "Fleeting Notes/network/network-course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,8 +160,9 @@
   },
   "active": "031e1a29b61526e0",
   "lastOpenFiles": [
-    "Fleeting Notes/network/network-course.md",
+    "Fleeting Notes/backend protocol/IP.md",
     "En/class/001.md",
+    "Fleeting Notes/network/network-course.md",
     "Fleeting Notes/network/CURL.md",
     "Fleeting Notes/network/IP.md",
     "Fleeting Notes/network/arptable.md",
@@ -190,7 +190,6 @@
     "Statics/aggregate-ddd-1.png",
     "Statics/aggregate-ddd-0.png",
     "Fleeting Notes/OOP.md",
-    "Fleeting Notes/Docker-Volume.md",
     "Fleeting Notes/docker",
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",

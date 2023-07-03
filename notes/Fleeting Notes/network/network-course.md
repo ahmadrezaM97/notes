@@ -62,7 +62,40 @@ UDP
 	* VPN
 	* DNS
 	* WebRTC
-* 
+
+
+
+
+### HTTP1.1
+
+Client/ Server
+* (Client) Browser, python or javascript app or any app that makes http request
+* (Server) HTTP Web server, Apache Tomcat, Nodejs, PythonTornado
+
+http parts
+1. Method
+2. Path
+3. Protocol
+4. Headers
+5. Body
+```
+> GET / HTTP/1.1
+> Host: www.divar.ir
+> User-Agent: curl/7.68.0
+> Accept: */*
+```
+
+http response
+1. Protocol
+2. Code
+3. Headers
+4. Code Text
+5. Body
+
+
+
+
+
 _____
 ##### References
 1.
