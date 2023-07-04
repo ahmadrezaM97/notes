@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "En/class/001.md",
+                "file": "Fleeting Notes/nginx/nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/class/001.md",
+                "file": "Fleeting Notes/nginx/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,13 +124,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "031e1a29b61526e0",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "En/class/001.md",
+    "Fleeting Notes/nginx/nginx.md",
+    "Fleeting Notes/nginx",
     "Fleeting Notes/network/network-course.md",
     "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
     "Fleeting Notes/GO/Nil.md",
     "Fleeting Notes/backend protocol/IP.md",
-    "En/class/001.md",
     "Fleeting Notes/network/CURL.md",
     "Fleeting Notes/network/IP.md",
     "Fleeting Notes/network/arptable.md",
@@ -155,7 +157,6 @@
     "Statics/aggregate-ddd-2.png",
     "Statics/aggregate-ddd-1.png",
     "Statics/aggregate-ddd-0.png",
-    "Fleeting Notes/OOP.md",
     "Fleeting Notes/docker",
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
@@ -170,7 +171,6 @@
     "Statics/kafka-9.png.crdownload",
     "Fleeting Notes/kafka",
     "En/writing",
-    "En/speaking/Untitled",
-    "En/speaking"
+    "En/speaking/Untitled"
   ]
 }
