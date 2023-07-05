@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/nginx/nginx.md",
+                "file": "En/speaking/communities and neighborhood.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "754d28f58336cc55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Communication and Teamwork.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/nginx/nginx.md",
+                "file": "Fleeting Notes/Communication and Teamwork.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,10 +138,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "de6d595dad033ad2",
   "lastOpenFiles": [
-    "En/class/001.md",
+    "Fleeting Notes/Spotify-design.md",
+    "Fleeting Notes/SOLID.md",
+    "Fleeting Notes/Repository pattern.md",
+    "Fleeting Notes/Databse/isolation.md",
+    "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
     "Fleeting Notes/nginx/nginx.md",
+    "Fleeting Notes/Untitled 3.md",
+    "En/speaking/communities and neighborhood.md",
+    "En/speaking/socializing.md",
+    "Fleeting Notes/Go Test.md",
+    "Fleeting Notes/django select_for_update.md",
+    "Fleeting Notes/dirty writes.md",
+    "Fleeting Notes/python encode.md",
+    "Fleeting Notes/GRAMMER.md",
+    "Fleeting Notes/GOPATH.md",
+    "Fleeting Notes/etcd.md",
+    "Fleeting Notes/GO/GO Memory.md",
+    "Fleeting Notes/Blob storage.md",
+    "En/class/001.md",
     "Fleeting Notes/nginx",
     "Fleeting Notes/network/network-course.md",
     "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
@@ -136,23 +167,6 @@
     "Fleeting Notes/network/CURL.md",
     "Fleeting Notes/network/IP.md",
     "Fleeting Notes/network/arptable.md",
-    "Fleeting Notes/network/CQRS.md",
-    "Fleeting Notes/network/CORS.md",
-    "Fleeting Notes/GO/Go Time.md",
-    "Fleeting Notes/GO/interface value.md",
-    "Fleeting Notes/GO/Go sync package.md",
-    "Fleeting Notes/GO/Golang Question.md",
-    "Fleeting Notes/GO/GO Refreltion.md",
-    "Fleeting Notes/GO/Context - GO.md",
-    "Fleeting Notes/GO/Go Error.md",
-    "Fleeting Notes/GO/GO method set.md",
-    "Fleeting Notes/Algorithms and data-structures.md",
-    "Fleeting Notes/SOLID.md",
-    "Fleeting Notes/GO/Go Pointer.md",
-    "Fleeting Notes/GO/GO HTTP REQUEST.md",
-    "Fleeting Notes/GO/A good technique to handle HTTP error.md",
-    "Fleeting Notes/Repository pattern.md",
-    "Fleeting Notes/Untitled 2.md",
     "Statics/aggregate-ddd-3.png",
     "Statics/aggregate-ddd-2.png",
     "Statics/aggregate-ddd-1.png",
