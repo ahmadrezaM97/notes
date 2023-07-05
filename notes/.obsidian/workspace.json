@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945
+    "width": 409.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/Communication and Teamwork.md",
+                "file": "En/speaking/communities and neighborhood.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "de6d595dad033ad2",
+  "active": "031e1a29b61526e0",
   "lastOpenFiles": [
     "Fleeting Notes/Spotify-design.md",
     "Fleeting Notes/SOLID.md",
