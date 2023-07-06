@@ -36,10 +36,18 @@ server
 
 **Parse**
 * Now that we have plaintext readable bytes we can user our knowledge of the agreed upon protocol to parse requests.
+* This is where our library of choice kicks in to do the parsing based on the protocol, if it is http1.1 the library you used will read plain text and look for the start and end of the request based on definition of HTTP spec.
 * Keep in mind that parsing cost CPU cycles and can tax your backend especially for h2 and h3.
 
+**Decode**
+* Request using JSON of protobuf can deserilized in this step to objects based on the language of choice.
+* We turn the raw bytes into language structures which has its own cost and memory footprint
+* Remember even in JS we can not use json string we have to call JSON.parse and its not free
+* This also applies to bytes representing text encoded in UTF8. The raw bytes must be decoded to UTF8 if we know the content is of that format.
 
+**Process**
 
+* Finally once we understand the request we actucally 
 
 _____
 ##### References
