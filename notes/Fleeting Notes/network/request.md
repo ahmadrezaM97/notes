@@ -35,7 +35,8 @@ server
 * Dectyption is CPU bound operations, it can be done it its own thread or in same thread as  read and accept.
 
 **Parse**
-* 
+* Now that we have plaintext readable bytes we can user our knowledge of the agreed upon protocol to parse requests.
+* Keep in mind that parsing cost CPU cycles and can tax your backend especially for h2 and h3.
 
 
 
