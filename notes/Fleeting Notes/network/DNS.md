@@ -6,6 +6,36 @@ ____
 
 ## Domain name system
 
+### Why DNS
+
+1. People can not remember IPs
+2. A domain is a text points to an IP or a collection of IPs
+3. Additional layer of abstraction is good
+4. IP can change while the domain remain
+5. We can serve the closest IP to a client requesting the same domain
+6. Load balancing ( client side load balancing)
+
+### DNS
+
+1. A new addressing system means we need a mapping, Meet DNS
+2. If you have an IP and  you need the MAC, we user [[ARP]]
+3. If you have the name you need the IP, we use DNS
+4. Build on Top of [[UDP]]
+5. Port 53
+6. Many Records(MX, TXT, A , CNAME)
+
+#### How DNS WORKS
+
+* DNS resolver -> frontend and cache
+* ROOT Server -> Hosts IPs of TLDs(top level domain servers)
+* Top Level domain server -> host IPS of ANS(authoritative name server)
+* Authoritative Name Server -> Hosts the IP of the target server.
+ 
+![[dns-0.png]]
+
+
+
+
 A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address.
 
 DNS is hierarchical, with a few authoritative servers at the top level.  Your router or ISP provides information about which DNS server(s) to contact when doing a lookup.  Lower level DNS servers cache mappings, which could become stale due to DNS propagation delays.  DNS results can also be cached by your browser or OS for a certain period of time, determined by the [time to live (TTL)](https://en.wikipedia.org/wiki/Time_to_live).

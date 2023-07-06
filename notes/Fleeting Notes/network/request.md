@@ -47,7 +47,7 @@ server
 
 **Process**
 
-* Finally once we understand the request we actucally 
+* Finally once we understand the request we actually process it, whether this requires a query to the database, a read from disk, an expensive compute. 
 
 _____
 ##### References

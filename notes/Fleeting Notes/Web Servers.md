@@ -14,7 +14,7 @@ ____
 
 
 ##### How Web Servers Work?
-- Usually use 80 for http, and 480 for [[Https]]
+- Usually use 80 for http, and 480 for [[HTTPS]]
 
 #### Blocking Single-Threaded Web Server
 - Every client reserve a little bit of memory for that connection( [[TCP protocol]] socket )
