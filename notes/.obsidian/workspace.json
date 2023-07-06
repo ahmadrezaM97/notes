@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "En/speaking/communities and neighborhood.md",
+                "file": "Fleeting Notes/network/request.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,13 +77,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945,
-    "collapsed": true
+    "width": 409.51103591918945
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "En/speaking/communities and neighborhood.md",
+                "file": "Fleeting Notes/network/request.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +138,20 @@
   },
   "active": "031e1a29b61526e0",
   "lastOpenFiles": [
+    "Statics/reqeust.jpg",
+    "Statics/reqeust.jpg.crdownload",
+    "Fleeting Notes/network/network-course.md",
+    "Fleeting Notes/network/request.md",
+    "Fleeting Notes/network/CURL.md",
+    "Fleeting Notes/network/IP.md",
+    "Fleeting Notes/network/CORS.md",
+    "Fleeting Notes/network/HTTP.md",
+    "Fleeting Notes/network/network namespace.md",
+    "Fleeting Notes/network/arptable.md",
+    "Fleeting Notes/network/HTTP Headers.md",
+    "Fleeting Notes/network/HTTP Body.md",
+    "Fleeting Notes/network/HTTP Anatomy.md",
+    "En/speaking/communities and neighborhood.md",
     "Fleeting Notes/Spotify-design.md",
     "Fleeting Notes/SOLID.md",
     "Fleeting Notes/Repository pattern.md",
@@ -147,26 +159,13 @@
     "Fleeting Notes/Databse/Two-Phase locking(2PL).md",
     "Fleeting Notes/nginx/nginx.md",
     "Fleeting Notes/Untitled 3.md",
-    "En/speaking/communities and neighborhood.md",
     "En/speaking/socializing.md",
     "Fleeting Notes/Go Test.md",
     "Fleeting Notes/django select_for_update.md",
     "Fleeting Notes/dirty writes.md",
     "Fleeting Notes/python encode.md",
     "Fleeting Notes/GRAMMER.md",
-    "Fleeting Notes/GOPATH.md",
-    "Fleeting Notes/etcd.md",
-    "Fleeting Notes/GO/GO Memory.md",
-    "Fleeting Notes/Blob storage.md",
-    "En/class/001.md",
     "Fleeting Notes/nginx",
-    "Fleeting Notes/network/network-course.md",
-    "Fleeting Notes/GO/GO HTTP SERVEMUX.md",
-    "Fleeting Notes/GO/Nil.md",
-    "Fleeting Notes/backend protocol/IP.md",
-    "Fleeting Notes/network/CURL.md",
-    "Fleeting Notes/network/IP.md",
-    "Fleeting Notes/network/arptable.md",
     "Statics/aggregate-ddd-3.png",
     "Statics/aggregate-ddd-2.png",
     "Statics/aggregate-ddd-1.png",
@@ -184,7 +183,6 @@
     "Fleeting Notes/communication-design-pattern",
     "Statics/kafka-9.png.crdownload",
     "Fleeting Notes/kafka",
-    "En/writing",
-    "En/speaking/Untitled"
+    "En/writing"
   ]
 }
