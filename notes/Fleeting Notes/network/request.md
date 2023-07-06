@@ -19,6 +19,23 @@ https://medium.com/@hnasr/threads-and-connections-in-backend-applications-a225ee
 
 **Read**
 
+client
+* Once the connection is established, the client can send requests to the backend.
+* the request is really nothing but a series of bytes with  a clear start and end defined by the protocol that is used.
+* The client encrypts the request ( if TLS is used on the connection), the compresses body(if request compression is supported) and serialize the data type (JSON/ Protobuff etc) to an on-wire representation. then finally writes the raw byte in network byte order the connection.
+
+server
+* Those raw bytes reach the OS kernel from the NIC and go into the connection receive queue managed by the kernel
+* packets set there until the  beackend application invoke read() or rcv() syscall which them moves the data from the receive quque to the backend process user space memory.
+* Those are just raw bytes that are encrypted and encoded, there is no request here just bytes, for all we know those bytes we read cloud be 10 requests or could be half of a request, we don't know.
+
+**Decrypt**
+
+* now that we have raw bytes in the backend process memory and we know those are encrypted, we invoke the SSL library that our code is linked to (OpenSSL for example) and let it decrypts the content for use so we make sense of it.
+* Dectyption is CPU bound operations, it can be done it its own thread or in same thread as  read and accept.
+
+**Parse**
+* 
 
 
 
