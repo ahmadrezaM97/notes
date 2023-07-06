@@ -38,7 +38,15 @@ ____
 	2. The DNS recursor is a server designed to receive queries from client machines through application such as web browsers.
 	3. then it responsible for making additional requests in order to satisfy the client's DNS query.
 2. Root name server
-	1. the root server is the first st
+	1. the root server is the first step in translating(resolving) human readable host names into IP addresses.
+	2. It can be thought of an index in a library that points to different racks of books.
+3. TLD name server
+	1. The top level domain server can be thought of as a specific rack of books in a library.
+4. Authoritative name server
+	1. The final nameserver can be thought of as a dictionary on a tack of books.
+
+![[dns-2.png]]
+
 
 ![[dns-1.png]]
 
