@@ -33,6 +33,15 @@ ____
  
 ![[dns-0.png]]
 
+1. DNS recursor
+	1. The recursor can be thought of as librarian who is asked to go find a particular book somewhere in a library.
+	2. The DNS recursor is a server designed to receive queries from client machines through application such as web browsers.
+	3. then it responsible for making additional requests in order to satisfy the client's DNS query.
+2. Root name server
+	1. the root server is the first st
+
+![[dns-1.png]]
+
 
 
 
