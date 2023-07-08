@@ -37,8 +37,12 @@ ____
 		1. the server's [SSL certificate]
 		2. the server's chosen cipher suite
 		3. server random, another random string of bytes that's generate by the server
-3. 
-
+3. **Authentication**
+	1. The client verifies the server's SSL certificate with the certificate authority that issued it.
+	2. This confirms that the server is who it says it is and that the client is interacting with the actual owner of the domain
+4. **The premaster secret**
+	1. The client sends one more random string of bytes, the "premaster secret"
+	2. The premaster secret is encrypted with the public key and can only be decrypte
 _____
 ##### References
 1.https://www.youtube.com/watch?v=j9QmMEWmcfo
