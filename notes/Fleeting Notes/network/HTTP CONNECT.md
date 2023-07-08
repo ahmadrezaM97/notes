@@ -7,7 +7,7 @@ The HTTP connect method start two-way communications with requested resource.
 
 it can be used to open a tunnel.
 
-for example, it can be used to access websites that use [[SSL/TLS]] 
+for example, it can be used to access websites that use [[SSL TLS]] 
 The client ask an HTTP [[Proxy Server]] to tunnel the [[TCP protocol]] connectio to the deisred destination.
 
 _____

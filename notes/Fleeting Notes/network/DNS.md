@@ -70,6 +70,14 @@ ____
 
 ### nslookup
 
+```
+
+nslookup -debug divar.ir
+nslookup -debug -type=cname divar.ir
+ nslookup -debug -type=soa divar.ir
+
+```
+
 
 ### DNS cache
 
