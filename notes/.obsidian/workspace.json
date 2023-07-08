@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945
+    "width": 409.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -163,6 +164,8 @@
   },
   "active": "aea140063ecd335b",
   "lastOpenFiles": [
+    "Statics/dns-3.png",
+    "Statics/dns-3.png.crdownload",
     "Statics/dns-1.png",
     "Statics/dns-1.md",
     "Statics/dns-0.png",
@@ -203,11 +206,9 @@
     "Statics/elastic-index-inverted-index.png",
     "Statics/stack-allocation.png",
     "Statics/process-memory-layout.png",
-    "Statics/virtual-memory-0.png",
     "Statics/short-polling-2.pn",
     "Fleeting Notes/communication-design-pattern",
     "Statics/kafka-9.png.crdownload",
-    "Fleeting Notes/kafka",
-    "En/writing"
+    "Fleeting Notes/kafka"
   ]
 }
