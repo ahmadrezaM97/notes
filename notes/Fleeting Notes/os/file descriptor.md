@@ -18,6 +18,9 @@ ____
 
  ![[fd-0.png]]
 
+![[fd-1.png]]
+
+
 
 * Descriptor Table
 	* Per-process
