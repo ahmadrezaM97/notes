@@ -20,7 +20,7 @@ Process
 3. After the client side receives `SYN/ACK`, the client replies `ACK` and enters the `ESTABLISHED` state
 4. After the server side receive the `ACK` , the kernel removes the connection from the `SYN` queue and adds it to the `ACPPET` queue
 	1. The server side enters the `ESTABLISHED` state.
-	2. . A [[file descriptor]]  is created for the connection
+	2. . A [[Fleeting Notes/file descriptor]]  is created for the connection
 5. When the Server side application calls the `accept` function, the connection is take out of the accept queue.
 
 ### `ss` command
@@ -144,7 +144,7 @@ https://www.alibabacloud.com/blog/tcp-syn-queue-and-accept-queue-overflow-explai
 	6. kernel removes `SYN` from `SYN` queue
 	7. kernel adds full connection to Accept queue
 	8. `backend` accepts a connection, removes from accept queue
-	9. A [[file descriptor]]  is created for the connection
+	9. A [[Fleeting Notes/file descriptor]]  is created for the connection
 one socket can have many connection, connection is kind of instance of socket
 you can have a single process that can handle a thousand connection
 

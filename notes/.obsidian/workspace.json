@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/docker/overlay FS.md",
+                "file": "Fleeting Notes/os/file descriptor.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/docker/overlay FS.md",
+                "file": "Fleeting Notes/os/file descriptor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,8 +175,12 @@
   },
   "active": "70038f6150e71aca",
   "lastOpenFiles": [
-    "Fleeting Notes/docker/network.md",
+    "Statics/fd-0.png",
+    "Statics/fd-0.md",
     "Fleeting Notes/docker/overlay FS.md",
+    "Fleeting Notes/os/file descriptor.md",
+    "Fleeting Notes/os",
+    "Fleeting Notes/docker/network.md",
     "Fleeting Notes/network/MTU vs MSS.md",
     "Fleeting Notes/network/SSL TLS.md",
     "Statics/tls-1.png",
@@ -207,9 +211,6 @@
     "Fleeting Notes/Communication and Teamwork.md",
     "Statics/reqeust.jpg",
     "Statics/reqeust.jpg.crdownload",
-    "Fleeting Notes/network/network-course.md",
-    "Fleeting Notes/network/CURL.md",
-    "Fleeting Notes/network/IP.md",
     "Fleeting Notes/nginx",
     "Statics/aggregate-ddd-3.png",
     "Statics/aggregate-ddd-2.png",
@@ -219,7 +220,6 @@
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
     "Statics/short-polling-2.pn",
-    "Fleeting Notes/communication-design-pattern",
-    "Statics/kafka-9.png.crdownload"
+    "Fleeting Notes/communication-design-pattern"
   ]
 }
