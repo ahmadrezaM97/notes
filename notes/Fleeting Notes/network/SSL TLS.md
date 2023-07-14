@@ -74,11 +74,12 @@ For instance, an ephemeral Diffie-Hellman handshake proceeds as follows:
 5. Client DH parameter:
 	1. the client sends its DH parameter to the server
 6. Client and server calculate the premaster secret
-	1. insead of the client generating the premaster secret and sending it to the server, as in an RSA handsahke, the client and server use the DH parametes they exchange to calculate a matching premaster secret seprately
+	1. instead of the client generating the premaster secret and sending it to the server, as in an RSA handshake, the client and server use the DH parametes they exchange to calculate a matching premaster secret seprately
 	2. 
 _____
 ##### References
 1. https://www.youtube.com/watch?v=j9QmMEWmcfo
 2. https://www.youtube.com/watch?v=yPdJVvSyMqk
+3. https://www.youtube.com/watch?v=cuR05y_2Gxc
 
 

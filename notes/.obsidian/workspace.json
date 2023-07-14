@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/network/SSL TLS.md",
+                "file": "Fleeting Notes/network/MTU vs MSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/network/SSL TLS.md",
+                "file": "Fleeting Notes/network/MTU vs MSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,10 +175,11 @@
   },
   "active": "70038f6150e71aca",
   "lastOpenFiles": [
+    "Fleeting Notes/network/SSL TLS.md",
+    "Fleeting Notes/network/MTU vs MSS.md",
     "Statics/tls-1.png",
     "Statics/tls-1.png.crdownload",
     "SSL/TLS.md",
-    "Fleeting Notes/network/SSL TLS.md",
     "Fleeting Notes/network/request.md",
     "Fleeting Notes/network/HTTPS.md",
     "Fleeting Notes/network/HTTP CONNECT.md",
@@ -217,7 +218,6 @@
     "Fleeting Notes/docker",
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",
-    "Statics/elastic-index-inverted-index.png",
     "Statics/short-polling-2.pn",
     "Fleeting Notes/communication-design-pattern",
     "Statics/kafka-9.png.crdownload"
