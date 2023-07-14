@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/network/MTU vs MSS.md",
+                "file": "Fleeting Notes/docker/overlay FS.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/network/MTU vs MSS.md",
+                "file": "Fleeting Notes/docker/overlay FS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,8 +175,10 @@
   },
   "active": "70038f6150e71aca",
   "lastOpenFiles": [
-    "Fleeting Notes/network/SSL TLS.md",
+    "Fleeting Notes/docker/network.md",
+    "Fleeting Notes/docker/overlay FS.md",
     "Fleeting Notes/network/MTU vs MSS.md",
+    "Fleeting Notes/network/SSL TLS.md",
     "Statics/tls-1.png",
     "Statics/tls-1.png.crdownload",
     "SSL/TLS.md",
@@ -208,8 +210,6 @@
     "Fleeting Notes/network/network-course.md",
     "Fleeting Notes/network/CURL.md",
     "Fleeting Notes/network/IP.md",
-    "Fleeting Notes/network/CORS.md",
-    "Fleeting Notes/network/HTTP.md",
     "Fleeting Notes/nginx",
     "Statics/aggregate-ddd-3.png",
     "Statics/aggregate-ddd-2.png",
