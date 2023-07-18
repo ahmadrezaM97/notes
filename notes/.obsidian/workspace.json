@@ -20,18 +20,31 @@
             }
           },
           {
+            "id": "3a55a8af1889d511",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/Application Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "754d28f58336cc55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Communication and Teamwork.md",
+                "file": "Fleeting Notes/network/HTTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/network/layers.md",
+                "file": "Fleeting Notes/network/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,12 +149,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "031e1a29b61526e0",
+  "active": "754d28f58336cc55",
   "lastOpenFiles": [
+    "Fleeting Notes/network/HTTP CONNECT.md",
+    "Fleeting Notes/network/HTTP.md",
+    "Statics/http-layers.png",
+    "Fleeting Notes/network/HTTP Upgrade Header.md",
+    "Fleeting Notes/network/HTTP 1.0.md",
+    "Fleeting Notes/network/HTTP 1.1.md",
+    "Fleeting Notes/network/SSL TLS.md",
+    "Fleeting Notes/network/MTU vs MSS.md",
+    "Fleeting Notes/network/layers.md",
+    "Fleeting Notes/Communication and Teamwork.md",
+    "Fleeting Notes/Application Layer.md",
+    "Statics/app.png",
+    "Statics/app-layer.png",
     "Statics/net-model-2.png",
     "Statics/net-model.png",
     "Fleeting Notes/CDN.md",
-    "Fleeting Notes/network/layers.md",
     "Fleeting Notes/network/DNS.md",
     "Fleeting Notes/os/file descriptor.md",
     "Statics/fd-1.png",
@@ -151,14 +176,11 @@
     "Fleeting Notes/docker/overlay FS.md",
     "Fleeting Notes/os",
     "Fleeting Notes/docker/network.md",
-    "Fleeting Notes/network/MTU vs MSS.md",
-    "Fleeting Notes/network/SSL TLS.md",
     "Statics/tls-1.png",
     "Statics/tls-1.png.crdownload",
     "SSL/TLS.md",
     "Fleeting Notes/network/request.md",
     "Fleeting Notes/network/HTTPS.md",
-    "Fleeting Notes/network/HTTP CONNECT.md",
     "Fleeting Notes/farzam.md",
     "Permanent Notes/HTTP protocol.md",
     "Permanent Notes/Distributed System.md",
@@ -166,20 +188,10 @@
     "Fleeting Notes/network/Untitled 4.md",
     "Statics/dns-3.png",
     "Statics/dns-3.png.crdownload",
-    "Statics/dns-1.png",
     "Statics/dns-1.md",
-    "Statics/dns-0.png",
     "Fleeting Notes/network/Keep-Alive.md",
-    "Fleeting Notes/network/RFC.md",
-    "Fleeting Notes/OS Scheduler.md",
-    "Fleeting Notes/Docker Network.md",
-    "Fleeting Notes/WebSocket.md",
-    "Fleeting Notes/TCP protocol.md",
-    "Fleeting Notes/network/HTTP 1.1.md",
-    "Statics/reqeust.jpg",
     "Statics/reqeust.jpg.crdownload",
     "Fleeting Notes/nginx",
-    "Statics/aggregate-ddd-3.png",
     "Fleeting Notes/docker",
     "Fleeting Notes/Untitled",
     "Fleeting Notes/elastic search",

@@ -9,7 +9,7 @@ ____
 ![[net-model-2.png]]
 
 
-#### Application Layer
+#### [[Application Layer]]
 
 * The application layer is where network applications and their application-layer protocols reside.
 * The internet's application layer includes many protocols, such as the [[HTTP]] protocol, [[SMTP]] and [[FTP]] and [[DNS]].
@@ -32,6 +32,15 @@ ____
 
 * The internet's network layer is responsible for moving network-layer packets known as __datagrams__ from one host to another.
 * The transport-layer protocol(TCP/ UDP) in a source host passes a transport-layer segment and destination address to the netwrok layer
+
+#### Link Layer
+
+* The network layer passes the datagram down to link layer, which delivers the datagram to the next node along the route.
+* Ethernet, WIFI, an the cable access network's DOCISS protocol
+* we'll reger to the link-layer packets as __frames__
+
+#### physical layer
+* whlie the job of the link layer is move entire frames from one network element to an adjacent network element, the job of physical layer is to move the individual bits within the frame from one node to the next.
 _____
 ##### References
 1.
