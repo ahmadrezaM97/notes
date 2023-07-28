@@ -1,6 +1,6 @@
 # HTTP 1.0
 Created: 2022-03-30 01:50
-Tags: #TCP #Browser
+Tags: #network 
 ____
 
 ### Summery
@@ -52,6 +52,7 @@ A page with an image
 ![[tcp-handshake.png]]
 
 ### Problem
+
 ```ad-danger
 title: Problem 
 

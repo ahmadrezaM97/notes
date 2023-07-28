@@ -1,12 +1,11 @@
 # HTTPS
 Created: 2022-03-30 02:55
-Tags: #todo
+Tags: #network
 ____
 
 - Hyper Text Transfer Protocol Secure(HTTPS) is the secure version of HTTP.
-	- It uses [[SSL/TLS]] for secure encrypted communications.
+	- It uses [[SSL TLS]] for secure encrypted communications.
 
-it about [[farzam]] 
 ![[tls.png]]
 
 ```ad-danger

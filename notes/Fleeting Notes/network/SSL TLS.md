@@ -1,6 +1,6 @@
 # SSL TLS
 Created: 2023-07-08 19:06
-Tags: 
+Tags: #network 
 ____
 
 ![[tls-1.png]]

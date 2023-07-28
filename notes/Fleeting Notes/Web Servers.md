@@ -8,7 +8,7 @@ ____
 
 1. Software that servers __web content__
 	1. html, css,  json docs and ...
-2. Uses that [[HTTP protocol]].
+2. Uses that [[HTTP]].
 3. Static and Dynamic content.
 4. Used to host web pages, blogs and build APIs.
 

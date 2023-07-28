@@ -1,6 +1,6 @@
 # Caching
 Created: 2022-03-31 02:06
-Tags: #network_calls #recomputations #cache
+Tags:  #recomputations #cache
 ____
 
 ##### Use cases Ideas

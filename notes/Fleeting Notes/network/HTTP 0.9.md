@@ -1,6 +1,6 @@
 # HTTP 0.9
 Created: 2022-03-30 04:50
-Tags: #http 
+Tags: #http #network 
 ____
 
 - Initial version of HTTP 

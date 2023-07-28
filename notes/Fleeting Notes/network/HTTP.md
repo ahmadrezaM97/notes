@@ -1,8 +1,10 @@
-
-# HTTP
-Created: 2023-07-19 02:41
-Tags: 
+# HTTP protocol
+Created: 2022-03-30 01:02
+Tags: #network
 ____
+
+https://blog.bytebytego.com/p/the-foundation-of-rest-api-http
+
 
 ![[http-layers.png]]
 
@@ -27,11 +29,16 @@ Hyper Text Transfer Protocol
 ![[http_response.png]]
 
 
-### Evolution of HTTP
 
+[[HTTP Anatomy]]
+[[HTTPS]]
+[[HTTP 0.9]]
+[[HTTP 1.0]] 
+[[HTTP 1.1]] 
+[[HTTP/2.0]]
+[[ HTTP/2 over QUIC (HTTP/3) ]]
+[[HTTP E-tags]]
+[[HTTP Cookies]]
 
-
-_____
-##### References
-1.
+[[HTTP-polling-websocket-sse]]
 
