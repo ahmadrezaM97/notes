@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/network/Transport Layer.md",
+                "file": "Fleeting Notes/network/Network-Layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945,
-    "collapsed": true
+    "width": 409.51103591918945
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/network/Transport Layer.md",
+                "file": "Fleeting Notes/network/Network-Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,17 +126,18 @@
   },
   "active": "b544ca9bfe30aa4c",
   "lastOpenFiles": [
+    "Fleeting Notes/network/Transport Layer.md",
+    "Fleeting Notes/network/HTTPS.md",
+    "Fleeting Notes/network/Link-Layer.md",
     "Fleeting Notes/network/Network-Layer.md",
     "Fleeting Notes/network/Application Layer.md",
     "Fleeting Notes/UDP.md",
-    "Fleeting Notes/network/Transport Layer.md",
     "Statics/udp-protocol.png",
     "Statics/udp-protocol.png.crdownload",
     "Fleeting Notes/network/OSI.md",
     "Fleeting Notes/network/physical layer.md",
     "Fleeting Notes/ARP.md",
     "Fleeting Notes/network/network-course.md",
-    "Fleeting Notes/network/Link-Layer.md",
     "Fleeting Notes/network/TCP.md",
     "Statics/tcp_udp_headers.webp",
     "Statics/tcp_udp_headers.webp.crdownload",
@@ -158,7 +158,6 @@
     "Statics/ip-packet.png",
     "Statics/packets.jpg.crdownload",
     "SSL/DatalinkLayer.png.crdownload",
-    "Fleeting Notes/network/HTTPS.md",
     "Fleeting Notes/network/SSL TLS.md",
     "SSL/TLS.md",
     "Fleeting Notes/network/DNS load balancing.md",
