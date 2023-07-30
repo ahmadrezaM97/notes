@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/network/Network-Layer.md",
+                "file": "Fleeting Notes/ARP.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945
+    "width": 409.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/network/Network-Layer.md",
+                "file": "Fleeting Notes/ARP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,10 +127,10 @@
   },
   "active": "b544ca9bfe30aa4c",
   "lastOpenFiles": [
+    "Fleeting Notes/network/Network-Layer.md",
     "Fleeting Notes/network/Transport Layer.md",
     "Fleeting Notes/network/HTTPS.md",
     "Fleeting Notes/network/Link-Layer.md",
-    "Fleeting Notes/network/Network-Layer.md",
     "Fleeting Notes/network/Application Layer.md",
     "Fleeting Notes/UDP.md",
     "Statics/udp-protocol.png",
