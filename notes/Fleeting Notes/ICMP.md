@@ -20,10 +20,11 @@ The ICMP packate, the first 32 bits of the packet contains
 * Code
 * Checksum
 ![[icmp.png]]
-* ICMP is mainly used to determine whether or not data is reaching its intended destination on a timely manner.
-* ICMP is not associated with a transport layer protocol such as TCP or UDP.
-* ICMP protcol also does not allow for targeting a specific port on a device
 
+![[icmp-message-type-field-meanings.jpg]]
+
+
+![[traceroute.png]]
 
 _____
 ##### References
