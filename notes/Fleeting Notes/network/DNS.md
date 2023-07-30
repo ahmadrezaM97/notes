@@ -18,7 +18,7 @@ ____
 ### DNS
 
 1. A new addressing system means we need a mapping, Meet DNS
-2. If you have an IP and  you need the MAC, we user [[ARP]]
+2. If you have an IP and  you need the MAC, we user ARP.
 3. If you have the name you need the IP, we use DNS
 4. Build on Top of [[UDP]]
 5. Port 53
