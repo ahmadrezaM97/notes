@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8d5f9db9b8a9d2bb",
+        "id": "bfcc3dbb3b580210",
         "type": "tabs",
         "children": [
           {
-            "id": "b544ca9bfe30aa4c",
+            "id": "5f7a654e4549ad11",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "02f93de9ffc54021",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleeting Notes/ICMP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945,
-    "collapsed": true
+    "width": 409.51103591918945
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -95,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleeting Notes/ICMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,15 +119,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "02f93de9ffc54021",
+  "active": "f1a137ec923b1fcc",
   "lastOpenFiles": [
+    "Fleeting Notes/ICMP.md",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
     "Statics/icmp-message-type-field-meanings.jpg",
     "Statics/icmp-message-type-field-meanings.jpg.crdownload",
     "Statics/icmp.png",
     "Statics/icmp.png.crdownload",
-    "Fleeting Notes/ICMP.md",
     "Fleeting Notes/network/HTTP 0.9.md",
     "Fleeting Notes/network/DNS.md",
     "Fleeting Notes/ARP.md",
