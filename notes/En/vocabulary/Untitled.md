@@ -1,9 +1,4 @@
-1. Freak out
-2. Creep out
-3. wake up 
-4. get up
-5. turn on 
-6. turn off
+
 7. stress out
 8. come up with 
 9. bring up
@@ -18,7 +13,6 @@
 18. Cut back on 
 19. put up with 
 20. bear with 
-21. calm down 
 22. get back to
 23. look forward to
 24. catch up on 
@@ -32,10 +26,6 @@
 32. sleep in 
 33. Work out 
 34. Meet up
-35. Scroll down
-36. Scroll up
-37. Zoom in 
-38. Zoom out
 39. Check off
 40. Write down 
 41. Jot down
@@ -49,7 +39,6 @@
 49. Miss out
 50. Go ahead 
 51. Give away
-52. Give up
 53. Hang out
 54. Storm out
 55. Move in 

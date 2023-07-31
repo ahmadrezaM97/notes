@@ -7,7 +7,7 @@ ____
 - [What is Event Driven Architecture (EDA) - IBM](https://www.youtube.com/watch?v=o2HJCGcYwoU&t=179s)
 - [[RbbitMQ]]
  [rabbit - IBM](https://www.youtube.com/watch?v=7rkeORD4jSw) 
-- [[KAFKA]]
+- [[kafka]]
 	- [ kfka - IBM](https://www.youtube.com/watch?v=aj9CDZm0Glc)
 
 - Patterns

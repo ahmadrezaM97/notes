@@ -22,8 +22,8 @@
 [[Back of envelope calcucaltions]]
 [[High-level-trade-offs]]
 [[OWASP]]
-[[Fleeting Notes/Databse/index]]
-[[microservices]]
+[[tech/Databse/index]]
+[[Microservices]]
 [[Event Driven System]]
 [[Queues]]
 

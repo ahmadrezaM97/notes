@@ -21,7 +21,7 @@ type Hanlder interface {
 }
 ```
 
-__Also See [[GO HTTP RESPONSE]], [[GO HTTP Request]]
+__Also See [[GO HTTP RESPONSE]], [[GO HTTP REQUEST]]
 
 ```ad-danger
 

@@ -1,7 +1,7 @@
 
 [[Speaking]]
 [[GRAMMER]]
-[[VOCAB]]
+[[Vocab]]
 
 TODO:
 
