@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/microservices/distributed transaction.md",
+                "file": "tech/GO/signleflight.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/microservices/distributed transaction.md",
+                "file": "tech/GO/signleflight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +126,7 @@
   },
   "active": "5f7a654e4549ad11",
   "lastOpenFiles": [
+    "tech/microservices/distributed transaction.md",
     "tech/kafka/kafka.md",
     "Zettelkasten Note-Taking.md",
     "En/IELTS/Speaking.md",
@@ -170,7 +171,6 @@
     "tech/network/SSL TLS.md",
     "SSL/TLS.md",
     "tech/network/DNS load balancing.md",
-    "tech/Loadbalancer.md",
-    "tech/Logging.md"
+    "tech/Loadbalancer.md"
   ]
 }
