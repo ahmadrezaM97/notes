@@ -11,8 +11,12 @@
             "id": "5f7a654e4549ad11",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/GO/signleflight.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fleeting Notes/GO/signleflight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,8 +124,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f1a137ec923b1fcc",
+  "active": "5f7a654e4549ad11",
   "lastOpenFiles": [
+    "Fleeting Notes/GO/signleflight.md",
     "Fleeting Notes/ICMP.md",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
