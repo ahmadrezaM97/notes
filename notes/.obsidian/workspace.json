@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bfcc3dbb3b580210",
+        "id": "bc18960ee3504170",
         "type": "tabs",
         "children": [
           {
-            "id": "5f7a654e4549ad11",
+            "id": "6a34b93cd55f0b6d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tech/GO/signleflight.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945
+    "width": 409.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/GO/signleflight.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +120,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5f7a654e4549ad11",
+  "active": "6a34b93cd55f0b6d",
   "lastOpenFiles": [
+    "tech/Reflection.md",
+    "tech/GO/refactoring.md",
+    "tech/GO/GO Refreltion.md",
+    "tech/GO/Go struct custom tag.md",
+    "tech/GO/GO JSON.md",
+    "tech/GO/signleflight.md",
     "tech/microservices/distributed transaction.md",
     "tech/kafka/kafka.md",
     "Zettelkasten Note-Taking.md",
@@ -133,7 +135,6 @@
     "SSL/DatalinkLayer.png",
     "solutions/object_oriented_design/lru_cache/lru_cache.ipynb.md",
     "En/vocabulary/Untitled.md",
-    "tech/GO/signleflight.md",
     "tech/ICMP.md",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
@@ -166,11 +167,6 @@
     "Statics/tcp-packet.jpg.crdownload",
     "Statics/ip-packet-0.png.crdownload",
     "Statics/ip-prot.png.crdownload",
-    "tech/network/HTTP.md",
-    "Statics/iso-ip-mode.png.crdownload",
-    "tech/network/SSL TLS.md",
-    "SSL/TLS.md",
-    "tech/network/DNS load balancing.md",
-    "tech/Loadbalancer.md"
+    "Statics/iso-ip-mode.png.crdownload"
   ]
 }
