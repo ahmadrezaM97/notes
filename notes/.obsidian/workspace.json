@@ -11,8 +11,12 @@
             "id": "6a34b93cd55f0b6d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "tech/GO/guide line.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945,
-    "collapsed": true
+    "width": 409.51103591918945
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tech/GO/guide line.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +126,7 @@
   },
   "active": "6a34b93cd55f0b6d",
   "lastOpenFiles": [
+    "tech/GO/guide line.md",
     "tech/Reflection.md",
     "tech/GO/refactoring.md",
     "tech/GO/GO Refreltion.md",
@@ -156,7 +161,6 @@
     "tech/network/OSI.md",
     "tech/network/physical layer.md",
     "tech/network/network-course.md",
-    "tech/network/TCP.md",
     "Statics/tcp_udp_headers.webp",
     "Statics/tcp_udp_headers.webp.crdownload",
     "Statics/arp.jpg",
