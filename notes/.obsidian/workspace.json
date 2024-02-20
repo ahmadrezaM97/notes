@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/GO/Nil.md",
+                "file": "tech/GO/GO method set.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#http",
+                "query": "pointer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/GO/Nil.md",
+                "file": "tech/GO/GO method set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +127,11 @@
   },
   "active": "0cff57186c36669f",
   "lastOpenFiles": [
+    "tech/GO/Go Error.md",
+    "tech/GO/Go Embedding.md",
+    "tech/os/file descriptor.md",
+    "tech/GO/Basic Data Types.md",
+    "tech/GO/Nil.md",
     "tech/GO/Gotroutines.md",
     "Thread- OS.md",
     "tech/GO/GO Concurrency.md",
@@ -147,11 +153,6 @@
     "tech/GO/GO HTTP HEADER.md",
     "tech/Repository pattern.md",
     "tech/GO/guide line.md",
-    "tech/Reflection.md",
-    "tech/GO/refactoring.md",
-    "tech/GO/GO JSON.md",
-    "tech/GO/signleflight.md",
-    "tech/microservices/distributed transaction.md",
     "SSL/DatalinkLayer.png",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
