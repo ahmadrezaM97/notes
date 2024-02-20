@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/python encode.md",
+                "file": "tech/GO/Gotroutines.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945
+    "width": 409.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/python encode.md",
+                "file": "tech/GO/Gotroutines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,8 +127,11 @@
   },
   "active": "0cff57186c36669f",
   "lastOpenFiles": [
-    "tech/secondary_indexes.md",
+    "Thread- OS.md",
+    "tech/GO/Gotroutines.md",
+    "tech/GO/GO Concurrency.md",
     "tech/python encode.md",
+    "tech/secondary_indexes.md",
     "tech/postgres locks.md",
     "tech/mid-air collisions.md",
     "tech/monitoring.md",
@@ -149,9 +153,6 @@
     "tech/GO/GO JSON.md",
     "tech/GO/signleflight.md",
     "tech/microservices/distributed transaction.md",
-    "tech/kafka/kafka.md",
-    "Zettelkasten Note-Taking.md",
-    "En/IELTS/Speaking.md",
     "SSL/DatalinkLayer.png",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
