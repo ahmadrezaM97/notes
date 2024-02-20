@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/GO/Gotroutines.md",
+                "file": "tech/GO/Nil.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945,
-    "collapsed": true
+    "width": 409.51103591918945
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/GO/Gotroutines.md",
+                "file": "tech/GO/Nil.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +126,8 @@
   },
   "active": "0cff57186c36669f",
   "lastOpenFiles": [
-    "Thread- OS.md",
     "tech/GO/Gotroutines.md",
+    "Thread- OS.md",
     "tech/GO/GO Concurrency.md",
     "tech/python encode.md",
     "tech/secondary_indexes.md",
