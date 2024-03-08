@@ -106,7 +106,7 @@ func main() {
 }
 ```
 
-you can use user struct type as type of const in golang
+you can not  use user struct type as type of const in golang
 ```go
 type Example struct {
 	name string

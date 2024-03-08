@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/GO/Nil.md",
+                "file": "tech/python encode.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "error",
+                "query": "unicode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/GO/Nil.md",
+                "file": "tech/python encode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +127,14 @@
   },
   "active": "0cff57186c36669f",
   "lastOpenFiles": [
+    "tech/Unicode, UTF-8, ASCII.md",
+    "tech/GO/GO String.md",
+    "tech/GO/GO padding and Alignment.md",
+    "tech/GO/Generic.md",
+    "tech/GO/Basic Data Types.md",
+    "tech/Twitter project.md",
+    "tech/RDBMS Databases.md",
+    "tech/GO/Nil.md",
     "tech/Handle error gracefully.md",
     "tech/GO/GO method set.md",
     "tech/GO/Go Error.md",
@@ -134,7 +142,6 @@
     "tech/Go Test.md",
     "tech/GO/Go Pointer.md",
     "tech/GO/Nil Error Mistake.md",
-    "tech/GO/Generic.md",
     "tech/django select_for_update.md",
     "tech/DDD.md",
     "tech/GO/Context - GO.md",
@@ -142,17 +149,10 @@
     "tech/GO/GO Concurrency.md",
     "tech/car-knowledge-sharing-0.md",
     "tech/Databse/redis/benchmarsk.md",
-    "tech/GO/Basic Data Types.md",
     "tech/Availability vs  Consistency.md",
     "tech/GO/A good technique to handle HTTP error.md",
     "tech/GO/Go Embedding.md",
     "tech/os/file descriptor.md",
-    "tech/GO/Nil.md",
-    "tech/GO/Gotroutines.md",
-    "Thread- OS.md",
-    "tech/python encode.md",
-    "tech/secondary_indexes.md",
-    "tech/postgres locks.md",
     "SSL/DatalinkLayer.png",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
