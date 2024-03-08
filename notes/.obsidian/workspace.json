@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/GO/GO String.md",
+                "file": "tech/GO/Basic Data Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rune",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.51103591918945,
-    "collapsed": true
+    "width": 409.51103591918945
   },
   "right": {
     "id": "2b422be7c082abef",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/GO/GO String.md",
+                "file": "tech/GO/Basic Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +127,10 @@
   },
   "active": "3e1cd91d5665103e",
   "lastOpenFiles": [
+    "Statics/go-slice.jpg",
+    "tech/GO/GO String.md",
     "tech/python encode.md",
     "tech/Unicode, UTF-8, ASCII.md",
-    "tech/GO/GO String.md",
     "tech/GO/GO padding and Alignment.md",
     "tech/GO/Generic.md",
     "tech/GO/Basic Data Types.md",
@@ -153,7 +153,6 @@
     "tech/Databse/redis/benchmarsk.md",
     "tech/Availability vs  Consistency.md",
     "tech/GO/A good technique to handle HTTP error.md",
-    "tech/GO/Go Embedding.md",
     "SSL/DatalinkLayer.png",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
