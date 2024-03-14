@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/GO/Basic Data Types.md",
+                "file": "tech/GO/Nil.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rune",
+                "query": "slice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/GO/Basic Data Types.md",
+                "file": "tech/GO/Nil.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,13 +127,16 @@
   },
   "active": "3e1cd91d5665103e",
   "lastOpenFiles": [
+    "tech/GO/Golang Question.md",
+    "tech/go copy.md",
+    "tech/GO/Go Class.md",
+    "tech/GO/Generic.md",
+    "tech/GO/Basic Data Types.md",
     "Statics/go-slice.jpg",
     "tech/GO/GO String.md",
     "tech/python encode.md",
     "tech/Unicode, UTF-8, ASCII.md",
     "tech/GO/GO padding and Alignment.md",
-    "tech/GO/Generic.md",
-    "tech/GO/Basic Data Types.md",
     "tech/Twitter project.md",
     "tech/RDBMS Databases.md",
     "tech/GO/Nil.md",
@@ -151,8 +154,6 @@
     "tech/GO/GO Concurrency.md",
     "tech/car-knowledge-sharing-0.md",
     "tech/Databse/redis/benchmarsk.md",
-    "tech/Availability vs  Consistency.md",
-    "tech/GO/A good technique to handle HTTP error.md",
     "SSL/DatalinkLayer.png",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",
@@ -168,7 +169,6 @@
     "Statics/arp.jpg.crdownload",
     "Statics/4-way-handshake-fin.png",
     "Statics/3-way-handshake.png",
-    "Statics/tcp-packet.jpg",
     "Statics/tcp-packet.jpg.crdownload",
     "Statics/ip-packet-0.png.crdownload",
     "Statics/ip-prot.png.crdownload",
