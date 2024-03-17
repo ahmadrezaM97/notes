@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/GO/Nil.md",
+                "file": "tech/go copy.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "slice",
+                "query": "slic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/GO/Nil.md",
+                "file": "tech/go copy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,21 +125,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3e1cd91d5665103e",
+  "active": "de6d595dad033ad2",
   "lastOpenFiles": [
-    "tech/GO/Golang Question.md",
+    "tech/GO/GO HTTP RESPONSE.md",
     "tech/go copy.md",
-    "tech/GO/Go Class.md",
     "tech/GO/Generic.md",
     "tech/GO/Basic Data Types.md",
-    "Statics/go-slice.jpg",
+    "tech/GO/Go Sort.md",
     "tech/GO/GO String.md",
+    "tech/GO/Nil.md",
+    "tech/GO/Golang Question.md",
+    "tech/GO/GO HTTP SERVEMUX.md",
+    "tech/GO/Go Class.md",
+    "Statics/go-slice.jpg",
     "tech/python encode.md",
     "tech/Unicode, UTF-8, ASCII.md",
     "tech/GO/GO padding and Alignment.md",
     "tech/Twitter project.md",
     "tech/RDBMS Databases.md",
-    "tech/GO/Nil.md",
     "tech/Handle error gracefully.md",
     "tech/GO/GO method set.md",
     "tech/GO/Go Error.md",
@@ -151,9 +154,6 @@
     "tech/DDD.md",
     "tech/GO/Context - GO.md",
     "tech/GO/GO JSON.md",
-    "tech/GO/GO Concurrency.md",
-    "tech/car-knowledge-sharing-0.md",
-    "tech/Databse/redis/benchmarsk.md",
     "SSL/DatalinkLayer.png",
     "Statics/traceroute.png.crdownload",
     "Statics/traceroute.png",

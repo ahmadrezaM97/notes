@@ -15,7 +15,8 @@ I know we can pass a slice to a function and modify it
 
 ```go
 func main() {  
-    slice:= []string{"a","a"}    func(slice []string){  
+    slice:= []string{"a","a"}   
+    func(slice []string){  
         slice[0]="b";  
         slice[1]="b";  
         fmt.Print(slice)  
